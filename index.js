@@ -1,4 +1,6 @@
-{
+/*jslint es6, node, maxlen: 80 */
+
+module.exports = {
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2015,
@@ -298,4 +300,4 @@
         "line-comment-position": "error",
         "lines-around-directive": "error"
     }
-}
+};
