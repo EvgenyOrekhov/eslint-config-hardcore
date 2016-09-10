@@ -1,5 +1,7 @@
 # Hardcore ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs)
 
+[![Travis CI build status](https://img.shields.io/travis/EvgenyOrekhov/eslint-config-hardcore/master.svg?style=flat-square)](https://travis-ci.org/EvgenyOrekhov/eslint-config-hardcore)
+
 # Usage
 
 Shareable configs are designed to work with the `extends` feature of `.eslintrc` files.
