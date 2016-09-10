@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-hardcore",
+  "version": "0.0.1",
+  "description": "Hardcore ESLint Shareable Config",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenyOrekhov/eslint-config-hardcore.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "eslint-config",
+    "hardcore"
+  ],
+  "author": {
+    "name": "Evgeny Orekhov",
+    "url": "https://plus.google.com/+ЕвгенийОрехов"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvgenyOrekhov/eslint-config-hardcore/issues"
+  },
+  "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
+  "peerDependencies": {
+    "eslint": "^3.5.0"
+  }
+}
