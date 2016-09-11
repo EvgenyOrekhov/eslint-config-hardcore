@@ -2,7 +2,7 @@
 
 [![Travis CI build status](https://img.shields.io/travis/EvgenyOrekhov/eslint-config-hardcore/master.svg?style=flat-square)](https://travis-ci.org/EvgenyOrekhov/eslint-config-hardcore)
 
-# Usage
+# About
 
 Shareable configs are designed to work with the `extends` feature of `.eslintrc`
 files.
@@ -10,7 +10,12 @@ You can learn more about
 [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs)
 on the official ESLint website.
 
-To use this shareable config, first run this:
+This config is designed to be compatible with Douglas Crockford's
+[JSLint](http://jslint.com/).
+
+# Usage
+
+First run this:
 
 ```bash
 npm install eslint-config-hardcore --save-dev
