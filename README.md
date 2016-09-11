@@ -4,10 +4,11 @@
 
 # Usage
 
-Shareable configs are designed to work with the `extends` feature of `.eslintrc` files.
+Shareable configs are designed to work with the `extends` feature of `.eslintrc`
+files.
 You can learn more about
-[Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the
-official ESLint website.
+[Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs)
+on the official ESLint website.
 
 To use this shareable config, first run this:
 
@@ -15,18 +16,37 @@ To use this shareable config, first run this:
 npm install eslint-config-hardcore --save-dev
 ```
 
-Then, add this to your .eslintrc file:
+Then, add `"extends": "hardcore"` to your .eslintrc file and specify your
+environments:
 
 ```json
 {
-  "extends": "hardcore"
+    "extends": "hardcore",
+    "env": {
+        "node": true,
+        "browser": true
+    }
 }
 ```
 
-*Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
+*Note: We omitted the `eslint-config-` prefix since it is automatically assumed
+by ESLint.*
 
-You can override settings from the shareable config by adding them directly into your
-`.eslintrc` file.
+You can override settings from the shareable config by adding them directly into
+your `.eslintrc` file:
+
+```json
+{
+    "extends": "hardcore",
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "no-console": "off"
+    }
+}
+```
 
 # License
 [MIT](LICENSE)
