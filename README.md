@@ -19,7 +19,7 @@ npm install eslint-config-hardcore --save-dev
 ```
 
 Then, add `"extends": "hardcore"` to your .eslintrc file and specify your
-environments:
+[environments](http://eslint.org/docs/user-guide/configuring#specifying-environments):
 
 ```json
 {
