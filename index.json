@@ -240,7 +240,8 @@
             "error",
             {
                 "anonymous": "always",
-                "named": "never"
+                "named": "never",
+                "asyncArrow": "always"
             }
         ],
         "space-in-parens": "error",
