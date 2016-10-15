@@ -297,6 +297,7 @@
         "prefer-numeric-literals": "error",
         "no-restricted-properties": "off",
         "line-comment-position": "error",
-        "lines-around-directive": "error"
+        "lines-around-directive": "error",
+        "func-name-matching": "error"
     }
 }
