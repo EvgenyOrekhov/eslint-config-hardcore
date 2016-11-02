@@ -217,7 +217,6 @@
         "prefer-arrow-callback": "off",
         "prefer-const": "error",
         "prefer-spread": "error",
-        "prefer-reflect": "error",
         "prefer-template": "error",
         "quote-props": "off",
         "quotes": [
@@ -298,6 +297,7 @@
         "no-restricted-properties": "off",
         "line-comment-position": "error",
         "lines-around-directive": "error",
-        "func-name-matching": "error"
+        "func-name-matching": "error",
+        "no-useless-return": "error"
     }
 }
