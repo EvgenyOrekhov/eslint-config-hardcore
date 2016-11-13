@@ -182,7 +182,10 @@
         "dot-notation": "error",
         "eol-last": "error",
         "eqeqeq": "error",
-        "func-names": "error",
+        "func-names": [
+            "error",
+            "as-needed"
+        ],
         "func-style": [
             "error",
             "declaration"
@@ -298,6 +301,7 @@
         "line-comment-position": "error",
         "lines-around-directive": "error",
         "func-name-matching": "error",
-        "no-useless-return": "error"
+        "no-useless-return": "error",
+        "no-return-await": "error"
     }
 }
