@@ -302,6 +302,8 @@
         "lines-around-directive": "error",
         "func-name-matching": "error",
         "no-useless-return": "error",
-        "no-return-await": "error"
+        "no-return-await": "error",
+        "capitalized-comments": "off",
+        "require-await": "error"
     }
 }
