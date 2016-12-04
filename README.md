@@ -2,7 +2,7 @@
 
 [![Travis CI build status](https://img.shields.io/travis/EvgenyOrekhov/eslint-config-hardcore/master.svg?style=flat-square)](https://travis-ci.org/EvgenyOrekhov/eslint-config-hardcore)
 
-# About
+## About
 
 [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs)
 are designed to work with the `extends` feature of `.eslintrc` files.
@@ -10,7 +10,7 @@ are designed to work with the `extends` feature of `.eslintrc` files.
 This config is designed to be compatible with Douglas Crockford's
 [JSLint](http://jslint.com/).
 
-# Usage
+## Usage
 
 First run this:
 
@@ -50,5 +50,6 @@ your `.eslintrc` file:
 }
 ```
 
-# License
+## License
+
 [MIT](LICENSE)
