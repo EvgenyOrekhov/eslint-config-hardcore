@@ -305,6 +305,7 @@
         "no-return-await": "error",
         "capitalized-comments": "off",
         "require-await": "error",
-        "no-await-in-loop": "error"
+        "no-await-in-loop": "error",
+        "prefer-destructuring": "error"
     }
 }
