@@ -306,6 +306,8 @@
         "capitalized-comments": "off",
         "require-await": "error",
         "no-await-in-loop": "error",
-        "prefer-destructuring": "error"
+        "prefer-destructuring": "error",
+        "no-multi-assign": "error",
+        "prefer-promise-reject-errors": "error"
     }
 }
