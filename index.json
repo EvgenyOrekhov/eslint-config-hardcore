@@ -308,6 +308,7 @@
         "no-await-in-loop": "error",
         "prefer-destructuring": "error",
         "no-multi-assign": "error",
-        "prefer-promise-reject-errors": "error"
+        "prefer-promise-reject-errors": "error",
+        "template-tag-spacing": "error"
     }
 }
