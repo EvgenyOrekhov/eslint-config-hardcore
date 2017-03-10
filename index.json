@@ -288,6 +288,10 @@
         "template-tag-spacing": "error",
         "no-compare-neg-zero": "error",
         "nonblock-statement-body-position": "error",
+        "one-var": [
+            "error",
+            "never"
+        ],
 
         "no-extra-parens": "off",
         "no-restricted-modules": "off",
@@ -296,7 +300,6 @@
         "no-undefined": "off",
         "consistent-return": "off",
         "init-declarations": "off",
-        "one-var": "off",
         "operator-linebreak": "off",
         "prefer-arrow-callback": "off",
         "quote-props": "off",
