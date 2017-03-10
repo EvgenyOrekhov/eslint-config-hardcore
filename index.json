@@ -1,5 +1,6 @@
 {
     "extends": "eslint:recommended",
+
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "script",
@@ -10,6 +11,7 @@
             "experimentalObjectRestSpread": false
         }
     },
+
     "env": {
         "browser": false,
         "node": false,
@@ -37,6 +39,7 @@
         "webextensions": false,
         "greasemonkey": false
     },
+
     "rules": {
         "no-alert": "error",
         "no-array-constructor": "error",
