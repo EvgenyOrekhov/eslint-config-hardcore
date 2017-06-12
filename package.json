@@ -27,6 +27,6 @@
     },
     "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
     "peerDependencies": {
-        "eslint": "^3.17.0"
+        "eslint": "^4.0.0"
     }
 }
