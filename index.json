@@ -299,6 +299,7 @@
         "for-direction": "error",
         "switch-colon-spacing": "error",
         "no-buffer-constructor": "error",
+        "getter-return": "error",
         "padding-line-between-statements": [
             "error",
 
