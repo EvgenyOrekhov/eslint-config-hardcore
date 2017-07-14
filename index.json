@@ -307,6 +307,13 @@
         "switch-colon-spacing": "error",
         "no-buffer-constructor": "error",
         "getter-return": "error",
+        "quote-props": [
+            "error",
+            "as-needed",
+            {
+                "numbers": true
+            }
+        ],
         "padding-line-between-statements": [
             "error",
 
@@ -527,7 +534,6 @@
         "init-declarations": "off",
         "operator-linebreak": "off",
         "prefer-arrow-callback": "off",
-        "quote-props": "off",
         "id-match": "off",
         "require-jsdoc": "off",
         "sort-vars": "off",
