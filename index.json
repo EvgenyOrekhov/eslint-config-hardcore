@@ -254,6 +254,7 @@
         "switch-colon-spacing": "error",
         "no-buffer-constructor": "error",
         "getter-return": "error",
+
         "no-magic-numbers": [
             "error",
             {
