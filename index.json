@@ -316,6 +316,11 @@
                 "numbers": true
             }
         ],
+        "operator-linebreak": [
+            "error",
+            "before"
+        ],
+
         "padding-line-between-statements": [
             "error",
 
@@ -534,7 +539,6 @@
         "no-undefined": "off",
         "consistent-return": "off",
         "init-declarations": "off",
-        "operator-linebreak": "off",
         "prefer-arrow-callback": "off",
         "id-match": "off",
         "require-jsdoc": "off",
