@@ -12,7 +12,6 @@
         "ecmaVersion": 2017,
         "sourceType": "script",
         "ecmaFeatures": {
-            "globalReturn": false,
             "impliedStrict": false,
             "jsx": false,
             "experimentalObjectRestSpread": false
@@ -254,6 +253,7 @@
         "switch-colon-spacing": "error",
         "no-buffer-constructor": "error",
         "getter-return": "error",
+        "strict": "error",
 
         "no-magic-numbers": [
             "error",
@@ -545,7 +545,6 @@
         "require-jsdoc": "off",
         "sort-vars": "off",
         "spaced-comment": "off",
-        "strict": "off",
         "vars-on-top": "off",
         "newline-per-chained-call": "off",
         "no-implicit-globals": "off",
