@@ -254,7 +254,6 @@
         "no-buffer-constructor": "error",
         "getter-return": "error",
         "strict": "error",
-        "function-paren-newline": "error",
 
         "no-magic-numbers": [
             "error",
@@ -321,6 +320,10 @@
         "operator-linebreak": [
             "error",
             "before"
+        ],
+        "function-paren-newline": [
+            "error",
+            "consistent"
         ],
 
         "padding-line-between-statements": [
