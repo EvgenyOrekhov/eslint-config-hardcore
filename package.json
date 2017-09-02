@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hardcore",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "Hardcore ESLint Shareable Config",
     "main": "index.json",
     "scripts": {
@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
     "peerDependencies": {
-        "eslint": "^4.2.0"
+        "eslint": "^4.6.0"
     },
     "dependencies": {
         "eslint-plugin-promise": "^3.5.0"
