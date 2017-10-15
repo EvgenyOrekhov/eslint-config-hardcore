@@ -68,7 +68,6 @@
         "no-dupe-keys": "error",
         "no-dupe-args": "error",
         "no-duplicate-case": "error",
-        "no-else-return": "error",
         "no-empty": "error",
         "no-empty-character-class": "error",
         "no-empty-pattern": "error",
@@ -254,6 +253,7 @@
         "no-buffer-constructor": "error",
         "getter-return": "error",
         "strict": "error",
+        "lines-between-class-members": "error",
 
         "no-magic-numbers": [
             "error",
@@ -322,6 +322,16 @@
             "before"
         ],
         "function-paren-newline": [
+            "error",
+            "consistent"
+        ],
+        "no-else-return": [
+            "error",
+            {
+                "allowElseIf": false
+            }
+        ],
+        "array-bracket-newline": [
             "error",
             "consistent"
         ],
@@ -536,6 +546,7 @@
         "promise/no-promise-in-callback": "error",
         "promise/avoid-new": "error",
         "promise/no-callback-in-promise": "error",
+        "promise/no-return-in-finally": "error",
 
         "no-extra-parens": "off",
         "no-restricted-modules": "off",
@@ -560,8 +571,8 @@
         "no-restricted-properties": "off",
         "capitalized-comments": "off",
         "array-element-newline": "off",
-        "array-bracket-newline": "off",
         "no-restricted-globals": "off",
+        "multiline-comment-style": "off",
 
         "promise/no-native": "off",
         "promise/prefer-await-to-then": "off",
