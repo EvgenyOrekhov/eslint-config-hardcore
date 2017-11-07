@@ -99,7 +99,6 @@
         "linebreak-style": "error",
         "no-multi-spaces": "error",
         "no-multi-str": "error",
-        "no-multiple-empty-lines": "error",
         "no-global-assign": "error",
         "no-negated-condition": "error",
         "no-unsafe-negation": "error",
@@ -307,6 +306,8 @@
         "object-curly-newline": [
             "error",
             {
+                "multiline": true,
+                "minProperties": 4,
                 "consistent": true
             }
         ],
@@ -334,6 +335,20 @@
         "array-bracket-newline": [
             "error",
             "consistent"
+        ],
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxBOF": 0,
+                "maxEOF": 0
+            }
+        ],
+        "newline-per-chained-call": [
+            "error",
+            {
+                "ignoreChainWithDepth": 3
+            }
         ],
 
         "padding-line-between-statements": [
@@ -561,7 +576,6 @@
         "sort-vars": "off",
         "spaced-comment": "off",
         "vars-on-top": "off",
-        "newline-per-chained-call": "off",
         "no-implicit-globals": "off",
         "no-restricted-imports": "off",
         "id-blacklist": "off",
