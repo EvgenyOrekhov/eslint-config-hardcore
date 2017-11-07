@@ -632,35 +632,6 @@
         "promise/no-promise-in-callback": "error",
         "promise/avoid-new": "error",
         "promise/no-callback-in-promise": "error",
-        "promise/no-return-in-finally": "error",
-
-        "no-extra-parens": "off",
-        "no-restricted-modules": "off",
-        "no-restricted-syntax": "off",
-        "no-ternary": "off",
-        "no-undefined": "off",
-        "consistent-return": "off",
-        "init-declarations": "off",
-        "prefer-arrow-callback": "off",
-        "id-match": "off",
-        "require-jsdoc": "off",
-        "sort-vars": "off",
-        "spaced-comment": "off",
-        "vars-on-top": "off",
-        "no-implicit-globals": "off",
-        "no-restricted-imports": "off",
-        "id-blacklist": "off",
-        "sort-imports": "off",
-        "no-prototype-builtins": "off",
-        "sort-keys": "off",
-        "no-restricted-properties": "off",
-        "capitalized-comments": "off",
-        "array-element-newline": "off",
-        "no-restricted-globals": "off",
-        "multiline-comment-style": "off",
-
-        "promise/no-native": "off",
-        "promise/prefer-await-to-then": "off",
-        "promise/prefer-await-to-callbacks": "off"
+        "promise/no-return-in-finally": "error"
     }
 }
