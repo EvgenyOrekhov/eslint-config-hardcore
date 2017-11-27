@@ -239,6 +239,7 @@
         "getter-return": "error",
         "strict": "error",
         "lines-between-class-members": "error",
+        "implicit-arrow-linebreak": "error",
 
         "no-magic-numbers": [
             "error",
