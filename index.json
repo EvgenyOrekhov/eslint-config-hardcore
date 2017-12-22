@@ -429,102 +429,53 @@
             {
                 "blankLine": "always",
                 "prev": "*",
+                "next": "*"
+            },
+
+            {
+                "blankLine": "any",
+                "prev": "expression",
+                "next": "expression"
+            },
+
+            {
+                "blankLine": "any",
+                "prev": "*",
                 "next": [
-                    "return",
-                    "throw"
+                    "case"
                 ]
             },
 
             {
-                "blankLine": "always",
-                "prev": "*",
+                "blankLine": "any",
+                "prev": "directive",
                 "next": "directive"
             },
-            {
-                "blankLine": "always",
-                "prev": "directive",
-                "next": "*"
-            },
+
             {
                 "blankLine": "any",
-                "prev": "directive",
-                "next": "directive"
+                "prev": "const",
+                "next": "const"
             },
 
             {
-                "blankLine": "always",
-                "prev": "*",
-                "next": [
-                    "const",
-                    "let",
-                    "var"
-                ]
-            },
-            {
-                "blankLine": "always",
-                "prev": [
-                    "const",
-                    "let",
-                    "var"
-                ],
-                "next": "*"
-            },
-            {
                 "blankLine": "any",
-                "prev": [
-                    "const",
-                    "let",
-                    "var"
-                ],
-                "next": [
-                    "const",
-                    "let",
-                    "var"
-                ]
+                "prev": "let",
+                "next": "let"
             },
 
             {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "cjs-export"
-            },
-            {
-                "blankLine": "always",
-                "prev": "cjs-export",
-                "next": "*"
-            },
-            {
                 "blankLine": "any",
-                "prev": "cjs-export",
-                "next": "cjs-export"
+                "prev": "var",
+                "next": "var"
             },
 
             {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "cjs-import"
-            },
-            {
-                "blankLine": "always",
-                "prev": "cjs-import",
-                "next": "*"
-            },
-            {
                 "blankLine": "any",
-                "prev": "cjs-import",
-                "next": "cjs-import"
+                "prev": "import",
+                "next": "import"
             },
 
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "export"
-            },
-            {
-                "blankLine": "always",
-                "prev": "export",
-                "next": "*"
-            },
             {
                 "blankLine": "any",
                 "prev": "export",
@@ -534,94 +485,31 @@
             {
                 "blankLine": "always",
                 "prev": "*",
-                "next": "import"
+                "next": [
+                    "cjs-import",
+                    "cjs-export"
+                ]
             },
+
             {
                 "blankLine": "always",
-                "prev": "import",
+                "prev": [
+                    "cjs-import",
+                    "cjs-export"
+                ],
                 "next": "*"
             },
+
             {
                 "blankLine": "any",
-                "prev": "import",
-                "next": "import"
+                "prev": "cjs-import",
+                "next": "cjs-import"
             },
 
             {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "class"
-            },
-            {
-                "blankLine": "always",
-                "prev": "class",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "do"
-            },
-            {
-                "blankLine": "always",
-                "prev": "do",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "for"
-            },
-            {
-                "blankLine": "always",
-                "prev": "for",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "function"
-            },
-            {
-                "blankLine": "always",
-                "prev": "function",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "if"
-            },
-            {
-                "blankLine": "always",
-                "prev": "if",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "try"
-            },
-            {
-                "blankLine": "always",
-                "prev": "try",
-                "next": "*"
-            },
-
-            {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "while"
-            },
-            {
-                "blankLine": "always",
-                "prev": "while",
-                "next": "*"
+                "blankLine": "any",
+                "prev": "cjs-export",
+                "next": "cjs-export"
             }
         ],
 
