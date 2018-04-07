@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hardcore",
-    "version": "3.5.0",
+    "version": "3.6.0",
     "description": "Hardcore ESLint Shareable Config",
     "main": "index.json",
     "scripts": {
@@ -30,6 +30,6 @@
         "eslint": "^4.12.0"
     },
     "dependencies": {
-        "eslint-plugin-promise": "^3.6.0"
+        "eslint-plugin-promise": "^3.7.0"
     }
 }

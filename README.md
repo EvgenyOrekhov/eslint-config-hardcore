@@ -13,8 +13,8 @@ This config is designed to be compatible with Douglas Crockford's
 | Rules                                                                      | Total | Enabled |
 | -------------------------------------------------------------------------- | ----: | ------: |
 | [ESLint](http://eslint.org/docs/rules/)                                    | 249   | **225** |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise) | 12    | **9**   |
-| **Total**                                                                  | 261   | **234** |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise) | 14    | **11**  |
+| **Total**                                                                  | 263   | **236** |
 
 ## Usage
 

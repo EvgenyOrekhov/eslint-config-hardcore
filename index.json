@@ -521,6 +521,8 @@
         "promise/no-promise-in-callback": "error",
         "promise/avoid-new": "error",
         "promise/no-callback-in-promise": "error",
-        "promise/no-return-in-finally": "error"
+        "promise/no-return-in-finally": "error",
+        "promise/valid-params": "error",
+        "promise/no-new-statics": "error"
     }
 }
