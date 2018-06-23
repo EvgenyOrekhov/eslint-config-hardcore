@@ -20,9 +20,10 @@
     "sort-keys": "off",
     "no-restricted-properties": "off",
     "capitalized-comments": "off",
-    "array-element-newline": "off",
     "no-restricted-globals": "off",
     "multiline-comment-style": "off",
+    "prefer-object-spread": "off",
+    "max-lines-per-function": "off",
 
     "promise/no-native": "off",
     "promise/prefer-await-to-then": "off",
