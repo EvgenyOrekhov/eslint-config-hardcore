@@ -9,12 +9,11 @@
     ],
 
     "parserOptions": {
-        "ecmaVersion": 2017,
+        "ecmaVersion": 2018,
         "sourceType": "script",
         "ecmaFeatures": {
             "impliedStrict": false,
-            "jsx": false,
-            "experimentalObjectRestSpread": false
+            "jsx": false
         }
     },
 
@@ -221,7 +220,6 @@
         "class-methods-use-this": "error",
         "prefer-numeric-literals": "error",
         "line-comment-position": "error",
-        "func-name-matching": "error",
         "no-useless-return": "error",
         "no-return-await": "error",
         "require-await": "error",
@@ -240,6 +238,7 @@
         "strict": "error",
         "lines-between-class-members": "error",
         "implicit-arrow-linebreak": "error",
+        "max-classes-per-file": "error",
 
         "no-magic-numbers": [
             "error",
@@ -421,6 +420,16 @@
             {
                 "defaultAssignment": false
             }
+        ],
+        "func-name-matching": [
+            "error",
+            {
+                "considerPropertyDescriptor": true
+            }
+        ],
+        "array-element-newline": [
+            "error",
+            "consistent"
         ],
 
         "padding-line-between-statements": [
