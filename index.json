@@ -52,7 +52,6 @@
         "no-bitwise": "error",
         "no-caller": "error",
         "no-case-declarations": "error",
-        "no-catch-shadow": "error",
         "no-class-assign": "error",
         "no-console": "error",
         "no-const-assign": "error",
