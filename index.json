@@ -238,6 +238,10 @@
         "lines-between-class-members": "error",
         "implicit-arrow-linebreak": "error",
         "max-classes-per-file": "error",
+        "no-misleading-character-class": "error",
+        "require-atomic-updates": "error",
+        "no-async-promise-executor": "error",
+        "require-unicode-regexp": "error",
 
         "no-magic-numbers": [
             "error",
