@@ -1,11 +1,13 @@
 {
     "plugins": [
-        "promise"
+        "promise",
+        "security"
     ],
 
     "extends": [
         "eslint:recommended",
-        "plugin:promise/recommended"
+        "plugin:promise/recommended",
+        "plugin:security/recommended"
     ],
 
     "parserOptions": {
@@ -535,6 +537,21 @@
         "promise/no-callback-in-promise": "error",
         "promise/no-return-in-finally": "error",
         "promise/valid-params": "error",
-        "promise/no-new-statics": "error"
+        "promise/no-new-statics": "error",
+
+        "detect-buffer-noassert": "error",
+        "detect-child-process": "error",
+        "detect-disable-mustache-escape": "error",
+        "detect-eval-with-expression": "error",
+        "detect-new-buffer": "error",
+        "detect-no-csrf-before-method-override": "error",
+        "detect-non-literal-fs-filename": "error",
+        "detect-non-literal-regexp": "error",
+        "detect-non-literal-require": "error",
+        "detect-possible-timing-attacks": "error",
+        "detect-pseudoRandomBytes": "error",
+        "detect-unsafe-regex": "error",
+
+        "detect-object-injection": "off"
     }
 }

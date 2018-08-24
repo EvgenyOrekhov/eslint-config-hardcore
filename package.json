@@ -30,7 +30,8 @@
         "eslint": "^5.3.0"
     },
     "dependencies": {
-        "eslint-plugin-promise": "^4.0.0"
+        "eslint-plugin-promise": "^4.0.0",
+        "eslint-plugin-security": "^1.4.0"
     },
     "files": [
         "index.json"
