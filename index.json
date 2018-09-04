@@ -411,7 +411,11 @@
             "error",
             {
                 "beforeBlockComment": true,
-                "beforeLineComment": true
+                "beforeLineComment": true,
+                "allowBlockStart": true,
+                "allowObjectStart": true,
+                "allowArrayStart": true,
+                "allowClassStart": true
             }
         ],
         "no-underscore-dangle": [
