@@ -457,6 +457,12 @@
             },
 
             {
+                "blankLine": "always",
+                "prev": "iife",
+                "next": "iife"
+            },
+
+            {
                 "blankLine": "any",
                 "prev": "*",
                 "next": [
