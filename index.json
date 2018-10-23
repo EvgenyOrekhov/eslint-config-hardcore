@@ -326,7 +326,9 @@
         ],
         "array-bracket-newline": [
             "error",
-            "consistent"
+            {
+                "multiline": true
+            }
         ],
         "no-multiple-empty-lines": [
             "error",
