@@ -335,12 +335,6 @@
                 "maxEOF": 0
             }
         ],
-        "newline-per-chained-call": [
-            "error",
-            {
-                "ignoreChainWithDepth": 3
-            }
-        ],
         "no-cond-assign": [
             "error",
             "always"
