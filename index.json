@@ -161,7 +161,6 @@
         "global-require": "error",
         "guard-for-in": "error",
         "id-length": "error",
-        "indent": "error",
         "jsx-quotes": "error",
         "key-spacing": "error",
         "max-depth": "error",
@@ -439,6 +438,15 @@
         "array-element-newline": [
             "error",
             "consistent"
+        ],
+        "indent": [
+            "error",
+            4,
+            {
+                "ignoredNodes": [
+                    "ConditionalExpression"
+                ]
+            }
         ],
 
         "padding-line-between-statements": [
