@@ -8,7 +8,6 @@
     "init-declarations": "off",
     "prefer-arrow-callback": "off",
     "id-match": "off",
-    "require-jsdoc": "off",
     "sort-vars": "off",
     "spaced-comment": "off",
     "vars-on-top": "off",

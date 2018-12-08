@@ -186,7 +186,6 @@
         "space-infix-ops": "error",
         "space-unary-ops": "error",
         "use-isnan": "error",
-        "valid-jsdoc": "error",
         "wrap-iife": "error",
         "wrap-regex": "error",
         "yoda": "error",
