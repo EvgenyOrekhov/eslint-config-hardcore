@@ -242,6 +242,7 @@
         "require-atomic-updates": "error",
         "no-async-promise-executor": "error",
         "require-unicode-regexp": "error",
+        "no-useless-catch": "error",
 
         "no-magic-numbers": [
             "error",
