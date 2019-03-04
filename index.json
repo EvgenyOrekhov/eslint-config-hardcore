@@ -243,6 +243,7 @@
         "no-async-promise-executor": "error",
         "require-unicode-regexp": "error",
         "no-useless-catch": "error",
+        "prefer-named-capture-group": "error",
 
         "no-magic-numbers": [
             "error",
