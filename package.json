@@ -30,7 +30,7 @@
         "eslint": "^5.15.0"
     },
     "dependencies": {
-        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-promise": "^4.1.1",
         "eslint-plugin-security": "^1.4.0"
     },
     "files": [
