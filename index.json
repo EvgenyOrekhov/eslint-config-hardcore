@@ -11,40 +11,14 @@
     ],
 
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "script",
+        "ecmaVersion": 2019,
         "ecmaFeatures": {
-            "impliedStrict": false,
-            "jsx": false
+            "impliedStrict": false
         }
     },
 
     "env": {
-        "browser": false,
-        "node": false,
-        "commonjs": false,
-        "shared-node-browser": false,
-        "es6": true,
-        "worker": false,
-        "amd": false,
-        "mocha": false,
-        "jasmine": false,
-        "jest": false,
-        "phantomjs": false,
-        "protractor": false,
-        "qunit": false,
-        "jquery": false,
-        "prototypejs": false,
-        "shelljs": false,
-        "meteor": false,
-        "mongo": false,
-        "applescript": false,
-        "nashorn": false,
-        "serviceworker": false,
-        "atomtest": false,
-        "embertest": false,
-        "webextensions": false,
-        "greasemonkey": false
+        "es6": true
     },
 
     "rules": {
