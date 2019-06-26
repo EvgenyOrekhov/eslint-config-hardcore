@@ -244,6 +244,7 @@
         "require-unicode-regexp": "error",
         "no-useless-catch": "error",
         "prefer-named-capture-group": "error",
+        "no-redeclare": "error",
 
         "no-magic-numbers": [
             "error",
@@ -316,7 +317,7 @@
         ],
         "function-paren-newline": [
             "error",
-            "consistent"
+            "multiline-arguments"
         ],
         "no-else-return": [
             "error",
@@ -358,12 +359,6 @@
                 "exceptions": {
                     "Property": false
                 }
-            }
-        ],
-        "no-redeclare": [
-            "error",
-            {
-                "builtinGlobals": true
             }
         ],
         "no-return-assign": [
