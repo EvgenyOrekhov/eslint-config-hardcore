@@ -219,6 +219,7 @@
         "no-useless-catch": "error",
         "prefer-named-capture-group": "error",
         "no-redeclare": "error",
+        "no-prototype-builtins": "error",
 
         "no-magic-numbers": [
             "error",

@@ -15,7 +15,6 @@
     "no-restricted-imports": "off",
     "id-blacklist": "off",
     "sort-imports": "off",
-    "no-prototype-builtins": "off",
     "sort-keys": "off",
     "no-restricted-properties": "off",
     "capitalized-comments": "off",
