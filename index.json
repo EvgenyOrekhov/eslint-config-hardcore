@@ -364,7 +364,9 @@
                 "vars": "all",
                 "args": "after-used",
                 "caughtErrors": "all",
-                "caughtErrorsIgnorePattern": "^ignore$"
+                "caughtErrorsIgnorePattern": "^ignore$",
+                "varsIgnorePattern": "^ignore$",
+                "argsIgnorePattern": "^ignore$"
             }
         ],
         "handle-callback-err": [
