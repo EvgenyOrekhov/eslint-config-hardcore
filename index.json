@@ -11,7 +11,7 @@
     ],
 
     "parserOptions": {
-        "ecmaVersion": 2019,
+        "ecmaVersion": 2020,
         "ecmaFeatures": {
             "impliedStrict": false
         }
@@ -414,6 +414,10 @@
                     "ConditionalExpression"
                 ]
             }
+        ],
+        "function-call-argument-newline": [
+            "error",
+            "consistent"
         ],
 
         "padding-line-between-statements": [
