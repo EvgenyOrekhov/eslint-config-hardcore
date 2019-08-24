@@ -180,7 +180,6 @@
         "no-duplicate-imports": "error",
         "no-unsafe-finally": "error",
         "no-useless-computed-key": "error",
-        "object-property-newline": "error",
         "no-useless-rename": "error",
         "unicode-bom": "error",
         "no-mixed-operators": "error",
@@ -418,6 +417,10 @@
         "function-call-argument-newline": [
             "error",
             "consistent"
+        ],
+        "object-property-newline": [
+            "error",
+            {"allowAllPropertiesOnSameLine": true}
         ],
 
         "padding-line-between-statements": [
