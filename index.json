@@ -21,6 +21,8 @@
         "es6": true
     },
 
+    "reportUnusedDisableDirectives": true,
+
     "rules": {
         "no-alert": "error",
         "no-array-constructor": "error",
