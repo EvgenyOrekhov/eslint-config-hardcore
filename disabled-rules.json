@@ -26,5 +26,14 @@
 
     "promise/no-native": "off",
     "promise/prefer-await-to-then": "off",
-    "promise/prefer-await-to-callbacks": "off"
+    "promise/prefer-await-to-callbacks": "off",
+
+    "import/no-restricted-paths": "off",
+    "import/no-internal-modules": "off",
+    "import/no-relative-parent-imports": "off",
+    "import/no-commonjs": "off",
+    "import/no-nodejs-modules": "off",
+    "import/no-default-export": "off",
+    "import/no-named-export": "off",
+    "dynamic-import-chunkname": "off"
 }
