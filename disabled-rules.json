@@ -35,7 +35,7 @@
     "import/no-nodejs-modules": "off",
     "import/no-default-export": "off",
     "import/no-named-export": "off",
-    "dynamic-import-chunkname": "off",
+    "import/dynamic-import-chunkname": "off",
 
     "unicorn/no-fn-reference-in-iterator": "off",
     "unicorn/no-keyword-prefix": "off",
