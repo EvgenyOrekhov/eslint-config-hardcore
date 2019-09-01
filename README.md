@@ -16,7 +16,8 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)       | 14    | **11**  |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security) | 13    | **12**  |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)        | 40    | **32**  |
-| **Total**                                                                        | 323   | **287** |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)   | 37    | **32**  |
+| **Total**                                                                        | 360   | **319** |
 
 ## Usage
 
