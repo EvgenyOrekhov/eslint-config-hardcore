@@ -118,7 +118,6 @@
         "arrow-body-style": "error",
         "arrow-parens": "error",
         "arrow-spacing": "error",
-        "accessor-pairs": "error",
         "block-scoped-var": "error",
         "block-spacing": "error",
         "brace-style": "error",
@@ -127,7 +126,6 @@
         "comma-dangle": "error",
         "comma-spacing": "error",
         "comma-style": "error",
-        "computed-property-spacing": "error",
         "consistent-this": "error",
         "constructor-super": "error",
         "curly": "error",
@@ -223,6 +221,9 @@
         "prefer-named-capture-group": "error",
         "no-redeclare": "error",
         "no-prototype-builtins": "error",
+        "no-import-assign": "error",
+        "prefer-regex-literals": "error",
+        "default-param-last": "error",
 
         "no-magic-numbers": [
             "error",
@@ -425,6 +426,20 @@
         "object-property-newline": [
             "error",
             {"allowAllPropertiesOnSameLine": true}
+        ],
+        "computed-property-spacing": [
+            "error",
+            "never",
+            {
+                "enforceForClassMembers": true
+            }
+        ],
+        "accessor-pairs": [
+            "error",
+            {
+                "setWithoutGet": true,
+                "enforceForClassMembers": true
+            }
         ],
 
         "padding-line-between-statements": [

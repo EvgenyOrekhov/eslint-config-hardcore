@@ -12,12 +12,12 @@ This config is designed to be compatible with Douglas Crockford's
 
 | Rules                                                                            | Total | Enabled |
 | -------------------------------------------------------------------------------- | ----: | ------: |
-| [ESLint](https://eslint.org/docs/rules/)                                         | 256   | **232** |
+| [ESLint](https://eslint.org/docs/rules/)                                         | 259   | **235** |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)       | 14    | **11**  |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security) | 13    | **12**  |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)        | 40    | **32**  |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)   | 37    | **32**  |
-| **Total**                                                                        | 360   | **319** |
+| **Total**                                                                        | 363   | **322** |
 
 ## Usage
 
