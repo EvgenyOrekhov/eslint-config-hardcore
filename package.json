@@ -33,7 +33,7 @@
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-security": "^1.4.0",
-        "eslint-plugin-unicorn": "^10.0.0"
+        "eslint-plugin-unicorn": "^11.0.1"
     },
     "files": [
         "index.json"

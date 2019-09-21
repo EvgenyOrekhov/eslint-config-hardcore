@@ -680,6 +680,9 @@
         "unicorn/prefer-type-error": "error",
         "unicorn/regex-shorthand": "error",
         "unicorn/throw-new-error": "error",
+        "unicorn/consistent-function-scoping": "error",
+        "unicorn/prefer-reflect-apply": "error",
+        "unicorn/prefer-dataset": "error",
 
         "unicorn/catch-error-name": [
             "error",
