@@ -683,6 +683,7 @@
         "unicorn/consistent-function-scoping": "error",
         "unicorn/prefer-reflect-apply": "error",
         "unicorn/prefer-dataset": "error",
+        "unicorn/prefer-string-slice": "error",
 
         "unicorn/catch-error-name": [
             "error",
