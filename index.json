@@ -161,7 +161,6 @@
         "space-in-parens": "error",
         "space-infix-ops": "error",
         "space-unary-ops": "error",
-        "use-isnan": "error",
         "wrap-iife": "error",
         "wrap-regex": "error",
         "yoda": "error",
@@ -439,6 +438,12 @@
             {
                 "setWithoutGet": true,
                 "enforceForClassMembers": true
+            }
+        ],
+        "use-isnan": [
+            "error",
+            {
+                "enforceForSwitchCase": true
             }
         ],
 
