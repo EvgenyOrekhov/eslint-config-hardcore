@@ -4,7 +4,8 @@
         "security",
         "import",
         "unicorn",
-        "array-func"
+        "array-func",
+        "optimize-regex"
     ],
 
     "parserOptions": {
@@ -713,6 +714,8 @@
         "array-func/prefer-array-from": "error",
         "array-func/avoid-reverse": "error",
         "array-func/prefer-flat-map": "error",
-        "array-func/prefer-flat": "error"
+        "array-func/prefer-flat": "error",
+
+        "optimize-regex/optimize-regex": "error"
     }
 }

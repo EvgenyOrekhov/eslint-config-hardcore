@@ -10,15 +10,16 @@ are designed to work with the `extends` feature of `.eslintrc` files.
 This config is designed to be compatible with Douglas Crockford's
 [JSLint](https://jslint.com/).
 
-| Rules                                                                                | Total | Enabled |
-| ------------------------------------------------------------------------------------ | ----: | ------: |
-| [ESLint](https://eslint.org/docs/rules/)                                             | 259   | **235** |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)           | 14    | **11**  |
-| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)     | 13    | **12**  |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)            | 40    | **32**  |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)       | 43    | **36**  |
-| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func) | 6     | **6**   |
-| **Total**                                                                            | 375   | **332** |
+| Rules                                                                                        | Total | Enabled |
+| -------------------------------------------------------------------------------------------- | ----: | ------: |
+| [ESLint](https://eslint.org/docs/rules/)                                                     | 259   | **235** |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                   | 14    | **11**  |
+| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)             | 13    | **12**  |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                    | 40    | **32**  |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 43    | **36**  |
+| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)         | 6     | **6**   |
+| [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) | 1     | **1**   |
+| **Total**                                                                                    | 376   | **333** |
 
 ## Usage
 
