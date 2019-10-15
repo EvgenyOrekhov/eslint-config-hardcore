@@ -28,6 +28,8 @@
     "promise/prefer-await-to-then": "off",
     "promise/prefer-await-to-callbacks": "off",
 
+    "security/detect-object-injection": "off",
+
     "import/no-restricted-paths": "off",
     "import/no-internal-modules": "off",
     "import/no-relative-parent-imports": "off",

@@ -6,12 +6,6 @@
         "unicorn"
     ],
 
-    "extends": [
-        "eslint:recommended",
-        "plugin:promise/recommended",
-        "plugin:security/recommended"
-    ],
-
     "parserOptions": {
         "ecmaVersion": 2020,
         "ecmaFeatures": {
@@ -711,8 +705,6 @@
             {
                 "non-zero": "not-equal"
             }
-        ],
-
-        "security/detect-object-injection": "off"
+        ]
     }
 }
