@@ -45,5 +45,7 @@
     "unicorn/prefer-spread": "off",
     "unicorn/prevent-abbreviations": "off",
     "unicorn/expiring-todo-comments": "off",
-    "unicorn/no-nested-ternary": "off"
+    "unicorn/no-nested-ternary": "off",
+
+    "sonarjs/no-duplicate-string": "off"
 }

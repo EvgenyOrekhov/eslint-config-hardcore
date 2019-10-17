@@ -35,6 +35,7 @@
         "eslint-plugin-optimize-regex": "^1.1.7",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-security": "^1.4.0",
+        "eslint-plugin-sonarjs": "^0.4.0",
         "eslint-plugin-unicorn": "^12.1.0"
     },
     "files": [
