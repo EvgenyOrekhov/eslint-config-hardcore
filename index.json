@@ -73,7 +73,6 @@
         "no-multi-str": "error",
         "no-global-assign": "error",
         "no-negated-condition": "error",
-        "no-unsafe-negation": "error",
         "no-nested-ternary": "error",
         "no-new": "error",
         "no-new-func": "error",
@@ -83,7 +82,6 @@
         "no-obj-calls": "error",
         "no-octal": "error",
         "no-octal-escape": "error",
-        "no-param-reassign": "error",
         "no-path-concat": "error",
         "no-plusplus": "error",
         "no-process-env": "error",
@@ -440,7 +438,20 @@
         "use-isnan": [
             "error",
             {
-                "enforceForSwitchCase": true
+                "enforceForSwitchCase": true,
+                "enforceForIndexOf": true
+            }
+        ],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true
+            }
+        ],
+        "no-unsafe-negation": [
+            "error",
+            {
+                "enforceForOrderingRelations": true
             }
         ],
 
