@@ -19,8 +19,8 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 43    | **36**  |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)         | 6     | **6**   |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) | 1     | **1**   |
-| [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                | 21    | **20**  |
-| **Total**                                                                                    | 397   | **353** |
+| [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                | 25    | **24**  |
+| **Total**                                                                                    | 401   | **357** |
 
 ## Usage
 

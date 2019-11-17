@@ -749,6 +749,10 @@
         "sonarjs/prefer-object-literal": "error",
         "sonarjs/prefer-single-boolean-return": "error",
         "sonarjs/prefer-while": "error",
+        "sonarjs/no-collection-size-mischeck": "error",
+        "sonarjs/no-unused-collection": "error",
+        "sonarjs/no-redundant-jump": "error",
+        "sonarjs/no-same-line-conditional": "error",
 
         "sonarjs/cognitive-complexity": [
             "error",
