@@ -218,6 +218,10 @@
         "no-import-assign": "error",
         "prefer-regex-literals": "error",
         "default-param-last": "error",
+        "no-constructor-return": "error",
+        "no-dupe-else-if": "error",
+        "no-setter-return": "error",
+        "prefer-exponentiation-operator": "error",
 
         "no-magic-numbers": [
             "error",
@@ -453,6 +457,10 @@
             {
                 "enforceForOrderingRelations": true
             }
+        ],
+        "grouped-accessor-pairs": [
+            "error",
+            "getBeforeSet"
         ],
 
         "padding-line-between-statements": [
