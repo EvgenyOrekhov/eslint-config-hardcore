@@ -710,7 +710,8 @@
         "unicorn/consistent-function-scoping": "error",
         "unicorn/prefer-reflect-apply": "error",
         "unicorn/prefer-dataset": "error",
-        "unicorn/prefer-string-slice": "error",
+        "unicorn/prefer-negative-index": "error",
+        "unicorn/prefer-trim-start-end": "error",
 
         "unicorn/catch-error-name": [
             "error",
