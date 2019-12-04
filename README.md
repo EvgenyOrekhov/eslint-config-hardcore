@@ -20,7 +20,14 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)         | 6     | **6**   |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) | 1     | **1**   |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                | 25    | **24**  |
-| **Total**                                                                                    | 406   | **362** |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                       | 1     | **1**   |
+| **Total**                                                                                    | 407   | **363** |
+
+¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
+"no-invalid-json" rule.
+
+² You have to use the `--ext` option to lint `*.json` files:
+`eslint . --ext .js,.json`
 
 ## Usage
 

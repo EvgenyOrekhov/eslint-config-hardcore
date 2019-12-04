@@ -1,4 +1,6 @@
 {
+    "extends": ["plugin:json/recommended"],
+
     "plugins": [
         "promise",
         "security",
