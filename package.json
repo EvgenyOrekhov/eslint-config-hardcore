@@ -4,7 +4,7 @@
     "description": "Hardcore ESLint Shareable Config",
     "main": "index.json",
     "scripts": {
-        "test": "node test.js"
+        "test": "node test.js && eslint **/*.js"
     },
     "repository": {
         "type": "git",
@@ -40,5 +40,8 @@
     },
     "files": [
         "index.json"
-    ]
+    ],
+    "devDependencies": {
+        "eslint": "^6.7.2"
+    }
 }
