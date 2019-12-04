@@ -22,6 +22,10 @@
 
     "reportUnusedDisableDirectives": true,
 
+    "ignorePatterns": [
+        "!.*"
+    ],
+
     "rules": {
         "no-alert": "error",
         "no-array-constructor": "error",
