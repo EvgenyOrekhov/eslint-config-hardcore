@@ -16,12 +16,14 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                   | 14    | **11**  |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)             | 13    | **12**  |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                    | 40    | **32**  |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 43    | **36**  |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 45    | **38**  |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)         | 6     | **6**   |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) | 1     | **1**   |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                | 25    | **24**  |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                       | 1     | **1**   |
-| **Total**                                                                                    | 407   | **363** |
+| **Total: `hardcore`**                                                                        | 409   | **365** |
+| [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                            | 17    | **15**  |
+| **Total: `hardcore` + `hardcore/fp`**                                                        | 426   | **381** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
@@ -31,18 +33,18 @@ This config is designed to be compatible with Douglas Crockford's
 
 ## Usage
 
-First run this:
+Install:
 
 ```bash
 npm install eslint-config-hardcore --save-dev
 ```
 
-Then, add `"extends": "hardcore"` to your .eslintrc file and specify your
+Then, add it to your `.eslintrc` file and specify your
 [environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
 
 ```json
 {
-    "extends": "hardcore",
+    "extends": ["hardcore"],
     "env": {
         "node": true,
         "browser": true
@@ -50,24 +52,23 @@ Then, add `"extends": "hardcore"` to your .eslintrc file and specify your
 }
 ```
 
-*Note: We omitted the `eslint-config-` prefix since it is automatically assumed
-by ESLint.*
+## `hardcore/fp`
 
-You can override settings from the shareable config by adding them directly into
-your `.eslintrc` file:
+This config adds rules for functional programming.
+
+Use it **in addition** to the `hardcore` config:
 
 ```json
 {
-    "extends": "hardcore",
+    "extends": ["hardcore", "hardcore/fp"],
     "env": {
         "node": true,
         "browser": true
-    },
-    "rules": {
-        "no-console": "off"
     }
 }
 ```
+
+## [Changelog](https://github.com/EvgenyOrekhov/eslint-config-hardcore/releases)
 
 ## License
 

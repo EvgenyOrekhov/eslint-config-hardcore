@@ -47,5 +47,13 @@
     "unicorn/expiring-todo-comments": "off",
     "unicorn/no-nested-ternary": "off",
 
-    "sonarjs/no-duplicate-string": "off"
+    "sonarjs/no-duplicate-string": "off",
+
+    "fp/no-nil": "off",
+    "fp/no-unused-expression": [
+        "off",
+        {
+            "allowUseStrict": true
+        }
+    ]
 }

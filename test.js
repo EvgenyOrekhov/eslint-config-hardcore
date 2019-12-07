@@ -4,4 +4,5 @@
 "use strict";
 
 require("./index.json");
+require("./fp.json");
 require("./disabled-rules.json");
