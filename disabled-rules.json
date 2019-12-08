@@ -58,5 +58,8 @@
     ],
 
     "ramda/compose-pipe-style": "off",
-    "ramda/prefer-ramda-boolean": "off"
+    "ramda/prefer-ramda-boolean": "off",
+
+    "eslint-comments/no-aggregating-enable": "off",
+    "eslint-comments/no-restricted-disable": "off"
 }
