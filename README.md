@@ -25,6 +25,8 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                            | 17    | **15**  |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                          | 26    | **24**  |
 | **Total: `hardcore` + `hardcore/fp`**                                                        | 452   | **405** |
+| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                       | 26    | **26**  |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                      | 478   | **431** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
@@ -47,7 +49,6 @@ Then, add it to your `.eslintrc` file and specify your
 {
     "extends": ["hardcore"],
     "env": {
-        "node": true,
         "browser": true
     }
 }
@@ -63,9 +64,44 @@ Use it **in addition** to the `hardcore` config:
 {
     "extends": ["hardcore", "hardcore/fp"],
     "env": {
-        "node": true,
         "browser": true
     }
+}
+```
+
+## `hardcore/node`
+
+This config adds rules for Node.js.
+
+Use it **in addition** to other configs:
+
+```json
+{
+    "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
+    "env": {
+        "node": true
+    }
+}
+```
+
+Or, if your project contains both non-Node and Node files, use it like this:
+
+```json
+{
+    "extends": ["hardcore", "hardcore/fp"],
+    "env": {
+        "browser": true
+    }
+    "overrides": [
+        {
+            "files": ["server/**/*.js"],
+            "extends": ["hardcore/node"],
+            "env": {
+                "browser": false,
+                "node": true
+            }
+        }
+    ]
 }
 ```
 

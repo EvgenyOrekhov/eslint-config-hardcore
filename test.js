@@ -5,4 +5,5 @@
 
 require("./index.json");
 require("./fp.json");
+require("./node.json");
 require("./disabled-rules.json");

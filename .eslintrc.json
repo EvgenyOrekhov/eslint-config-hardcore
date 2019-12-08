@@ -1,1 +1,1 @@
-{"extends": ["./index.json", "./fp.json"]}
+{"extends": ["./index.json", "./fp.json", "./node.json"]}
