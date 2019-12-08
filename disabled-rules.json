@@ -55,5 +55,8 @@
         {
             "allowUseStrict": true
         }
-    ]
+    ],
+
+    "ramda/compose-pipe-style": "off",
+    "ramda/prefer-ramda-boolean": "off"
 }

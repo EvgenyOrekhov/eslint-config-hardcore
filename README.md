@@ -23,7 +23,8 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                       | 1     | **1**   |
 | **Total: `hardcore`**                                                                        | 409   | **365** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                            | 17    | **15**  |
-| **Total: `hardcore` + `hardcore/fp`**                                                        | 426   | **381** |
+| [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                          | 26    | **24**  |
+| **Total: `hardcore` + `hardcore/fp`**                                                        | 452   | **405** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
