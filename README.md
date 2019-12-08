@@ -91,7 +91,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
     "extends": ["hardcore", "hardcore/fp"],
     "env": {
         "browser": true
-    }
+    },
     "overrides": [
         {
             "files": ["server/**/*.js"],
