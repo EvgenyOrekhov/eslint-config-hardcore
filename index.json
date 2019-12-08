@@ -810,6 +810,7 @@
                 "allow": [
                     "eslint-disable",
                     "eslint-disable-next-line",
+                    "eslint-enable",
                     "eslint-env",
                     "global"
                 ]
