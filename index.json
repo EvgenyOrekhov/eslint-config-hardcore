@@ -1,6 +1,4 @@
 {
-    "extends": ["plugin:json/recommended"],
-
     "plugins": [
         "promise",
         "security",
@@ -816,5 +814,12 @@
                 ]
             }
         ]
-    }
+    },
+
+    "overrides": [
+        {
+            "files": ["*.json"],
+            "extends": ["plugin:json/recommended"]
+        }
+    ]
 }
