@@ -72,16 +72,13 @@ Use it **in addition** to the `hardcore` config:
 
 ## `hardcore/node`
 
-This config adds rules for Node.js.
+This config adds rules and globals for Node.js.
 
 Use it **in addition** to other configs:
 
 ```json
 {
-    "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
-    "env": {
-        "node": true
-    }
+    "extends": ["hardcore", "hardcore/fp", "hardcore/node"]
 }
 ```
 
@@ -98,8 +95,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
             "files": ["server/**/*.js"],
             "extends": ["hardcore/node"],
             "env": {
-                "browser": false,
-                "node": true
+                "browser": false
             }
         }
     ]
