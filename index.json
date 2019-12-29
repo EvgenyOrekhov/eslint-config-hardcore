@@ -728,6 +728,7 @@
         "unicorn/prefer-string-slice": "error",
         "unicorn/prefer-negative-index": "error",
         "unicorn/prefer-trim-start-end": "error",
+        "unicorn/prefer-modern-dom-apis": "error",
 
         "unicorn/catch-error-name": [
             "error",

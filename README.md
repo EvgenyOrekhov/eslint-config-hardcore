@@ -16,18 +16,18 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                   | 14    | **11**  |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)             | 13    | **12**  |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                    | 40    | **32**  |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 45    | **38**  |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)               | 46    | **39**  |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)         | 6     | **6**   |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex) | 1     | **1**   |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                | 25    | **24**  |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                       | 1     | **1**   |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments) | 8     | **6**   |
-| **Total: `hardcore`**                                                                        | 417   | **371** |
+| **Total: `hardcore`**                                                                        | 418   | **372** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                            | 17    | **15**  |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                          | 26    | **24**  |
-| **Total: `hardcore` + `hardcore/fp`**                                                        | 460   | **411** |
+| **Total: `hardcore` + `hardcore/fp`**                                                        | 461   | **412** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                       | 26    | **26**  |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                      | 486   | **437** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                      | 487   | **438** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
