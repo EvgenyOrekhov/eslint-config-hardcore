@@ -666,7 +666,8 @@
                     "**/*.spec.js"
                 ],
                 "optionalDependencies": false,
-                "peerDependencies": false
+                "peerDependencies": false,
+                "bundledDependencies": false
             }
         ],
         "import/extensions": [
