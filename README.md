@@ -24,12 +24,13 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              | 8     | **6**   |
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) | 1     | **1**   |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      | 2     | **2**   |
-| **Total: `hardcore`**                                                                                     | 421   | **375** |
+| [eslint-plugin-no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)                          | 1     | **1**   |
+| **Total: `hardcore`**                                                                                     | 422   | **376** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         | 17    | **15**  |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       | 26    | **24**  |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     | 464   | **415** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     | 465   | **416** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    | 26    | **26**  |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   | 490   | **441** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   | 491   | **442** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
