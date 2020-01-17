@@ -7,7 +7,8 @@
         "array-func",
         "optimize-regex",
         "sonarjs",
-        "eslint-comments"
+        "eslint-comments",
+        "no-use-extend-native"
     ],
 
     "parserOptions": {
@@ -811,7 +812,9 @@
                     "global"
                 ]
             }
-        ]
+        ],
+
+        "no-use-extend-native/no-use-extend-native": "error"
     },
 
     "overrides": [
