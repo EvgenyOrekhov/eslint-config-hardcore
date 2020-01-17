@@ -8,7 +8,8 @@
         "optimize-regex",
         "sonarjs",
         "eslint-comments",
-        "no-use-extend-native"
+        "no-use-extend-native",
+        "no-constructor-bind"
     ],
 
     "parserOptions": {
@@ -814,7 +815,10 @@
             }
         ],
 
-        "no-use-extend-native/no-use-extend-native": "error"
+        "no-use-extend-native/no-use-extend-native": "error",
+
+        "no-constructor-bind/no-constructor-bind": "error",
+        "no-constructor-bind/no-constructor-state": "error"
     },
 
     "overrides": [
