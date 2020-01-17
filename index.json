@@ -672,11 +672,7 @@
         ],
         "import/extensions": [
             "error",
-            "always",
-            {
-                "js": "never",
-                "mjs": "never"
-            }
+            "always"
         ],
         "import/order": [
             "error",

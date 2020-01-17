@@ -1,8 +1,6 @@
 {
     "extends": ["plugin:node/recommended"],
 
-    "plugins": ["import"],
-
     "parserOptions": {
         "ecmaVersion": 2020
     },
@@ -19,12 +17,7 @@
         "node/prefer-global/url-search-params": "error",
         "node/prefer-global/url": "error",
         "node/prefer-promises/dns": "error",
-        "node/prefer-promises/fs": "error",
-
-        "import/extensions": [
-            "error",
-            "ignorePackages"
-        ]
+        "node/prefer-promises/fs": "error"
     },
 
     "overrides": [
