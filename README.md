@@ -13,18 +13,18 @@ This config is designed to be compatible with Douglas Crockford's
 | Rules                                                                                                     | Total | Enabled |
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
 | [ESLint](https://eslint.org/docs/rules/)                                                                  | 264   | **240** |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                | 14    | **11**  |
-| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          | 13    | **12**  |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 | 40    | **32**  |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            | 46    | **39**  |
-| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      | 6     | **6**   |
-| [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              | 1     | **1**   |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 | 40    | **32**  |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             | 25    | **24**  |
-| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                                    | 1     | **1**   |
+| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          | 13    | **12**  |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                | 14    | **11**  |
+| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      | 6     | **6**   |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              | 8     | **6**   |
-| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) | 1     | **1**   |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      | 2     | **2**   |
+| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) | 1     | **1**   |
 | [eslint-plugin-no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)                          | 1     | **1**   |
+| [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              | 1     | **1**   |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                                    | 1     | **1**   |
 | **Total: `hardcore`**                                                                                     | 422   | **376** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         | 17    | **15**  |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       | 26    | **24**  |
