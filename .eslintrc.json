@@ -1,1 +1,20 @@
-{"extends": ["./index.json", "./fp.json", "./node.json"]}
+{
+    "plugins": ["import"],
+
+    "rules": {
+        "import/no-unused-modules": [
+            "error",
+            {
+                "missingExports": false,
+                "unusedExports": true
+            }
+        ]
+    },
+
+    "overrides": [
+        {
+            "files": ["*.json"],
+            "extends": ["plugin:json/recommended"]
+        }
+    ]
+}
