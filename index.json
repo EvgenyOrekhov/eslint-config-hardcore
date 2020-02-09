@@ -651,7 +651,7 @@
         "import/no-useless-path-segments": [
             "error",
             {
-                "noUselessIndex": true
+                "noUselessIndex": false
             }
         ],
         "import/no-unused-modules": [
@@ -698,7 +698,6 @@
         "unicorn/custom-error-definition": "error",
         "unicorn/error-message": "error",
         "unicorn/escape-case": "error",
-        "unicorn/import-index": "error",
         "unicorn/new-for-builtins": "error",
         "unicorn/no-abusive-eslint-disable": "error",
         "unicorn/no-array-instanceof": "error",
@@ -752,6 +751,12 @@
             "error",
             {
                 "non-zero": "not-equal"
+            }
+        ],
+        "unicorn/import-index": [
+            "error",
+            {
+                "ignoreImports": true
             }
         ],
 
