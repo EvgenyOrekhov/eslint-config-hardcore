@@ -251,7 +251,8 @@
             "error",
             {
                 "ignore": [
-                    0
+                    0,
+                    1
                 ],
                 "enforceConst": true
             }
