@@ -651,7 +651,7 @@
         "import/no-useless-path-segments": [
             "error",
             {
-                "noUselessIndex": false
+                "commonjs": true
             }
         ],
         "import/no-unused-modules": [
