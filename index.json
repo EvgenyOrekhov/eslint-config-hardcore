@@ -376,7 +376,6 @@
         "no-shadow": [
             "error",
             {
-                "hoist": "all",
                 "builtinGlobals": true
             }
         ],
