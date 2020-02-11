@@ -1,37 +1,31 @@
 {
-    "extends": ["plugin:node/recommended"],
+  "extends": ["plugin:node/recommended"],
 
-    "parserOptions": {
-        "ecmaVersion": 2020
+  "parserOptions": { "ecmaVersion": 2020 },
+
+  "rules": {
+    "node/no-callback-literal": "error",
+    "node/exports-style": "error",
+    "node/file-extension-in-import": "error",
+    "node/prefer-global/buffer": "error",
+    "node/prefer-global/console": "error",
+    "node/prefer-global/process": "error",
+    "node/prefer-global/text-decoder": "error",
+    "node/prefer-global/text-encoder": "error",
+    "node/prefer-global/url-search-params": "error",
+    "node/prefer-global/url": "error",
+    "node/prefer-promises/dns": "error",
+    "node/prefer-promises/fs": "error"
+  },
+
+  "overrides": [
+    {
+      "files": ["*.cjs", ".*.cjs"],
+      "parserOptions": { "ecmaVersion": 2020 }
     },
-
-    "rules": {
-        "node/no-callback-literal": "error",
-        "node/exports-style": "error",
-        "node/file-extension-in-import": "error",
-        "node/prefer-global/buffer": "error",
-        "node/prefer-global/console": "error",
-        "node/prefer-global/process": "error",
-        "node/prefer-global/text-decoder": "error",
-        "node/prefer-global/text-encoder": "error",
-        "node/prefer-global/url-search-params": "error",
-        "node/prefer-global/url": "error",
-        "node/prefer-promises/dns": "error",
-        "node/prefer-promises/fs": "error"
-    },
-
-    "overrides": [
-        {
-            "files": ["*.cjs", ".*.cjs"],
-            "parserOptions": {
-                "ecmaVersion": 2020
-            }
-        },
-        {
-            "files": ["*.mjs", ".*.mjs"],
-            "parserOptions": {
-                "ecmaVersion": 2020
-            }
-        }
-    ]
+    {
+      "files": ["*.mjs", ".*.mjs"],
+      "parserOptions": { "ecmaVersion": 2020 }
+    }
+  ]
 }
