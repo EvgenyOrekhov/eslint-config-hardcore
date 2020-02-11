@@ -1,11 +1,11 @@
 # Hardcore ESLint Shareable Config
 
+[![npm](https://img.shields.io/npm/v/eslint-config-hardcore?style=flat-square)](https://www.npmjs.com/package/eslint-config-hardcore)
 [![Travis CI build status](https://img.shields.io/travis/EvgenyOrekhov/eslint-config-hardcore/master.svg?style=flat-square)](https://travis-ci.org/EvgenyOrekhov/eslint-config-hardcore)
 
 ## About
 
-[Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs)
-are designed to work with the `extends` feature of `.eslintrc` files.
+Probably the most strict (but practical) ESLint config out there.
 
 | Rules                                                                                                     | Total | Enabled |
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
@@ -39,7 +39,7 @@ are designed to work with the `extends` feature of `.eslintrc` files.
 
 Install:
 
-```bash
+```sh
 npm install eslint-config-hardcore --save-dev
 ```
 
