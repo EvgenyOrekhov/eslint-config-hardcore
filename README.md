@@ -7,12 +7,9 @@
 [Shareable Configs](https://eslint.org/docs/developer-guide/shareable-configs)
 are designed to work with the `extends` feature of `.eslintrc` files.
 
-This config is designed to be compatible with Douglas Crockford's
-[JSLint](https://jslint.com/).
-
 | Rules                                                                                                     | Total | Enabled |
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
-| [ESLint](https://eslint.org/docs/rules/)                                                                  |   264 | **240** |
+| [ESLint](https://eslint.org/docs/rules/)                                                                  |   264 | **241** |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |    46 |  **39** |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |    40 |  **32** |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |    25 |  **24** |
@@ -25,12 +22,12 @@ This config is designed to be compatible with Douglas Crockford's
 | [eslint-plugin-no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)                          |     1 |   **1** |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                                    |     1 |   **1** |
-| **Total: `hardcore`**                                                                                     |   422 | **376** |
+| **Total: `hardcore`**                                                                                     |   422 | **377** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **15** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   465 | **416** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     |   465 | **417** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    26 |  **26** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   491 | **442** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   491 | **443** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.

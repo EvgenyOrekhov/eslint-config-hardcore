@@ -20,7 +20,6 @@
   "capitalized-comments": "off",
   "no-restricted-globals": "off",
   "multiline-comment-style": "off",
-  "prefer-object-spread": "off",
   "max-lines-per-function": "off",
   "newline-per-chained-call": "off",
 

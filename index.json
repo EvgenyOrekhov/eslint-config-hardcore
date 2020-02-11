@@ -246,6 +246,7 @@
     "no-dupe-else-if": "error",
     "no-setter-return": "error",
     "prefer-exponentiation-operator": "error",
+    "prefer-object-spread": "error",
 
     "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
     "complexity": ["error", { "max": 10 }],
