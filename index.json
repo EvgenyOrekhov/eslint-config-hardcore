@@ -330,6 +330,7 @@
     "no-param-reassign": ["error", { "props": true }],
     "no-unsafe-negation": ["error", { "enforceForOrderingRelations": true }],
     "grouped-accessor-pairs": ["error", "getBeforeSet"],
+    "no-implicit-globals": ["error", { "lexicalBindings": true }],
 
     "padding-line-between-statements": [
       "error",

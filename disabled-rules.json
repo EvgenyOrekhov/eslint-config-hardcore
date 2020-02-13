@@ -11,7 +11,6 @@
   "sort-vars": "off",
   "spaced-comment": "off",
   "vars-on-top": "off",
-  "no-implicit-globals": "off",
   "no-restricted-imports": "off",
   "id-blacklist": "off",
   "sort-imports": "off",
