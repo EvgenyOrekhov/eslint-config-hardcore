@@ -49,6 +49,7 @@
 
   "fp/no-nil": "off",
   "fp/no-unused-expression": ["off", { "allowUseStrict": true }],
+  "fp/no-rest-parameters": "off",
 
   "ramda/compose-pipe-style": "off",
   "ramda/prefer-ramda-boolean": "off",
