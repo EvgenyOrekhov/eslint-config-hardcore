@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "Hardcore ESLint Shareable Config",
   "main": "index.json",
   "scripts": {
