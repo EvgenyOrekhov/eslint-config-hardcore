@@ -1,1 +1,7 @@
-{ "extends": ["./index.json", "./fp.json", "./node.json"] }
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": ["./index.json", "./fp.json", "./node.json"]
+}

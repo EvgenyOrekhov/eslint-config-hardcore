@@ -412,10 +412,6 @@
     "import/no-unresolved": ["error", { "commonjs": true }],
     "import/no-cycle": ["error", { "commonjs": true }],
     "import/no-useless-path-segments": ["error", { "commonjs": true }],
-    "import/no-unused-modules": [
-      "error",
-      { "missingExports": false, "unusedExports": true }
-    ],
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -564,6 +560,62 @@
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
       "rules": { "import/unambiguous": "off" }
+    },
+
+    {
+      "files": ["*.js"],
+      "rules": {
+        "import/no-unused-modules": [
+          "error",
+          {
+            "src": ["**/*.js"],
+            "missingExports": false,
+            "unusedExports": true
+          }
+        ]
+      }
+    },
+
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "import/no-unused-modules": [
+          "error",
+          {
+            "src": ["**/*.ts"],
+            "missingExports": false,
+            "unusedExports": true
+          }
+        ]
+      }
+    },
+
+    {
+      "files": ["*.jsx"],
+      "rules": {
+        "import/no-unused-modules": [
+          "error",
+          {
+            "src": ["**/*.jsx"],
+            "missingExports": false,
+            "unusedExports": true
+          }
+        ]
+      }
+    },
+
+    {
+      "files": ["*.tsx"],
+      "rules": {
+        "import/no-unused-modules": [
+          "error",
+          {
+            "src": ["**/*.tsx"],
+            "missingExports": false,
+            "unusedExports": true
+          }
+        ]
+      }
     }
   ]
 }
