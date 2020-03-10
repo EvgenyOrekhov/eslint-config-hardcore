@@ -472,7 +472,7 @@
     "unicorn/prefer-starts-ends-with": "error",
     "unicorn/prefer-text-content": "error",
     "unicorn/prefer-type-error": "error",
-    "unicorn/regex-shorthand": "error",
+    "unicorn/better-regex": "error",
     "unicorn/throw-new-error": "error",
     "unicorn/consistent-function-scoping": "error",
     "unicorn/prefer-reflect-apply": "error",

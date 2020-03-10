@@ -44,6 +44,7 @@
   "unicorn/prevent-abbreviations": "off",
   "unicorn/expiring-todo-comments": "off",
   "unicorn/no-nested-ternary": "off",
+  "unicorn/string-content": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
