@@ -485,7 +485,7 @@
 
     "unicorn/catch-error-name": [
       "error",
-      { "caughtErrorsIgnorePattern": "^ignore$" }
+      { "caughtErrorsIgnorePattern": "^ignore$|^[\\dA-Za-z]+(e|E)rror$" }
     ],
     "unicorn/filename-case": [
       "error",
