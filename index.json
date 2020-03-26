@@ -9,8 +9,7 @@
     "sonarjs",
     "eslint-comments",
     "no-use-extend-native",
-    "no-constructor-bind",
-    "no-secrets"
+    "no-constructor-bind"
   ],
 
   "parserOptions": {
@@ -554,9 +553,7 @@
     "no-use-extend-native/no-use-extend-native": "error",
 
     "no-constructor-bind/no-constructor-bind": "error",
-    "no-constructor-bind/no-constructor-state": "error",
-
-    "no-secrets/no-secrets": "error"
+    "no-constructor-bind/no-constructor-state": "error"
   },
 
   "overrides": [

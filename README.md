@@ -19,15 +19,14 @@ Probably the most strict (but practical) ESLint config out there.
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |     8 |   **6** |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |     2 |   **2** |
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |     1 |   **1** |
-| [eslint-plugin-no-secrets](https://github.com/nickdeis/eslint-plugin-no-secrets)                          |     1 |   **1** |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                                    |     1 |   **1** |
-| **Total: `hardcore`**                                                                                     |   423 | **378** |
+| **Total: `hardcore`**                                                                                     |   422 | **377** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   466 | **417** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     |   465 | **416** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    26 |  **26** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   492 | **443** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   491 | **442** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
