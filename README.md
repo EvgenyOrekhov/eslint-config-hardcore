@@ -25,8 +25,8 @@ Probably the most strict (but practical) ESLint config out there.
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
 | **Total: `hardcore` + `hardcore/fp`**                                                                     |   467 | **417** |
-| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    26 |  **26** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   493 | **443** |
+| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   504 | **452** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.

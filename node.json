@@ -15,7 +15,16 @@
     "node/prefer-global/url-search-params": "error",
     "node/prefer-global/url": "error",
     "node/prefer-promises/dns": "error",
-    "node/prefer-promises/fs": "error"
+    "node/prefer-promises/fs": "error",
+    "node/callback-return": "error",
+    "node/global-require": "error",
+    "node/handle-callback-err": ["error", "^.*(e|E)rror"],
+    "node/no-mixed-requires": "error",
+    "node/no-new-require": "error",
+    "node/no-path-concat": "error",
+    "node/no-process-env": "error",
+    "node/no-process-exit": "error",
+    "node/no-sync": "error"
   },
 
   "overrides": [

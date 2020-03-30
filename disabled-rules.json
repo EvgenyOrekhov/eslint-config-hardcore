@@ -57,5 +57,8 @@
   "ramda/prefer-ramda-boolean": "off",
 
   "eslint-comments/no-aggregating-enable": "off",
-  "eslint-comments/no-restricted-disable": "off"
+  "eslint-comments/no-restricted-disable": "off",
+
+  "node/no-restricted-require": "off",
+  "node/no-restricted-import": "off"
 }
