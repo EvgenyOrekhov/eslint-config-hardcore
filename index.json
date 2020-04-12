@@ -246,6 +246,7 @@
     "no-setter-return": "error",
     "prefer-exponentiation-operator": "error",
     "prefer-object-spread": "error",
+    "indent": "error",
 
     "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
     "complexity": ["error", { "max": 10 }],
@@ -307,7 +308,6 @@
     "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
     "func-name-matching": ["error", { "considerPropertyDescriptor": true }],
     "array-element-newline": ["error", "consistent"],
-    "indent": ["error", 4, { "ignoredNodes": ["ConditionalExpression"] }],
     "function-call-argument-newline": ["error", "consistent"],
     "object-property-newline": [
       "error",
