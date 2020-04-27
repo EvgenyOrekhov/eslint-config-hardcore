@@ -481,6 +481,7 @@
     "unicorn/prefer-modern-dom-apis": "error",
     "unicorn/prefer-replace-all": "error",
     "unicorn/prefer-number-properties": "error",
+    "unicorn/no-null": "error",
 
     "unicorn/catch-error-name": [
       "error",
