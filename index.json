@@ -483,10 +483,7 @@
     "unicorn/prefer-number-properties": "error",
     "unicorn/no-null": "error",
 
-    "unicorn/catch-error-name": [
-      "error",
-      { "caughtErrorsIgnorePattern": "^ignore$|^[\\dA-Za-z]+(e|E)rror$" }
-    ],
+    "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
     "unicorn/filename-case": [
       "error",
       { "cases": { "kebabCase": true, "camelCase": true, "pascalCase": true } }
