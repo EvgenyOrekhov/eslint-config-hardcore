@@ -4,7 +4,7 @@
   "description": "Hardcore ESLint Shareable Config",
   "main": "index.json",
   "scripts": {
-    "test": "node test.js && eslint --ext .js,.json .",
+    "test": "node test.js && eslint .",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^6.7.0"
+    "eslint": "^7.0.0"
   },
   "dependencies": {
     "eslint-plugin-array-func": "^3.1.5",
@@ -57,6 +57,6 @@
     "node.json"
   ],
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.0.0"
   }
 }

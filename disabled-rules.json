@@ -1,6 +1,5 @@
 {
   "no-extra-parens": "off",
-  "no-restricted-modules": "off",
   "no-restricted-syntax": "off",
   "no-ternary": "off",
   "no-undefined": "off",
@@ -21,6 +20,7 @@
   "multiline-comment-style": "off",
   "max-lines-per-function": "off",
   "newline-per-chained-call": "off",
+  "no-restricted-exports": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-then": "off",
