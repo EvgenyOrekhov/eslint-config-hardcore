@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hardcore",
   "version": "10.3.0",
-  "description": "Hardcore ESLint Shareable Config",
+  "description": "The most strict (but practical) ESLint config out there",
   "main": "index.json",
   "scripts": {
     "test": "node test.js && eslint .",
@@ -23,10 +23,7 @@
     "functional programming",
     "functional-programming"
   ],
-  "author": {
-    "name": "Evgeny Orekhov",
-    "url": "https://plus.google.com/+ЕвгенийОрехов"
-  },
+  "author": "Evgeny Orekhov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EvgenyOrekhov/eslint-config-hardcore/issues"

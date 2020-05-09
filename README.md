@@ -1,11 +1,11 @@
-# Hardcore ESLint Shareable Config
+# eslint-config-hardcore
+
+The most strict (but practical) ESLint config out there
 
 [![npm](https://img.shields.io/npm/v/eslint-config-hardcore?style=flat-square)](https://www.npmjs.com/package/eslint-config-hardcore)
 [![Travis CI build status](https://img.shields.io/travis/EvgenyOrekhov/eslint-config-hardcore/master.svg?style=flat-square)](https://travis-ci.org/EvgenyOrekhov/eslint-config-hardcore)
 
-## About
-
-Probably the most strict (but practical) ESLint config out there.
+## What's included
 
 | Rules                                                                                                     | Total | Enabled |
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
@@ -28,7 +28,7 @@ Probably the most strict (but practical) ESLint config out there.
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   498 | **445** |
 
-¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
+¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
 
 ## Usage
@@ -36,7 +36,7 @@ Probably the most strict (but practical) ESLint config out there.
 Install:
 
 ```sh
-npm install eslint-config-hardcore --save-dev
+npm install --save-dev eslint-config-hardcore
 ```
 
 Then, add it to your `.eslintrc` file and specify your
