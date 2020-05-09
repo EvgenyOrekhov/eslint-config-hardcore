@@ -1,6 +1,5 @@
 {
   "no-extra-parens": "off",
-  "no-restricted-modules": "off",
   "no-restricted-syntax": "off",
   "no-ternary": "off",
   "no-undefined": "off",
@@ -21,12 +20,14 @@
   "multiline-comment-style": "off",
   "max-lines-per-function": "off",
   "newline-per-chained-call": "off",
+  "no-restricted-exports": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-then": "off",
   "promise/prefer-await-to-callbacks": "off",
 
   "security/detect-object-injection": "off",
+  "security/detect-non-literal-fs-filename": "off",
 
   "import/no-restricted-paths": "off",
   "import/no-internal-modules": "off",
@@ -44,6 +45,8 @@
   "unicorn/prevent-abbreviations": "off",
   "unicorn/expiring-todo-comments": "off",
   "unicorn/no-nested-ternary": "off",
+  "unicorn/string-content": "off",
+  "unicorn/prefer-set-has": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
@@ -55,5 +58,8 @@
   "ramda/prefer-ramda-boolean": "off",
 
   "eslint-comments/no-aggregating-enable": "off",
-  "eslint-comments/no-restricted-disable": "off"
+  "eslint-comments/no-restricted-disable": "off",
+
+  "node/no-restricted-require": "off",
+  "node/no-restricted-import": "off"
 }
