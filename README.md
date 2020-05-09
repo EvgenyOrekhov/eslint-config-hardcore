@@ -20,7 +20,7 @@ Probably the most strict (but practical) ESLint config out there.
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |     2 |   **2** |
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |     1 |   **1** |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
-| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹ ²                                    |     1 |   **1** |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |     1 |   **1** |
 | **Total: `hardcore`**                                                                                     |   428 | **380** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
@@ -30,9 +30,6 @@ Probably the most strict (but practical) ESLint config out there.
 
 ¹ eslint-plugin-json actually includes 19 rules, but we consider them as one
 "no-invalid-json" rule.
-
-² You have to use the `--ext` option to lint `*.json` files:
-`eslint . --ext .js,.json`
 
 ## Usage
 

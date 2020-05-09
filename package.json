@@ -4,7 +4,7 @@
   "description": "Hardcore ESLint Shareable Config",
   "main": "index.json",
   "scripts": {
-    "test": "node test.js && eslint --ext .js,.json .",
+    "test": "node test.js && eslint .",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
