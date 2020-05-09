@@ -73,7 +73,6 @@
     "no-ex-assign": "error",
     "no-extend-native": "error",
     "no-extra-bind": "error",
-    "no-extra-boolean-cast": "error",
     "no-extra-semi": "error",
     "no-fallthrough": "error",
     "no-floating-decimal": "error",
@@ -182,7 +181,6 @@
     "wrap-iife": "error",
     "wrap-regex": "error",
     "yoda": "error",
-    "array-callback-return": "error",
     "no-empty-function": "error",
     "no-new-symbol": "error",
     "no-unmodified-loop-condition": "error",
@@ -247,6 +245,10 @@
     "prefer-exponentiation-operator": "error",
     "prefer-object-spread": "error",
     "indent": "error",
+    "computed-property-spacing": "error",
+    "accessor-pairs": "error",
+    "default-case-last": "error",
+    "no-useless-backreference": "error",
 
     "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
     "complexity": ["error", { "max": 10 }],
@@ -313,15 +315,6 @@
       "error",
       { "allowAllPropertiesOnSameLine": true }
     ],
-    "computed-property-spacing": [
-      "error",
-      "never",
-      { "enforceForClassMembers": true }
-    ],
-    "accessor-pairs": [
-      "error",
-      { "setWithoutGet": true, "enforceForClassMembers": true }
-    ],
     "use-isnan": [
       "error",
       { "enforceForSwitchCase": true, "enforceForIndexOf": true }
@@ -330,6 +323,11 @@
     "no-unsafe-negation": ["error", { "enforceForOrderingRelations": true }],
     "grouped-accessor-pairs": ["error", "getBeforeSet"],
     "no-implicit-globals": ["error", { "lexicalBindings": true }],
+    "array-callback-return": [
+      "error",
+      { "allowImplicit": false, "checkForEach": true }
+    ],
+    "no-extra-boolean-cast": ["error", { "enforceForLogicalOperands": true }],
 
     "padding-line-between-statements": [
       "error",
