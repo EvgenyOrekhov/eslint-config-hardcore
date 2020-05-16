@@ -47,6 +47,7 @@
   "unicorn/no-nested-ternary": "off",
   "unicorn/string-content": "off",
   "unicorn/prefer-set-has": "off",
+  "unicorn/no-reduce": "off",
 
   "sonarjs/no-duplicate-string": "off",
 

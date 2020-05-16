@@ -470,6 +470,8 @@
     "unicorn/prefer-replace-all": "error",
     "unicorn/prefer-number-properties": "error",
     "unicorn/no-null": "error",
+    "unicorn/prefer-optional-catch-binding": "error",
+    "unicorn/no-useless-undefined": "error",
 
     "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
     "unicorn/filename-case": [
