@@ -471,6 +471,16 @@
     "unicorn/prefer-number-properties": "error",
     "unicorn/no-null": "error",
     "unicorn/prefer-optional-catch-binding": "error",
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "whitelist": {
+          "args": true,
+          "props": true
+        },
+        "checkShorthandProperties": true
+      }
+    ],
 
     "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
     "unicorn/filename-case": [

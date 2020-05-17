@@ -1,4 +1,6 @@
 {
+  "plugins": ["unicorn"],
+
   "extends": ["plugin:node/recommended"],
 
   "parserOptions": { "ecmaVersion": 2020 },
@@ -24,7 +26,19 @@
     "node/no-path-concat": "error",
     "node/no-process-env": "error",
     "node/no-process-exit": "error",
-    "node/no-sync": "error"
+    "node/no-sync": "error",
+
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "whitelist": {
+          "args": true,
+          "req": true,
+          "res": true
+        },
+        "checkShorthandProperties": true
+      }
+    ]
   },
 
   "overrides": [
