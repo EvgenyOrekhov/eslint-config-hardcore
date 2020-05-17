@@ -48,6 +48,7 @@
   "unicorn/string-content": "off",
   "unicorn/prefer-set-has": "off",
   "unicorn/no-reduce": "off",
+  "unicorn/no-useless-undefined": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
