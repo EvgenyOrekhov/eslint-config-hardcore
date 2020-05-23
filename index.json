@@ -240,6 +240,7 @@
     "accessor-pairs": "error",
     "default-case-last": "error",
     "no-useless-backreference": "error",
+    "no-loss-of-precision": "error",
 
     "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
     "complexity": ["error", { "max": 10 }],
