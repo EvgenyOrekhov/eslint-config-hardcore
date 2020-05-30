@@ -60,6 +60,7 @@
 
   "eslint-comments/no-aggregating-enable": "off",
   "eslint-comments/no-restricted-disable": "off",
+  "eslint-comments/require-description": "off",
 
   "node/no-restricted-require": "off",
   "node/no-restricted-import": "off"

@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "eslint-plugin-array-func": "^3.1.6",
-    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "2.20.0",
     "eslint-plugin-json": "^2.1.1",
