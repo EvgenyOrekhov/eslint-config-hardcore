@@ -246,7 +246,11 @@
     "func-names": ["error", "as-needed"],
     "func-style": ["error", "declaration"],
     "padded-blocks": ["error", "never"],
-    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "quotes": [
+      "error",
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ],
     "space-before-function-paren": [
       "error",
       { "anonymous": "always", "named": "never", "asyncArrow": "always" }
