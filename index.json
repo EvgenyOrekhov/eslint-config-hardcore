@@ -189,7 +189,6 @@
     "no-mixed-operators": "error",
     "rest-spread-spacing": "error",
     "max-lines": "error",
-    "multiline-ternary": "error",
     "no-tabs": "error",
     "no-template-curly-in-string": "error",
     "symbol-description": "error",
@@ -345,6 +344,7 @@
         "ignoreRegExpLiterals": true
       }
     ],
+    "multiline-ternary": ["error", "always-multiline"],
 
     "padding-line-between-statements": [
       "error",
