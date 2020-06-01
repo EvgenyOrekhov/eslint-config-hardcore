@@ -254,7 +254,7 @@
     "one-var": ["error", "never"],
     "object-curly-newline": [
       "error",
-      { "multiline": true, "minProperties": 4, "consistent": true }
+      { "multiline": true, "consistent": true }
     ],
     "quote-props": ["error", "as-needed", { "numbers": true }],
     "operator-linebreak": ["error", "before"],
