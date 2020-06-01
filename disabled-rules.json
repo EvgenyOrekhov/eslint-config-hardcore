@@ -1,6 +1,5 @@
 {
   "no-extra-parens": "off",
-  "no-restricted-syntax": "off",
   "no-ternary": "off",
   "no-undefined": "off",
   "consistent-return": "off",

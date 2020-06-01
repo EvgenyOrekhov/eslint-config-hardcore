@@ -342,6 +342,14 @@
       { "blankLine": "any", "prev": "cjs-export", "next": "cjs-export" }
     ],
 
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "SequenceExpression",
+        "message": "The comma operator is confusing and a common mistake. Don’t use it!"
+      }
+    ],
+
     "promise/param-names": "error",
     "promise/always-return": "error",
     "promise/catch-or-return": "error",
