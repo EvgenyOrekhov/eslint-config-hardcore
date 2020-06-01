@@ -1,1 +1,36 @@
-{ "extends": ["./base.json", "plugin:prettier/recommended"] }
+{
+  "extends": ["./base.json", "plugin:prettier/recommended", "prettier/unicorn"],
+
+  "rules": {
+    "arrow-body-style": "error",
+    "no-tabs": "error",
+
+    "max-len": [
+      "error",
+      {
+        "code": 80,
+        "ignorePattern": "// eslint-disable-next-line",
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ],
+    "lines-around-comment": [
+      "error",
+      {
+        "beforeBlockComment": true,
+        "beforeLineComment": true,
+        "allowBlockStart": true,
+        "allowObjectStart": true,
+        "allowArrayStart": true,
+        "allowClassStart": true
+      }
+    ]
+  }
+}

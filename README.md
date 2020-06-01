@@ -9,8 +9,9 @@ The most strict (but practical) ESLint config out there
 
 | Rules                                                                                                     | Total | Enabled |
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
-| [ESLint](https://eslint.org/docs/rules/)                                                                  |   258 | **236** |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |    53 |  **43** |
+| [ESLint](https://eslint.org/docs/rules/)                                                                  |   258 | **176** |
+| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |    82 |  **82** |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |    53 |  **42** |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |    40 |  **32** |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |    25 |  **24** |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |    13 |  **11** |
@@ -21,12 +22,12 @@ The most strict (but practical) ESLint config out there
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |     1 |   **1** |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |     1 |   **1** |
-| **Total: `hardcore`**                                                                                     |   423 | **374** |
+| **Total: `hardcore`**                                                                                     |   505 | **395** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   466 | **413** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     |   548 | **434** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   503 | **448** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   585 | **469** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.

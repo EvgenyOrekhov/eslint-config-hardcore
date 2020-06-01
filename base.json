@@ -47,7 +47,6 @@
   "rules": {
     "no-alert": "error",
     "no-array-constructor": "error",
-    "no-confusing-arrow": "error",
     "no-bitwise": "error",
     "no-caller": "error",
     "no-case-declarations": "error",
@@ -125,7 +124,6 @@
     "no-warning-comments": "error",
     "no-with": "error",
     "array-bracket-spacing": "error",
-    "arrow-body-style": "error",
     "arrow-parens": "error",
     "arrow-spacing": "error",
     "block-scoped-var": "error",
@@ -189,7 +187,6 @@
     "no-mixed-operators": "error",
     "rest-spread-spacing": "error",
     "max-lines": "error",
-    "no-tabs": "error",
     "no-template-curly-in-string": "error",
     "symbol-description": "error",
     "class-methods-use-this": "error",
@@ -242,11 +239,6 @@
     "func-names": ["error", "as-needed"],
     "func-style": ["error", "declaration"],
     "padded-blocks": ["error", "never"],
-    "quotes": [
-      "error",
-      "double",
-      { "avoidEscape": true, "allowTemplateLiterals": true }
-    ],
     "space-before-function-paren": [
       "error",
       { "anonymous": "always", "named": "never", "asyncArrow": "always" }
@@ -282,17 +274,6 @@
         "caughtErrorsIgnorePattern": "^ignore$",
         "varsIgnorePattern": "^ignore$",
         "argsIgnorePattern": "^ignore$"
-      }
-    ],
-    "lines-around-comment": [
-      "error",
-      {
-        "beforeBlockComment": true,
-        "beforeLineComment": true,
-        "allowBlockStart": true,
-        "allowObjectStart": true,
-        "allowArrayStart": true,
-        "allowClassStart": true
       }
     ],
     "no-underscore-dangle": ["error", { "enforceInMethodNames": true }],
@@ -333,17 +314,6 @@
     ],
     "object-curly-spacing": ["error", "always"],
     "indent": ["error", 2],
-    "max-len": [
-      "error",
-      {
-        "code": 80,
-        "ignorePattern": "// eslint-disable-next-line",
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
-      }
-    ],
     "multiline-ternary": ["error", "always-multiline"],
 
     "padding-line-between-statements": [
