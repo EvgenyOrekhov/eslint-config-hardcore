@@ -152,7 +152,6 @@
     "max-statements": "error",
     "new-cap": "error",
     "new-parens": "error",
-    "object-curly-spacing": "error",
     "object-shorthand": "error",
     "operator-assignment": "error",
     "prefer-const": "error",
@@ -335,6 +334,7 @@
       "error",
       { "named": "after", "anonymous": "after", "method": "before" }
     ],
+    "object-curly-spacing": ["error", "always"],
 
     "padding-line-between-statements": [
       "error",
