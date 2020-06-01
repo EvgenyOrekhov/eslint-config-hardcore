@@ -141,7 +141,6 @@
     "dot-notation": "error",
     "eol-last": "error",
     "eqeqeq": "error",
-    "generator-star-spacing": "error",
     "guard-for-in": "error",
     "id-length": "error",
     "jsx-quotes": "error",
@@ -327,6 +326,10 @@
         "exports": "always-multiline",
         "functions": "never"
       }
+    ],
+    "generator-star-spacing": [
+      "error",
+      { "named": "after", "anonymous": "after", "method": "before" }
     ],
 
     "padding-line-between-statements": [
