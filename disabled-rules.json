@@ -1,5 +1,4 @@
 {
-  "no-extra-parens": "off",
   "no-ternary": "off",
   "no-undefined": "off",
   "consistent-return": "off",
@@ -18,9 +17,7 @@
   "no-restricted-globals": "off",
   "multiline-comment-style": "off",
   "max-lines-per-function": "off",
-  "newline-per-chained-call": "off",
   "no-restricted-exports": "off",
-  "no-confusing-arrow": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-then": "off",
@@ -43,7 +40,6 @@
   "unicorn/no-process-exit": "off",
   "unicorn/prefer-spread": "off",
   "unicorn/expiring-todo-comments": "off",
-  "unicorn/no-nested-ternary": "off",
   "unicorn/string-content": "off",
   "unicorn/prefer-set-has": "off",
   "unicorn/no-reduce": "off",

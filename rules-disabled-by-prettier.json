@@ -55,9 +55,13 @@
   "wrap-iife": "off",
   "wrap-regex": "off",
   "yield-star-spacing": "off",
+  "no-extra-parens": "off",
+  "newline-per-chained-call": "off",
+  "no-confusing-arrow": "off",
 
   "no-mixed-operators": "off",
   "no-unexpected-multiline": "off",
 
-  "unicorn/number-literal-case": "off"
+  "unicorn/number-literal-case": "off",
+  "unicorn/no-nested-ternary": "off"
 }
