@@ -21,13 +21,14 @@ The most strict (but practical) ESLint config out there
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |     2 |   **2** |
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |     1 |   **1** |
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
+| [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |     1 |   **1** |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |     1 |   **1** |
-| **Total: `hardcore`**                                                                                     |   505 | **396** |
+| **Total: `hardcore`**                                                                                     |   506 | **397** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   548 | **435** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     |   549 | **436** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   585 | **470** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   586 | **471** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.

@@ -9,7 +9,8 @@
     "sonarjs",
     "eslint-comments",
     "no-use-extend-native",
-    "no-constructor-bind"
+    "no-constructor-bind",
+    "ext"
   ],
 
   "parserOptions": {
@@ -472,7 +473,13 @@
     "no-use-extend-native/no-use-extend-native": "error",
 
     "no-constructor-bind/no-constructor-bind": "error",
-    "no-constructor-bind/no-constructor-state": "error"
+    "no-constructor-bind/no-constructor-state": "error",
+
+    "ext/lines-between-object-properties": [
+      "error",
+      "always",
+      { "exceptBetweenSingleLines": true }
+    ]
   },
 
   "overrides": [

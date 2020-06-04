@@ -36,6 +36,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-array-func": "^3.1.6",
     "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "2.20.0",
     "eslint-plugin-json": "^2.1.1",
