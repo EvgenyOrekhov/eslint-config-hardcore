@@ -53,6 +53,7 @@
     "prettier": "^2.0.5"
   },
   "files": [
+    "base.json",
     "index.json",
     "fp.json",
     "node.json"
