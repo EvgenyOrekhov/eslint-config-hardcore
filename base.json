@@ -234,6 +234,8 @@
       { "allowImplicit": false, "checkForEach": true }
     ],
     "no-extra-boolean-cast": ["error", { "enforceForLogicalOperands": true }],
+    "spaced-comment": ["error", "always", { "block": { "balanced": true } }],
+    "multiline-comment-style": ["error", "separate-lines"],
 
     "padding-line-between-statements": [
       "error",

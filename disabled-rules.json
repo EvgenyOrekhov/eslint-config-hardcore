@@ -6,7 +6,6 @@
   "prefer-arrow-callback": "off",
   "id-match": "off",
   "sort-vars": "off",
-  "spaced-comment": "off",
   "vars-on-top": "off",
   "no-restricted-imports": "off",
   "id-blacklist": "off",
@@ -15,7 +14,6 @@
   "no-restricted-properties": "off",
   "capitalized-comments": "off",
   "no-restricted-globals": "off",
-  "multiline-comment-style": "off",
   "max-lines-per-function": "off",
   "no-restricted-exports": "off",
 
