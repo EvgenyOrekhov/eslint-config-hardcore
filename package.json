@@ -6,7 +6,7 @@
         "test": "eslint ."
     },
     "dependencies": {
-        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-import": "^2.21.1",
         "eslint-plugin-json": "^2.1.1"
     },
     "devDependencies": {
