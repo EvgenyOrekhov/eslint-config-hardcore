@@ -273,7 +273,6 @@
 
     "promise/param-names": "error",
     "promise/always-return": "error",
-    "promise/catch-or-return": "error",
     "promise/no-return-wrap": "error",
     "promise/no-nesting": "error",
     "promise/no-promise-in-callback": "error",
@@ -282,6 +281,8 @@
     "promise/no-return-in-finally": "error",
     "promise/valid-params": "error",
     "promise/no-new-statics": "error",
+
+    "promise/catch-or-return": ["error", { "allowFinally": true }],
 
     "security/detect-buffer-noassert": "error",
     "security/detect-child-process": "error",
