@@ -88,7 +88,6 @@
     "@typescript-eslint/prefer-string-starts-ends-with": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-array-sort-compare": "error",
-    "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/unbound-method": "error",
 
     "@typescript-eslint/restrict-template-expressions": [
