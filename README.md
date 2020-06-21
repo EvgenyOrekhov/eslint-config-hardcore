@@ -121,10 +121,9 @@ or
 [`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md))
 without the need to switch to writing TypeScript.
 
-First, you'll need to create `tsconfig.json` in the root of your project. You
-don't have to specify any options, just `{}` should do it.
-
-Then add `hardcore/ts-for-js` to your `.eslintrc` like this:
+1. First, you'll need to create `tsconfig.json` in the root of your project. You
+   don't have to specify any options, just `{}` should do it.
+2. Then add `hardcore/ts-for-js` to your `.eslintrc` like this:
 
 ```diff
  {
