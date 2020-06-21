@@ -117,7 +117,7 @@ Did you know you can lint JavaScript code with
 Use this config to take advantage of typescript-eslint's advanced type-aware
 rules (like
 [`@typescript-eslint/naming-convention`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md)
-or
+and
 [`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md))
 without the need to switch to writing TypeScript.
 
