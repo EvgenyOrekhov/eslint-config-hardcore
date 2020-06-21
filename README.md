@@ -36,6 +36,8 @@ autoformatting your code.
 | **Total: `hardcore` + `hardcore/fp`**                                                                     |   551 | **440** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   588 | **475** |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |    99 |  **41** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   687 | **501** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -104,6 +106,36 @@ Or, if your project contains both non-Node and Node files, use it like this:
       }
     }
   ]
+}
+```
+
+## `hardcore/ts-for-js`
+
+Did you know you can lint JavaScript code with
+[typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
+
+Use this config to take advantage of typescript-eslint's advanced type-aware
+rules (like
+[`@typescript-eslint/naming-convention`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md)
+or
+[`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md))
+without the need to switch to writing TypeScript.
+
+First, you'll need to create `tsconfig.json` in the root of your project. You
+don't have to specify any options, just `{}` should do it.
+
+Then add `hardcore/ts-for-js` to your `.eslintrc.json` like this:
+
+```diff
+ {
+   "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
++  "overrides": [
++    {
++      "files": ["*.js"],
++      "extends": ["hardcore/ts-for-js"],
++      "parserOptions": { "project": "./tsconfig.json" }
++    }
++  ]
 }
 ```
 
