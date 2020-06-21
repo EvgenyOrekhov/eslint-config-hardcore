@@ -124,7 +124,7 @@ without the need to switch to writing TypeScript.
 First, you'll need to create `tsconfig.json` in the root of your project. You
 don't have to specify any options, just `{}` should do it.
 
-Then add `hardcore/ts-for-js` to your `.eslintrc.json` like this:
+Then add `hardcore/ts-for-js` to your `.eslintrc` like this:
 
 ```diff
  {
