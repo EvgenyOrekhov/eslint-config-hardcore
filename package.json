@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.3.0",
-    "@typescript-eslint/parser": "^3.3.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-array-func": "^3.1.6",
     "eslint-plugin-eslint-comments": "^3.2.0",
