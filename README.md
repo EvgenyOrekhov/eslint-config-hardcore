@@ -36,8 +36,8 @@ autoformatting your code.
 | **Total: `hardcore` + `hardcore/fp`**                                                                     |   551 | **440** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   588 | **475** |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |    99 |  **40** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   687 | **500** |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |    99 |  **41** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   687 | **501** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
