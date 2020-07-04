@@ -8,7 +8,7 @@
   "sort-vars": "off",
   "vars-on-top": "off",
   "no-restricted-imports": "off",
-  "id-blacklist": "off",
+  "id-denylist": "off",
   "sort-imports": "off",
   "sort-keys": "off",
   "no-restricted-properties": "off",
