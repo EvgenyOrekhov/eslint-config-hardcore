@@ -399,6 +399,16 @@
     "unicorn/prefer-number-properties": "error",
     "unicorn/no-null": "error",
     "unicorn/prefer-optional-catch-binding": "error",
+    "unicorn/no-object-as-default-parameter": "error",
+    "unicorn/prefer-array-find": "error",
+
+    "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
+    "unicorn/filename-case": [
+      "error",
+      { "cases": { "kebabCase": true, "camelCase": true, "pascalCase": true } }
+    ],
+    "unicorn/explicit-length-check": ["error", { "non-zero": "not-equal" }],
+    "unicorn/import-index": ["error", { "ignoreImports": true }],
     "unicorn/prevent-abbreviations": [
       "error",
       {
@@ -409,14 +419,6 @@
         "checkShorthandProperties": true
       }
     ],
-
-    "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
-    "unicorn/filename-case": [
-      "error",
-      { "cases": { "kebabCase": true, "camelCase": true, "pascalCase": true } }
-    ],
-    "unicorn/explicit-length-check": ["error", { "non-zero": "not-equal" }],
-    "unicorn/import-index": ["error", { "ignoreImports": true }],
 
     "array-func/from-map": "error",
     "array-func/no-unnecessary-this-arg": "error",
