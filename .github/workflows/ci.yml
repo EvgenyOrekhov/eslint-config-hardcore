@@ -10,52 +10,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node: ["12.14.1", "14"]
-
     steps:
       - uses: actions/checkout@v2
 
       - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
-
-      - run: npm ci
-
-      - run: npm test
-
-  test-windows:
-    runs-on: windows-latest
-
-    strategy:
-      matrix:
-        node: ["12.14.1", "14"]
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node }}
-
-      - run: npm ci
-
-      - run: npm test
-
-  test-macos:
-    runs-on: macos-latest
-
-    strategy:
-      matrix:
-        node: ["12.14.1", "14"]
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node }}
+          node-version: "14"
 
       - run: npm ci
 
