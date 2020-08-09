@@ -122,25 +122,7 @@
         "format": ["StrictPascalCase"]
       },
       {
-        "selector": "variable",
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "should", "has", "can", "did", "will"]
-      },
-      {
-        "selector": "parameter",
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "should", "has", "can", "did", "will"]
-      },
-      {
-        "selector": "property",
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "should", "has", "can", "did", "will"]
-      },
-      {
-        "selector": "accessor",
+        "selector": ["variable", "parameter", "property", "accessor"],
         "types": ["boolean"],
         "format": ["PascalCase"],
         "prefix": ["is", "should", "has", "can", "did", "will"]
