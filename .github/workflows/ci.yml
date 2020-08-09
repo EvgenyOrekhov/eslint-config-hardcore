@@ -26,7 +26,7 @@ jobs:
       - run: npm test
 
 jobs:
-  test:
+  test-windows:
     runs-on: windows-latest
 
     strategy:
@@ -45,7 +45,7 @@ jobs:
       - run: npm test
 
 jobs:
-  test:
+  test-macos:
     runs-on: macos-latest
 
     strategy:
