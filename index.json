@@ -31,7 +31,6 @@
         "allowArrayStart": true,
         "allowClassStart": true
       }
-    ],
-    "quote-props": ["error", "as-needed", { "numbers": true }]
+    ]
   }
 }
