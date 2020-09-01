@@ -3,7 +3,7 @@
 
   "extends": ["plugin:node/recommended"],
 
-  "parserOptions": { "ecmaVersion": 2020 },
+  "parserOptions": { "ecmaVersion": 2021 },
 
   "rules": {
     "node/no-callback-literal": "error",
@@ -44,11 +44,11 @@
   "overrides": [
     {
       "files": ["*.cjs", ".*.cjs"],
-      "parserOptions": { "ecmaVersion": 2020 }
+      "parserOptions": { "ecmaVersion": 2021 }
     },
     {
       "files": ["*.mjs", ".*.mjs"],
-      "parserOptions": { "ecmaVersion": 2020 }
+      "parserOptions": { "ecmaVersion": 2021 }
     }
   ]
 }
