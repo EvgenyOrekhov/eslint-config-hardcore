@@ -31,7 +31,7 @@
     "no-magic-numbers": "off",
     "@typescript-eslint/no-magic-numbers": [
       "error",
-      { "ignore": [0, 1], "enforceConst": true }
+      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
     ],
 
     "no-unused-expressions": "off",
@@ -68,6 +68,12 @@
 
     "no-return-await": "off",
     "@typescript-eslint/return-await": "error",
+
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error", { "builtinGlobals": true }],
+
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "error",
 
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/ban-ts-comment": "error",
