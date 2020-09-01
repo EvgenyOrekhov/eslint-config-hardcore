@@ -197,7 +197,10 @@
     "no-promise-executor-return": "error",
     "no-unreachable-loop": "error",
 
-    "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
+    "no-magic-numbers": [
+      "error",
+      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
+    ],
     "complexity": ["error", { "max": 10 }],
     "func-names": ["error", "as-needed"],
     "func-style": ["error", "declaration"],
