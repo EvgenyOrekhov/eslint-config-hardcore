@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "12.6.0",
+  "version": "12.8.1",
   "description": "The most strict (but practical) ESLint config out there",
   "main": "index.json",
   "scripts": {
@@ -30,11 +30,11 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.6.0"
+    "eslint": "^7.8.1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.8.0",
-    "@typescript-eslint/parser": "^3.8.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -52,8 +52,8 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-unicorn": "^21.0.0",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
   },
   "files": [
     "base.json",
@@ -63,6 +63,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.6.0"
+    "eslint": "^7.9.0"
   }
 }

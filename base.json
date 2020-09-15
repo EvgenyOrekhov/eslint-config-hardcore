@@ -20,7 +20,7 @@
   },
 
   "env": {
-    "es2020": true
+    "es2021": true
   },
 
   "reportUnusedDisableDirectives": true,
@@ -28,6 +28,8 @@
   "ignorePatterns": [
     "!.*",
 
+    ".git/",
+    "node_modules/",
     "bower_components/",
     "jspm_packages/",
     ".npm/",
@@ -121,7 +123,6 @@
     "camelcase": "error",
     "consistent-this": "error",
     "constructor-super": "error",
-    "curly": "error",
     "default-case": "error",
     "dot-notation": "error",
     "eqeqeq": "error",
@@ -196,7 +197,10 @@
     "no-promise-executor-return": "error",
     "no-unreachable-loop": "error",
 
-    "no-magic-numbers": ["error", { "ignore": [0, 1], "enforceConst": true }],
+    "no-magic-numbers": [
+      "error",
+      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
+    ],
     "complexity": ["error", { "max": 10 }],
     "func-names": ["error", "as-needed"],
     "func-style": ["error", "declaration"],

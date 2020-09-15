@@ -4,6 +4,7 @@
   "rules": {
     "arrow-body-style": "error",
     "no-tabs": "error",
+    "curly": "error",
 
     "max-len": [
       "error",
@@ -31,7 +32,6 @@
         "allowArrayStart": true,
         "allowClassStart": true
       }
-    ],
-    "quote-props": ["error", "as-needed", { "numbers": true }]
+    ]
   }
 }
