@@ -4,6 +4,7 @@
   "rules": {
     "arrow-body-style": "error",
     "no-tabs": "error",
+    "curly": "error",
 
     "max-len": [
       "error",
