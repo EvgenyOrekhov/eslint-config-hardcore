@@ -13,7 +13,7 @@
 
 "use strict";
 
-class Foo {
+class Example {
   static staticProperty;
 
   static staticArrowFunctionProperty = () => {};
