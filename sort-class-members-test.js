@@ -18,27 +18,23 @@ class Foo {
 
   static staticArrowFunctionProperty = () => {};
 
-  static staticMethod() {}
-
-  static async staticAsyncMethod() {}
-
   static get staticAccessorPair() {}
 
   static set staticAccessorPair(value) {}
 
-  static get getter() {}
+  static get staticGetter() {}
 
-  static set setter(value) {}
+  static set staticSetter(value) {}
+
+  static staticMethod() {}
+
+  static async staticAsyncMethod() {}
 
   @decorator decoratedProperty = "bar";
 
   property = "bar";
 
   arrowFunctionProperty = () => {};
-
-  static _conventionalStaticPrivateProperty;
-
-  _conventionalPrivateProperty;
 
   constructor() {}
 
@@ -56,9 +52,17 @@ class Foo {
   method() {}
 
   @decorator
-  async asyncDecoratedMethod() {}
+  async decoratedAsyncMethod() {}
 
   async asyncMethod() {}
+
+  static _staticConventionalPrivateProperty;
+
+  static _staticConventionalPrivateMethod() {}
+
+  static async _staticAsyncConventionalPrivateMethod() {}
+
+  _conventionalPrivateProperty;
 
   _conventionalPrivateMethod() {}
 

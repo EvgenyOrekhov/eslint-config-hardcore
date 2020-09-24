@@ -142,19 +142,63 @@
     "sort-class-members/sort-class-members": [
       "error",
       {
+        "groups": {
+          "static-arrow-function-properties": {
+            "static": true,
+            "propertyType": "ArrowFunctionExpression"
+          },
+          "static-async-methods": {
+            "static": true,
+            "type": "method",
+            "async": true
+          },
+          "static-accessor-pairs": { "static": true, "accessorPair": true },
+          "static-getters": { "static": true, "kind": "get" },
+          "static-setters": { "static": true, "kind": "set" },
+          "static-conventional-private-properties": {
+            "static": true,
+            "type": "property",
+            "name": "/_.+/"
+          },
+          "static-conventional-private-methods": {
+            "static": true,
+            "type": "method",
+            "name": "/_.+/"
+          },
+          "static-async-conventional-private-methods": {
+            "static": true,
+            "type": "method",
+            "name": "/_.+/",
+            "async": true
+          },
+          "async-conventional-private-methods": {
+            "type": "method",
+            "name": "/_.+/",
+            "async": true
+          }
+        },
         "order": [
           "[static-properties]",
+          "[static-arrow-function-properties]",
+          "[static-accessor-pairs]",
+          "[static-getters]",
+          "[static-setters]",
           "[static-methods]",
+          "[static-async-methods]",
           "[properties]",
           "[arrow-function-properties]",
-          "[conventional-private-properties]",
           "constructor",
           "[accessor-pairs]",
           "[getters]",
           "[setters]",
           "[methods]",
           "[async-methods]",
-          "[conventional-private-methods]"
+          "[static-conventional-private-properties]",
+          "[static-conventional-private-methods]",
+          "[static-async-conventional-private-methods]",
+          "[conventional-private-properties]",
+          "[conventional-private-methods]",
+          "[async-conventional-private-methods]"
         ],
         "accessorPairPositioning": "getThenSet"
       }
