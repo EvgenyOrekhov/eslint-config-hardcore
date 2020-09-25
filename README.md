@@ -36,7 +36,7 @@ autoformatting your code.
 | **Total: `hardcore` + `hardcore/fp`**                                                                     |   554 | **441** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   591 | **476** |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |   107 |  **43** |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |   107 |  **42** |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)       |     1 |   **1** |
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   699 | **501** |
 
