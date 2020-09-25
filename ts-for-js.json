@@ -67,7 +67,7 @@
     "@typescript-eslint/require-await": "error",
 
     "no-return-await": "off",
-    "@typescript-eslint/return-await": "error",
+    "@typescript-eslint/return-await": ["error", "always"],
 
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error", { "builtinGlobals": true }],

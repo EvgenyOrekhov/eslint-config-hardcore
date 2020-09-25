@@ -10,7 +10,8 @@
     "eslint-comments",
     "no-use-extend-native",
     "no-constructor-bind",
-    "ext"
+    "ext",
+    "putout"
   ],
 
   "parserOptions": {
@@ -490,14 +491,16 @@
       "error",
       "always",
       { "exceptBetweenSingleLines": true }
-    ]
+    ],
+
+    "putout/putout": "error"
   },
 
   "overrides": [
     {
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
-      "rules": { "import/unambiguous": "off" }
+      "rules": { "import/unambiguous": "off", "putout/putout": "off" }
     }
   ]
 }
