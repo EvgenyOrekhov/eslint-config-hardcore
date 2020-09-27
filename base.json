@@ -501,6 +501,7 @@
           "apply-nullish-coalescing": "on",
 
           "convert-array-copy-to-slice": "off",
+          "convert-for-each-to-for-of": "off",
           "remove-unused-variables": "off",
           "remove-process-exit": "off",
           "remove-debugger": "off",
