@@ -498,8 +498,8 @@
       {
         "rules": {
           "apply-optional-chaining": "on",
-          "apply-nullish-coalescing": "on",
 
+          "apply-nullish-coalescing": "off",
           "convert-array-copy-to-slice": "off",
           "convert-for-each-to-for-of": "off",
           "remove-unused-variables": "off",
