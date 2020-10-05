@@ -18,7 +18,6 @@
   "no-restricted-exports": "off",
 
   "promise/no-native": "off",
-  "promise/prefer-await-to-then": "off",
   "promise/prefer-await-to-callbacks": "off",
 
   "security/detect-object-injection": "off",
