@@ -10,7 +10,8 @@
     "eslint-comments",
     "no-use-extend-native",
     "no-constructor-bind",
-    "ext"
+    "ext",
+    "putout"
   ],
 
   "parserOptions": {
@@ -490,6 +491,32 @@
       "error",
       "always",
       { "exceptBetweenSingleLines": true }
+    ],
+
+    "putout/putout": [
+      "error",
+      {
+        "rules": {
+          "apply-optional-chaining": "on",
+
+          "apply-top-level-await": "off",
+          "apply-nullish-coalescing": "off",
+          "convert-esm-to-commonjs": "off",
+          "convert-commonjs-to-esm": "off",
+          "remove-duplicate-interface-keys": "off",
+          "convert-throw": "off",
+          "remove-only": "off",
+          "remove-skip": "off",
+          "putout": "off",
+
+          "convert-array-copy-to-slice": "off",
+          "convert-for-each-to-for-of": "off",
+          "remove-unused-variables": "off",
+          "remove-process-exit": "off",
+          "remove-debugger": "off",
+          "remove-console": "off"
+        }
+      }
     ]
   },
 
@@ -497,7 +524,7 @@
     {
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
-      "rules": { "import/unambiguous": "off" }
+      "rules": { "import/unambiguous": "off", "putout/putout": "off" }
     }
   ]
 }
