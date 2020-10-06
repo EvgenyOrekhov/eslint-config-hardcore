@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
 
-  "plugins": ["@typescript-eslint", "sort-class-members"],
+  "plugins": ["@typescript-eslint", "sort-class-members", "decorator-position"],
 
   "rules": {
     "default-param-last": "off",
@@ -202,6 +202,8 @@
         ],
         "accessorPairPositioning": "getThenSet"
       }
-    ]
+    ],
+
+    "decorator-position/decorator-position": "error"
   }
 }

@@ -39,7 +39,8 @@ autoformatting your code.
 | **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   659 | **530** |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |   109 |  **43** |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)       |     1 |   **1** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   769 | **556** |
+| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)     |     1 |   **1** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   770 | **557** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
