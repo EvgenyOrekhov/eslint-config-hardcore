@@ -11,7 +11,8 @@
     "no-use-extend-native",
     "no-constructor-bind",
     "ext",
-    "putout"
+    "putout",
+    "@shopify"
   ],
 
   "parserOptions": {
@@ -493,6 +494,10 @@
       "always",
       { "exceptBetweenSingleLines": true }
     ],
+
+    "@shopify/no-useless-computed-properties": "error",
+    "@shopify/prefer-early-return": "error",
+    "@shopify/prefer-module-scope-constants": "error",
 
     "putout/putout": [
       "error",
