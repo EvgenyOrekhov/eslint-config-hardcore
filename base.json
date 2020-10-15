@@ -496,7 +496,6 @@
     ],
 
     "@shopify/no-useless-computed-properties": "error",
-    "@shopify/prefer-early-return": "error",
 
     "putout/putout": [
       "error",
