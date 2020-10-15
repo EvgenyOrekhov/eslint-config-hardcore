@@ -1,7 +1,12 @@
 {
   "parser": "@typescript-eslint/parser",
 
-  "plugins": ["@typescript-eslint", "sort-class-members", "decorator-position"],
+  "plugins": [
+    "@typescript-eslint",
+    "sort-class-members",
+    "decorator-position",
+    "@shopify"
+  ],
 
   "rules": {
     "default-param-last": "off",
@@ -204,6 +209,9 @@
       }
     ],
 
-    "decorator-position/decorator-position": "error"
+    "decorator-position/decorator-position": "error",
+
+    "@shopify/prefer-class-properties": "error",
+    "@shopify/no-fully-static-classes": "error"
   }
 }
