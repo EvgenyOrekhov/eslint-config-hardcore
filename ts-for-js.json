@@ -211,6 +211,7 @@
 
     "decorator-position/decorator-position": "error",
 
-    "@shopify/prefer-class-properties": "error"
+    "@shopify/prefer-class-properties": "error",
+    "@shopify/no-fully-static-classes": "error"
   }
 }
