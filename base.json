@@ -408,13 +408,16 @@
     "unicorn/prefer-optional-catch-binding": "error",
     "unicorn/no-object-as-default-parameter": "error",
     "unicorn/prefer-array-find": "error",
+    "unicorn/explicit-length-check": "error",
+    "unicorn/prefer-math-trunc": "error",
+    "unicorn/prefer-ternary": "error",
+    "unicorn/numeric-separators-style": "error",
 
     "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
     "unicorn/filename-case": [
       "error",
       { "cases": { "kebabCase": true, "camelCase": true, "pascalCase": true } }
     ],
-    "unicorn/explicit-length-check": ["error", { "non-zero": "not-equal" }],
     "unicorn/import-index": ["error", { "ignoreImports": true }],
     "unicorn/prevent-abbreviations": [
       "error",
@@ -518,7 +521,8 @@
           "remove-unused-variables": "off",
           "remove-process-exit": "off",
           "remove-debugger": "off",
-          "remove-console": "off"
+          "remove-console": "off",
+          "apply-numeric-separators": "off"
         }
       }
     ]
