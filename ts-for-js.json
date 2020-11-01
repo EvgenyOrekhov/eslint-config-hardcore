@@ -140,7 +140,7 @@
         "selector": ["variable", "parameter", "property", "accessor"],
         "types": ["boolean"],
         "format": ["PascalCase"],
-        "prefix": ["is", "should", "has", "can", "did", "will"]
+        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
       }
     ],
 
