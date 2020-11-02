@@ -129,10 +129,6 @@
         "format": ["strictCamelCase"]
       },
       {
-        "selector": "variable",
-        "format": ["strictCamelCase", "UPPER_CASE"]
-      },
-      {
         "selector": "typeLike",
         "format": ["StrictPascalCase"]
       },
