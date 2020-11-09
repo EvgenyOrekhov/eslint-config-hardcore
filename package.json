@@ -38,7 +38,7 @@
     "@typescript-eslint/parser": "^4.6.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-decorator-position": "^2.2.6",
+    "eslint-plugin-decorator-position": "^2.2.8",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
