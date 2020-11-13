@@ -58,5 +58,7 @@
   "eslint-comments/require-description": "off",
 
   "node/no-restricted-require": "off",
-  "node/no-restricted-import": "off"
+  "node/no-restricted-import": "off",
+
+  "regexp/no-useless-backreference": "off"
 }
