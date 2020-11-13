@@ -63,7 +63,6 @@
     "no-control-regex": "error",
     "no-debugger": "error",
     "no-delete-var": "error",
-    "no-div-regex": "error",
     "no-dupe-class-members": "error",
     "no-dupe-keys": "error",
     "no-dupe-args": "error",

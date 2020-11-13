@@ -16,6 +16,7 @@
   "no-restricted-globals": "off",
   "max-lines-per-function": "off",
   "no-restricted-exports": "off",
+  "no-div-regex": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-callbacks": "off",
