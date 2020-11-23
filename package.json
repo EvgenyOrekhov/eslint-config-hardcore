@@ -33,7 +33,7 @@
     "eslint": "^7.13.0"
   },
   "dependencies": {
-    "@shopify/eslint-plugin": "^39.0.2",
+    "@shopify/eslint-plugin": "^39.0.3",
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "eslint-config-prettier": "^6.15.0",
