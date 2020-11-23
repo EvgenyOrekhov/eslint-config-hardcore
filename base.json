@@ -198,6 +198,7 @@
     "no-loss-of-precision": "error",
     "no-promise-executor-return": "error",
     "no-unreachable-loop": "error",
+    "no-nonoctal-decimal-escape": "error",
 
     "no-magic-numbers": [
       "error",
