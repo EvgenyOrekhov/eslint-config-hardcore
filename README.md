@@ -18,7 +18,7 @@ autoformatting your code.
 | --------------------------------------------------------------------------------------------------------- | ----: | ------: |
 | [ESLint](https://eslint.org/docs/rules/)                                                                  |   261 | **180** |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |    82 |  **82** |
-| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |    71 |  **55** |
+| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |    75 |  **59** |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |    59 |  **47** |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |    40 |  **32** |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |    32 |   **1** |
@@ -33,16 +33,16 @@ autoformatting your code.
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |     1 |   **1** |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |     1 |   **1** |
-| **Total: `hardcore`**                                                                                     |   635 | **478** |
+| **Total: `hardcore`**                                                                                     |   639 | **482** |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   678 | **517** |
+| **Total: `hardcore` + `hardcore/fp`**                                                                     |   682 | **521** |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   715 | **552** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   719 | **556** |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |   112 |  **44** |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)       |     1 |   **1** |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)     |     1 |   **1** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   829 | **582** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   833 | **586** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.

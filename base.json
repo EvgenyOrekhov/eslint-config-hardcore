@@ -533,6 +533,7 @@
           "remove-only": "off",
           "remove-skip": "off",
           "putout": "off",
+          "regexp/convert-replace-to-replace-all": "off",
 
           "convert-array-copy-to-slice": "off",
           "convert-for-each-to-for-of": "off",
