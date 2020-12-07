@@ -245,6 +245,10 @@
     "no-extra-boolean-cast": ["error", { "enforceForLogicalOperands": true }],
     "spaced-comment": ["error", "always", { "block": { "balanced": true } }],
     "multiline-comment-style": ["error", "separate-lines"],
+    "no-unsafe-optional-chaining": [
+      "error",
+      { "disallowArithmeticOperators": true }
+    ],
 
     "padding-line-between-statements": [
       "error",
@@ -523,6 +527,7 @@
       {
         "rules": {
           "apply-optional-chaining": "on",
+          "apply-shorthand-properties": "on",
 
           "apply-top-level-await": "off",
           "apply-nullish-coalescing": "off",
