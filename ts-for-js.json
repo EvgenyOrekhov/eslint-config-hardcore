@@ -49,7 +49,6 @@
         "vars": "all",
         "args": "after-used",
         "caughtErrors": "all",
-        "caughtErrorsIgnorePattern": "^ignore$",
         "varsIgnorePattern": "^ignore$",
         "argsIgnorePattern": "^ignore$"
       }

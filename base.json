@@ -222,7 +222,6 @@
         "vars": "all",
         "args": "after-used",
         "caughtErrors": "all",
-        "caughtErrorsIgnorePattern": "^ignore$",
         "varsIgnorePattern": "^ignore$",
         "argsIgnorePattern": "^ignore$"
       }
@@ -417,8 +416,8 @@
     "unicorn/prefer-math-trunc": "error",
     "unicorn/prefer-ternary": "error",
     "unicorn/numeric-separators-style": "error",
+    "unicorn/catch-error-name": "error",
 
-    "unicorn/catch-error-name": ["error", { "ignore": ["^ignore$"] }],
     "unicorn/filename-case": [
       "error",
       { "cases": { "kebabCase": true, "camelCase": true, "pascalCase": true } }
