@@ -128,18 +128,19 @@ without the need to switch to writing TypeScript.
 
 1. First, you'll need to create `tsconfig.json` in the root of your project. You
    don't have to specify any options, just `{}` should do it.
-2. Then add `hardcore/ts-for-js` to your `.eslintrc` like this:
+2. Then add `hardcore/ts-for-js` to the `overrides` section in your `.eslintrc`
+   like this:
 
-```diff
- {
-   "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
-+  "overrides": [
-+    {
-+      "files": ["*.js"],
-+      "extends": ["hardcore/ts-for-js"],
-+      "parserOptions": { "project": "./tsconfig.json" }
-+    }
-+  ]
+```json
+{
+  "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "extends": ["hardcore/ts-for-js"],
+      "parserOptions": { "project": "./tsconfig.json" }
+    }
+  ]
 }
 ```
 
