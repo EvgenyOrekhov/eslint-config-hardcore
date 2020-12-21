@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.15.0"
+    "eslint": "^7.16.0"
   },
   "dependencies": {
     "@shopify/eslint-plugin": "^39.0.3",
@@ -69,6 +69,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.15.0"
+    "eslint": "^7.16.0"
   }
 }
