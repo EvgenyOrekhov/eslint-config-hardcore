@@ -36,7 +36,7 @@
     "@shopify/eslint-plugin": "^39.0.3",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.15",
     "eslint-plugin-eslint-comments": "^3.2.0",
