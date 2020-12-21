@@ -417,6 +417,8 @@
     "unicorn/prefer-ternary": "error",
     "unicorn/numeric-separators-style": "error",
     "unicorn/catch-error-name": "error",
+    "unicorn/no-lonely-if": "error",
+    "unicorn/prefer-date-now": "error",
 
     "unicorn/filename-case": [
       "error",

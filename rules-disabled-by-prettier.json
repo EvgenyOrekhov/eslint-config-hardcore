@@ -63,5 +63,6 @@
   "no-unexpected-multiline": "off",
 
   "unicorn/number-literal-case": "off",
-  "unicorn/no-nested-ternary": "off"
+  "unicorn/no-nested-ternary": "off",
+  "unicorn/empty-brace-spaces": "off"
 }

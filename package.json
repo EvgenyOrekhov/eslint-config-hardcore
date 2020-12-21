@@ -36,7 +36,7 @@
     "@shopify/eslint-plugin": "^39.0.3",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.15",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -56,7 +56,7 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-sort-class-members": "^1.9.0",
-    "eslint-plugin-unicorn": "^23.0.0",
+    "eslint-plugin-unicorn": "^24.0.0",
     "prettier": "^2.2.1",
     "putout": "^12.7.0",
     "typescript": "^4.1.3"
