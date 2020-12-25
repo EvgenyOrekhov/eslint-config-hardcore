@@ -530,14 +530,9 @@
           "apply-optional-chaining": "on",
           "apply-shorthand-properties": "on",
 
-          "apply-top-level-await": "off",
           "apply-nullish-coalescing": "off",
-          "convert-esm-to-commonjs": "off",
-          "convert-commonjs-to-esm": "off",
           "remove-duplicate-interface-keys": "off",
           "convert-throw": "off",
-          "remove-only": "off",
-          "remove-skip": "off",
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
 
@@ -547,6 +542,8 @@
           "remove-process-exit": "off",
           "remove-debugger": "off",
           "remove-console": "off",
+          "remove-only": "off",
+          "remove-skip": "off",
           "apply-numeric-separators": "off"
         }
       }
