@@ -527,7 +527,6 @@
       "error",
       {
         "rules": {
-          "apply-optional-chaining": "on",
           "apply-shorthand-properties": "on",
 
           "apply-nullish-coalescing": "off",
