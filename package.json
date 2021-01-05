@@ -30,12 +30,12 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.16.0"
+    "eslint": "^7.17.0"
   },
   "dependencies": {
     "@shopify/eslint-plugin": "^39.0.3",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
-    "@typescript-eslint/parser": "^4.11.0",
+    "@typescript-eslint/parser": "^4.12.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.15",
@@ -69,6 +69,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.16.0"
+    "eslint": "^7.17.0"
   }
 }
