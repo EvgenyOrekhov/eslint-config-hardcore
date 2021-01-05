@@ -33,14 +33,14 @@
   "import/no-named-export": "off",
   "import/dynamic-import-chunkname": "off",
 
-  "unicorn/no-fn-reference-in-iterator": "off",
+  "unicorn/no-array-callback-reference": "off",
   "unicorn/no-keyword-prefix": "off",
   "unicorn/no-process-exit": "off",
   "unicorn/prefer-spread": "off",
   "unicorn/expiring-todo-comments": "off",
   "unicorn/string-content": "off",
   "unicorn/prefer-set-has": "off",
-  "unicorn/no-reduce": "off",
+  "unicorn/no-array-reduce": "off",
   "unicorn/no-useless-undefined": "off",
   "unicorn/import-style": "off",
 
