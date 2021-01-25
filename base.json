@@ -551,7 +551,8 @@
           "remove-console": "off",
           "remove-only": "off",
           "remove-skip": "off",
-          "apply-numeric-separators": "off"
+          "apply-numeric-separators": "off",
+          "declare-undefined-variables": "off"
         }
       }
     ]
