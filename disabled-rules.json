@@ -43,6 +43,7 @@
   "unicorn/no-array-reduce": "off",
   "unicorn/no-useless-undefined": "off",
   "unicorn/import-style": "off",
+  "unicorn/no-array-for-each": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
