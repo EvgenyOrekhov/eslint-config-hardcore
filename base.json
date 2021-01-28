@@ -534,6 +534,8 @@
     "putout/putout": [
       "error",
       {
+        "plugins": ["apply-shorthand-properties"],
+
         "rules": {
           "apply-shorthand-properties": "on",
 
