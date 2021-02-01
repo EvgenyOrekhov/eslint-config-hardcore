@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.19.0"
   },
   "dependencies": {
     "@putout/plugin-apply-shorthand-properties": "^3.0.1",
@@ -70,6 +70,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.19.0"
   }
 }
