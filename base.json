@@ -562,6 +562,39 @@
 
   "overrides": [
     {
+      "files": ["*.htm", "*.html"],
+
+      "plugins": ["@html-eslint"],
+
+      "parser": "@html-eslint/parser",
+
+      "rules": {
+        "@html-eslint/require-doctype": "error",
+        "@html-eslint/no-duplicate-id": "error",
+        "@html-eslint/no-inline-styles": "error",
+        "@html-eslint/require-li-container": "error",
+        "@html-eslint/no-obsolete-tags": "error",
+        "@html-eslint/require-lang": "error",
+        "@html-eslint/require-title": "error",
+        "@html-eslint/no-multiple-h1": "error",
+        "@html-eslint/require-meta-description": "error",
+        "@html-eslint/require-img-alt": "error",
+        "@html-eslint/no-skip-heading-levels": "error",
+        "@html-eslint/require-frame-title": "error",
+        "@html-eslint/no-non-scalable-viewport": "error",
+        "@html-eslint/no-positive-tabindex": "error",
+        "@html-eslint/require-meta-viewport": "error",
+
+        "@html-eslint/require-closing-tags": [
+          "error",
+          { "selfClosing": "always" }
+        ],
+
+        "putout/putout": "off"
+      }
+    },
+
+    {
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
       "rules": { "import/unambiguous": "off", "putout/putout": "off" }

@@ -61,5 +61,12 @@
   "node/no-restricted-require": "off",
   "node/no-restricted-import": "off",
 
-  "regexp/no-useless-backreference": "off"
+  "regexp/no-useless-backreference": "off",
+
+  "@html-eslint/require-meta-charset": "off",
+  "@html-eslint/no-extra-spacing-attrs": "off",
+  "@html-eslint/element-newline": "off",
+  "@html-eslint/indent": "off",
+  "@html-eslint/quotes": "off",
+  "@html-eslint/id-naming-convention": "off"
 }
