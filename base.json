@@ -590,8 +590,6 @@
           { "selfClosing": "always" }
         ],
 
-        "prettier/prettier": ["error", { "parser": "html" }],
-
         "putout/putout": "off"
       }
     },

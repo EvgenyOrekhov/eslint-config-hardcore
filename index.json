@@ -34,5 +34,12 @@
         "allowClassStart": true
       }
     ]
-  }
+  },
+
+  "overrides": [
+    {
+      "files": ["*.htm", "*.html"],
+      "rules": { "prettier/prettier": ["error", { "parser": "html" }] }
+    }
+  ]
 }
