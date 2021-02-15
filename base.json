@@ -113,7 +113,6 @@
     "no-throw-literal": "error",
     "no-undef-init": "error",
     "no-unreachable": "error",
-    "no-unused-expressions": "error",
     "no-use-before-define": "error",
     "no-useless-call": "error",
     "no-useless-concat": "error",
@@ -248,6 +247,7 @@
       "error",
       { "disallowArithmeticOperators": true }
     ],
+    "no-unused-expressions": ["error", { "enforceForJSX": true }],
 
     "padding-line-between-statements": [
       "error",
