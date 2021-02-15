@@ -539,8 +539,6 @@
         "rules": {
           "apply-shorthand-properties": "on",
 
-          "apply-nullish-coalescing": "off",
-          "remove-duplicate-interface-keys": "off",
           "convert-throw": "off",
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
