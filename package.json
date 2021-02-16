@@ -37,8 +37,8 @@
     "@html-eslint/parser": "^0.8.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.1",
     "@shopify/eslint-plugin": "^40.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.15.0",
-    "@typescript-eslint/parser": "^4.15.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.19",
@@ -59,9 +59,9 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.6.0",
     "eslint-plugin-sort-class-members": "^1.9.0",
-    "eslint-plugin-unicorn": "^28.0.0",
+    "eslint-plugin-unicorn": "^28.0.1",
     "prettier": "^2.2.1",
-    "putout": "^15.1.0",
+    "putout": "^15.1.1",
     "typescript": "^4.1.5"
   },
   "files": [
