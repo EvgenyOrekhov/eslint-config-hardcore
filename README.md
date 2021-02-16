@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-hardcore?style=flat-square)](https://www.npmjs.com/package/eslint-config-hardcore)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-The most strict (but practical) ESLint config out there.
+The most strict (but practical) ESLint config out there. 621 rules.
 
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
