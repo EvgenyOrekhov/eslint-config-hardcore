@@ -119,6 +119,14 @@ Or, if your project contains both non-Node and Node files, use it like this:
 
 ## `hardcore/ts-for-js`
 
+| Plugin                                                                                                | Enabled rules |
+| ----------------------------------------------------------------------------------------------------- | ------------: |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            44 |
+| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
+| [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
+| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **621** |
+
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
 
@@ -128,14 +136,6 @@ rules (like
 and
 [`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md))
 without the need to switch to writing TypeScript.
-
-| Plugin                                                                                                | Enabled rules |
-| ----------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            44 |
-| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
-| [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
-| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **621** |
 
 1. First, you'll need to create `tsconfig.json` in the root of your project. You
    don't have to specify any options, just `{}` should do it.
