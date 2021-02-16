@@ -14,36 +14,27 @@ autoformatting your code.
 
 ## What's included
 
-| Rules                                                                                                     | Total | Enabled |
-| --------------------------------------------------------------------------------------------------------- | ----: | ------: |
-| [ESLint](https://eslint.org/docs/rules/)                                                                  |   262 | **181** |
-| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |    82 |  **82** |
-| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |    80 |  **67** |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |    71 |  **57** |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |    40 |  **32** |
-| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |    32 |   **1** |
-| [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |    25 |  **24** |
-| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |    17 |  **16** |
-| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |    13 |  **11** |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |    14 |  **12** |
-| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |     6 |   **6** |
-| [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |     9 |   **6** |
-| [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |     2 |   **2** |
-| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |     1 |   **1** |
-| [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |     1 |   **1** |
-| [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |     1 |   **1** |
-| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |     1 |   **1** |
-| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |    22 |  **16** |
-| **Total: `hardcore`**                                                                                     |   679 | **517** |
-| [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)                                         |    17 |  **14** |
-| [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda)                                       |    26 |  **24** |
-| **Total: `hardcore` + `hardcore/fp`**                                                                     |   722 | **556** |
-| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)                                    |    37 |  **35** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                                                   |   759 | **591** |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                               |   115 |  **44** |
-| [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)       |     1 |   **1** |
-| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)     |     1 |   **1** |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                            |   876 | **621** |
+| Plugin                                                                                                    | Enabled rules |
+| --------------------------------------------------------------------------------------------------------- | ------------: |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |       **184** |
+| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |        **82** |
+| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |        **67** |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |        **57** |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |        **32** |
+| [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |        **24** |
+| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |        **16** |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |        **12** |
+| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |        **11** |
+| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |         **6** |
+| [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |         **6** |
+| [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |         **2** |
+| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |         **1** |
+| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |         **1** |
+| [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |         **1** |
+| [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |         **1** |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |         **1** |
+| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |        **16** |
+| **Total: `hardcore`**                                                                                     |       **520** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -72,6 +63,12 @@ Then, add it to your `.eslintrc` file and specify your
 
 This config adds rules for functional programming.
 
+| Plugin                                                              | Enabled rules |
+| ------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |        **14** |
+| [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |        **24** |
+| **Total: `hardcore` + `hardcore/fp`**                               |       **558** |
+
 Use it **in addition** to the `hardcore` config:
 
 ```json
@@ -86,6 +83,11 @@ Use it **in addition** to the `hardcore` config:
 ## `hardcore/node`
 
 This config adds rules and globals for Node.js.
+
+| Plugin                                                                 | Enabled rules |
+| ---------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |        **35** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **593** |
 
 Use it **in addition** to other configs:
 
@@ -126,6 +128,14 @@ rules (like
 and
 [`@typescript-eslint/prefer-optional-chain`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md))
 without the need to switch to writing TypeScript.
+
+| Plugin                                                                                                | Enabled rules |
+| ----------------------------------------------------------------------------------------------------- | ------------: |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |        **44** |
+| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |         **2** |
+| [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |         **1** |
+| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |         **1** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **621** |
 
 1. First, you'll need to create `tsconfig.json` in the root of your project. You
    don't have to specify any options, just `{}` should do it.

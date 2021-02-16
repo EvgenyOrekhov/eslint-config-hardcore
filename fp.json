@@ -2,8 +2,6 @@
   "plugins": ["fp", "ramda"],
 
   "rules": {
-    "init-declarations": "error",
-
     "fp/no-arguments": "error",
     "fp/no-class": "error",
     "fp/no-delete": "error",

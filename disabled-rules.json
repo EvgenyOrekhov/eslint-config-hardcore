@@ -2,7 +2,6 @@
   "no-ternary": "off",
   "no-undefined": "off",
   "consistent-return": "off",
-  "init-declarations": "off",
   "prefer-arrow-callback": "off",
   "id-match": "off",
   "sort-vars": "off",

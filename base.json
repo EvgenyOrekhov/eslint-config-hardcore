@@ -198,6 +198,7 @@
     "no-promise-executor-return": "error",
     "no-unreachable-loop": "error",
     "no-nonoctal-decimal-escape": "error",
+    "init-declarations": "error",
 
     "no-magic-numbers": [
       "error",
