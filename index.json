@@ -1,5 +1,5 @@
 {
-  "extends": ["./base.json", "plugin:prettier/recommended", "prettier/unicorn"],
+  "extends": ["./base.json", "plugin:prettier/recommended"],
 
   "rules": {
     "arrow-body-style": "error",
