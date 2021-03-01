@@ -531,6 +531,7 @@
     "regexp/prefer-star-quantifier": "error",
     "regexp/prefer-t": "error",
     "regexp/prefer-w": "error",
+    "regexp/prefer-quantifier": "error",
 
     "putout/putout": [
       "error",
