@@ -22,7 +22,7 @@ autoformatting your code.
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            57 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            32 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            24 |
-| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            16 |
+| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            17 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            12 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            11 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             6 |
@@ -34,7 +34,7 @@ autoformatting your code.
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            16 |
-| **Total: `hardcore`**                                                                                     |       **520** |
+| **Total: `hardcore`**                                                                                     |       **521** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -67,7 +67,7 @@ This config adds rules for functional programming.
 | ------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |            14 |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |            24 |
-| **Total: `hardcore` + `hardcore/fp`**                               |       **558** |
+| **Total: `hardcore` + `hardcore/fp`**                               |       **559** |
 
 Use it **in addition** to the `hardcore` config:
 
@@ -87,7 +87,7 @@ This config adds rules and globals for Node.js.
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **593** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **594** |
 
 Use it **in addition** to other configs:
 
@@ -125,7 +125,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **621** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **622** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
