@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.21.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.8.0",
@@ -55,7 +55,7 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-putout": "^7.1.1",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-regexp": "^0.1.1",
+    "eslint-plugin-regexp": "^0.2.2",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.6.0",
     "eslint-plugin-sort-class-members": "^1.9.0",
@@ -72,6 +72,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.21.0"
   }
 }
