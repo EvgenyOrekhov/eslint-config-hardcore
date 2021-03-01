@@ -62,7 +62,7 @@
     "eslint-plugin-unicorn": "^28.0.2",
     "prettier": "^2.2.1",
     "putout": "^15.1.2",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.2"
   },
   "files": [
     "base.json",
