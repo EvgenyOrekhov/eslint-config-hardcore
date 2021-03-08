@@ -38,7 +38,7 @@
     "@putout/plugin-apply-shorthand-properties": "^3.0.1",
     "@shopify/eslint-plugin": "^40.1.0",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
+    "@typescript-eslint/parser": "^4.16.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.19",
