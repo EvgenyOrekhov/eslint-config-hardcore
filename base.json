@@ -532,6 +532,13 @@
     "regexp/prefer-t": "error",
     "regexp/prefer-w": "error",
     "regexp/prefer-quantifier": "error",
+    "regexp/no-useless-character-class": "error",
+    "regexp/no-useless-non-greedy": "error",
+    "regexp/prefer-regexp-exec": "error",
+    "regexp/prefer-regexp-test": "error",
+    "regexp/prefer-unicode-codepoint-escapes": "error",
+    "regexp/letter-case": "error",
+    "regexp/no-useless-range": "error",
 
     "putout/putout": [
       "error",
