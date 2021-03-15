@@ -539,6 +539,13 @@
     "regexp/prefer-unicode-codepoint-escapes": "error",
     "regexp/letter-case": "error",
     "regexp/no-useless-range": "error",
+    "regexp/prefer-range": "error",
+    "regexp/no-dupe-disjunctions": "error",
+    "regexp/prefer-character-class": "error",
+    "regexp/no-useless-non-capturing-group": "error",
+    "regexp/no-useless-escape": "error",
+    "regexp/negation": "error",
+    "regexp/order-in-character-class": "error",
 
     "putout/putout": [
       "error",
