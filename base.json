@@ -428,6 +428,8 @@
     "unicorn/consistent-destructuring": "error",
     "unicorn/no-array-push-push": "error",
     "unicorn/no-this-assignment": "error",
+    "unicorn/no-static-only-class": "error",
+    "unicorn/prefer-array-flat": "error",
 
     "unicorn/filename-case": [
       "error",
