@@ -106,7 +106,6 @@
     "no-regex-spaces": "error",
     "no-script-url": "error",
     "no-self-compare": "error",
-    "no-sequences": "error",
     "no-shadow-restricted-names": "error",
     "no-sparse-arrays": "error",
     "no-this-before-super": "error",
@@ -249,6 +248,7 @@
       { "disallowArithmeticOperators": true }
     ],
     "no-unused-expressions": ["error", { "enforceForJSX": true }],
+    "no-sequences": ["error", { "allowInParentheses": false }],
 
     "padding-line-between-statements": [
       "error",
