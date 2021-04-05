@@ -542,7 +542,6 @@
     "regexp/letter-case": "error",
     "regexp/no-useless-range": "error",
     "regexp/prefer-range": "error",
-    "regexp/no-dupe-disjunctions": "error",
     "regexp/prefer-character-class": "error",
     "regexp/no-useless-non-capturing-group": "error",
     "regexp/no-useless-escape": "error",
@@ -552,6 +551,8 @@
     "regexp/no-useless-dollar-replacements": "error",
     "regexp/prefer-escape-replacement-dollar-char": "error",
     "regexp/no-unused-capturing-group": "error",
+
+    "regexp/no-dupe-disjunctions": ["error", { "disallowNeverMatch": true }],
 
     "putout/putout": [
       "error",
