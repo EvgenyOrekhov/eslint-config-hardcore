@@ -357,7 +357,7 @@
         "bundledDependencies": false
       }
     ],
-    "import/extensions": ["error", "always"],
+    "import/extensions": ["error", "ignorePackages"],
     "import/order": [
       "error",
       {
