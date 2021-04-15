@@ -551,6 +551,10 @@
     "regexp/no-useless-dollar-replacements": "error",
     "regexp/prefer-escape-replacement-dollar-char": "error",
     "regexp/no-unused-capturing-group": "error",
+    "regexp/confusing-quantifier": "error",
+    "regexp/no-empty-alternative": "error",
+    "regexp/no-lazy-ends": "error",
+    "regexp/optimal-lookaround-quantifier": "error",
 
     "regexp/no-dupe-disjunctions": ["error", { "disallowNeverMatch": true }],
 
