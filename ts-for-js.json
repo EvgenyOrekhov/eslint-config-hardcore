@@ -77,7 +77,13 @@
     "@typescript-eslint/return-await": ["error", "always"],
 
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error", { "builtinGlobals": true }],
+    "@typescript-eslint/no-shadow": [
+      "error",
+      {
+        "builtinGlobals": true,
+        "allow": ["defaultStatus", "event", "find", "length", "name", "status"]
+      }
+    ],
 
     "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": "error",

@@ -212,7 +212,13 @@
     "valid-typeof": ["error", { "requireStringLiterals": true }],
     "no-return-assign": ["error", "always"],
     "no-self-assign": ["error", { "props": true }],
-    "no-shadow": ["error", { "builtinGlobals": true }],
+    "no-shadow": [
+      "error",
+      {
+        "builtinGlobals": true,
+        "allow": ["defaultStatus", "event", "find", "length", "name", "status"]
+      }
+    ],
     "no-undef": ["error", { "typeof": true }],
     "no-unused-vars": [
       "error",
