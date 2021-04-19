@@ -36,7 +36,7 @@
     "@html-eslint/eslint-plugin": "^0.8.0",
     "@html-eslint/parser": "^0.8.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.1",
-    "@shopify/eslint-plugin": "^40.1.0",
+    "@shopify/eslint-plugin": "^40.2.1",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint-config-prettier": "^8.2.0",
