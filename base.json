@@ -615,6 +615,8 @@
         "@html-eslint/no-non-scalable-viewport": "error",
         "@html-eslint/no-positive-tabindex": "error",
         "@html-eslint/require-meta-viewport": "error",
+        "@html-eslint/no-duplicate-attrs": "error",
+        "@html-eslint/no-target-blank": "error",
 
         "@html-eslint/require-closing-tags": [
           "error",
