@@ -60,7 +60,7 @@
   "node/no-restricted-require": "off",
   "node/no-restricted-import": "off",
 
-  "regexp/no-useless-backreference": "off",
+  "regexp/order-in-character-class": "off",
 
   "@html-eslint/require-meta-charset": "off",
   "@html-eslint/no-extra-spacing-attrs": "off",

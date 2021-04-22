@@ -553,7 +553,6 @@
     "regexp/no-useless-non-capturing-group": "error",
     "regexp/no-useless-escape": "error",
     "regexp/negation": "error",
-    "regexp/order-in-character-class": "error",
     "regexp/no-legacy-features": "error",
     "regexp/no-useless-dollar-replacements": "error",
     "regexp/prefer-escape-replacement-dollar-char": "error",
