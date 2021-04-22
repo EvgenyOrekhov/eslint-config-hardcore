@@ -436,6 +436,7 @@
     "unicorn/no-this-assignment": "error",
     "unicorn/no-static-only-class": "error",
     "unicorn/prefer-array-flat": "error",
+    "unicorn/prefer-switch": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -445,7 +446,7 @@
     "unicorn/prevent-abbreviations": [
       "error",
       {
-        "whitelist": {
+        "allowList": {
           "args": true,
           "props": true
         },

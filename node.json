@@ -31,7 +31,7 @@
     "unicorn/prevent-abbreviations": [
       "error",
       {
-        "whitelist": {
+        "allowList": {
           "args": true,
           "req": true,
           "res": true
