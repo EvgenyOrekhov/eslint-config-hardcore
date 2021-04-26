@@ -1,5 +1,5 @@
 /* eslint-env node */
-/* eslint-disable import/no-unassigned-import */
+/* eslint-disable import/no-unassigned-import, unicorn/prefer-module */
 
 "use strict";
 

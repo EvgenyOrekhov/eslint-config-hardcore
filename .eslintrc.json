@@ -1,7 +1,12 @@
 {
-  "extends": ["./index.json", "./fp.json", "./node.json"],
+  "extends": ["./index.json", "./fp.json"],
 
   "overrides": [
+    {
+      "files": ["./test.js"],
+
+      "extends": ["./node.json"]
+    },
     {
       "files": ["*.js"],
 
