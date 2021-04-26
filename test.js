@@ -1,5 +1,11 @@
 /* eslint-env node */
-/* eslint-disable import/no-unassigned-import, unicorn/prefer-module */
+
+/*
+  eslint-disable
+  import/no-unassigned-import,
+  unicorn/prefer-module,
+  putout/putout
+*/
 
 "use strict";
 
