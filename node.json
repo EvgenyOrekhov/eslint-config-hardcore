@@ -44,10 +44,17 @@
   "overrides": [
     {
       "files": ["*.cjs", ".*.cjs"],
-      "parserOptions": { "ecmaVersion": 2021 }
+
+      "parserOptions": { "ecmaVersion": 2021 },
+
+      "rules": {
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off"
+      }
     },
     {
       "files": ["*.mjs", ".*.mjs"],
+
       "parserOptions": { "ecmaVersion": 2021 }
     }
   ]

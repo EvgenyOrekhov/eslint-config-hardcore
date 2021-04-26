@@ -3,7 +3,6 @@
   @typescript-eslint/no-empty-function,
   @typescript-eslint/no-useless-constructor,
   class-methods-use-this,
-  @typescript-eslint/no-unused-vars,
   @typescript-eslint/naming-convention,
   no-underscore-dangle,
   getter-return,
@@ -11,9 +10,8 @@
   no-undef
 */
 
-"use strict";
-
-class Example {
+// eslint-disable-next-line import/no-unused-modules
+export default class Example {
   static staticProperty;
 
   static staticArrowFunctionProperty = () => {};

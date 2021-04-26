@@ -26,7 +26,6 @@
   "import/no-restricted-paths": "off",
   "import/no-internal-modules": "off",
   "import/no-relative-parent-imports": "off",
-  "import/no-commonjs": "off",
   "import/no-nodejs-modules": "off",
   "import/no-default-export": "off",
   "import/no-named-export": "off",
@@ -43,7 +42,6 @@
   "unicorn/no-useless-undefined": "off",
   "unicorn/import-style": "off",
   "unicorn/no-array-for-each": "off",
-  "unicorn/prefer-module": "off",
 
   "sonarjs/no-duplicate-string": "off",
 

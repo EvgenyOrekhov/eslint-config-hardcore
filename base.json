@@ -17,9 +17,7 @@
   ],
 
   "parserOptions": {
-    "ecmaFeatures": {
-      "impliedStrict": false
-    }
+    "sourceType": "module"
   },
 
   "env": {
@@ -341,6 +339,7 @@
     "import/no-named-default": "error",
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "error",
+    "import/no-commonjs": "error",
 
     "import/no-unresolved": ["error", { "commonjs": true }],
     "import/no-cycle": ["error", { "commonjs": true }],
@@ -438,6 +437,7 @@
     "unicorn/prefer-array-flat": "error",
     "unicorn/prefer-switch": "error",
     "unicorn/prefer-node-protocol": "error",
+    "unicorn/prefer-module": "error",
 
     "unicorn/filename-case": [
       "error",
