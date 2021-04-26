@@ -1,5 +1,5 @@
 {
-  "plugins": ["unicorn"],
+  "plugins": ["unicorn", "import"],
 
   "extends": ["plugin:node/recommended"],
 
