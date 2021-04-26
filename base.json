@@ -437,6 +437,7 @@
     "unicorn/no-static-only-class": "error",
     "unicorn/prefer-array-flat": "error",
     "unicorn/prefer-switch": "error",
+    "unicorn/prefer-node-protocol": "error",
 
     "unicorn/filename-case": [
       "error",
