@@ -585,6 +585,8 @@
 
         "rules": {
           "apply-shorthand-properties": "on",
+          "convert-commonjs-to-esm/require": "on",
+          "convert-commonjs-to-esm/exports": "on",
 
           "convert-throw": "off",
           "putout": "off",
@@ -600,6 +602,13 @@
           "remove-skip": "off",
           "apply-numeric-separators": "off",
           "declare-undefined-variables": "off"
+        },
+
+        "match": {
+          "*.cjs": {
+            "convert-commonjs-to-esm/require": "off",
+            "convert-commonjs-to-esm/exports": "off"
+          }
         }
       }
     ]
