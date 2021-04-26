@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "eslint-config-hardcore",
   "version": "19.1.0",
   "description": "The most strict (but practical) ESLint config out there",
