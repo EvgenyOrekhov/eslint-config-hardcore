@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^7.24.0"
+    "eslint": "^7.25.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.9.0",
@@ -72,6 +72,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.24.0"
+    "eslint": "^7.25.0"
   }
 }
