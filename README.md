@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-hardcore?style=flat-square)](https://www.npmjs.com/package/eslint-config-hardcore)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-The most strict (but practical) framework-agnostic ESLint config out there.
+The most strict (but practical) framework-agnostic ESLint config.
 
 **673 rules.**
 
