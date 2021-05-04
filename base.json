@@ -588,7 +588,6 @@
           "convert-commonjs-to-esm/require": "on",
           "convert-commonjs-to-esm/exports": "on",
 
-          "convert-throw": "off",
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
 
