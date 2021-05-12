@@ -438,6 +438,7 @@
     "unicorn/prefer-switch": "error",
     "unicorn/prefer-node-protocol": "error",
     "unicorn/prefer-module": "error",
+    "unicorn/no-document-cookie": "error",
 
     "unicorn/filename-case": [
       "error",
