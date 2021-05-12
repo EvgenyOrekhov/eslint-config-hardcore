@@ -543,7 +543,7 @@
     "regexp/prefer-w": "error",
     "regexp/prefer-quantifier": "error",
     "regexp/no-useless-character-class": "error",
-    "regexp/no-useless-non-greedy": "error",
+    "regexp/no-useless-lazy": "error",
     "regexp/prefer-regexp-exec": "error",
     "regexp/prefer-regexp-test": "error",
     "regexp/prefer-unicode-codepoint-escapes": "error",
@@ -575,8 +575,11 @@
     "regexp/unicode-escape": "error",
     "regexp/no-non-standard-flag": "error",
     "regexp/control-character-escape": "error",
-
-    "regexp/no-dupe-disjunctions": ["error", { "disallowNeverMatch": true }],
+    "regexp/prefer-predefined-assertion": "error",
+    "regexp/no-standalone-backslash": "error",
+    "regexp/no-useless-quantifier": "error",
+    "regexp/no-zero-quantifier": "error",
+    "regexp/no-dupe-disjunctions": "error",
 
     "putout/putout": [
       "error",
