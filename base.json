@@ -604,7 +604,9 @@
           "remove-only": "off",
           "remove-skip": "off",
           "apply-numeric-separators": "off",
-          "declare-undefined-variables": "off"
+          "declare-undefined-variables": "off",
+          "remove-useless-operand": "off",
+          "remove-boolean-from-assertions": "off"
         },
 
         "match": {
