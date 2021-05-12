@@ -645,6 +645,9 @@
         "@html-eslint/require-meta-viewport": "error",
         "@html-eslint/no-duplicate-attrs": "error",
         "@html-eslint/no-target-blank": "error",
+        "@html-eslint/require-button-type": "error",
+        "@html-eslint/no-abstract-roles": "error",
+        "@html-eslint/no-aria-hidden-body": "error",
 
         "@html-eslint/require-closing-tags": [
           "error",
