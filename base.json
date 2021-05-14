@@ -340,6 +340,8 @@
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "error",
     "import/no-commonjs": "error",
+    "import/no-relative-packages": "error",
+    "import/no-import-module-exports": "error",
 
     "import/no-unresolved": ["error", { "commonjs": true }],
     "import/no-cycle": ["error", { "commonjs": true }],
