@@ -582,6 +582,7 @@
     "regexp/no-useless-quantifier": "error",
     "regexp/no-zero-quantifier": "error",
     "regexp/no-dupe-disjunctions": "error",
+    "regexp/optimal-quantifier-concatenation": "error",
 
     "putout/putout": [
       "error",
