@@ -30,7 +30,6 @@
   "import/no-default-export": "off",
   "import/no-named-export": "off",
   "import/dynamic-import-chunkname": "off",
-  "import/no-import-module-exports": "off",
 
   "unicorn/no-array-callback-reference": "off",
   "unicorn/no-keyword-prefix": "off",
