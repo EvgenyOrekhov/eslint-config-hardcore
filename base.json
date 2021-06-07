@@ -656,12 +656,6 @@
         "@html-eslint/no-aria-hidden-body": "error",
         "@html-eslint/no-accesskey-attrs": "error",
 
-        "@html-eslint/require-closing-tags": [
-          "error",
-          { "selfClosing": "always" }
-        ],
-        "@html-eslint/no-multiple-empty-lines": ["error", { "max": 1 }],
-
         "import/unambiguous": "off",
         "putout/putout": "off"
       }

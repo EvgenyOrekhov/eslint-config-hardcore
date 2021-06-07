@@ -19,13 +19,13 @@ autoformatting your code.
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
 | [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           184 |
-| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            82 |
+| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            80 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            66 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            56 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            35 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            24 |
-| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            23 |
+| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            12 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            11 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             6 |

@@ -64,5 +64,8 @@
 
   "unicorn/number-literal-case": "off",
   "unicorn/no-nested-ternary": "off",
-  "unicorn/empty-brace-spaces": "off"
+  "unicorn/empty-brace-spaces": "off",
+
+  "@html-eslint/require-closing-tags": "off",
+  "@html-eslint/no-multiple-empty-lines": "off"
 }
