@@ -33,7 +33,7 @@
     "eslint": "^7.25.0"
   },
   "dependencies": {
-    "@html-eslint/eslint-plugin": "^0.10.1",
+    "@html-eslint/eslint-plugin": "^0.11.0",
     "@html-eslint/parser": "^0.10.1",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^40.2.3",
