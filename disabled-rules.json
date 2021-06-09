@@ -43,6 +43,7 @@
   "unicorn/import-style": "off",
   "unicorn/no-array-for-each": "off",
   "unicorn/prefer-object-has-own": "off",
+  "unicorn/prefer-prototype-methods": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
