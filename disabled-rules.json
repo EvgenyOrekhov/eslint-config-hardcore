@@ -61,7 +61,7 @@
   "node/no-restricted-require": "off",
   "node/no-restricted-import": "off",
 
-  "regexp/order-in-character-class": "off",
+  "regexp/sort-character-class-elements": "off",
 
   "@html-eslint/require-meta-charset": "off",
   "@html-eslint/no-extra-spacing-attrs": "off",

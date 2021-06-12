@@ -531,7 +531,7 @@
     "@shopify/no-useless-computed-properties": "error",
 
     "regexp/match-any": "error",
-    "regexp/no-assertion-capturing-group": "error",
+    "regexp/no-empty-capturing-group": "error",
     "regexp/no-dupe-characters-character-class": "error",
     "regexp/no-empty-group": "error",
     "regexp/no-empty-lookarounds-assertion": "error",
@@ -586,6 +586,8 @@
     "regexp/no-zero-quantifier": "error",
     "regexp/no-dupe-disjunctions": "error",
     "regexp/optimal-quantifier-concatenation": "error",
+    "regexp/strict": "error",
+    "regexp/sort-alternatives": "error",
 
     "putout/putout": [
       "error",
