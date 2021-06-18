@@ -154,7 +154,6 @@
     "max-lines": "error",
     "no-template-curly-in-string": "error",
     "symbol-description": "error",
-    "class-methods-use-this": "error",
     "prefer-numeric-literals": "error",
     "line-comment-position": "error",
     "no-useless-return": "error",
