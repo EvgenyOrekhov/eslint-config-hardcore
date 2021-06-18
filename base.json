@@ -354,10 +354,12 @@
       "error",
       {
         "devDependencies": [
-          "test/**",
-          "tests/**",
-          "**/*.test.js",
-          "**/*.spec.js"
+          "**/test/**",
+          "**/tests/**",
+          "**/__tests__/**",
+          "*.test.*",
+          "*.spec.*",
+          "*.e2e.*"
         ],
         "optionalDependencies": false,
         "peerDependencies": false,
