@@ -639,6 +639,8 @@
       ],
 
       "rules": {
+        "max-statements": ["error", 15],
+
         "no-magic-numbers": "off",
         "max-classes-per-file": "off"
       }
