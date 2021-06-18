@@ -218,5 +218,22 @@
 
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error"
-  }
+  },
+
+  "overrides": [
+    {
+      "files": [
+        "**/test/**",
+        "**/tests/**",
+        "**/__tests__/**",
+        "*.test.*",
+        "*.spec.*",
+        "*.e2e.*"
+      ],
+
+      "rules": {
+        "@typescript-eslint/no-magic-numbers": "off"
+      }
+    }
+  ]
 }

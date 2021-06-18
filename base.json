@@ -630,6 +630,22 @@
 
   "overrides": [
     {
+      "files": [
+        "**/test/**",
+        "**/tests/**",
+        "**/__tests__/**",
+        "*.test.*",
+        "*.spec.*",
+        "*.e2e.*"
+      ],
+
+      "rules": {
+        "no-magic-numbers": "off",
+        "max-classes-per-file": "off"
+      }
+    },
+
+    {
       "files": ["*.htm", "*.html"],
 
       "plugins": ["@html-eslint"],
