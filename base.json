@@ -678,6 +678,8 @@
         "@html-eslint/no-aria-hidden-body": "error",
         "@html-eslint/no-accesskey-attrs": "error",
 
+        "spaced-comment": "off",
+        "no-inline-comments": "off",
         "import/unambiguous": "off",
         "putout/putout": "off"
       }
