@@ -334,7 +334,6 @@
     "import/newline-after-import": "error",
     "import/prefer-default-export": "error",
     "import/max-dependencies": "error",
-    "import/no-unassigned-import": "error",
     "import/no-named-default": "error",
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "error",
@@ -614,7 +613,8 @@
           "apply-numeric-separators": "off",
           "declare-undefined-variables": "off",
           "remove-useless-operand": "off",
-          "remove-boolean-from-assertions": "off"
+          "remove-boolean-from-assertions": "off",
+          "remove-empty/import": "off"
         },
 
         "match": {

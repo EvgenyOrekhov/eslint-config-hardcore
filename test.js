@@ -2,7 +2,6 @@
 
 /*
   eslint-disable
-  import/no-unassigned-import,
   unicorn/prefer-module,
   putout/putout
 */
