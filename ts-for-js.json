@@ -232,7 +232,9 @@
       ],
 
       "rules": {
-        "@typescript-eslint/no-magic-numbers": "off"
+        "@typescript-eslint/no-magic-numbers": "off",
+
+        "sonarjs/no-identical-functions": "off"
       }
     }
   ]

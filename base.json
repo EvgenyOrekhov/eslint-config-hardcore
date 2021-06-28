@@ -642,7 +642,9 @@
         "max-statements": ["error", 15],
 
         "no-magic-numbers": "off",
-        "max-classes-per-file": "off"
+        "max-classes-per-file": "off",
+
+        "sonarjs/no-identical-functions": "off"
       }
     },
 
