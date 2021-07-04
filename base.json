@@ -588,6 +588,8 @@
     "regexp/optimal-quantifier-concatenation": "error",
     "regexp/strict": "error",
     "regexp/sort-alternatives": "error",
+    "regexp/no-super-linear-backtracking": "error",
+    "regexp/no-super-linear-move": "error",
 
     "putout/putout": [
       "error",
