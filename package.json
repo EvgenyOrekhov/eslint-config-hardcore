@@ -36,9 +36,9 @@
     "@html-eslint/eslint-plugin": "^0.11.0",
     "@html-eslint/parser": "^0.11.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
-    "@shopify/eslint-plugin": "^40.2.3",
-    "@typescript-eslint/eslint-plugin": "^4.28.0",
-    "@typescript-eslint/parser": "^4.28.0",
+    "@shopify/eslint-plugin": "^40.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-decorator-position": "^2.2.28",
@@ -62,7 +62,7 @@
     "eslint-plugin-unicorn": "^33.0.1",
     "prettier": "^2.3.2",
     "putout": "^18.3.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   },
   "files": [
     "base.json",
@@ -72,6 +72,6 @@
     "ts-for-js.json"
   ],
   "devDependencies": {
-    "eslint": "^7.29.0"
+    "eslint": "^7.30.0"
   }
 }
