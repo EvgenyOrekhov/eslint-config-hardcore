@@ -45,7 +45,8 @@
   "unicorn/import-style": "off",
   "unicorn/no-array-for-each": "off",
   "unicorn/prefer-object-has-own": "off",
-  "unicorn/prefer-prototype-methods": "off",
+  "unicorn/prefer-top-level-await": "off",
+  "unicorn/prefer-at": "off",
 
   "sonarjs/no-duplicate-string": "off",
 
