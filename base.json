@@ -495,6 +495,13 @@
     "sonarjs/no-unused-collection": "error",
     "sonarjs/no-redundant-jump": "error",
     "sonarjs/no-same-line-conditional": "error",
+    "sonarjs/no-ignored-return": "error",
+    "sonarjs/elseif-without-else": "error",
+    "sonarjs/no-gratuitous-expressions": "error",
+    "sonarjs/generator-without-yield": "error",
+    "sonarjs/no-nested-switch": "error",
+    "sonarjs/no-empty-collection": "error",
+    "sonarjs/non-existent-operator": "error",
 
     "sonarjs/cognitive-complexity": ["error", 10],
 
