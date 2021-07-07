@@ -498,7 +498,6 @@
     "sonarjs/no-ignored-return": "error",
     "sonarjs/elseif-without-else": "error",
     "sonarjs/no-gratuitous-expressions": "error",
-    "sonarjs/generator-without-yield": "error",
     "sonarjs/no-nested-switch": "error",
     "sonarjs/no-empty-collection": "error",
     "sonarjs/non-existent-operator": "error",
