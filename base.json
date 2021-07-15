@@ -355,9 +355,9 @@
           "**/test/**",
           "**/tests/**",
           "**/__tests__/**",
-          "*.test.*",
-          "*.spec.*",
-          "*.e2e.*"
+          "**/*.test.*",
+          "**/*.spec.*",
+          "**/*.e2e.*"
         ],
         "optionalDependencies": false,
         "peerDependencies": false,
