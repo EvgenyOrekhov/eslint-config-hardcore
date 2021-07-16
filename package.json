@@ -61,7 +61,7 @@
     "eslint-plugin-sort-class-members": "^1.11.0",
     "eslint-plugin-unicorn": "^34.0.1",
     "prettier": "^2.3.2",
-    "putout": "^18.4.0",
+    "putout": "^18.6.0",
     "typescript": "^4.3.5"
   },
   "files": [
