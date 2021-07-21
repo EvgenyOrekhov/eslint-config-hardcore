@@ -1,7 +1,6 @@
 {
   "no-ternary": "off",
   "no-undefined": "off",
-  "consistent-return": "off",
   "prefer-arrow-callback": "off",
   "id-match": "off",
   "sort-vars": "off",
@@ -12,7 +11,6 @@
   "sort-keys": "off",
   "no-restricted-properties": "off",
   "capitalized-comments": "off",
-  "no-restricted-globals": "off",
   "max-lines-per-function": "off",
   "no-restricted-exports": "off",
   "no-div-regex": "off",
