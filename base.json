@@ -457,7 +457,11 @@
       {
         "allowList": {
           "args": true,
-          "props": true
+          "ctx": true,
+          "props": true,
+          "Props": true,
+          "req": true,
+          "res": true
         },
         "checkShorthandProperties": true
       }

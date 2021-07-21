@@ -26,19 +26,7 @@
     "node/no-path-concat": "error",
     "node/no-process-env": "error",
     "node/no-process-exit": "error",
-    "node/no-sync": "error",
-
-    "unicorn/prevent-abbreviations": [
-      "error",
-      {
-        "allowList": {
-          "args": true,
-          "req": true,
-          "res": true
-        },
-        "checkShorthandProperties": true
-      }
-    ]
+    "node/no-sync": "error"
   },
 
   "overrides": [
