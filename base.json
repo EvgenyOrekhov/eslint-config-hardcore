@@ -194,6 +194,7 @@
     "no-unreachable-loop": "error",
     "no-nonoctal-decimal-escape": "error",
     "init-declarations": "error",
+    "consistent-return": "error",
 
     "no-magic-numbers": [
       "error",

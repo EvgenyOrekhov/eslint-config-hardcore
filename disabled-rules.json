@@ -1,7 +1,6 @@
 {
   "no-ternary": "off",
   "no-undefined": "off",
-  "consistent-return": "off",
   "prefer-arrow-callback": "off",
   "id-match": "off",
   "sort-vars": "off",

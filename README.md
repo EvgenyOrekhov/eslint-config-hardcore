@@ -5,7 +5,7 @@
 
 The most strict (but practical) framework-agnostic ESLint config.
 
-**706 rules.**
+**707 rules.**
 
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
@@ -18,7 +18,7 @@ autoformatting your code.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
-| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           183 |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           184 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            83 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            68 |
@@ -36,7 +36,7 @@ autoformatting your code.
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |             1 |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total: `hardcore`**                                                                                     |       **605** |
+| **Total: `hardcore`**                                                                                     |       **606** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -69,7 +69,7 @@ This config adds rules for functional programming.
 | ------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |            14 |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |            24 |
-| **Total: `hardcore` + `hardcore/fp`**                               |       **643** |
+| **Total: `hardcore` + `hardcore/fp`**                               |       **644** |
 
 Use it **in addition** to the `hardcore` config:
 
@@ -89,7 +89,7 @@ This config adds rules and globals for Node.js.
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **678** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **679** |
 
 Use it **in addition** to other configs:
 
@@ -127,7 +127,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **706** |
+| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **707** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
