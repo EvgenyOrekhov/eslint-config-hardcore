@@ -67,5 +67,9 @@
   "unicorn/empty-brace-spaces": "off",
 
   "@html-eslint/require-closing-tags": "off",
-  "@html-eslint/no-multiple-empty-lines": "off"
+  "@html-eslint/no-multiple-empty-lines": "off",
+  "@html-eslint/no-extra-spacing-attrs": "off",
+  "@html-eslint/element-newline": "off",
+  "@html-eslint/indent": "off",
+  "@html-eslint/quotes": "off"
 }
