@@ -194,6 +194,7 @@
     "no-nonoctal-decimal-escape": "error",
     "init-declarations": "error",
     "consistent-return": "error",
+    "prefer-destructuring": "error",
 
     "no-magic-numbers": [
       "error",
@@ -268,11 +269,6 @@
     "no-unused-expressions": ["error", { "enforceForJSX": true }],
     "no-sequences": ["error", { "allowInParentheses": false }],
     "no-implicit-coercion": ["error", { "disallowTemplateShorthand": true }],
-    "prefer-destructuring": [
-      "error",
-      { "array": true, "object": true },
-      { "enforceForRenamedProperties": true }
-    ],
 
     "no-restricted-globals": [
       "error",
