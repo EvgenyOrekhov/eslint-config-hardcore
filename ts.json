@@ -52,19 +52,19 @@
       { "allowComparingNullableBooleansToTrue": false }
     ],
 
-    "@typescript-eslint/restrict-template-expressions": [
-      "error",
-      {
-        "allowNumber": true,
-        "allowBoolean": false,
-        "allowAny": true,
-        "allowNullish": false
-      }
-    ],
-
     "@typescript-eslint/prefer-readonly-parameter-types": [
       "error",
       { "ignoreInferredTypes": true }
+    ],
+
+    "@typescript-eslint/no-use-before-define": [
+      "error",
+      { "ignoreTypeReferences": false }
+    ],
+
+    "@typescript-eslint/restrict-plus-operands": [
+      "error",
+      { "checkCompoundAssignments": true }
     ],
 
     "@typescript-eslint/naming-convention": [
@@ -160,6 +160,7 @@
     "@shopify/no-fully-static-classes": "error",
     "@shopify/typescript/prefer-singular-enums": "error",
 
+    "@typescript-eslint/member-ordering": "off",
     "@typescript-eslint/no-type-alias": "off"
   },
 

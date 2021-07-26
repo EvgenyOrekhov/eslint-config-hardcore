@@ -94,6 +94,9 @@
     "no-duplicate-imports": "off",
     "@typescript-eslint/no-duplicate-imports": "error",
 
+    "init-declarations": "off",
+    "@typescript-eslint/init-declarations": "error",
+
     "no-void": ["error", { "allowAsStatement": true }],
     "@typescript-eslint/no-floating-promises": "error",
 
