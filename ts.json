@@ -160,6 +160,8 @@
     "@shopify/no-fully-static-classes": "error",
     "@shopify/typescript/prefer-singular-enums": "error",
 
+    "import/extensions": ["error", "never"],
+
     "@typescript-eslint/member-ordering": "off",
     "@typescript-eslint/no-type-alias": "off"
   },
@@ -179,5 +181,7 @@
         "@typescript-eslint/no-magic-numbers": "off"
       }
     }
-  ]
+  ],
+
+  "ignorePatterns": ["*.d.ts"]
 }

@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "plugin:react/all",
+    "plugin:react-hooks/recommended",
+    "plugin:react-perf/all",
+    "plugin:jsx-a11y/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest/all",
+    "plugin:jest-dom/recommended",
+    "plugin:jest-formatting/strict",
+    "plugin:prettier/recommended"
+  ],
+
+  "plugins": ["@shopify"],
+
+  "env": {
+    "browser": true
+  },
+
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".jsx", ".tsx"] }
+    ],
+
+    "@shopify/jsx-prefer-fragment-wrappers": "error",
+    "@shopify/react-hooks-strict-return": "error",
+
+    "react/jsx-no-literals": "off",
+    "react/react-in-jsx-scope": "off",
+
+    "jsx-a11y/no-onchange": "off"
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "jest": {
+      "version": 27
+    }
+  }
+}
