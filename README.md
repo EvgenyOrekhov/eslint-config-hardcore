@@ -123,7 +123,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
 
 | Plugin                                                                                                | Enabled rules |
 | ----------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            44 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            45 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
