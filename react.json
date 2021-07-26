@@ -23,6 +23,8 @@
       { "extensions": [".jsx", ".tsx"] }
     ],
 
+    "react/jsx-max-depth": ["error", { "max": 10 }],
+
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
 
