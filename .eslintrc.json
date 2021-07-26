@@ -15,6 +15,15 @@
       "parserOptions": {
         "project": "./tsconfig.json"
       }
+    },
+    {
+      "files": ["*.ts"],
+
+      "extends": ["./ts.json"],
+
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
     }
   ]
 }

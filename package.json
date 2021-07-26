@@ -4,7 +4,7 @@
   "description": "The most strict (but practical) framework-agnostic ESLint config",
   "main": "index.json",
   "scripts": {
-    "test": "node ./test.js && node ./esm/test.js && eslint .",
+    "test": "node ./test.js && eslint .",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
@@ -69,7 +69,8 @@
     "index.json",
     "fp.json",
     "node.json",
-    "ts-for-js.json"
+    "ts-for-js.json",
+    "ts.json"
   ],
   "devDependencies": {
     "eslint": "^7.31.0"
