@@ -234,6 +234,7 @@
       "files": [
         "**/test/**",
         "**/tests/**",
+        "**/spec/**",
         "**/__tests__/**",
         "*.test.*",
         "*.spec.*",
@@ -241,6 +242,22 @@
       ],
 
       "rules": {
+        "@typescript-eslint/no-shadow": [
+          "error",
+          {
+            "builtinGlobals": true,
+            "allow": [
+              "defaultStatus",
+              "event",
+              "find",
+              "length",
+              "name",
+              "status",
+              "screen"
+            ]
+          }
+        ],
+
         "@typescript-eslint/no-magic-numbers": "off"
       }
     }

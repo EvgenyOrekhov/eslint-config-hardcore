@@ -751,6 +751,22 @@
       "rules": {
         "max-statements": ["error", 15],
 
+        "no-shadow": [
+          "error",
+          {
+            "builtinGlobals": true,
+            "allow": [
+              "defaultStatus",
+              "event",
+              "find",
+              "length",
+              "name",
+              "status",
+              "screen"
+            ]
+          }
+        ],
+
         "no-magic-numbers": "off",
         "max-classes-per-file": "off",
 

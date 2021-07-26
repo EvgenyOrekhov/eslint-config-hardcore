@@ -34,6 +34,24 @@
     "jsx-a11y/no-onchange": "off"
   },
 
+  "overrides": [
+    {
+      "files": [
+        "**/test/**",
+        "**/tests/**",
+        "**/spec/**",
+        "**/__tests__/**",
+        "*.test.*",
+        "*.spec.*",
+        "*.e2e.*"
+      ],
+
+      "rules": {
+        "react-perf/jsx-no-new-object-as-prop": "off"
+      }
+    }
+  ],
+
   "settings": {
     "react": {
       "version": "detect"
