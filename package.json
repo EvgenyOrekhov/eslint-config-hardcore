@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "19.19.2",
+  "version": "19.19.3",
   "description": "The most strict (but practical) framework-agnostic ESLint config",
   "main": "index.json",
   "scripts": {
