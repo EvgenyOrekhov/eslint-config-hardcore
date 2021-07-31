@@ -3,12 +3,14 @@
 /*
   eslint-disable
   unicorn/prefer-module,
-  putout/putout
+  putout/putout,
+  import/max-dependencies
 */
 
 "use strict";
 
 require("./base.json");
+require("./prettier.json");
 require("./index.json");
 require("./fp.json");
 require("./node.json");

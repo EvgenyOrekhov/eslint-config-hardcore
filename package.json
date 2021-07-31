@@ -74,6 +74,7 @@
   },
   "files": [
     "base.json",
+    "prettier.json",
     "index.json",
     "fp.json",
     "node.json",

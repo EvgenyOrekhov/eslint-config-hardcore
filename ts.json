@@ -2,14 +2,13 @@
   "extends": [
     "plugin:import/typescript",
     "plugin:@typescript-eslint/all",
-    "plugin:prettier/recommended"
+    "./ts-for-js.json",
+    "./prettier.json"
   ],
 
-  "plugins": ["import", "sort-class-members", "decorator-position", "@shopify"],
+  "plugins": ["import"],
 
   "rules": {
-    "no-void": ["error", { "allowAsStatement": true }],
-
     "@typescript-eslint/no-magic-numbers": [
       "error",
       { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
@@ -31,25 +30,12 @@
       }
     ],
 
-    "@typescript-eslint/quotes": [
-      "error",
-      "double",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
-
-    "@typescript-eslint/return-await": ["error", "always"],
-
     "@typescript-eslint/no-shadow": [
       "error",
       {
         "builtinGlobals": true,
         "allow": ["defaultStatus", "event", "find", "length", "name", "status"]
       }
-    ],
-
-    "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
-      "error",
-      { "allowComparingNullableBooleansToTrue": false }
     ],
 
     "@typescript-eslint/prefer-readonly-parameter-types": [
@@ -67,97 +53,13 @@
       { "checkCompoundAssignments": true }
     ],
 
-    "@typescript-eslint/naming-convention": [
+    "quotes": "off",
+    "@typescript-eslint/quotes": [
       "error",
-      {
-        "selector": "default",
-        "format": ["strictCamelCase"]
-      },
-      {
-        "selector": "function",
-        "format": ["strictCamelCase", "StrictPascalCase"]
-      },
-      {
-        "selector": ["typeLike", "enumMember"],
-        "format": ["StrictPascalCase"]
-      },
-      {
-        "selector": ["variable", "parameter", "property", "accessor"],
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
-      }
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
     ],
 
-    "sort-class-members/sort-class-members": [
-      "error",
-      {
-        "groups": {
-          "static-arrow-function-properties": {
-            "static": true,
-            "propertyType": "ArrowFunctionExpression"
-          },
-          "static-async-methods": {
-            "static": true,
-            "type": "method",
-            "async": true
-          },
-          "static-accessor-pairs": { "static": true, "accessorPair": true },
-          "static-getters": { "static": true, "kind": "get" },
-          "static-setters": { "static": true, "kind": "set" },
-          "static-conventional-private-properties": {
-            "static": true,
-            "type": "property",
-            "name": "/_.+/"
-          },
-          "static-conventional-private-methods": {
-            "static": true,
-            "type": "method",
-            "name": "/_.+/"
-          },
-          "static-async-conventional-private-methods": {
-            "static": true,
-            "type": "method",
-            "name": "/_.+/",
-            "async": true
-          },
-          "async-conventional-private-methods": {
-            "type": "method",
-            "name": "/_.+/",
-            "async": true
-          }
-        },
-        "order": [
-          "[static-properties]",
-          "[static-arrow-function-properties]",
-          "[static-accessor-pairs]",
-          "[static-getters]",
-          "[static-setters]",
-          "[static-methods]",
-          "[static-async-methods]",
-          "[properties]",
-          "[arrow-function-properties]",
-          "constructor",
-          "[accessor-pairs]",
-          "[getters]",
-          "[setters]",
-          "[methods]",
-          "[async-methods]",
-          "[static-conventional-private-properties]",
-          "[static-conventional-private-methods]",
-          "[static-async-conventional-private-methods]",
-          "[conventional-private-properties]",
-          "[conventional-private-methods]",
-          "[async-conventional-private-methods]"
-        ],
-        "accessorPairPositioning": "getThenSet"
-      }
-    ],
-
-    "decorator-position/decorator-position": "error",
-
-    "@shopify/prefer-class-properties": "error",
-    "@shopify/no-fully-static-classes": "error",
     "@shopify/typescript/prefer-singular-enums": "error",
 
     "import/extensions": ["error", "never"],

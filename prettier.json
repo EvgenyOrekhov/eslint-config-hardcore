@@ -1,0 +1,45 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+
+  "rules": {
+    "arrow-body-style": "error",
+    "no-tabs": "error",
+    "curly": "error",
+
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "comments": 80,
+        "ignorePattern": "// eslint-disable-next-line",
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ],
+    "lines-around-comment": [
+      "error",
+      {
+        "beforeBlockComment": true,
+        "beforeLineComment": true,
+        "allowBlockStart": true,
+        "allowObjectStart": true,
+        "allowArrayStart": true,
+        "allowClassStart": true
+      }
+    ]
+  },
+
+  "overrides": [
+    {
+      "files": ["*.htm", "*.html"],
+      "rules": { "prettier/prettier": ["error", { "parser": "html" }] }
+    }
+  ]
+}

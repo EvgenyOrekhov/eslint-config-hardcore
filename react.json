@@ -4,7 +4,7 @@
     "plugin:react-hooks/recommended",
     "plugin:react-perf/all",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended"
+    "./prettier.json"
   ],
 
   "plugins": ["@shopify"],
@@ -106,6 +106,7 @@
     "react": {
       "version": "detect"
     },
+
     "jest": {
       "version": 27
     }

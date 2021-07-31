@@ -1,6 +1,4 @@
 {
-  "plugins": ["unicorn"],
-
   "extends": ["plugin:node/recommended"],
 
   "parserOptions": { "ecmaVersion": 2021 },

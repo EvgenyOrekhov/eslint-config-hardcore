@@ -65,7 +65,7 @@
         "format": ["strictCamelCase", "StrictPascalCase"]
       },
       {
-        "selector": "typeLike",
+        "selector": ["typeLike", "enumMember"],
         "format": ["StrictPascalCase"]
       },
       {
