@@ -6,7 +6,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:testing-library/react",
     "plugin:jest/all",
-    "plugin:jest-dom/recommended",
+    "plugin:jest-dom/all",
     "plugin:jest-formatting/strict",
     "plugin:prettier/recommended"
   ],
@@ -24,14 +24,41 @@
     ],
 
     "react/jsx-max-depth": ["error", { "max": 10 }],
+    "react/state-in-constructor": ["error", "never"],
+    "react/no-string-refs": ["error", { "noTemplateLiterals": true }],
+    "react/jsx-key": [
+      "error",
+      { "checkFragmentShorthand": true, "checkKeyMustBeforeSpread": true }
+    ],
+    "react/forbid-prop-types": [
+      "error",
+      { "checkContextTypes": true, "checkChildContextTypes": true }
+    ],
+    "react/no-unsafe": ["error", { "checkAliases": true }],
+    "react/sort-prop-types": ["error", { "sortShapeProp": true }],
+    "react/boolean-prop-naming": [
+      "error",
+      {
+        "rule": "^(is|has|are|can|should|did|will)[A-Z]([A-Za-z0-9])+",
+        "validateNested": true
+      }
+    ],
+    "react/require-default-props": [
+      "error",
+      { "forbidDefaultForRequired": true }
+    ],
+
+    "react-hooks/exhaustive-deps": "error",
+
+    "jsx-a11y/lang": "error",
+
+    "jest/valid-expect": ["error", { "alwaysAwait": true }],
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
 
     "react/jsx-no-literals": "off",
-    "react/react-in-jsx-scope": "off",
-
-    "jsx-a11y/no-onchange": "off"
+    "react/react-in-jsx-scope": "off"
   },
 
   "overrides": [
