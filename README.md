@@ -16,6 +16,14 @@ extremely consistent and robust.
 npm install --save-dev eslint-config-hardcore
 ```
 
+Available configs:
+
+- `hardcore` - base framework-agnostic config
+- `hardcore/fp` - additional config for functional programming
+- `hardcore/node`- additional config for Node.js
+- `hardcore/ts-for-js`- additional config for linting JavaScript with
+  [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+
 Then add the necessary configs to your `.eslintrc` file and specify your
 [environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
 
