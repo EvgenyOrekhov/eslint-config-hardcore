@@ -9,93 +9,11 @@
   ],
 
   "rules": {
-    "default-param-last": "off",
-    "@typescript-eslint/default-param-last": "error",
-
-    "dot-notation": "off",
-    "@typescript-eslint/dot-notation": "error",
-
-    "lines-between-class-members": "off",
-    "@typescript-eslint/lines-between-class-members": "error",
-
-    "no-array-constructor": "off",
-    "@typescript-eslint/no-array-constructor": "error",
-
-    "no-dupe-class-members": "off",
-    "@typescript-eslint/no-dupe-class-members": "error",
-
-    "no-empty-function": "off",
-    "@typescript-eslint/no-empty-function": "error",
-
-    "no-invalid-this": "off",
-    "@typescript-eslint/no-invalid-this": "error",
-
-    "no-loss-of-precision": "off",
-    "@typescript-eslint/no-loss-of-precision": "error",
-
-    "no-magic-numbers": "off",
-    "@typescript-eslint/no-magic-numbers": [
-      "error",
-      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
-    ],
-
-    "no-unused-expressions": "off",
-    "@typescript-eslint/no-unused-expressions": [
-      "error",
-      { "enforceForJSX": true }
-    ],
-
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "vars": "all",
-        "args": "after-used",
-        "caughtErrors": "all",
-        "varsIgnorePattern": "^ignore$",
-        "argsIgnorePattern": "^ignore$"
-      }
-    ],
-
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "error",
-
-    "no-useless-constructor": "off",
-    "@typescript-eslint/no-useless-constructor": "error",
-
-    "quotes": "off",
-    "@typescript-eslint/quotes": [
-      "error",
-      "double",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
-
     "require-await": "off",
     "@typescript-eslint/require-await": "error",
 
     "no-return-await": "off",
     "@typescript-eslint/return-await": ["error", "always"],
-
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": [
-      "error",
-      {
-        "builtinGlobals": true,
-        "allow": ["defaultStatus", "event", "find", "length", "name", "status"]
-      }
-    ],
-
-    "no-redeclare": "off",
-    "@typescript-eslint/no-redeclare": "error",
-
-    "no-loop-func": "off",
-    "@typescript-eslint/no-loop-func": "error",
-
-    "no-duplicate-imports": "off",
-    "@typescript-eslint/no-duplicate-imports": "error",
-
-    "init-declarations": "off",
-    "@typescript-eslint/init-declarations": "error",
 
     "no-void": ["error", { "allowAsStatement": true }],
     "@typescript-eslint/no-floating-promises": "error",
@@ -227,39 +145,5 @@
 
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error"
-  },
-
-  "overrides": [
-    {
-      "files": [
-        "**/test/**",
-        "**/tests/**",
-        "**/spec/**",
-        "**/__tests__/**",
-        "*.test.*",
-        "*.spec.*",
-        "*.e2e.*"
-      ],
-
-      "rules": {
-        "@typescript-eslint/no-shadow": [
-          "error",
-          {
-            "builtinGlobals": true,
-            "allow": [
-              "defaultStatus",
-              "event",
-              "find",
-              "length",
-              "name",
-              "status",
-              "screen"
-            ]
-          }
-        ],
-
-        "@typescript-eslint/no-magic-numbers": "off"
-      }
-    }
-  ]
+  }
 }

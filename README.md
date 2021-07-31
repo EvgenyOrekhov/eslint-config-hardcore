@@ -102,11 +102,11 @@ Config for linting JavaScript with
 
 | Plugin                                                                                                | Enabled rules |
 | ----------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            45 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            26 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total:**                                                                                            |        **49** |
+| **Total:**                                                                                            |        **30** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?

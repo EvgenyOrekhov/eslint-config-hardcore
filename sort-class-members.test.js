@@ -1,7 +1,7 @@
 /* eslint-disable
   fp/no-class,
-  @typescript-eslint/no-empty-function,
-  @typescript-eslint/no-useless-constructor,
+  no-empty-function,
+  no-useless-constructor,
   @typescript-eslint/naming-convention,
   no-underscore-dangle,
   getter-return,
