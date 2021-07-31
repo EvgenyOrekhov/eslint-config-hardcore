@@ -49,7 +49,7 @@ Then add the necessary configs to your `.eslintrc` file and specify your
 
 ### `hardcore`
 
-The main config.
+Base framework-agnostic config.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
