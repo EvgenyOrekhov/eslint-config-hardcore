@@ -24,7 +24,7 @@ Available configs:
 - `hardcore/ts-for-js`- additional config for linting JavaScript with
   [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-Then add the necessary configs to your `.eslintrc` file and specify your
+Add the necessary configs to your `.eslintrc` file and specify your
 [environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
 
 ```json
