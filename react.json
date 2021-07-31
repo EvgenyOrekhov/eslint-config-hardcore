@@ -4,10 +4,6 @@
     "plugin:react-hooks/recommended",
     "plugin:react-perf/all",
     "plugin:jsx-a11y/recommended",
-    "plugin:testing-library/react",
-    "plugin:jest/all",
-    "plugin:jest-dom/all",
-    "plugin:jest-formatting/strict",
     "plugin:prettier/recommended"
   ],
 
@@ -73,8 +69,18 @@
         "*.e2e.*"
       ],
 
+      "extends": [
+        "plugin:testing-library/react",
+        "plugin:jest/all",
+        "plugin:jest-dom/all",
+        "plugin:jest-formatting/strict"
+      ],
+
       "rules": {
-        "react-perf/jsx-no-new-object-as-prop": "off"
+        "react-perf/jsx-no-new-object-as-prop": "off",
+        "react-perf/jsx-no-new-array-as-prop": "off",
+        "react-perf/jsx-no-new-function-as-prop": "off",
+        "react-perf/jsx-no-jsx-as-prop": "off"
       }
     }
   ],
