@@ -52,6 +52,7 @@
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
+    "@shopify/react-no-multiple-render-methods": "error",
 
     "react/jsx-no-literals": "off",
     "react/react-in-jsx-scope": "off"
