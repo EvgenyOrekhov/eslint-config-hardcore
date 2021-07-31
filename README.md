@@ -5,16 +5,51 @@
 
 The most strict (but practical) framework-agnostic ESLint config.
 
-**708 rules.**
+**24 plugins. 708 rules.**
 
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-Uses
-[eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) for
-autoformatting your code.
+## Usage
 
-## What's included
+```sh
+npm install --save-dev eslint-config-hardcore
+```
+
+Then add the necessary configs to your `.eslintrc` file and specify your
+[environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
+
+```json
+{
+  "extends": ["hardcore", "hardcore/fp"],
+
+  "env": {
+    "browser": true
+  },
+
+  "overrides": [
+    {
+      "files": ["server/**/*.js"],
+      "extends": ["hardcore/node"],
+      "env": {
+        "browser": false
+      }
+    },
+
+    {
+      "files": ["*.js"],
+      "extends": ["hardcore/ts-for-js"],
+      "parserOptions": { "project": "./tsconfig.json" }
+    }
+  ]
+}
+```
+
+## Configs
+
+### `hardcore`
+
+The main config.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
@@ -36,90 +71,34 @@ autoformatting your code.
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |             1 |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total: `hardcore`**                                                                                     |       **608** |
+| **Total:**                                                                                                |       **608** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
 
-## Usage
+### `hardcore/fp`
 
-Install:
-
-```sh
-npm install --save-dev eslint-config-hardcore
-```
-
-Then, add it to your `.eslintrc` file and specify your
-[environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
-
-```json
-{
-  "extends": ["hardcore"],
-  "env": {
-    "browser": true
-  }
-}
-```
-
-## `hardcore/fp`
-
-This config adds rules for functional programming.
+Config for functional programming.
 
 | Plugin                                                              | Enabled rules |
 | ------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |            13 |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |            24 |
-| **Total: `hardcore` + `hardcore/fp`**                               |       **645** |
+| **Total:**                                                          |        **37** |
 
-Use it **in addition** to the `hardcore` config:
+### `hardcore/node`
 
-```json
-{
-  "extends": ["hardcore", "hardcore/fp"],
-  "env": {
-    "browser": true
-  }
-}
-```
-
-## `hardcore/node`
-
-This config adds rules and globals for Node.js.
+Config for Node.js.
 
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node`**                |       **680** |
+| **Total:**                                                             |        **35** |
 
-Use it **in addition** to other configs:
+### `hardcore/ts-for-js`
 
-```json
-{
-  "extends": ["hardcore", "hardcore/fp", "hardcore/node"]
-}
-```
-
-Or, if your project contains both non-Node and Node files, use it like this:
-
-```json
-{
-  "extends": ["hardcore", "hardcore/fp"],
-  "env": {
-    "browser": true
-  },
-  "overrides": [
-    {
-      "files": ["server/**/*.js"],
-      "extends": ["hardcore/node"],
-      "env": {
-        "browser": false
-      }
-    }
-  ]
-}
-```
-
-## `hardcore/ts-for-js`
+Config for linting JavaScript with
+[typescript-eslint](https://github.com/typescript-eslint/typescript-eslint).
 
 | Plugin                                                                                                | Enabled rules |
 | ----------------------------------------------------------------------------------------------------- | ------------: |
@@ -127,7 +106,7 @@ Or, if your project contains both non-Node and Node files, use it like this:
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total: `hardcore` + `hardcore/fp` + `hardcore/node` + `hardcore/ts-for-js`**                        |       **708** |
+| **Total:**                                                                                            |        **49** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
@@ -146,7 +125,12 @@ without the need to switch to writing TypeScript.
 
 ```json
 {
-  "extends": ["hardcore", "hardcore/fp", "hardcore/node"],
+  "extends": ["hardcore", "hardcore/fp"],
+
+  "env": {
+    "browser": true
+  },
+
   "overrides": [
     {
       "files": ["*.js"],
