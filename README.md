@@ -8,7 +8,7 @@ The most strict (but practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**24 plugins. 708 rules.**
+**24 plugins. 787 rules.**
 
 ## Usage
 
@@ -104,6 +104,18 @@ Base framework-agnostic config.
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
+
+### `hardcore/ts`
+
+Config for TypeScript.
+
+| Plugin                                                                                                | Enabled rules |
+| ----------------------------------------------------------------------------------------------------- | ------------: |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |           102 |
+| [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             3 |
+| [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
+| [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
+| **Total:**                                                                                            |       **107** |
 
 ### `hardcore/node`
 
