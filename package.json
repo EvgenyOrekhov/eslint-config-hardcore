@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "20.0.0-alpha.4",
+  "version": "20.0.0-alpha.5",
   "description": "The most strict (but practical) ESLint config",
   "main": "index.json",
   "scripts": {
