@@ -3,17 +3,17 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-hardcore?style=flat-square)](https://www.npmjs.com/package/eslint-config-hardcore)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-The most strict (but practical) framework-agnostic ESLint config.
-
-**24 plugins. 708 rules.**
+The most strict (but practical) ESLint config.
 
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
+**24 plugins. 708 rules.**
+
 ## Usage
 
 ```sh
-npm install --save-dev eslint-config-hardcore
+npm install eslint-config-hardcore --save-dev
 ```
 
 Available configs:
@@ -105,6 +105,15 @@ Base framework-agnostic config.
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
 
+### `hardcore/node`
+
+Config for Node.js.
+
+| Plugin                                                                 | Enabled rules |
+| ---------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
+| **Total:**                                                             |        **35** |
+
 ### `hardcore/fp`
 
 Config for functional programming.
@@ -114,15 +123,6 @@ Config for functional programming.
 | [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |            13 |
 | [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |            24 |
 | **Total:**                                                          |        **37** |
-
-### `hardcore/node`
-
-Config for Node.js.
-
-| Plugin                                                                 | Enabled rules |
-| ---------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
-| **Total:**                                                             |        **35** |
 
 ### `hardcore/ts-for-js`
 
@@ -154,7 +154,7 @@ without the need to switch to writing TypeScript.
 
 ```json
 {
-  "extends": ["hardcore", "hardcore/fp"],
+  "extends": ["hardcore"],
 
   "env": {
     "browser": true
