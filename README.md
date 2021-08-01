@@ -19,17 +19,18 @@ npm install --save-dev eslint-config-hardcore
 Available configs:
 
 - `hardcore` - base framework-agnostic config
-- `hardcore/fp` - additional config for functional programming
+- `hardcore/ts` - additional config for TypeScript
+- `hardcore/react` - additional config for React
 - `hardcore/node`- additional config for Node.js
-- `hardcore/ts-for-js`- additional config for linting JavaScript with
+- `hardcore/fp` - additional config for functional programming
+- `hardcore/ts-for-js` - additional config for linting JavaScript with
   [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-Add the necessary configs to your `.eslintrc` file and specify your
-[environments](https://eslint.org/docs/user-guide/configuring#specifying-environments):
+Example `.eslintrc.json` for a React project:
 
 ```json
 {
-  "extends": ["hardcore", "hardcore/fp"],
+  "extends": ["hardcore", "hardcore/react", "hardcore/fp"],
 
   "env": {
     "browser": true
@@ -42,12 +43,32 @@ Add the necessary configs to your `.eslintrc` file and specify your
       "env": {
         "browser": false
       }
-    },
+    }
+  ]
+}
+```
 
+Example `.eslintrc.json` for a TypeScript React project:
+
+```json
+{
+  "extends": ["hardcore", "hardcore/react", "hardcore/fp", "hardcore/ts"],
+
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+
+  "env": {
+    "browser": true
+  },
+
+  "overrides": [
     {
-      "files": ["*.js"],
-      "extends": ["hardcore/ts-for-js"],
-      "parserOptions": { "project": "./tsconfig.json" }
+      "files": ["server/**/*.ts"],
+      "extends": ["hardcore/node"],
+      "env": {
+        "browser": false
+      }
     }
   ]
 }

@@ -1,74 +1,89 @@
 {
-  "extends": [
-    "plugin:import/typescript",
-    "plugin:@typescript-eslint/all",
-    "./ts-for-js.json",
-    "./prettier.json"
-  ],
-
-  "plugins": ["import"],
-
-  "rules": {
-    "@typescript-eslint/no-magic-numbers": [
-      "error",
-      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
-    ],
-
-    "@typescript-eslint/no-unused-expressions": [
-      "error",
-      { "enforceForJSX": true }
-    ],
-
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "vars": "all",
-        "args": "after-used",
-        "caughtErrors": "all",
-        "varsIgnorePattern": "^ignore$",
-        "argsIgnorePattern": "^ignore$"
-      }
-    ],
-
-    "@typescript-eslint/no-shadow": [
-      "error",
-      {
-        "builtinGlobals": true,
-        "allow": ["defaultStatus", "event", "find", "length", "name", "status"]
-      }
-    ],
-
-    "@typescript-eslint/prefer-readonly-parameter-types": [
-      "error",
-      { "ignoreInferredTypes": true }
-    ],
-
-    "@typescript-eslint/no-use-before-define": [
-      "error",
-      { "ignoreTypeReferences": false }
-    ],
-
-    "@typescript-eslint/restrict-plus-operands": [
-      "error",
-      { "checkCompoundAssignments": true }
-    ],
-
-    "quotes": "off",
-    "@typescript-eslint/quotes": [
-      "error",
-      "double",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
-
-    "@shopify/typescript/prefer-singular-enums": "error",
-
-    "import/extensions": ["error", "never"],
-
-    "@typescript-eslint/member-ordering": "off",
-    "@typescript-eslint/no-type-alias": "off"
-  },
-
   "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+
+      "extends": [
+        "plugin:import/typescript",
+        "plugin:@typescript-eslint/all",
+        "./ts-for-js.json",
+        "./prettier.json"
+      ],
+
+      "plugins": ["import"],
+
+      "rules": {
+        "@typescript-eslint/no-magic-numbers": [
+          "error",
+          {
+            "ignore": [0, 1],
+            "enforceConst": true,
+            "ignoreDefaultValues": true
+          }
+        ],
+
+        "@typescript-eslint/no-unused-expressions": [
+          "error",
+          { "enforceForJSX": true }
+        ],
+
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "vars": "all",
+            "args": "after-used",
+            "caughtErrors": "all",
+            "varsIgnorePattern": "^ignore$",
+            "argsIgnorePattern": "^ignore$"
+          }
+        ],
+
+        "@typescript-eslint/no-shadow": [
+          "error",
+          {
+            "builtinGlobals": true,
+            "allow": [
+              "defaultStatus",
+              "event",
+              "find",
+              "length",
+              "name",
+              "status"
+            ]
+          }
+        ],
+
+        "@typescript-eslint/prefer-readonly-parameter-types": [
+          "error",
+          { "ignoreInferredTypes": true }
+        ],
+
+        "@typescript-eslint/no-use-before-define": [
+          "error",
+          { "ignoreTypeReferences": false }
+        ],
+
+        "@typescript-eslint/restrict-plus-operands": [
+          "error",
+          { "checkCompoundAssignments": true }
+        ],
+
+        "quotes": "off",
+        "@typescript-eslint/quotes": [
+          "error",
+          "double",
+          { "avoidEscape": true, "allowTemplateLiterals": false }
+        ],
+
+        "@shopify/typescript/prefer-singular-enums": "error",
+
+        "import/extensions": ["error", "never"],
+
+        "@typescript-eslint/member-ordering": "off",
+        "@typescript-eslint/no-type-alias": "off"
+      }
+    },
+
     {
       "files": [
         "**/test/**",

@@ -1,5 +1,9 @@
 {
-  "extends": ["./index.json", "./fp.json", "./react.json"],
+  "extends": ["./index.json", "./fp.json", "./react.json", "./ts.json"],
+
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
 
   "overrides": [
     {
@@ -10,20 +14,7 @@
     {
       "files": ["*.js"],
 
-      "extends": ["./ts-for-js.json"],
-
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
-    },
-    {
-      "files": ["*.ts"],
-
-      "extends": ["./ts.json"],
-
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
+      "extends": ["./ts-for-js.json"]
     }
   ]
 }

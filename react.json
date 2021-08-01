@@ -1,5 +1,6 @@
 {
   "extends": [
+    "plugin:import/react",
     "plugin:react/all",
     "plugin:react-hooks/recommended",
     "plugin:react-perf/all",
@@ -7,7 +8,7 @@
     "./prettier.json"
   ],
 
-  "plugins": ["@shopify"],
+  "plugins": ["import", "@shopify"],
 
   "env": {
     "browser": true
@@ -59,6 +60,10 @@
   },
 
   "overrides": [
+    {
+      "files": ["*.jsx"]
+    },
+
     {
       "files": [
         "**/test/**",
