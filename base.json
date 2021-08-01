@@ -441,6 +441,7 @@
           "**/*.e2e-spec.*",
           "**/jest.config.{js,ts}",
           "**/jest.setup.{js,ts}",
+          "**/setupTests.{js,ts}",
           "**/vue.config.{js,ts}",
           "**/webpack.config.{js,ts}",
           "**/webpack.config.*.{js,ts}",
