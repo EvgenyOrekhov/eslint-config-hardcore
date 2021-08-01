@@ -80,7 +80,9 @@
         "import/extensions": ["error", "never"],
 
         "@typescript-eslint/member-ordering": "off",
-        "@typescript-eslint/no-type-alias": "off"
+        "@typescript-eslint/no-type-alias": "off",
+
+        "import/no-unused-modules": "off"
       }
     },
 

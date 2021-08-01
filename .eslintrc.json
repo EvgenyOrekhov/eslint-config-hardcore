@@ -5,6 +5,13 @@
     "project": "./tsconfig.json"
   },
 
+  "rules": {
+    "import/no-unused-modules": [
+      "error",
+      { "missingExports": false, "unusedExports": true }
+    ]
+  },
+
   "overrides": [
     {
       "files": ["./test.js"],
