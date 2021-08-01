@@ -42,6 +42,13 @@
       "files": ["*.mjs", ".*.mjs"],
 
       "parserOptions": { "ecmaVersion": 2021 }
+    },
+    {
+      "files": ["*.ts"],
+
+      "rules": {
+        "node/file-extension-in-import": ["error", "never"]
+      }
     }
   ]
 }

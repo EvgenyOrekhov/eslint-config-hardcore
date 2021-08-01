@@ -89,6 +89,12 @@
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/no-type-alias": "off"
+      },
+
+      "settings": {
+        "node": {
+          "tryExtensions": [".mjs", ".cjs", ".js", ".json", ".node", ".ts"]
+        }
       }
     },
 
