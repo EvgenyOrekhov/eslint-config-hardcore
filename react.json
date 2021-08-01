@@ -83,6 +83,10 @@
         "plugin:jest-formatting/strict"
       ],
 
+      "env": {
+        "jest": true
+      },
+
       "rules": {
         "testing-library/no-await-sync-events": "error",
         "testing-library/no-manual-cleanup": "error",
@@ -104,6 +108,24 @@
         "react-perf/jsx-no-new-array-as-prop": "off",
         "react-perf/jsx-no-new-function-as-prop": "off",
         "react-perf/jsx-no-jsx-as-prop": "off"
+      }
+    },
+
+    {
+      "files": ["jest.config.js"],
+
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "rules": {
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off"
+      },
+
+      "env": {
+        "browser": false,
+        "node": true
       }
     }
   ],
