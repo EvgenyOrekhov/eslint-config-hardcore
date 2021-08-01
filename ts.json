@@ -80,9 +80,7 @@
         "import/extensions": ["error", "never"],
 
         "@typescript-eslint/member-ordering": "off",
-        "@typescript-eslint/no-type-alias": "off",
-
-        "import/no-unused-modules": "off"
+        "@typescript-eslint/no-type-alias": "off"
       }
     },
 
@@ -118,6 +116,10 @@
       }
     }
   ],
+
+  "rules": {
+    "import/no-unused-modules": "off"
+  },
 
   "ignorePatterns": ["*.d.ts"]
 }
