@@ -438,6 +438,7 @@
           "**/*.test.*",
           "**/*.spec.*",
           "**/*.e2e.*",
+          "**/*.e2e-spec.*",
           "**/jest.config.{js,ts}",
           "**/jest.setup.{js,ts}",
           "**/vue.config.{js,ts}",
@@ -556,6 +557,7 @@
           "req": true,
           "res": true
         },
+        "ignore": ["\\.e2e$", "\\.e2e-spec$"],
         "checkShorthandProperties": true
       }
     ],
@@ -745,7 +747,8 @@
         "**/__tests__/**",
         "*.test.*",
         "*.spec.*",
-        "*.e2e.*"
+        "*.e2e.*",
+        "*.e2e-spec.*"
       ],
 
       "rules": {
