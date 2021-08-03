@@ -541,6 +541,8 @@
     "unicorn/no-array-method-this-argument": "error",
     "unicorn/require-post-message-target-origin": "error",
     "unicorn/prefer-prototype-methods": "error",
+    "unicorn/no-useless-length-check": "error",
+    "unicorn/no-useless-spread": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -560,6 +562,12 @@
         },
         "ignore": ["\\.e2e$", "\\.e2e-spec$"],
         "checkShorthandProperties": true
+      }
+    ],
+    "unicorn/prefer-object-from-entries": [
+      "error",
+      {
+        "functions": ["fromPairs", "R.fromPairs"]
       }
     ],
 
