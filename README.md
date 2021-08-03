@@ -8,7 +8,7 @@ The most strict (but practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**32 plugins. 984 rules.**
+**31 plugins. 984 rules.**
 
 ## Usage
 
@@ -224,7 +224,9 @@ without the need to switch to writing TypeScript.
     {
       "files": ["*.js"],
       "extends": ["hardcore/ts-for-js"],
-      "parserOptions": { "project": "./tsconfig.json" }
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
     }
   ]
 }
