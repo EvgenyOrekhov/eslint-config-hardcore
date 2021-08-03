@@ -8,7 +8,7 @@ The most strict (but practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**24 plugins. 787 rules.**
+**25 plugins. 811 rules.**
 
 ## Usage
 
@@ -140,6 +140,15 @@ Config for Node.js.
 | ---------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
 | **Total:**                                                             |        **35** |
+
+### `hardcore/react-testing-library`
+
+Config for React Testing Library.
+
+| Plugin                                                                                            | Enabled rules |
+| ------------------------------------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) |            24 |
+| **Total:**                                                                                        |        **24** |
 
 ### `hardcore/fp`
 
