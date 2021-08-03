@@ -28,7 +28,7 @@ Available configs:
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
   [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 
-Example `.eslintrc.json` for a React project:
+Example `.eslintrc.json` for a **React** project:
 
 ```json
 {
@@ -56,7 +56,7 @@ Example `.eslintrc.json` for a React project:
 }
 ```
 
-Example `.eslintrc.json` for a TypeScript React project:
+Example `.eslintrc.json` for a **TypeScript React** project:
 
 ```json
 {
