@@ -93,7 +93,15 @@
 
       "settings": {
         "node": {
-          "tryExtensions": [".mjs", ".cjs", ".js", ".json", ".node", ".ts"]
+          "tryExtensions": [
+            ".mjs",
+            ".cjs",
+            ".js",
+            ".json",
+            ".node",
+            ".ts",
+            ".d.ts"
+          ]
         }
       }
     },
