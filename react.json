@@ -49,8 +49,6 @@
 
     "jsx-a11y/lang": "error",
 
-    "jest/valid-expect": ["error", { "alwaysAwait": true }],
-
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
     "@shopify/react-no-multiple-render-methods": "error",
@@ -76,56 +74,11 @@
         "*.e2e-spec.*"
       ],
 
-      "extends": [
-        "plugin:testing-library/react",
-        "plugin:jest/all",
-        "plugin:jest-dom/all",
-        "plugin:jest-formatting/strict"
-      ],
-
-      "env": {
-        "jest": true
-      },
-
       "rules": {
-        "testing-library/no-await-sync-events": "error",
-        "testing-library/no-manual-cleanup": "error",
-        "testing-library/no-render-in-setup": "error",
-        "testing-library/no-wait-for-multiple-assertions": "error",
-        "testing-library/no-wait-for-side-effects": "error",
-        "testing-library/no-wait-for-snapshot": "error",
-        "testing-library/prefer-presence-queries": "error",
-        "testing-library/prefer-query-by-disappearance": "error",
-        "testing-library/prefer-user-event": "error",
-        "testing-library/prefer-wait-for": "error",
-        "testing-library/no-unnecessary-act": ["error", { "isStrict": true }],
-        "testing-library/prefer-explicit-assert": [
-          "error",
-          { "assertion": "toBeInTheDocument" }
-        ],
-
         "react-perf/jsx-no-new-object-as-prop": "off",
         "react-perf/jsx-no-new-array-as-prop": "off",
         "react-perf/jsx-no-new-function-as-prop": "off",
         "react-perf/jsx-no-jsx-as-prop": "off"
-      }
-    },
-
-    {
-      "files": ["jest.config.js"],
-
-      "parserOptions": {
-        "sourceType": "script"
-      },
-
-      "rules": {
-        "unicorn/prefer-module": "off",
-        "import/no-commonjs": "off"
-      },
-
-      "env": {
-        "browser": false,
-        "node": true
       }
     }
   ],
@@ -133,10 +86,6 @@
   "settings": {
     "react": {
       "version": "detect"
-    },
-
-    "jest": {
-      "version": 27
     }
   }
 }

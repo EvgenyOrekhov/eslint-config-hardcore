@@ -1,0 +1,45 @@
+{
+  "overrides": [
+    {
+      "files": ["**/__tests__/**", "*.test.*", "*.spec.*"],
+
+      "extends": [
+        "plugin:jest/all",
+        "plugin:jest-dom/all",
+        "plugin:jest-formatting/strict"
+      ],
+
+      "env": {
+        "jest": true
+      },
+
+      "rules": {
+        "jest/valid-expect": ["error", { "alwaysAwait": true }]
+      }
+    },
+
+    {
+      "files": ["jest.config.js"],
+
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "rules": {
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off"
+      },
+
+      "env": {
+        "browser": false,
+        "node": true
+      }
+    }
+  ],
+
+  "settings": {
+    "jest": {
+      "version": 27
+    }
+  }
+}

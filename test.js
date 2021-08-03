@@ -17,6 +17,8 @@ require("./node.json");
 require("./ts-for-js.json");
 require("./ts.json");
 require("./react.json");
+require("./react-testing-library.json");
+require("./jest.json");
 require("./tsconfig.json");
 require("./disabled-rules.json");
 require("./rules-disabled-by-prettier.json");

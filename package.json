@@ -80,7 +80,9 @@
     "node.json",
     "ts-for-js.json",
     "ts.json",
-    "react.json"
+    "react.json",
+    "react-testing-library.json",
+    "jest.json"
   ],
   "devDependencies": {
     "eslint": "^7.32.0"

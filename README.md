@@ -20,8 +20,10 @@ Available configs:
 
 - `hardcore` - base framework-agnostic config
 - `hardcore/ts` - additional config for TypeScript
-- `hardcore/react` - additional config for React
 - `hardcore/node`- additional config for Node.js
+- `hardcore/react` - additional config for React
+- `hardcore/react-testing-library` - additional config for React Testing Library
+- `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
   [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
@@ -30,7 +32,13 @@ Example `.eslintrc.json` for a React project:
 
 ```json
 {
-  "extends": ["hardcore", "hardcore/react", "hardcore/fp"],
+  "extends": [
+    "hardcore",
+    "hardcore/react",
+    "hardcore/react-testing-library",
+    "hardcore/jest",
+    "hardcore/fp"
+  ],
 
   "env": {
     "browser": true
@@ -52,7 +60,14 @@ Example `.eslintrc.json` for a TypeScript React project:
 
 ```json
 {
-  "extends": ["hardcore", "hardcore/react", "hardcore/fp", "hardcore/ts"],
+  "extends": [
+    "hardcore",
+    "hardcore/react",
+    "hardcore/react-testing-library",
+    "hardcore/jest",
+    "hardcore/fp",
+    "hardcore/ts"
+  ],
 
   "parserOptions": {
     "project": "./tsconfig.json"

@@ -1,5 +1,12 @@
 {
-  "extends": ["./index.json", "./fp.json", "./react.json", "./ts.json"],
+  "extends": [
+    "./index.json",
+    "./fp.json",
+    "./react.json",
+    "./react-testing-library.json",
+    "./jest.json",
+    "./ts.json"
+  ],
 
   "parserOptions": {
     "project": "./tsconfig.json"
