@@ -734,7 +734,8 @@
           "declare-undefined-variables": "off",
           "remove-useless-operand": "off",
           "remove-boolean-from-assertions": "off",
-          "remove-empty/import": "off"
+          "remove-empty/import": "off",
+          "promises/add-missing-await": "off"
         },
 
         "match": {
