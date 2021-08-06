@@ -736,7 +736,8 @@
           "remove-useless-operand": "off",
           "remove-boolean-from-assertions": "off",
           "remove-empty/import": "off",
-          "promises/add-missing-await": "off"
+          "promises/add-missing-await": "off",
+          "remove-unused-types": "off"
         },
 
         "match": {
