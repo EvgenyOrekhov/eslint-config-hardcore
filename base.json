@@ -720,6 +720,7 @@
 
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
+          "apply-array-at": "off",
 
           "convert-array-copy-to-slice": "off",
           "convert-for-each-to-for-of": "off",
