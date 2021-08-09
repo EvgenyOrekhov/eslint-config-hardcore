@@ -86,6 +86,7 @@
           "error",
           { "missingExports": false, "unusedExports": true }
         ],
+        "import/max-dependencies": ["error", { "ignoreTypeImports": true }],
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/no-type-alias": "off"

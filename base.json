@@ -391,11 +391,9 @@
     "security/detect-pseudoRandomBytes": "error",
     "security/detect-unsafe-regex": "error",
 
-    "import/named": "error",
     "import/default": "error",
     "import/namespace": "error",
     "import/no-absolute-path": "error",
-    "import/no-dynamic-require": "error",
     "import/no-webpack-loader-syntax": "error",
     "import/no-self-import": "error",
     "import/export": "error",
@@ -475,6 +473,8 @@
         "newlines-between": "always"
       }
     ],
+    "import/no-dynamic-require": ["error", { "esmodule": true }],
+    "import/named": ["error", { "commonjs": true }],
 
     "unicorn/custom-error-definition": "error",
     "unicorn/error-message": "error",
