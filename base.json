@@ -655,13 +655,11 @@
     "regexp/no-escape-backspace": "error",
     "regexp/no-invisible-character": "error",
     "regexp/no-octal": "error",
-    "regexp/no-useless-exactly-quantifier": "error",
     "regexp/no-useless-two-nums-quantifier": "error",
     "regexp/prefer-d": "error",
     "regexp/prefer-plus-quantifier": "error",
     "regexp/prefer-question-quantifier": "error",
     "regexp/prefer-star-quantifier": "error",
-    "regexp/prefer-t": "error",
     "regexp/prefer-w": "error",
     "regexp/prefer-quantifier": "error",
     "regexp/no-useless-character-class": "error",
@@ -669,7 +667,6 @@
     "regexp/prefer-regexp-exec": "error",
     "regexp/prefer-regexp-test": "error",
     "regexp/prefer-unicode-codepoint-escapes": "error",
-    "regexp/letter-case": "error",
     "regexp/no-useless-range": "error",
     "regexp/prefer-range": "error",
     "regexp/prefer-character-class": "error",
@@ -692,9 +689,7 @@
     "regexp/prefer-named-backreference": "error",
     "regexp/no-useless-flag": "error",
     "regexp/no-trivially-nested-quantifier": "error",
-    "regexp/hexadecimal-escape": "error",
     "regexp/sort-flags": "error",
-    "regexp/unicode-escape": "error",
     "regexp/no-non-standard-flag": "error",
     "regexp/control-character-escape": "error",
     "regexp/prefer-predefined-assertion": "error",
@@ -707,6 +702,19 @@
     "regexp/sort-alternatives": "error",
     "regexp/no-super-linear-backtracking": "error",
     "regexp/no-super-linear-move": "error",
+    "regexp/no-invalid-regexp": "error",
+
+    "regexp/letter-case": [
+      "error",
+      {
+        "caseInsensitive": "lowercase",
+        "unicodeEscape": "uppercase",
+        "hexadecimalEscape": "uppercase",
+        "controlEscape": "uppercase"
+      }
+    ],
+    "regexp/hexadecimal-escape": ["error", "never"],
+    "regexp/unicode-escape": ["error", "unicodeEscape"],
 
     "putout/putout": [
       "error",
