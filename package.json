@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hardcore",
   "version": "20.3.0",
-  "description": "The most strict (but practical) ESLint config",
+  "description": "The most strict (yet practical) ESLint config",
   "main": "index.json",
   "scripts": {
     "test": "node ./test.js && eslint .",
