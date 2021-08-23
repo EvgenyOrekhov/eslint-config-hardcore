@@ -69,7 +69,7 @@
     "eslint-plugin-testing-library": "^4.11.0",
     "eslint-plugin-unicorn": "^35.0.0",
     "prettier": "^2.3.2",
-    "putout": "^18.14.0",
+    "putout": "^18.16.0",
     "typescript": "^4.3.5"
   },
   "files": [
