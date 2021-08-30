@@ -44,6 +44,7 @@
       "error",
       { "forbidDefaultForRequired": true }
     ],
+    "react/jsx-no-target-blank": ["error", { "forms": true }],
 
     "react-hooks/exhaustive-deps": "error",
 
