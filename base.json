@@ -543,6 +543,7 @@
     "unicorn/prefer-prototype-methods": "error",
     "unicorn/no-useless-length-check": "error",
     "unicorn/no-useless-spread": "error",
+    "unicorn/prefer-top-level-await": "error",
 
     "unicorn/filename-case": [
       "error",
