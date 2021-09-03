@@ -44,6 +44,7 @@
   "unicorn/no-array-for-each": "off",
   "unicorn/prefer-object-has-own": "off",
   "unicorn/prefer-at": "off",
+  "unicorn/prefer-top-level-await": "off",
 
   "sonarjs/no-duplicate-string": "off",
   "sonarjs/no-nested-template-literals": "off",

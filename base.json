@@ -543,7 +543,6 @@
     "unicorn/prefer-prototype-methods": "error",
     "unicorn/no-useless-length-check": "error",
     "unicorn/no-useless-spread": "error",
-    "unicorn/prefer-top-level-await": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -730,6 +729,7 @@
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
           "apply-array-at": "off",
+          "promises/apply-top-level-await": "off",
 
           "convert-array-copy-to-slice": "off",
           "convert-for-each-to-for-of": "off",
@@ -753,6 +753,9 @@
           "*.cjs": {
             "convert-commonjs-to-esm/require": "off",
             "convert-commonjs-to-esm/exports": "off"
+          },
+          "*.mjs": {
+            "promises/apply-top-level-await": "on"
           }
         }
       }
