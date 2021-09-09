@@ -72,6 +72,11 @@
           { "checkCompoundAssignments": true }
         ],
 
+        "@typescript-eslint/no-meaningless-void-operator": [
+          "error",
+          { "checkNever": true }
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
