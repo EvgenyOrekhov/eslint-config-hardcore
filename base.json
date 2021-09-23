@@ -705,6 +705,13 @@
     "regexp/no-super-linear-backtracking": "error",
     "regexp/no-super-linear-move": "error",
     "regexp/no-invalid-regexp": "error",
+    "regexp/no-contradiction-with-assertion": "error",
+    "regexp/prefer-lookaround": "error",
+    "regexp/no-empty-character-class": "error",
+    "regexp/prefer-named-capture-group": "error",
+    "regexp/require-unicode-regexp": "error",
+    "regexp/no-misleading-unicode-character": "error",
+    "regexp/no-control-character": "error",
 
     "regexp/letter-case": [
       "error",
@@ -748,7 +755,8 @@
           "remove-boolean-from-assertions": "off",
           "remove-empty/import": "off",
           "promises/add-missing-await": "off",
-          "remove-unused-types": "off"
+          "remove-unused-types": "off",
+          "remove-useless-new": "off"
         },
 
         "match": {

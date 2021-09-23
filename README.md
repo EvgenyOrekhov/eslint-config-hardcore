@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**31 plugins. 994 rules.**
+**31 plugins. 1002 rules.**
 
 ## Usage
 
@@ -101,7 +101,7 @@ Base framework-agnostic config.
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            88 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            73 |
-| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            59 |
+| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            66 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            34 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            30 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
@@ -115,7 +115,7 @@ Base framework-agnostic config.
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |             1 |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total:**                                                                                                |       **616** |
+| **Total:**                                                                                                |       **623** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -147,12 +147,12 @@ Config for React.
 
 | Plugin                                                                                                      | Enabled rules |
 | ----------------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            73 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            74 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                              |            34 |
 | [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)                              |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)           |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |             2 |
-| **Total:**                                                                                                  |       **116** |
+| **Total:**                                                                                                  |       **117** |
 
 ### `hardcore/react-testing-library`
 
