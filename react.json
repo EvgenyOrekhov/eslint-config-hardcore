@@ -5,6 +5,7 @@
     "plugin:react-hooks/recommended",
     "plugin:react-perf/all",
     "plugin:jsx-a11y/recommended",
+    "plugin:react-hook-form/recommended",
     "./prettier.json"
   ],
 
