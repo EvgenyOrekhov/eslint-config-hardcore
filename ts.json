@@ -108,7 +108,9 @@
         "etc/prefer-interface": ["error", { "allowIntersection": false }],
 
         "@typescript-eslint/member-ordering": "off",
-        "@typescript-eslint/no-type-alias": "off"
+        "@typescript-eslint/no-type-alias": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/explicit-function-return-type": "off"
       },
 
       "settings": {
