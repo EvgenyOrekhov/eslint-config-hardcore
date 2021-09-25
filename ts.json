@@ -14,7 +14,7 @@
         "./prettier.json"
       ],
 
-      "plugins": ["import"],
+      "plugins": ["import", "eslint-plugin-no-explicit-type-exports"],
 
       "rules": {
         "@typescript-eslint/no-magic-numbers": [
@@ -92,6 +92,8 @@
           { "missingExports": false, "unusedExports": true }
         ],
         "import/max-dependencies": ["error", { "ignoreTypeImports": true }],
+
+        "no-explicit-type-exports/no-explicit-type-exports": "error",
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/no-type-alias": "off"
