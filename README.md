@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**33 plugins. 1006 rules.**
+**34 plugins. 1016 rules.**
 
 ## Usage
 
@@ -127,11 +127,12 @@ Config for TypeScript.
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           101 |
+| [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)      |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **107** |
+| **Total:**                                                                                                 |       **117** |
 
 ### `hardcore/node`
 

@@ -14,7 +14,7 @@
         "./prettier.json"
       ],
 
-      "plugins": ["import", "eslint-plugin-no-explicit-type-exports"],
+      "plugins": ["import", "eslint-plugin-no-explicit-type-exports", "etc"],
 
       "rules": {
         "@typescript-eslint/no-magic-numbers": [
@@ -94,6 +94,18 @@
         "import/max-dependencies": ["error", { "ignoreTypeImports": true }],
 
         "no-explicit-type-exports/no-explicit-type-exports": "error",
+
+        "etc/no-assign-mutated-array": "error",
+        "etc/no-commented-out-code": "error",
+        "etc/no-const-enum": "error",
+        "etc/no-deprecated": "error",
+        "etc/no-enum": "error",
+        "etc/no-implicit-any-catch": "error",
+        "etc/no-internal": "error",
+        "etc/no-misused-generics": "error",
+        "etc/no-t": "error",
+
+        "etc/prefer-interface": ["error", { "allowIntersection": false }],
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/no-type-alias": "off"
