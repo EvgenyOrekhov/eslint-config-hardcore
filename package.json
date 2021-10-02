@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "^4.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-decorator-position": "^4.0.0",
+    "eslint-plugin-decorator-position": "^4.0.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-etc": "^1.5.4",
     "eslint-plugin-ext": "^0.1.0",
@@ -61,7 +61,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-putout": "^10.3.0",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hook-form": "^0.2.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-perf": "^3.3.0",
@@ -72,7 +72,7 @@
     "eslint-plugin-testing-library": "^4.12.4",
     "eslint-plugin-unicorn": "^36.0.0",
     "prettier": "^2.4.1",
-    "putout": "^20.5.1",
+    "putout": "^20.7.1",
     "typescript": "^4.4.3"
   },
   "files": [
