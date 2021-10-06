@@ -712,6 +712,9 @@
     "regexp/require-unicode-regexp": "error",
     "regexp/no-misleading-unicode-character": "error",
     "regexp/no-control-character": "error",
+    "regexp/use-ignore-case": "error",
+    "regexp/prefer-named-replacement": "error",
+    "regexp/prefer-result-array-groups": "error",
 
     "regexp/letter-case": [
       "error",
