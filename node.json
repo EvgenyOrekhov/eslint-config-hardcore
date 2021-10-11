@@ -1,7 +1,7 @@
 {
   "extends": ["plugin:node/recommended"],
 
-  "parserOptions": { "ecmaVersion": 2021 },
+  "parserOptions": { "ecmaVersion": "latest" },
 
   "rules": {
     "node/no-callback-literal": "error",
@@ -31,7 +31,7 @@
     {
       "files": ["*.cjs", ".*.cjs"],
 
-      "parserOptions": { "ecmaVersion": 2021 },
+      "parserOptions": { "ecmaVersion": "latest" },
 
       "rules": {
         "unicorn/prefer-module": "off",
@@ -41,7 +41,7 @@
     {
       "files": ["*.mjs", ".*.mjs"],
 
-      "parserOptions": { "ecmaVersion": 2021 }
+      "parserOptions": { "ecmaVersion": "latest" }
     },
     {
       "files": ["*.ts"],
