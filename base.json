@@ -418,7 +418,10 @@
     "import/no-relative-packages": "error",
     "import/no-import-module-exports": "error",
 
-    "import/no-unresolved": ["error", { "commonjs": true }],
+    "import/no-unresolved": [
+      "error",
+      { "commonjs": true, "caseSensitiveStrict": true }
+    ],
     "import/no-cycle": ["error", { "commonjs": true }],
     "import/no-useless-path-segments": ["error", { "commonjs": true }],
     "import/no-unused-modules": [
