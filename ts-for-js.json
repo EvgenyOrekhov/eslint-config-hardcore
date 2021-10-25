@@ -80,39 +80,51 @@
       "error",
       {
         "groups": {
-          "static-arrow-function-properties": {
-            "static": true,
-            "propertyType": "ArrowFunctionExpression"
-          },
-          "static-async-methods": {
-            "static": true,
-            "type": "method",
-            "async": true
-          },
-          "static-accessor-pairs": { "static": true, "accessorPair": true },
-          "static-getters": { "static": true, "kind": "get" },
-          "static-setters": { "static": true, "kind": "set" },
-          "static-conventional-private-properties": {
-            "static": true,
-            "type": "property",
-            "name": "/_.+/"
-          },
-          "static-conventional-private-methods": {
-            "static": true,
-            "type": "method",
-            "name": "/_.+/"
-          },
-          "static-async-conventional-private-methods": {
-            "static": true,
-            "type": "method",
-            "name": "/_.+/",
-            "async": true
-          },
-          "async-conventional-private-methods": {
-            "type": "method",
-            "name": "/_.+/",
-            "async": true
-          }
+          "static-arrow-function-properties": [
+            {
+              "static": true,
+              "propertyType": "ArrowFunctionExpression"
+            }
+          ],
+          "static-async-methods": [
+            {
+              "static": true,
+              "type": "method",
+              "async": true
+            }
+          ],
+          "static-accessor-pairs": [{ "static": true, "accessorPair": true }],
+          "static-getters": [{ "static": true, "kind": "get" }],
+          "static-setters": [{ "static": true, "kind": "set" }],
+          "static-conventional-private-properties": [
+            {
+              "static": true,
+              "type": "property",
+              "name": "/_.+/"
+            }
+          ],
+          "static-conventional-private-methods": [
+            {
+              "static": true,
+              "type": "method",
+              "name": "/_.+/"
+            }
+          ],
+          "static-async-conventional-private-methods": [
+            {
+              "static": true,
+              "type": "method",
+              "name": "/_.+/",
+              "async": true
+            }
+          ],
+          "async-conventional-private-methods": [
+            {
+              "type": "method",
+              "name": "/_.+/",
+              "async": true
+            }
+          ]
         },
         "order": [
           "[static-properties]",
