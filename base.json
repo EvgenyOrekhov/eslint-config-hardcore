@@ -196,6 +196,7 @@
     "init-declarations": "error",
     "consistent-return": "error",
     "prefer-destructuring": "error",
+    "no-unused-private-class-members": "error",
 
     "no-magic-numbers": [
       "error",
