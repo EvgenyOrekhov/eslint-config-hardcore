@@ -59,7 +59,7 @@
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-putout": "^10.10.0",
+    "eslint-plugin-putout": "^11.0.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hook-form": "^0.2.1",
@@ -72,7 +72,7 @@
     "eslint-plugin-testing-library": "^4.12.4",
     "eslint-plugin-unicorn": "^37.0.1",
     "prettier": "^2.4.1",
-    "putout": "^20.18.0",
+    "putout": "^21.0.0",
     "typescript": "^4.4.4"
   },
   "files": [
