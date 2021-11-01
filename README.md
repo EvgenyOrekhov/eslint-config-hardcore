@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**32 plugins. 1018 rules.**
+**32 plugins. 1019 rules.**
 
 ## Usage
 
@@ -97,7 +97,7 @@ Base framework-agnostic config.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
-| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           185 |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           186 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            89 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            73 |
@@ -115,7 +115,7 @@ Base framework-agnostic config.
 | [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)              |             1 |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total:**                                                                                                |       **627** |
+| **Total:**                                                                                                |       **628** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
