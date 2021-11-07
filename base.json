@@ -550,6 +550,8 @@
     "unicorn/no-useless-spread": "error",
     "unicorn/no-useless-fallback-in-spread": "error",
     "unicorn/no-invalid-remove-event-listener": "error",
+    "unicorn/no-empty-file": "error",
+    "unicorn/prefer-export-from": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -742,6 +744,7 @@
           "apply-shorthand-properties": "on",
           "convert-commonjs-to-esm/require": "on",
           "convert-commonjs-to-esm/exports": "on",
+          "apply-is-array": ["on", { "inline": true }],
 
           "putout": "off",
           "regexp/convert-replace-to-replace-all": "off",
