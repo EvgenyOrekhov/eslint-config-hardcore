@@ -769,7 +769,8 @@
           "remove-unused-types": "off",
           "remove-useless-new": "off",
           "convert-esm-to-commonjs": "off",
-          "convert-typeof-to-is-type": "off"
+          "convert-typeof-to-is-type": "off",
+          "convert-quotes-to-backticks": "off"
         },
 
         "match": {
