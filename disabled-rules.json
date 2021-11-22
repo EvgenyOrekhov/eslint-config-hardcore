@@ -46,6 +46,7 @@
   "unicorn/prefer-at": "off",
   "unicorn/prefer-top-level-await": "off",
   "unicorn/template-indent": "off",
+  "unicorn/require-post-message-target-origin": "off",
 
   "sonarjs/no-duplicate-string": "off",
   "sonarjs/no-nested-template-literals": "off",
