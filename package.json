@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "23.3.0",
+  "version": "23.3.1",
   "description": "The most strict (yet practical) ESLint config",
   "main": "index.json",
   "scripts": {
