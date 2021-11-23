@@ -69,5 +69,6 @@
   "regexp/sort-character-class-elements": "off",
 
   "@html-eslint/require-meta-charset": "off",
-  "@html-eslint/id-naming-convention": "off"
+  "@html-eslint/id-naming-convention": "off",
+  "@html-eslint/no-restricted-attrs": "off"
 }
