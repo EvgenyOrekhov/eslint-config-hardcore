@@ -58,8 +58,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-putout": "^11.18.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-putout": "^12.2.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hook-form": "^0.2.1",
@@ -69,10 +69,10 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.10.0",
     "eslint-plugin-sort-class-members": "^1.14.0",
-    "eslint-plugin-testing-library": "^5.0.0",
+    "eslint-plugin-testing-library": "^5.0.1",
     "eslint-plugin-unicorn": "^39.0.0",
     "prettier": "^2.5.0",
-    "putout": "^22.3.3",
+    "putout": "^22.4.0",
     "typescript": "^4.5.2"
   },
   "files": [
