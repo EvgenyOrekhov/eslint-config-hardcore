@@ -58,7 +58,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-optimize-regex": "^1.2.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-putout": "^12.7.1",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.27.1",
