@@ -15,6 +15,7 @@
   "no-restricted-exports": "off",
   "no-div-regex": "off",
   "class-methods-use-this": "off",
+  "prefer-object-has-own": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-callbacks": "off",
