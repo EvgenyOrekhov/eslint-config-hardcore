@@ -61,7 +61,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-putout": "^12.7.1",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hook-form": "^0.2.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-perf": "^3.3.1",
