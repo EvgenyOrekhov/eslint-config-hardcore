@@ -77,6 +77,11 @@
           { "checkNever": true }
         ],
 
+        "@typescript-eslint/no-throw-literal": [
+          "error",
+          { "allowThrowingAny": false, "allowThrowingUnknown": false }
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
