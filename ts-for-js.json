@@ -10,6 +10,9 @@
     "no-return-await": "off",
     "@typescript-eslint/return-await": ["error", "always"],
 
+    "no-throw-literal": "off",
+    "@typescript-eslint/no-throw-literal": "error",
+
     "no-void": ["error", { "allowAsStatement": true }],
     "@typescript-eslint/no-floating-promises": "error",
 
@@ -24,7 +27,6 @@
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-misused-promises": "error",
     "@typescript-eslint/no-this-alias": "error",
-    "@typescript-eslint/no-throw-literal": "error",
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/prefer-optional-chain": "error",
