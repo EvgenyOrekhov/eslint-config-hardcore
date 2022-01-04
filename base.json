@@ -552,6 +552,10 @@
     "unicorn/no-empty-file": "error",
     "unicorn/prefer-code-point": "error",
     "unicorn/no-await-expression-member": "error",
+    "unicorn/no-thenable": "error",
+    "unicorn/no-useless-promise-resolve-reject": "error",
+    "unicorn/relative-url-style": "error",
+    "unicorn/prefer-json-parse-buffer": "error",
 
     "unicorn/filename-case": [
       "error",
