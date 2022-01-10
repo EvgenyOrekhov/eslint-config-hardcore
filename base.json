@@ -747,8 +747,7 @@
 
         "rules": {
           "apply-shorthand-properties": "on",
-          "convert-commonjs-to-esm/require": "on",
-          "convert-commonjs-to-esm/exports": "on",
+          "convert-commonjs-to-esm": "on",
           "apply-is-array": ["on", { "inline": true }],
 
           "putout": "off",
@@ -780,8 +779,7 @@
 
         "match": {
           "*.cjs": {
-            "convert-commonjs-to-esm/require": "off",
-            "convert-commonjs-to-esm/exports": "off",
+            "convert-commonjs-to-esm": "off",
             "convert-esm-to-commonjs": "on"
           },
           "*.mjs": {
