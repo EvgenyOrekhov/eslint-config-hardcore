@@ -21,7 +21,11 @@
             "toMatchSnapshot": null,
             "toMatchInlineSnapshot": null,
             "toThrowErrorMatchingSnapshot": null,
-            "toThrowErrorMatchingInlineSnapshot": null
+            "toThrowErrorMatchingInlineSnapshot": null,
+
+            "toBeTruthy": null,
+            "toBeFalsy": null,
+            "toBeDefined": null
           }
         ]
       }
