@@ -14,7 +14,16 @@
       },
 
       "rules": {
-        "jest/valid-expect": ["error", { "alwaysAwait": true }]
+        "jest/valid-expect": ["error", { "alwaysAwait": true }],
+        "jest/no-restricted-matchers": [
+          "error",
+          {
+            "toMatchSnapshot": null,
+            "toMatchInlineSnapshot": null,
+            "toThrowErrorMatchingSnapshot": null,
+            "toThrowErrorMatchingInlineSnapshot": null
+          }
+        ]
       }
     },
 
