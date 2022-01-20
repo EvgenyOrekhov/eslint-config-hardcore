@@ -82,6 +82,11 @@
           { "allowThrowingAny": false, "allowThrowingUnknown": false }
         ],
 
+        "@typescript-eslint/consistent-indexed-object-style": [
+          "error",
+          "index-signature"
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
