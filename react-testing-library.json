@@ -9,6 +9,19 @@
     "testing-library/prefer-explicit-assert": [
       "error",
       { "assertion": "toBeInTheDocument" }
+    ],
+    "testing-library/no-debugging-utils": [
+      "error",
+      {
+        "utilsToCheckFor": {
+          "debug": true,
+          "logTestingPlaygroundURL": true,
+          "prettyDOM": true,
+          "logRoles": true,
+          "logDOM": true,
+          "prettyFormat": true
+        }
+      }
     ]
   }
 }
