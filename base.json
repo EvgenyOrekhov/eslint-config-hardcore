@@ -5,7 +5,6 @@
     "import",
     "unicorn",
     "array-func",
-    "optimize-regex",
     "sonarjs",
     "eslint-comments",
     "no-use-extend-native",
@@ -589,8 +588,6 @@
     "array-func/no-unnecessary-this-arg": "error",
     "array-func/prefer-array-from": "error",
     "array-func/avoid-reverse": "error",
-
-    "optimize-regex/optimize-regex": "error",
 
     "sonarjs/no-all-duplicated-branches": "error",
     "sonarjs/no-element-overwrite": "error",
