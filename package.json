@@ -58,7 +58,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-putout": "^13.9.2",
+    "eslint-plugin-putout": "^13.10.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-form-fields": "^1.2.2",
