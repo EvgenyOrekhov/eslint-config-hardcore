@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.8.0"
+    "eslint": "^8.9.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.1",
@@ -58,10 +58,10 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-putout": "^13.10.0",
+    "eslint-plugin-putout": "^13.11.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-form-fields": "^1.2.2",
+    "eslint-plugin-react-form-fields": "^1.2.3",
     "eslint-plugin-react-hook-form": "^0.2.2",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-perf": "^3.3.1",
@@ -88,6 +88,6 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.8.0"
+    "eslint": "^8.9.0"
   }
 }
