@@ -620,6 +620,7 @@
     "sonarjs/no-nested-switch": "error",
     "sonarjs/no-empty-collection": "error",
     "sonarjs/non-existent-operator": "error",
+    "sonarjs/no-nested-template-literals": "error",
 
     "sonarjs/cognitive-complexity": ["error", 10],
 

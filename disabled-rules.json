@@ -49,7 +49,6 @@
   "unicorn/require-post-message-target-origin": "off",
 
   "sonarjs/no-duplicate-string": "off",
-  "sonarjs/no-nested-template-literals": "off",
 
   "fp/no-nil": "off",
   "fp/no-unused-expression": ["off", { "allowUseStrict": true }],
