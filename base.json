@@ -556,6 +556,7 @@
     "unicorn/no-useless-promise-resolve-reject": "error",
     "unicorn/relative-url-style": "error",
     "unicorn/prefer-json-parse-buffer": "error",
+    "unicorn/text-encoding-identifier-case": "error",
 
     "unicorn/filename-case": [
       "error",
