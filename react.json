@@ -27,7 +27,11 @@
     "react/no-string-refs": ["error", { "noTemplateLiterals": true }],
     "react/jsx-key": [
       "error",
-      { "checkFragmentShorthand": true, "checkKeyMustBeforeSpread": true }
+      {
+        "checkFragmentShorthand": true,
+        "checkKeyMustBeforeSpread": true,
+        "warnOnDuplicates": true
+      }
     ],
     "react/forbid-prop-types": [
       "error",
@@ -47,6 +51,10 @@
       { "forbidDefaultForRequired": true }
     ],
     "react/jsx-no-target-blank": ["error", { "forms": true }],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      { "propElementValues": "always" }
+    ],
 
     "react-hooks/exhaustive-deps": "error",
 

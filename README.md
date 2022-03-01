@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**34 plugins. 1037 rules.**
+**34 plugins. 1041 rules.**
 
 ## Usage
 
@@ -126,12 +126,12 @@ Config for TypeScript.
 
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           100 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           102 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **115** |
+| **Total:**                                                                                                 |       **117** |
 
 ### `hardcore/node`
 
@@ -148,14 +148,14 @@ Config for React.
 
 | Plugin                                                                                                      | Enabled rules |
 | ----------------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            77 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            79 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                              |            32 |
 | [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)                              |             4 |
 | [eslint-plugin-react-form-fields](https://github.com/kotarella1110/eslint-plugin-react-form-fields)         |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)           |             3 |
 | [eslint-plugin-react-hook-form](https://github.com/andykao1213/eslint-plugin-react-hook-form)               |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |             2 |
-| **Total:**                                                                                                  |       **125** |
+| **Total:**                                                                                                  |       **127** |
 
 ### `hardcore/react-testing-library`
 
@@ -194,10 +194,10 @@ Config for linting JavaScript with
 
 | Plugin                                                                                              | Enabled rules |
 | --------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                         |            26 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                         |            27 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)   |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members) |             1 |
-| **Total:**                                                                                          |        **29** |
+| **Total:**                                                                                          |        **30** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
