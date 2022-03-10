@@ -23,7 +23,7 @@
             "toThrowErrorMatchingSnapshot": "Use more targeted assertions instead of a snapshot. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#snapshots",
             "toThrowErrorMatchingInlineSnapshot": "Use more targeted assertions instead of a snapshot. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#snapshots",
 
-            "toBeTruthy": "Use more explicit matchers like .toBe(true), .toBeGreaterThan(0), or .not.toBe(undefined). See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#avoid-using-tobetruthy-or-tobefalsy",
+            "toBeTruthy": "Use more explicit matchers like `.toBe(true)` or `.toBeGreaterThan(0)`. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#avoid-using-tobetruthy-or-tobefalsy",
             "toBeFalsy": "Use more explicit matchers like .toBe(false), .toBe(0), or .toBe(undefined). See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#avoid-using-tobetruthy-or-tobefalsy",
             "toBeDefined": "Use a more explicit matchers. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#tricky-tobedefined-matcher"
           }
