@@ -555,8 +555,11 @@
     "unicorn/no-thenable": "error",
     "unicorn/no-useless-promise-resolve-reject": "error",
     "unicorn/relative-url-style": "error",
-    "unicorn/prefer-json-parse-buffer": "error",
     "unicorn/text-encoding-identifier-case": "error",
+    "unicorn/no-useless-switch-case": "error",
+    "unicorn/prefer-modern-math-apis": "error",
+    "unicorn/no-unreadable-iife": "error",
+    "unicorn/prefer-native-coercion-functions": "error",
 
     "unicorn/filename-case": [
       "error",
