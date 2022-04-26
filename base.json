@@ -179,7 +179,6 @@
     "no-redeclare": "error",
     "no-prototype-builtins": "error",
     "no-import-assign": "error",
-    "prefer-regex-literals": "error",
     "default-param-last": "error",
     "no-constructor-return": "error",
     "no-dupe-else-if": "error",
@@ -271,6 +270,7 @@
     "no-unused-expressions": ["error", { "enforceForJSX": true }],
     "no-sequences": ["error", { "allowInParentheses": false }],
     "no-implicit-coercion": ["error", { "disallowTemplateShorthand": true }],
+    "prefer-regex-literals": ["error", { "disallowRedundantWrapping": true }],
 
     "no-restricted-globals": [
       "error",
