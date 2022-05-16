@@ -196,6 +196,7 @@
     "consistent-return": "error",
     "prefer-destructuring": "error",
     "no-unused-private-class-members": "error",
+    "no-constant-binary-expression": "error",
 
     "no-magic-numbers": [
       "error",
@@ -229,7 +230,14 @@
         "argsIgnorePattern": "^ignore$"
       }
     ],
-    "no-underscore-dangle": ["error", { "enforceInMethodNames": true }],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "enforceInMethodNames": true,
+        "enforceInClassFields": true,
+        "allowFunctionParams": false
+      }
+    ],
     "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
     "func-name-matching": ["error", { "considerPropertyDescriptor": true }],
     "use-isnan": [
