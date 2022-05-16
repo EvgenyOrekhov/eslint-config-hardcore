@@ -22,7 +22,11 @@
           {
             "ignore": [0, 1],
             "enforceConst": true,
-            "ignoreDefaultValues": true
+            "ignoreDefaultValues": true,
+            "ignoreEnums": true,
+            "ignoreNumericLiteralTypes": true,
+            "ignoreReadonlyClassProperties": true,
+            "ignoreTypeIndexes": true
           }
         ],
 
