@@ -48,13 +48,19 @@
     ],
     "react/require-default-props": [
       "error",
-      { "forbidDefaultForRequired": true }
+      { "forbidDefaultForRequired": true, "functions": "defaultArguments" }
     ],
     "react/jsx-no-target-blank": ["error", { "forms": true }],
     "react/jsx-curly-brace-presence": [
       "error",
       { "propElementValues": "always" }
     ],
+    "react/destructuring-assignment": [
+      "error",
+      "always",
+      { "destructureInSignature": "always" }
+    ],
+    "react/jsx-no-leaked-render": ["error", { "validStrategies": ["coerce"] }],
 
     "react-hooks/exhaustive-deps": "error",
 

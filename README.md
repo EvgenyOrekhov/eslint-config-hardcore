@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**34 plugins. 1046 rules.**
+**34 plugins. 1047 rules.**
 
 ## Usage
 
@@ -148,14 +148,14 @@ Config for React.
 
 | Plugin                                                                                                      | Enabled rules |
 | ----------------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            79 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                     |            80 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                              |            32 |
 | [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)                              |             4 |
 | [eslint-plugin-react-form-fields](https://github.com/kotarella1110/eslint-plugin-react-form-fields)         |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)           |             3 |
 | [eslint-plugin-react-hook-form](https://github.com/andykao1213/eslint-plugin-react-hook-form)               |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |             2 |
-| **Total:**                                                                                                  |       **127** |
+| **Total:**                                                                                                  |       **128** |
 
 ### `hardcore/react-testing-library`
 
