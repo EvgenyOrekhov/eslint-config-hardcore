@@ -33,12 +33,12 @@
     "eslint": "^8.16.0"
   },
   "dependencies": {
-    "@html-eslint/eslint-plugin": "^0.13.1",
+    "@html-eslint/eslint-plugin": "^0.13.2",
     "@html-eslint/parser": "^0.13.1",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^41.2.1",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@typescript-eslint/parser": "^5.27.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
