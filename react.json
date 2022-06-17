@@ -68,6 +68,7 @@
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
+    "@shopify/react-no-multiple-render-methods": "error",
 
     "react-form-fields/styled-no-mix-controlled-with-uncontrolled": "error",
     "react-form-fields/styled-no-only-value-prop": "error",
