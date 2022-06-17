@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**34 plugins. 1047 rules.**
+**34 plugins. 1049 rules.**
 
 ## Usage
 
@@ -126,12 +126,12 @@ Config for TypeScript.
 
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           102 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           103 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **117** |
+| **Total:**                                                                                                 |       **118** |
 
 ### `hardcore/node`
 
@@ -172,10 +172,10 @@ Config for Jest.
 
 | Plugin                                                                                           | Enabled rules |
 | ------------------------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                       |            46 |
+| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                       |            47 |
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)              |            11 |
 | [eslint-plugin-jest-formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting) |             7 |
-| **Total:**                                                                                       |        **64** |
+| **Total:**                                                                                       |        **65** |
 
 ### `hardcore/fp`
 
