@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.2",
-    "@html-eslint/parser": "^0.13.1",
+    "@html-eslint/parser": "^0.13.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^41.2.1",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
