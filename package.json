@@ -37,8 +37,8 @@
     "@html-eslint/parser": "^0.13.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^41.2.1",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
@@ -62,7 +62,7 @@
     "eslint-plugin-putout": "^13.12.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-form-fields": "^1.2.21",
+    "eslint-plugin-react-form-fields": "^1.2.22",
     "eslint-plugin-react-hook-form": "^0.2.4",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-perf": "^3.3.1",
@@ -74,7 +74,7 @@
     "eslint-plugin-unicorn": "^42.0.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.4"
   },
   "files": [
     "base.json",
