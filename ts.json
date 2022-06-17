@@ -91,6 +91,11 @@
           "index-signature"
         ],
 
+        "@typescript-eslint/consistent-type-assertions": [
+          "error",
+          { "assertionStyle": "as", "objectLiteralTypeAssertions": "never" }
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
