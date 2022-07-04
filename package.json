@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.18.0"
+    "eslint": "^8.19.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.2",
@@ -89,6 +89,6 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.18.0"
+    "eslint": "^8.19.0"
   }
 }
