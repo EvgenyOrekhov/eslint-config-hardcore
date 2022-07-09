@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**34 plugins. 1049 rules.**
+**35 plugins. 1130 rules.**
 
 ## Usage
 
@@ -23,6 +23,7 @@ Available configs:
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
 - `hardcore/react-testing-library` - additional config for React Testing Library
+- `hardcore/vue` - additional config for Vue
 - `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
@@ -165,6 +166,16 @@ Config for React Testing Library.
 | ------------------------------------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) |            25 |
 | **Total:**                                                                                        |        **25** |
+
+### `hardcore/vue`
+
+Config for Vue 3.
+
+| Plugin                                                                                                      | Enabled rules |
+|-------------------------------------------------------------------------------------------------------------|--------------:|
+| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)                                       |            81 |
+| **Total:**                                                                                                  |        **81** |
+
 
 ### `hardcore/jest`
 
