@@ -173,7 +173,7 @@ Config for Vue 3.
 
 | Plugin                                                                                                      | Enabled rules |
 |-------------------------------------------------------------------------------------------------------------|--------------:|
-| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)                                       |            81 |
+| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)                |            81 |
 | **Total:**                                                                                                  |        **81** |
 
 
