@@ -23,7 +23,7 @@ Available configs:
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
 - `hardcore/react-testing-library` - additional config for React Testing Library
-- `hardcore/vue` - additional config for Vue
+- `hardcore/vue` - additional config for Vue 3
 - `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
