@@ -5,7 +5,7 @@
 
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": ["*.ts", "*.tsx", "*.vue"],
 
       "extends": [
         "plugin:import/typescript",
