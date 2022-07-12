@@ -15,7 +15,6 @@
     "vue/attribute-hyphenation": "error",
     "vue/component-definition-name-casing": "error",
     "vue/first-attribute-linebreak": "error",
-    "vue/html-closing-bracket-newline": "error",
     "vue/html-closing-bracket-spacing": "error",
     "vue/html-end-tags": "error",
     "vue/multiline-html-element-content-newline": "error",
