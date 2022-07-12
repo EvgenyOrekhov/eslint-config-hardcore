@@ -18,7 +18,6 @@
     "vue/html-closing-bracket-newline": "error",
     "vue/html-closing-bracket-spacing": "error",
     "vue/html-end-tags": "error",
-    "vue/multiline-html-element-content-newline": "error",
     "vue/mustache-interpolation-spacing": "error",
     "vue/no-multi-spaces": "error",
     "vue/no-spaces-around-equal-signs-in-attribute": "error",

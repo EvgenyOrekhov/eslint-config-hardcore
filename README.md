@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**35 plugins. 1130 rules.**
+**35 plugins. 1129 rules.**
 
 ## Usage
 
@@ -173,8 +173,8 @@ Config for Vue 3.
 
 | Plugin                                                                                                      | Enabled rules |
 |-------------------------------------------------------------------------------------------------------------|--------------:|
-| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)                |            81 |
-| **Total:**                                                                                                  |        **81** |
+| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)                |            80 |
+| **Total:**                                                                                                  |        **80** |
 
 
 ### `hardcore/jest`
