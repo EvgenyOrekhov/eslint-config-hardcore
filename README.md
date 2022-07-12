@@ -23,7 +23,7 @@ Available configs:
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
 - `hardcore/react-testing-library` - additional config for React Testing Library
-- `hardcore/vue` - additional config for Vue 3
+- `hardcore/vue` - additional config for Vue 3 (works for Nuxt 3 too!)
 - `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
@@ -89,6 +89,56 @@ Example `.eslintrc.json` for a **TypeScript React** project:
   ]
 }
 ```
+
+Example `.eslintrc.json` for a **Vue 3** project:
+
+```json
+{
+    "root": true,
+    "extends": [
+        "hardcore",
+        "hardcore/ts-for-js",
+        "hardcore/vue"
+    ],
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "project": "tsconfig.json"
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [["@", "./src/"]],
+                "extensions": [".js", ".vue"]
+            }
+        }
+    }
+}
+```
+<sub>Make sure to also add **eslint-import-resolver-alias** to your project.<br>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
+
+Example `.eslintrc.json` for a **Typescript Vue 3/Nuxt 3** project:
+
+```json
+{
+    "root": true,
+    "extends": [
+        "hardcore",
+        "hardcore/ts",
+        "hardcore/vue"
+    ],
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "project": "tsconfig.json"
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    }
+}
+
+```
+<sub>Make sure to also add **eslint-import-resolver-typescript** to your project.<br>For **Nuxt**: make sure to add ```strict: true``` under **compilerOptions** in your **tsconfig.json**.</sub>
 
 ## Configs
 
@@ -169,7 +219,7 @@ Config for React Testing Library.
 
 ### `hardcore/vue`
 
-Config for Vue 3.
+Config for Vue 3 and Nuxt 3.
 
 | Plugin                                                                                        | Enabled rules |
 |-----------------------------------------------------------------------------------------------|--------------:|
