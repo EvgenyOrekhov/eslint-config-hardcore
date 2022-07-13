@@ -94,24 +94,24 @@ Example `.eslintrc.json` for a **Vue 3** project:
 
 ```json
 {
-    "root": true,
-    "extends": [
-        "hardcore",
-        "hardcore/ts-for-js",
-        "hardcore/vue"
-    ],
-    "parserOptions": {
-        "parser": "@typescript-eslint/parser",
-        "project": "tsconfig.json"
-    },
-    "settings": {
-        "import/resolver": {
-            "alias": {
-                "map": [["@", "./src/"]],
-                "extensions": [".js", ".vue"]
-            }
-        }
+  "root": true, 
+  "extends": [
+    "hardcore",
+    "hardcore/ts-for-js",
+    "hardcore/vue"
+  ], 
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser", 
+    "project": "tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src/"]], 
+        "extensions": [".js", ".vue"]
+      }
     }
+  }
 }
 ```
 <sub>Make sure to also add **eslint-import-resolver-alias** to your project.<br>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
@@ -120,21 +120,21 @@ Example `.eslintrc.json` for a **Typescript Vue 3/Nuxt 3** project:
 
 ```json
 {
-    "root": true,
-    "extends": [
-        "hardcore",
-        "hardcore/ts",
-        "hardcore/vue"
-    ],
-    "parserOptions": {
-        "parser": "@typescript-eslint/parser",
-        "project": "tsconfig.json"
-    },
-    "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
+  "root": true, 
+  "extends": [
+    "hardcore",
+    "hardcore/ts",
+    "hardcore/vue"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "project": "tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
     }
+  }
 }
 
 ```
@@ -221,10 +221,10 @@ Config for React Testing Library.
 
 Config for Vue 3 and Nuxt 3.
 
-| Plugin                                                                                        | Enabled rules |
-|-----------------------------------------------------------------------------------------------|--------------:|
-| [eslint-plugin-vue](https://github.com/yannickcr/https://github.com/vuejs/eslint-plugin-vue)  |            79 |
-| **Total:**                                                                                    |        **79** |
+| Plugin                                                          | Enabled rules |
+|-----------------------------------------------------------------|--------------:|
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |            79 |
+| **Total:**                                                      |        **79** |
 
 
 ### `hardcore/jest`
