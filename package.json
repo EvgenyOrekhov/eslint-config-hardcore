@@ -30,15 +30,15 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.20.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.2",
     "@html-eslint/parser": "^0.13.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.30.0",
-    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
@@ -48,7 +48,7 @@
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest": "^26.6.0",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json": "^3.1.0",
@@ -89,6 +89,6 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.20.0"
   }
 }
