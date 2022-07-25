@@ -114,7 +114,7 @@ Example `.eslintrc.json` for a **Vue 3** project:
   }
 }
 ```
-<sub>Make sure to also add **eslint-import-resolver-alias** to your project.<br>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
+<sub>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
 
 Example `.eslintrc.json` for a **Typescript Vue 3/Nuxt 3** project:
 
@@ -138,7 +138,7 @@ Example `.eslintrc.json` for a **Typescript Vue 3/Nuxt 3** project:
 }
 
 ```
-<sub>Make sure to also add **eslint-import-resolver-typescript** to your project.<br>For **Nuxt**: make sure to add ```strict: true``` under **compilerOptions** in your **tsconfig.json**.</sub>
+<sub>For **Nuxt**: make sure to add ```strict: true``` under **compilerOptions** in your **tsconfig.json**.</sub>
 
 ## Configs
 
