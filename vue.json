@@ -60,7 +60,9 @@
             "allowArrayStart": true,
             "allowClassStart": true
           }
-        ]
+        ],
+        "init-declarations": "off",
+        "@typescript-eslint/init-declarations": "off"
       }
     }
   ]
