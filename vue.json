@@ -62,7 +62,8 @@
           }
         ],
         "init-declarations": "off",
-        "@typescript-eslint/init-declarations": "off"
+        "@typescript-eslint/init-declarations": "off",
+        "no-undef": "off"
       }
     }
   ]
