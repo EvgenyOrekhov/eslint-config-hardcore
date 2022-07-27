@@ -40,9 +40,7 @@
           "void": "always"
         }
       }
-    ],
-
-    "max-len": "off"
+    ]
   },
   "overrides": [
     {
