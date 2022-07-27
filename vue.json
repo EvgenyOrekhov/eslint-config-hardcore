@@ -15,12 +15,6 @@
     "vue/attribute-hyphenation": "error",
     "vue/component-definition-name-casing": "error",
     "vue/first-attribute-linebreak": "error",
-    "vue/html-closing-bracket-spacing": "error",
-    "vue/html-end-tags": "error",
-    "vue/multiline-html-element-content-newline": "error",
-    "vue/mustache-interpolation-spacing": "error",
-    "vue/no-multi-spaces": "error",
-    "vue/no-spaces-around-equal-signs-in-attribute": "error",
     "vue/no-template-shadow": "error",
     "vue/one-component-per-file": "error",
     "vue/prop-name-casing": "error",
@@ -31,7 +25,6 @@
     "vue/v-on-event-hyphenation": "error",
     "vue/v-on-style": "error",
     "vue/v-slot-style": "error",
-    "vue/html-quotes": "error",
 
     "vue/html-self-closing": [
       "error",
