@@ -15,6 +15,7 @@
 
       "rules": {
         "jest/valid-expect": ["error", { "alwaysAwait": true }],
+        "jest/max-expects": ["error", { "max": 10 }],
         "jest/no-restricted-matchers": [
           "error",
           {

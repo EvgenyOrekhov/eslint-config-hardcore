@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hardcore",
-  "version": "24.8.1",
+  "version": "24.10.0",
   "description": "The most strict (yet practical) ESLint config",
   "main": "index.json",
   "scripts": {
@@ -30,30 +30,31 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.20.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.2",
     "@html-eslint/parser": "^0.13.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.30.0",
-    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.3.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-decorator-position": "^4.0.1",
+    "eslint-plugin-decorator-position": "^5.0.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-etc": "^2.0.2",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest": "^26.6.0",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
@@ -69,10 +70,10 @@
     "eslint-plugin-react-perf": "^3.3.1",
     "eslint-plugin-regexp": "^1.7.0",
     "eslint-plugin-security": "^1.5.0",
-    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-sonarjs": "^0.14.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "eslint-plugin-testing-library": "^5.5.1",
-    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-plugin-unicorn": "^43.0.2",
     "eslint-plugin-vue": "^9.2.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
@@ -92,6 +93,6 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.20.0"
   }
 }

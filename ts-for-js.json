@@ -1,7 +1,12 @@
 {
   "parser": "@typescript-eslint/parser",
 
-  "plugins": ["@typescript-eslint", "sort-class-members", "@shopify"],
+  "plugins": [
+    "@typescript-eslint",
+    "sort-class-members",
+    "decorator-position",
+    "@shopify"
+  ],
 
   "rules": {
     "require-await": "off",
@@ -150,6 +155,8 @@
         "accessorPairPositioning": "getThenSet"
       }
     ],
+
+    "decorator-position/decorator-position": "error",
 
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error"

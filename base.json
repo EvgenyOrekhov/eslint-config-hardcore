@@ -568,6 +568,9 @@
     "unicorn/prefer-modern-math-apis": "error",
     "unicorn/no-unreadable-iife": "error",
     "unicorn/prefer-native-coercion-functions": "error",
+    "unicorn/prefer-top-level-await": "error",
+    "unicorn/prefer-logical-operator-over-ternary": "error",
+    "unicorn/prefer-event-target": "error",
 
     "unicorn/filename-case": [
       "error",
