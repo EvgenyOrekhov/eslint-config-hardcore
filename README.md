@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**35 plugins. 1054 rules.**
+**36 plugins. 1136 rules.**
 
 ## Usage
 
@@ -90,7 +90,7 @@ Example `.eslintrc.json` for a **TypeScript React** project:
 }
 ```
 
-Example `.eslintrc.json` for a **Vue 3** project:
+Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
 
 ```json
 {
@@ -116,7 +116,7 @@ Example `.eslintrc.json` for a **Vue 3** project:
 ```
 <sub>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
 
-Example `.eslintrc.json` for a **Typescript Vue 3/Nuxt 3** project:
+Example `.eslintrc.json` for a **Typescript Vue 3/Typescript Nuxt 3** project:
 
 ```json
 {
@@ -224,8 +224,8 @@ Config for Vue 3 and Nuxt 3.
 
 | Plugin                                                          | Enabled rules |
 |-----------------------------------------------------------------|--------------:|
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |            79 |
-| **Total:**                                                      |        **79** |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |            82 |
+| **Total:**                                                      |        **82** |
 
 
 ### `hardcore/jest`
