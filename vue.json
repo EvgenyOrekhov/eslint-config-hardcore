@@ -29,7 +29,6 @@
         "vue/require-explicit-emits": "error",
         "vue/require-prop-types": "error",
         "vue/v-bind-style": "error",
-        "vue/v-on-event-hyphenation": "error",
         "vue/v-on-style": "error",
         "vue/v-slot-style": "error",
 
@@ -77,6 +76,7 @@
         "vue/object-shorthand": "error",
         "vue/prefer-template": "error",
 
+        "vue/v-on-event-hyphenation": ["error", "always", { "autofix": true }],
         "vue/html-self-closing": ["error", { "html": { "void": "always" } }],
         "vue/match-component-file-name": [
           "error",
