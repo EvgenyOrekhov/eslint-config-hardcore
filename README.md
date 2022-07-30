@@ -97,7 +97,6 @@ Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
   "extends": ["hardcore", "hardcore/vue"],
 
   "parserOptions": {
-    "parser": "@typescript-eslint/parser",
     "project": "tsconfig.json"
   },
 
@@ -119,7 +118,6 @@ Example `.eslintrc.json` for a **TypeScript Vue 3/Nuxt 3** project:
   "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
 
   "parserOptions": {
-    "parser": "@typescript-eslint/parser",
     "project": "tsconfig.json"
   }
 }
