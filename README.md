@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**36 plugins. 1136 rules.**
+**36 plugins. 1158 rules.**
 
 ## Usage
 
@@ -22,8 +22,8 @@ Available configs:
 - `hardcore/ts` - additional config for TypeScript
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
+- `hardcore/vue` - additional config for Vue 3/Nuxt 3
 - `hardcore/react-testing-library` - additional config for React Testing Library
-- `hardcore/vue` - additional config for Vue 3 (works for Nuxt 3 too!)
 - `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
 - `hardcore/ts-for-js` - additional config for linting JavaScript with
@@ -94,51 +94,36 @@ Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
 
 ```json
 {
-  "root": true, 
-  "extends": [
-    "hardcore",
-    "hardcore/ts-for-js",
-    "hardcore/vue"
-  ], 
+  "extends": ["hardcore", "hardcore/vue"],
+
   "parserOptions": {
-    "parser": "@typescript-eslint/parser", 
+    "parser": "@typescript-eslint/parser",
     "project": "tsconfig.json"
   },
+
   "settings": {
     "import/resolver": {
       "alias": {
-        "map": [["@", "./src/"]], 
+        "map": [["@", "./src/"]],
         "extensions": [".js", ".vue"]
       }
     }
   }
 }
 ```
-<sub>If you would like to use **ts-for-js**, do not forget to create a **tsconfig.json** file containing ```{}```. If you would not like to use it, you can omit the **parserOptions** section. </sub>
 
-Example `.eslintrc.json` for a **Typescript Vue 3/Typescript Nuxt 3** project:
+Example `.eslintrc.json` for a **TypeScript Vue 3/Nuxt 3** project:
 
 ```json
 {
-  "root": true, 
-  "extends": [
-    "hardcore",
-    "hardcore/ts",
-    "hardcore/vue"
-  ],
+  "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
+
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
     "project": "tsconfig.json"
-  },
-  "settings": {
-    "import/resolver": {
-      "typescript": {}
-    }
   }
 }
-
 ```
-<sub>For **Nuxt**: make sure to add ```strict: true``` under **compilerOptions** in your **tsconfig.json**.</sub>
 
 ## Configs
 
@@ -209,6 +194,15 @@ Config for React.
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |             2 |
 | **Total:**                                                                                                  |       **128** |
 
+### `hardcore/vue`
+
+Config for Vue 3/Nuxt 3.
+
+| Plugin                                                          | Enabled rules |
+| --------------------------------------------------------------- | ------------: |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |           104 |
+| **Total:**                                                      |       **104** |
+
 ### `hardcore/react-testing-library`
 
 Config for React Testing Library.
@@ -217,16 +211,6 @@ Config for React Testing Library.
 | ------------------------------------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) |            25 |
 | **Total:**                                                                                        |        **25** |
-
-### `hardcore/vue`
-
-Config for Vue 3 and Nuxt 3.
-
-| Plugin                                                          | Enabled rules |
-|-----------------------------------------------------------------|--------------:|
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |            82 |
-| **Total:**                                                      |        **82** |
-
 
 ### `hardcore/jest`
 

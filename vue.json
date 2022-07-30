@@ -1,46 +1,53 @@
 {
-  "extends": ["plugin:vue/vue3-essential"],
-  "parserOptions": {
-    "extraFileExtensions": [".vue"]
-  },
-  "plugins": ["vue"],
-  "rules": {
-    "vue/attributes-order": "error",
-    "vue/component-tags-order": "error",
-    "vue/no-lone-template": "error",
-    "vue/no-multiple-slot-args": "error",
-    "vue/no-v-html": "error",
-    "vue/order-in-components": "error",
-    "vue/this-in-template": "error",
-    "vue/attribute-hyphenation": "error",
-    "vue/component-definition-name-casing": "error",
-    "vue/first-attribute-linebreak": "error",
-    "vue/no-template-shadow": "error",
-    "vue/one-component-per-file": "error",
-    "vue/prop-name-casing": "error",
-    "vue/require-default-prop": "error",
-    "vue/require-explicit-emits": "error",
-    "vue/require-prop-types": "error",
-    "vue/v-bind-style": "error",
-    "vue/v-on-event-hyphenation": "error",
-    "vue/v-on-style": "error",
-    "vue/v-slot-style": "error",
-
-    "vue/html-self-closing": [
-      "error",
-      {
-        "html": {
-          "void": "always"
-        }
-      }
-    ]
-  },
   "overrides": [
     {
-      "files": ["*.vue"],
+      "files": ["*.vue", "*.js", "*.jsx", "*.ts", "*.tsx"],
+
+      "extends": ["plugin:vue/vue3-essential"],
+
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": "latest",
+        "extraFileExtensions": [".vue"]
+      },
+
       "rules": {
-        "import/unambiguous": "off",
-        "putout/putout": "off",
+        "vue/attributes-order": "error",
+        "vue/component-tags-order": "error",
+        "vue/no-lone-template": "error",
+        "vue/no-multiple-slot-args": "error",
+        "vue/no-v-html": "error",
+        "vue/order-in-components": "error",
+        "vue/this-in-template": "error",
+        "vue/attribute-hyphenation": "error",
+        "vue/component-definition-name-casing": "error",
+        "vue/first-attribute-linebreak": "error",
+        "vue/no-template-shadow": "error",
+        "vue/one-component-per-file": "error",
+        "vue/prop-name-casing": "error",
+        "vue/require-default-prop": "error",
+        "vue/require-explicit-emits": "error",
+        "vue/require-prop-types": "error",
+        "vue/v-bind-style": "error",
+        "vue/v-on-event-hyphenation": "error",
+        "vue/v-on-style": "error",
+        "vue/v-slot-style": "error",
+
+        "vue/html-self-closing": [
+          "error",
+          {
+            "html": {
+              "void": "always"
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "files": ["*.vue"],
+
+      "rules": {
         "lines-around-comment": [
           "error",
           {
@@ -52,9 +59,20 @@
             "allowClassStart": true
           }
         ],
+
+        "import/no-anonymous-default-export": [
+          "error",
+          {
+            "allowCallExpression": false,
+            "allowObject": true
+          }
+        ],
+
+        "no-undef": "off",
         "init-declarations": "off",
         "@typescript-eslint/init-declarations": "off",
-        "no-undef": "off"
+        "import/unambiguous": "off",
+        "putout/putout": "off"
       }
     }
   ]
