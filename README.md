@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**36 plugins. 1158 rules.**
+**36 plugins. 1204 rules.**
 
 ## Usage
 
@@ -200,8 +200,8 @@ Config for Vue 3/Nuxt 3.
 
 | Plugin                                                          | Enabled rules |
 | --------------------------------------------------------------- | ------------: |
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |           104 |
-| **Total:**                                                      |       **104** |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |           150 |
+| **Total:**                                                      |       **150** |
 
 ### `hardcore/react-testing-library`
 

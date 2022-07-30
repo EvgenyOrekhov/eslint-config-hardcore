@@ -1,15 +1,14 @@
-<script>
-export default {
-  data() {
-    return {
-      greeting: "Hello World!",
-    };
-  },
-};
+<script setup>
+const message = "Hello!";
+
+function log() {
+  // eslint-disable-next-line no-console
+  console.log(message);
+}
 </script>
 
 <template>
-  <p class="greeting">{{ greeting }}</p>
+  <button type="button" class="greeting" @click="log">{{ msg }}</button>
 </template>
 
 <style>

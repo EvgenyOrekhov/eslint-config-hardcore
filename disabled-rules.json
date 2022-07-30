@@ -69,5 +69,24 @@
 
   "@html-eslint/require-meta-charset": "off",
   "@html-eslint/id-naming-convention": "off",
-  "@html-eslint/no-restricted-attrs": "off"
+  "@html-eslint/no-restricted-attrs": "off",
+
+  "vue/block-lang": "error",
+  "vue/no-bare-strings-in-template": "error",
+  "vue/no-restricted-block": "error",
+  "vue/no-restricted-call-after-await": "error",
+  "vue/no-restricted-class": "error",
+  "vue/no-restricted-component-options": "error",
+  "vue/no-restricted-custom-event": "error",
+  "vue/no-restricted-html-elements": "error",
+  "vue/no-restricted-props": "error",
+  "vue/no-restricted-static-attribute": "error",
+  "vue/no-restricted-v-bind": "error",
+  "vue/no-undef-components": "error",
+  "vue/no-undef-properties": "error",
+  "vue/no-unsupported-features": "error",
+  "vue/no-unused-properties": "error",
+  "vue/no-unused-refs": "error",
+  "vue/sort-keys": "error",
+  "vue/static-class-names-order": "error"
 }
