@@ -158,6 +158,13 @@
         "import/unambiguous": "off",
         "putout/putout": "off"
       }
+    },
+    {
+      "files": ["**/composables/*.ts", "**/composables/*.js"],
+      "rules": {
+        "unicorn/consistent-function-scoping": "off",
+        "import/no-unused-modules": "off"
+      }
     }
   ]
 }
