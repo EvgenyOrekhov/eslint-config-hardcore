@@ -120,6 +120,7 @@
           "error",
           { "allowCallExpression": false, "allowObject": true }
         ],
+
         "@typescript-eslint/naming-convention": [
           "error",
           {
@@ -146,7 +147,7 @@
             "format": ["PascalCase"],
             "prefix": ["is", "has", "are", "can", "should", "did", "will"],
             "filter": {
-              "regex": "^(required)$",
+              "regex": "^required$",
               "match": false
             }
           }
