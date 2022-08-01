@@ -96,10 +96,6 @@ Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
 {
   "extends": ["hardcore", "hardcore/vue"],
 
-  "parserOptions": {
-    "project": "tsconfig.json"
-  },
-
   "settings": {
     "import/resolver": {
       "alias": {
