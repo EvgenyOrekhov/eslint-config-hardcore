@@ -76,7 +76,7 @@
     "eslint-plugin-unicorn": "^43.0.2",
     "eslint-plugin-vue": "^9.3.0",
     "prettier": "^2.7.1",
-    "putout": "^24.6.0",
+    "putout": "^27.0.1",
     "typescript": "^4.7.4"
   },
   "files": [
