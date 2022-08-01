@@ -421,7 +421,6 @@
     "import/prefer-default-export": "error",
     "import/max-dependencies": "error",
     "import/no-named-default": "error",
-    "import/no-anonymous-default-export": "error",
     "import/group-exports": "error",
     "import/no-commonjs": "error",
     "import/no-relative-packages": "error",
@@ -489,6 +488,10 @@
     ],
     "import/no-dynamic-require": ["error", { "esmodule": true }],
     "import/named": ["error", { "commonjs": true }],
+    "import/no-anonymous-default-export": [
+      "error",
+      { "allowCallExpression": false }
+    ],
 
     "unicorn/custom-error-definition": "error",
     "unicorn/error-message": "error",
