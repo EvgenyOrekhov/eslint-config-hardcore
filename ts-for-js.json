@@ -160,5 +160,45 @@
 
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error"
-  }
+  },
+
+  "overrides": [
+    {
+      "files": ["*.vue"],
+
+      "rules": {
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "default",
+            "format": ["strictCamelCase"]
+          },
+          {
+            "selector": "function",
+            "format": ["strictCamelCase", "StrictPascalCase"]
+          },
+          {
+            "selector": ["typeLike", "enumMember"],
+            "format": ["StrictPascalCase"]
+          },
+          {
+            "selector": ["variable", "parameter", "accessor"],
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+          },
+          {
+            "selector": ["property"],
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "has", "are", "can", "should", "did", "will"],
+            "filter": {
+              "regex": "^required$",
+              "match": false
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

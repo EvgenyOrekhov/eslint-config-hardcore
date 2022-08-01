@@ -5,6 +5,8 @@
 
       "extends": ["plugin:vue/vue3-essential"],
 
+      "plugins": ["import"],
+
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "ecmaVersion": "latest",
@@ -119,38 +121,6 @@
         "import/no-anonymous-default-export": [
           "error",
           { "allowCallExpression": false, "allowObject": true }
-        ],
-
-        "@typescript-eslint/naming-convention": [
-          "error",
-          {
-            "selector": "default",
-            "format": ["strictCamelCase"]
-          },
-          {
-            "selector": "function",
-            "format": ["strictCamelCase", "StrictPascalCase"]
-          },
-          {
-            "selector": ["typeLike", "enumMember"],
-            "format": ["StrictPascalCase"]
-          },
-          {
-            "selector": ["variable", "parameter", "accessor"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"]
-          },
-          {
-            "selector": ["property"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"],
-            "filter": {
-              "regex": "^required$",
-              "match": false
-            }
-          }
         ],
 
         "no-undef": "off",
