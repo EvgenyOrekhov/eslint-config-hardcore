@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**35 plugins. 1054 rules.**
+**36 plugins. 1204 rules.**
 
 ## Usage
 
@@ -22,6 +22,7 @@ Available configs:
 - `hardcore/ts` - additional config for TypeScript
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
+- `hardcore/vue` - additional config for Vue 3/Nuxt 3
 - `hardcore/react-testing-library` - additional config for React Testing Library
 - `hardcore/jest` - additional config for Jest
 - `hardcore/fp` - additional config for functional programming
@@ -86,6 +87,39 @@ Example `.eslintrc.json` for a **TypeScript React** project:
       }
     }
   ]
+}
+```
+
+Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
+
+```json
+{
+  "extends": ["hardcore", "hardcore/vue"],
+
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src/"]],
+        "extensions": [".js", ".vue"]
+      }
+    }
+  }
+}
+```
+
+Example `.eslintrc.json` for a **TypeScript Vue 3/Nuxt 3** project:
+
+```json
+{
+  "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
+
+  "parserOptions": {
+    "project": "tsconfig.json"
+  }
 }
 ```
 
@@ -157,6 +191,15 @@ Config for React.
 | [eslint-plugin-react-hook-form](https://github.com/andykao1213/eslint-plugin-react-hook-form)               |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |             2 |
 | **Total:**                                                                                                  |       **128** |
+
+### `hardcore/vue`
+
+Config for Vue 3/Nuxt 3.
+
+| Plugin                                                          | Enabled rules |
+| --------------------------------------------------------------- | ------------: |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) |           150 |
+| **Total:**                                                      |       **150** |
 
 ### `hardcore/react-testing-library`
 

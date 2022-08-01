@@ -1,0 +1,172 @@
+{
+  "overrides": [
+    {
+      "files": ["*.vue", "*.js", "*.jsx", "*.ts", "*.tsx"],
+
+      "extends": ["plugin:vue/vue3-essential"],
+
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": "latest",
+        "extraFileExtensions": [".vue"]
+      },
+
+      "rules": {
+        "vue/attributes-order": "error",
+        "vue/component-tags-order": "error",
+        "vue/no-lone-template": "error",
+        "vue/no-multiple-slot-args": "error",
+        "vue/no-v-html": "error",
+        "vue/order-in-components": "error",
+        "vue/this-in-template": "error",
+        "vue/attribute-hyphenation": "error",
+        "vue/component-definition-name-casing": "error",
+        "vue/first-attribute-linebreak": "error",
+        "vue/no-template-shadow": "error",
+        "vue/one-component-per-file": "error",
+        "vue/prop-name-casing": "error",
+        "vue/require-default-prop": "error",
+        "vue/require-explicit-emits": "error",
+        "vue/require-prop-types": "error",
+        "vue/v-bind-style": "error",
+        "vue/v-on-style": "error",
+        "vue/v-slot-style": "error",
+
+        "vue/component-api-style": "error",
+        "vue/component-name-in-template-casing": "error",
+        "vue/component-options-name-casing": "error",
+        "vue/custom-event-name-casing": "error",
+        "vue/define-macros-order": "error",
+        "vue/html-button-has-type": "error",
+        "vue/html-comment-content-newline": "error",
+        "vue/html-comment-content-spacing": "error",
+        "vue/html-comment-indent": "error",
+        "vue/match-component-import-name": "error",
+        "vue/new-line-between-multi-line-property": "error",
+        "vue/next-tick-style": "error",
+        "vue/no-boolean-default": "error",
+        "vue/no-duplicate-attr-inheritance": "error",
+        "vue/no-empty-component-block": "error",
+        "vue/no-multiple-objects-in-class": "error",
+        "vue/no-static-inline-styles": "error",
+        "vue/no-template-target-blank": "error",
+        "vue/no-this-in-before-route-enter": "error",
+        "vue/no-useless-mustaches": "error",
+        "vue/no-useless-v-bind": "error",
+        "vue/no-v-text": "error",
+        "vue/padding-line-between-blocks": "error",
+        "vue/prefer-prop-type-boolean-first": "error",
+        "vue/prefer-separate-static-class": "error",
+        "vue/prefer-true-attribute-shorthand": "error",
+        "vue/require-direct-export": "error",
+        "vue/require-emit-validator": "error",
+        "vue/require-expose": "error",
+        "vue/require-name-property": "error",
+        "vue/v-for-delimiter-style": "error",
+        "vue/v-on-function-call": "error",
+
+        "vue/camelcase": "error",
+        "vue/dot-notation": "error",
+        "vue/eqeqeq": "error",
+        "vue/no-constant-condition": "error",
+        "vue/no-empty-pattern": "error",
+        "vue/no-loss-of-precision": "error",
+        "vue/no-sparse-arrays": "error",
+        "vue/no-useless-concat": "error",
+        "vue/object-shorthand": "error",
+        "vue/prefer-template": "error",
+
+        "vue/v-on-event-hyphenation": ["error", "always", { "autofix": true }],
+        "vue/html-self-closing": ["error", { "html": { "void": "always" } }],
+        "vue/match-component-file-name": [
+          "error",
+          {
+            "extensions": ["*.vue", "*.js", "*.jsx", "*.ts", "*.tsx"],
+            "shouldMatchCase": true
+          }
+        ],
+        "vue/no-potential-component-option-typo": [
+          "error",
+          { "presets": ["all"] }
+        ],
+        "vue/no-irregular-whitespace": ["error", { "skipStrings": false }],
+        "vue/no-restricted-syntax": [
+          "error",
+          {
+            "selector": "SequenceExpression",
+            "message": "The comma operator is confusing and a common mistake. Don’t use it!"
+          }
+        ]
+      }
+    },
+
+    {
+      "files": ["*.vue"],
+
+      "rules": {
+        "lines-around-comment": [
+          "error",
+          {
+            "beforeBlockComment": true,
+            "beforeLineComment": false,
+            "allowBlockStart": true,
+            "allowObjectStart": true,
+            "allowArrayStart": true,
+            "allowClassStart": true
+          }
+        ],
+
+        "import/no-anonymous-default-export": [
+          "error",
+          { "allowCallExpression": false, "allowObject": true }
+        ],
+
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "default",
+            "format": ["strictCamelCase"]
+          },
+          {
+            "selector": "function",
+            "format": ["strictCamelCase", "StrictPascalCase"]
+          },
+          {
+            "selector": ["typeLike", "enumMember"],
+            "format": ["StrictPascalCase"]
+          },
+          {
+            "selector": ["variable", "parameter", "accessor"],
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+          },
+          {
+            "selector": ["property"],
+            "types": ["boolean"],
+            "format": ["PascalCase"],
+            "prefix": ["is", "has", "are", "can", "should", "did", "will"],
+            "filter": {
+              "regex": "^required$",
+              "match": false
+            }
+          }
+        ],
+
+        "no-undef": "off",
+        "init-declarations": "off",
+        "@typescript-eslint/init-declarations": "off",
+        "import/unambiguous": "off",
+        "putout/putout": "off"
+      }
+    },
+    {
+      "files": ["**/composables/*.ts", "**/composables/*.js"],
+
+      "rules": {
+        "unicorn/consistent-function-scoping": "off",
+        "import/no-unused-modules": "off"
+      }
+    }
+  ]
+}

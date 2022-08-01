@@ -5,7 +5,8 @@
     "./react.json",
     "./react-testing-library.json",
     "./jest.json",
-    "./ts.json"
+    "./ts.json",
+    "./vue.json"
   ],
 
   "parserOptions": {
