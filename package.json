@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.3.0",
+    "eslint-import-resolver-typescript": "^3.4.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
