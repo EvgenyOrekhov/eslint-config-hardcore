@@ -31,6 +31,7 @@
   "import/no-named-export": "off",
   "import/dynamic-import-chunkname": "off",
   "import/no-unassigned-import": "off",
+  "import/group-exports": "off",
 
   "unicorn/no-array-callback-reference": "off",
   "unicorn/no-keyword-prefix": "off",
