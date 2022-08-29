@@ -30,17 +30,17 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.23.0"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.13.2",
     "@html-eslint/parser": "^0.13.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.33.0",
-    "@typescript-eslint/parser": "^5.33.0",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.4.2",
+    "eslint-import-resolver-typescript": "^3.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-array-func": "^3.1.7",
@@ -60,10 +60,10 @@
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-putout": "^13.12.0",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-form-fields": "^1.2.22",
     "eslint-plugin-react-hook-form": "^0.2.4",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -77,7 +77,7 @@
     "eslint-plugin-vue": "^9.4.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.2"
   },
   "files": [
     "base.json",
@@ -93,6 +93,6 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.22.0"
+    "eslint": "^8.23.0"
   }
 }
