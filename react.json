@@ -4,6 +4,7 @@
     "plugin:react/all",
     "plugin:react-hooks/recommended",
     "plugin:react-perf/all",
+    "plugin:styled-components-a11y/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hook-form/recommended",
     "plugin:react-form-fields/recommended",
