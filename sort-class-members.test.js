@@ -6,6 +6,7 @@
   no-underscore-dangle,
   getter-return,
   accessor-pairs,
+  no-undef,
 */
 
 // eslint-disable-next-line import/no-unused-modules
