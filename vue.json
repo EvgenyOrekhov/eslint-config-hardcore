@@ -66,6 +66,9 @@
         "vue/require-name-property": "error",
         "vue/v-for-delimiter-style": "error",
         "vue/v-on-function-call": "error",
+        "vue/no-ref-object-destructure": "error",
+        "vue/define-emits-declaration": "error",
+        "vue/define-props-declaration": "error",
 
         "vue/camelcase": "error",
         "vue/dot-notation": "error",
@@ -98,7 +101,8 @@
             "selector": "SequenceExpression",
             "message": "The comma operator is confusing and a common mistake. Don’t use it!"
           }
-        ]
+        ],
+        "vue/no-required-prop-with-default": ["error", { "autofix": true }]
       }
     },
 

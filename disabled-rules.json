@@ -89,5 +89,6 @@
   "vue/no-unused-properties": "off",
   "vue/no-unused-refs": "off",
   "vue/sort-keys": "off",
-  "vue/static-class-names-order": "off"
+  "vue/static-class-names-order": "off",
+  "vue/padding-line-between-tags": "off"
 }
