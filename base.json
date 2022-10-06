@@ -279,6 +279,11 @@
     "no-sequences": ["error", { "allowInParentheses": false }],
     "no-implicit-coercion": ["error", { "disallowTemplateShorthand": true }],
     "prefer-regex-literals": ["error", { "disallowRedundantWrapping": true }],
+    "logical-assignment-operators": [
+      "error",
+      "always",
+      { "enforceForIfStatements": true }
+    ],
 
     "no-restricted-globals": [
       "error",
