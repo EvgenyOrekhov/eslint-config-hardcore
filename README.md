@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**37 plugins. 1241 rules.**
+**37 plugins. 1243 rules.**
 
 ## Usage
 
@@ -130,7 +130,7 @@ Base framework-agnostic config.
 | [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           188 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            91 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            87 |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            89 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            69 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            33 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            31 |
@@ -145,7 +145,7 @@ Base framework-agnostic config.
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-anti-trojan-source](https://github.com/lirantal/eslint-plugin-anti-trojan-source)          |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total:**                                                                                                |       **644** |
+| **Total:**                                                                                                |       **646** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
