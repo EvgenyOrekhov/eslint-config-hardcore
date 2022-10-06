@@ -37,8 +37,8 @@
     "@html-eslint/parser": "^0.15.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.5.1",
@@ -78,7 +78,7 @@
     "eslint-plugin-vue": "^9.4.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.4"
   },
   "files": [
     "base.json",
