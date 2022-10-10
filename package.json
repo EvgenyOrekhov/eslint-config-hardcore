@@ -74,7 +74,7 @@
     "eslint-plugin-sort-class-members": "^1.15.2",
     "eslint-plugin-styled-components-a11y": "^1.0.0",
     "eslint-plugin-testing-library": "^5.7.2",
-    "eslint-plugin-unicorn": "^44.0.1",
+    "eslint-plugin-unicorn": "^44.0.2",
     "eslint-plugin-vue": "^9.6.0",
     "prettier": "^2.7.1",
     "putout": "^24.6.0",
