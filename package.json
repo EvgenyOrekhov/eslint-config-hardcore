@@ -65,7 +65,7 @@
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.31.9",
     "eslint-plugin-react-form-fields": "^1.2.22",
-    "eslint-plugin-react-hook-form": "^0.2.4",
+    "eslint-plugin-react-hook-form": "^0.2.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-perf": "^3.3.1",
     "eslint-plugin-regexp": "^1.9.0",
