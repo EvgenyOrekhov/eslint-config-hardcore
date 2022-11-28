@@ -809,6 +809,7 @@
           "try-catch": "off",
           "montag": "off",
           "extract-object-properties": "off",
+          "convert-const-to-let": "off",
 
           "nodejs/remove-process-exit": "off",
           "math/apply-numeric-separators": "off",
