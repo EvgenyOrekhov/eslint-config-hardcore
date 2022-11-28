@@ -90,7 +90,6 @@
     "no-loop-func": "error",
     "no-multi-str": "error",
     "no-global-assign": "error",
-    "no-negated-condition": "error",
     "no-nested-ternary": "error",
     "no-new": "error",
     "no-new-func": "error",
@@ -590,6 +589,9 @@
     "unicorn/prefer-event-target": "error",
     "unicorn/no-unnecessary-await": "error",
     "unicorn/switch-case-braces": "error",
+    "unicorn/no-typeof-undefined": "error",
+    "unicorn/prefer-set-size": "error",
+    "unicorn/no-negated-condition": "error",
 
     "unicorn/filename-case": [
       "error",
