@@ -759,6 +759,8 @@
     "regexp/use-ignore-case": "error",
     "regexp/prefer-named-replacement": "error",
     "regexp/prefer-result-array-groups": "error",
+    "regexp/no-missing-g-flag": "error",
+    "regexp/no-extra-lookaround-assertions": "error",
 
     "regexp/letter-case": [
       "error",
