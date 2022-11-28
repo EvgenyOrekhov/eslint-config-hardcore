@@ -50,7 +50,7 @@
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^27.1.1",
+    "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-jest-dom": "^4.0.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json": "^3.1.0",
@@ -63,9 +63,9 @@
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-putout": "^13.12.0",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-react": "^7.31.9",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-form-fields": "^1.2.22",
-    "eslint-plugin-react-hook-form": "^0.2.4",
+    "eslint-plugin-react-hook-form": "^0.2.5",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-perf": "^3.3.1",
     "eslint-plugin-regexp": "^1.9.0",
@@ -76,9 +76,9 @@
     "eslint-plugin-testing-library": "^5.7.2",
     "eslint-plugin-unicorn": "^44.0.2",
     "eslint-plugin-vue": "^9.6.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.0",
     "putout": "^24.6.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   },
   "files": [
     "base.json",
