@@ -102,6 +102,11 @@
           { "ignoreTernaryTests": false }
         ],
 
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          { "fixStyle": "inline-type-imports" }
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
