@@ -788,27 +788,23 @@
           "convert-commonjs-to-esm": "on",
           "apply-is-array": ["on", { "inline": true }],
 
-          "putout": "off",
-          "regexp/convert-replace-to-replace-all": "off",
-          "promises/apply-top-level-await": "off",
-
           "convert-array-copy-to-slice": "off",
           "convert-for-each-to-for-of": "off",
           "convert-map-to-for-of": "off",
+          "convert-reduce-to-for-of": "off",
           "remove-unused-variables": "off",
           "nodejs/remove-process-exit": "off",
           "remove-debugger": "off",
           "remove-console": "off",
-          "tape/remove-only": "off",
-          "tape/remove-skip": "off",
-          "apply-numeric-separators": "off",
+          "tape": "off",
+          "math/apply-numeric-separators": "off",
           "declare-undefined-variables": "off",
           "remove-useless-operand": "off",
           "remove-boolean-from-assertions": "off",
           "remove-empty/import": "off",
           "promises/add-missing-await": "off",
           "typescript/remove-unused-types": "off",
-          "remove-useless-new": "off",
+          "new/remove-useless": "off",
           "convert-esm-to-commonjs": "off",
           "convert-typeof-to-is-type": "off",
           "convert-quotes-to-backticks": "off"
@@ -818,9 +814,6 @@
           "*.cjs": {
             "convert-commonjs-to-esm": "off",
             "convert-esm-to-commonjs": "on"
-          },
-          "*.mjs": {
-            "promises/apply-top-level-await": "on"
           }
         }
       }
