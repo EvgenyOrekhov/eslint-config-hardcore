@@ -65,7 +65,7 @@
         "vue/require-expose": "error",
         "vue/require-name-property": "error",
         "vue/v-for-delimiter-style": "error",
-        "vue/v-on-function-call": "error",
+        "vue/v-on-handler-style": "error",
         "vue/no-ref-object-destructure": "error",
         "vue/define-emits-declaration": "error",
         "vue/define-props-declaration": "error",

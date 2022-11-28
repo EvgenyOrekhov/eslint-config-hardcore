@@ -108,5 +108,6 @@
   "vue/space-in-parens": "off",
   "vue/space-infix-ops": "off",
   "vue/space-unary-ops": "off",
-  "vue/template-curly-spacing": "off"
+  "vue/template-curly-spacing": "off",
+  "vue/multiline-ternary": "off"
 }

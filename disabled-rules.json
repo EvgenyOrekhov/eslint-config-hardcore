@@ -90,5 +90,6 @@
   "vue/no-unused-refs": "off",
   "vue/sort-keys": "off",
   "vue/static-class-names-order": "off",
-  "vue/padding-line-between-tags": "off"
+  "vue/padding-line-between-tags": "off",
+  "vue/require-prop-comment": "off"
 }
