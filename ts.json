@@ -23,6 +23,7 @@
             "ignore": [0, 1],
             "enforceConst": true,
             "ignoreDefaultValues": true,
+            "ignoreClassFieldInitialValues": true,
             "ignoreEnums": true,
             "ignoreNumericLiteralTypes": true,
             "ignoreReadonlyClassProperties": true,

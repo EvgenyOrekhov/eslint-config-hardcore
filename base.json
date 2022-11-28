@@ -140,7 +140,7 @@
     "require-yield": "error",
     "yoda": "error",
     "no-empty-function": "error",
-    "no-new-symbol": "error",
+    "no-new-native-nonconstructor": "error",
     "no-unmodified-loop-condition": "error",
     "prefer-rest-params": "error",
     "no-extra-label": "error",
@@ -197,10 +197,16 @@
     "prefer-destructuring": "error",
     "no-unused-private-class-members": "error",
     "no-constant-binary-expression": "error",
+    "no-empty-static-block": "error",
 
     "no-magic-numbers": [
       "error",
-      { "ignore": [0, 1], "enforceConst": true, "ignoreDefaultValues": true }
+      {
+        "ignore": [0, 1],
+        "enforceConst": true,
+        "ignoreDefaultValues": true,
+        "ignoreClassFieldInitialValues": true
+      }
     ],
     "complexity": ["error", { "max": 10 }],
     "func-names": ["error", "as-needed"],
