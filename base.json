@@ -807,7 +807,14 @@
           "new/remove-useless": "off",
           "convert-esm-to-commonjs": "off",
           "convert-typeof-to-is-type": "off",
-          "convert-quotes-to-backticks": "off"
+          "convert-quotes-to-backticks": "off",
+          "eslint": "off",
+          "package-json": "off",
+          "gitignore": "off",
+          "npmignore": "off",
+          "try-catch": "off",
+          "montag": "off",
+          "extract-object-properties": "off"
         },
 
         "match": {
