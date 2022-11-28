@@ -397,6 +397,7 @@
     "promise/valid-params": "error",
     "promise/no-new-statics": "error",
     "promise/prefer-await-to-then": "error",
+    "promise/no-multiple-resolved": "error",
 
     "promise/catch-or-return": ["error", { "allowFinally": true }],
 
