@@ -102,7 +102,10 @@
             "message": "The comma operator is confusing and a common mistake. Don’t use it!"
           }
         ],
-        "vue/no-required-prop-with-default": ["error", { "autofix": true }]
+        "vue/no-required-prop-with-default": ["error", { "autofix": true }],
+
+        "import/no-unused-modules": "off",
+        "import/no-anonymous-default-export": "off"
       }
     },
 
@@ -135,11 +138,29 @@
       }
     },
     {
-      "files": ["**/composables/*.ts", "**/composables/*.js"],
+      "files": ["**/composables/**/*.{js,ts}"],
 
       "rules": {
-        "unicorn/consistent-function-scoping": "off",
-        "import/no-unused-modules": "off"
+        "unicorn/consistent-function-scoping": "off"
+      }
+    },
+    {
+      "files": ["**/{composables,utils}/**/*.{js,ts}"],
+      "rules": {
+        "import/prefer-default-export": "off",
+        "func-names": "off"
+      }
+    },
+    {
+      "files": ["**/layouts/**/*.{js,ts}", "**/pages/**/*.{js,ts}"],
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
+    },
+    {
+      "files": ["server/**/*.{js,ts}"],
+      "rules": {
+        "no-param-reassign": "off"
       }
     }
   ]
