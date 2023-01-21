@@ -102,7 +102,6 @@
             "message": "The comma operator is confusing and a common mistake. Don’t use it!"
           }
         ],
-        "vue/no-required-prop-with-default": ["error", { "autofix": true }],
 
         "import/no-unused-modules": "off",
         "import/no-anonymous-default-export": "off"
