@@ -139,7 +139,6 @@
     },
     {
       "files": ["**/composables/**/*.{js,ts}"],
-
       "rules": {
         "unicorn/consistent-function-scoping": "off"
       }
