@@ -240,7 +240,9 @@
       {
         "enforceInMethodNames": true,
         "enforceInClassFields": true,
-        "allowFunctionParams": false
+        "allowFunctionParams": false,
+        "allowInArrayDestructuring": false,
+        "allowInObjectDestructuring": false
       }
     ],
     "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
