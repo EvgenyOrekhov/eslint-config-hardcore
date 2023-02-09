@@ -66,6 +66,8 @@
     "react-hooks/exhaustive-deps": "error",
 
     "jsx-a11y/lang": "error",
+    "jsx-a11y/prefer-tag-over-role": "error",
+    "jsx-a11y/no-aria-hidden-on-focusable": "error",
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
