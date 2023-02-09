@@ -12,8 +12,7 @@
     "ext",
     "putout",
     "@shopify",
-    "regexp",
-    "anti-trojan-source"
+    "regexp"
   ],
 
   "parserOptions": {
@@ -413,6 +412,7 @@
     "security/detect-possible-timing-attacks": "error",
     "security/detect-pseudoRandomBytes": "error",
     "security/detect-unsafe-regex": "error",
+    "security/detect-bidi-characters": "error",
 
     "import/default": "error",
     "import/namespace": "error",
@@ -778,8 +778,6 @@
     ],
     "regexp/hexadecimal-escape": ["error", "never"],
     "regexp/unicode-escape": ["error", "unicodeEscape"],
-
-    "anti-trojan-source/no-bidi": "error",
 
     "putout/putout": [
       "error",

@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**37 plugins. 1243 rules.**
+**36 plugins. 1243 rules.**
 
 ## Usage
 
@@ -136,14 +136,13 @@ Base framework-agnostic config.
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            31 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            13 |
-| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            11 |
+| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             4 |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |             2 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |             1 |
 | [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |             1 |
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
-| [eslint-plugin-anti-trojan-source](https://github.com/lirantal/eslint-plugin-anti-trojan-source)          |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | **Total:**                                                                                                |       **649** |
 
