@@ -803,6 +803,7 @@
           "remove-console": "off",
           "tape": "off",
           "declare-undefined-variables": "off",
+          "apply-maybe": "off",
           "remove-useless-operand": "off",
           "remove-boolean-from-assertions": "off",
           "convert-esm-to-commonjs": "off",
