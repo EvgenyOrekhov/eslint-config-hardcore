@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**37 plugins. 1242 rules.**
+**37 plugins. 1243 rules.**
 
 ## Usage
 
@@ -213,10 +213,10 @@ Config for Jest.
 
 | Plugin                                                                                           | Enabled rules |
 | ------------------------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                       |            48 |
+| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                       |            49 |
 | [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)              |            11 |
 | [eslint-plugin-jest-formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting) |             7 |
-| **Total:**                                                                                       |        **66** |
+| **Total:**                                                                                       |        **67** |
 
 ### `hardcore/fp`
 
