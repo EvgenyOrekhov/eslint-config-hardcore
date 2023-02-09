@@ -428,15 +428,14 @@
     "import/no-amd": "error",
     "import/first": "error",
     "import/exports-last": "error",
-    "import/no-duplicates": "error",
     "import/no-namespace": "error",
-    "import/newline-after-import": "error",
     "import/prefer-default-export": "error",
     "import/max-dependencies": "error",
     "import/no-named-default": "error",
     "import/no-commonjs": "error",
     "import/no-relative-packages": "error",
     "import/no-import-module-exports": "error",
+    "import/no-empty-named-blocks": "error",
 
     "import/no-unresolved": [
       "error",
@@ -482,7 +481,8 @@
         ],
         "optionalDependencies": false,
         "peerDependencies": false,
-        "bundledDependencies": false
+        "bundledDependencies": false,
+        "includeTypes": true
       }
     ],
     "import/extensions": ["error", "ignorePackages"],
@@ -506,6 +506,11 @@
     "import/no-anonymous-default-export": [
       "error",
       { "allowCallExpression": false }
+    ],
+    "import/newline-after-import": ["error", { "considerComments": true }],
+    "import/no-duplicates": [
+      "error",
+      { "considerQueryString": true, "prefer-inline": true }
     ],
 
     "unicorn/custom-error-definition": "error",
