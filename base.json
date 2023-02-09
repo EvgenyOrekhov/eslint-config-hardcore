@@ -765,6 +765,7 @@
     "regexp/prefer-result-array-groups": "error",
     "regexp/no-missing-g-flag": "error",
     "regexp/no-extra-lookaround-assertions": "error",
+    "regexp/no-misleading-capturing-group": "error",
 
     "regexp/letter-case": [
       "error",
