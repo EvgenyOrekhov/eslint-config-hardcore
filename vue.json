@@ -144,13 +144,6 @@
       }
     },
     {
-      "files": ["**/{composables,utils}/**/*.{js,ts}"],
-      "rules": {
-        "import/prefer-default-export": "off",
-        "func-names": "off"
-      }
-    },
-    {
       "files": ["**/layouts/**/*.{js,ts}", "**/pages/**/*.{js,ts}"],
       "rules": {
         "vue/multi-word-component-names": "off"
@@ -159,7 +152,24 @@
     {
       "files": ["server/**/*.{js,ts}"],
       "rules": {
-        "no-param-reassign": "off"
+        "no-param-reassign": [
+          "error",
+          {
+            "props": true,
+            "ignorePropertyModificationsFor": [
+              "accumulator",
+              "ctx",
+              "context",
+              "req",
+              "request",
+              "res",
+              "response",
+              "$scope",
+              "staticContext",
+              "event"
+            ]
+          }
+        ]
       }
     }
   ]
