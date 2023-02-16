@@ -3,7 +3,10 @@
     {
       "files": ["*.vue", "*.js", "*.jsx", "*.ts", "*.tsx"],
 
-      "extends": ["plugin:vue/vue3-essential"],
+      "extends": [
+        "plugin:vuejs-accessibility/recommended",
+        "plugin:vue/vue3-essential"
+      ],
 
       "plugins": ["import"],
 
