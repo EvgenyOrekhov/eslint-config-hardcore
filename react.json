@@ -11,7 +11,7 @@
     "./prettier.json"
   ],
 
-  "plugins": ["import", "@shopify"],
+  "plugins": ["import", "@shopify", "storybook"],
 
   "env": {
     "browser": true
@@ -83,6 +83,35 @@
   "overrides": [
     {
       "files": ["*.jsx"]
+    },
+
+    {
+      "files": [
+        "*.stories.@(ts|tsx|js|jsx|mjs|cjs)",
+        "*.story.@(ts|tsx|js|jsx|mjs|cjs)"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off",
+        "storybook/await-interactions": "error",
+        "storybook/context-in-play-function": "error",
+        "storybook/csf-component": "error",
+        "storybook/default-exports": "error",
+        "storybook/hierarchy-separator": "error",
+        "storybook/meta-inline-properties": "error",
+        "storybook/no-redundant-story-name": "error",
+        "storybook/no-stories-of": "error",
+        "storybook/no-title-property-in-meta": "error",
+        "storybook/prefer-pascal-case": "error",
+        "storybook/story-exports": "error",
+        "storybook/use-storybook-expect": "error",
+        "storybook/use-storybook-testing-library": "error"
+      }
+    },
+    {
+      "files": [".storybook/main.@(js|cjs|mjs|ts)"],
+      "rules": {
+        "storybook/no-uninstalled-addons": "error"
+      }
     },
 
     {
