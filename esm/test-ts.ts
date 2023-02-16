@@ -1,6 +1,5 @@
 /*
   eslint-disable-next-line
-  import/no-unused-modules,
-  import/no-anonymous-default-export
+  import/no-unused-modules
 */
 export default "test";
