@@ -69,6 +69,7 @@
         "vue/no-ref-object-destructure": "error",
         "vue/define-emits-declaration": "error",
         "vue/define-props-declaration": "error",
+        "vue/padding-lines-in-component-definition": "error",
 
         "vue/camelcase": "error",
         "vue/dot-notation": "error",
