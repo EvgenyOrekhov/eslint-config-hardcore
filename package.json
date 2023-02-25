@@ -35,6 +35,7 @@
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.16.0",
     "@html-eslint/parser": "^0.16.0",
+    "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.0.3",
     "@typescript-eslint/eslint-plugin": "^5.53.0",

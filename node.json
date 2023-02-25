@@ -1,6 +1,8 @@
 {
   "extends": ["plugin:node/recommended"],
 
+  "plugins": ["@microsoft/sdl"],
+
   "parserOptions": { "ecmaVersion": "latest" },
 
   "rules": {
@@ -24,7 +26,9 @@
     "node/no-path-concat": "error",
     "node/no-process-env": "error",
     "node/no-process-exit": "error",
-    "node/no-sync": "error"
+    "node/no-sync": "error",
+
+    "@microsoft/sdl/no-unsafe-alloc": "error"
   },
 
   "overrides": [
