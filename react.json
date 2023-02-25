@@ -52,7 +52,10 @@
       "error",
       { "forbidDefaultForRequired": true, "functions": "defaultArguments" }
     ],
-    "react/jsx-no-target-blank": ["error", { "forms": true }],
+    "react/jsx-no-target-blank": [
+      "error",
+      { "forms": true, "warnOnSpreadAttributes": true }
+    ],
     "react/jsx-curly-brace-presence": [
       "error",
       { "propElementValues": "always" }
