@@ -72,7 +72,7 @@
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-sonarjs": "^0.18.0",
     "eslint-plugin-sort-class-members": "^1.16.0",
-    "eslint-plugin-storybook": "^0.6.10",
+    "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-styled-components-a11y": "^0.1.0",
     "eslint-plugin-testing-library": "^5.10.2",
     "eslint-plugin-unicorn": "^45.0.2",
