@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**40 plugins. 1285 rules.**
+**41 plugins. 1289 rules.**
 
 ## Usage
 
@@ -185,11 +185,12 @@ Config for React.
 | [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                              |            14 |
 | [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)                                 |             4 |
 | [eslint-plugin-react-form-fields](https://github.com/kotarella1110/eslint-plugin-react-form-fields)            |             4 |
+| [eslint-plugin-ssr-friendly](https://github.com/kopiro/eslint-plugin-ssr-friendly)                             |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)              |             3 |
 | [eslint-plugin-react-hook-form](https://github.com/andykao1213/eslint-plugin-react-hook-form)                  |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)    |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)          |             1 |
-| **Total:**                                                                                                     |       **179** |
+| **Total:**                                                                                                     |       **183** |
 
 ### `hardcore/vue`
 

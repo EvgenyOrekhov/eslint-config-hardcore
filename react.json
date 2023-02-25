@@ -8,6 +8,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react-hook-form/recommended",
     "plugin:react-form-fields/recommended",
+    "plugin:ssr-friendly/recommended",
     "./prettier.json"
   ],
 
