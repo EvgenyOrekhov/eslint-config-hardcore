@@ -14,7 +14,8 @@
     "@shopify",
     "regexp",
     "no-only-tests",
-    "@microsoft/sdl"
+    "@microsoft/sdl",
+    "no-unsanitized"
   ],
 
   "parserOptions": {
@@ -793,6 +794,9 @@
     "@microsoft/sdl/no-html-method": "error",
     "@microsoft/sdl/no-insecure-url": "error",
     "@microsoft/sdl/no-postmessage-star-origin": "error",
+
+    "no-unsanitized/method": "error",
+    "no-unsanitized/property": "error",
 
     "putout/putout": [
       "error",
