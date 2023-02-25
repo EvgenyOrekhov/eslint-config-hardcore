@@ -79,6 +79,7 @@
     "eslint-plugin-unicorn": "^45.0.2",
     "eslint-plugin-validate-jsx-nesting": "^0.1.0",
     "eslint-plugin-vue": "^9.9.0",
+    "eslint-plugin-vue-scoped-css": "^2.4.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
     "prettier": "^2.8.4",
     "putout": "^28.17.0",
