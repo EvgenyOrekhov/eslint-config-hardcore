@@ -12,7 +12,8 @@
     "ext",
     "putout",
     "@shopify",
-    "regexp"
+    "regexp",
+    "no-only-tests"
   ],
 
   "parserOptions": {
@@ -783,6 +784,8 @@
     ],
     "regexp/hexadecimal-escape": ["error", "never"],
     "regexp/unicode-escape": ["error", "unicodeEscape"],
+
+    "no-only-tests/no-only-tests": "error",
 
     "putout/putout": [
       "error",
