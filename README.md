@@ -174,7 +174,7 @@ Config for Node.js.
 
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) |            35 |
+| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n) |            35 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)    |             1 |
 | **Total:**                                                             |        **36** |
 

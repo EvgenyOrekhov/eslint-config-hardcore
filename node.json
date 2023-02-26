@@ -1,32 +1,31 @@
 {
-  "extends": ["plugin:node/recommended"],
+  "extends": ["plugin:n/recommended"],
 
   "plugins": ["@microsoft/sdl"],
 
   "parserOptions": { "ecmaVersion": "latest" },
 
   "rules": {
-    "node/no-callback-literal": "error",
-    "node/exports-style": "error",
-    "node/file-extension-in-import": "error",
-    "node/prefer-global/buffer": "error",
-    "node/prefer-global/console": "error",
-    "node/prefer-global/process": "error",
-    "node/prefer-global/text-decoder": "error",
-    "node/prefer-global/text-encoder": "error",
-    "node/prefer-global/url-search-params": "error",
-    "node/prefer-global/url": "error",
-    "node/prefer-promises/dns": "error",
-    "node/prefer-promises/fs": "error",
-    "node/callback-return": "error",
-    "node/global-require": "error",
-    "node/handle-callback-err": ["error", "^.*(e|E)rror"],
-    "node/no-mixed-requires": "error",
-    "node/no-new-require": "error",
-    "node/no-path-concat": "error",
-    "node/no-process-env": "error",
-    "node/no-process-exit": "error",
-    "node/no-sync": "error",
+    "n/no-callback-literal": "error",
+    "n/exports-style": "error",
+    "n/file-extension-in-import": "error",
+    "n/prefer-global/buffer": "error",
+    "n/prefer-global/console": "error",
+    "n/prefer-global/process": "error",
+    "n/prefer-global/text-decoder": "error",
+    "n/prefer-global/text-encoder": "error",
+    "n/prefer-global/url-search-params": "error",
+    "n/prefer-global/url": "error",
+    "n/prefer-promises/dns": "error",
+    "n/prefer-promises/fs": "error",
+    "n/callback-return": "error",
+    "n/global-require": "error",
+    "n/handle-callback-err": ["error", "^.*(e|E)rror"],
+    "n/no-mixed-requires": "error",
+    "n/no-new-require": "error",
+    "n/no-path-concat": "error",
+    "n/no-process-env": "error",
+    "n/no-sync": "error",
 
     "@microsoft/sdl/no-unsafe-alloc": "error"
   },
@@ -51,7 +50,7 @@
       "files": ["*.ts"],
 
       "rules": {
-        "node/file-extension-in-import": ["error", "never"]
+        "n/file-extension-in-import": ["error", "never"]
       }
     }
   ]
