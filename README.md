@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**43 plugins. 1297 rules.**
+**43 plugins. 1214 rules.**
 
 ## Usage
 
@@ -128,7 +128,6 @@ Base framework-agnostic config.
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
 | [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           188 |
-| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)                              |            84 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            92 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            80 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            72 |
@@ -147,10 +146,13 @@ Base framework-agnostic config.
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| **Total:**                                                                                                |       **660** |
+| [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
+| **Total:**                                                                                                |       **577** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
+² eslint-plugin-prettier actually replaces dozens of other formatting rules, but
+I consider it as one "no-invalid-formatting" rule.
 
 ### `hardcore/ts`
 
