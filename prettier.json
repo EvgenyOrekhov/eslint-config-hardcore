@@ -30,7 +30,8 @@
         "allowBlockStart": true,
         "allowObjectStart": true,
         "allowArrayStart": true,
-        "allowClassStart": true
+        "allowClassStart": true,
+        "afterHashbangComment": true
       }
     ]
   },

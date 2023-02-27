@@ -13,7 +13,9 @@
     "putout",
     "@shopify",
     "regexp",
-    "no-only-tests"
+    "no-only-tests",
+    "@microsoft/sdl",
+    "no-unsanitized"
   ],
 
   "parserOptions": {
@@ -786,6 +788,15 @@
     "regexp/unicode-escape": ["error", "unicodeEscape"],
 
     "no-only-tests/no-only-tests": "error",
+
+    "@microsoft/sdl/no-cookies": "error",
+    "@microsoft/sdl/no-document-domain": "error",
+    "@microsoft/sdl/no-html-method": "error",
+    "@microsoft/sdl/no-insecure-url": "error",
+    "@microsoft/sdl/no-postmessage-star-origin": "error",
+
+    "no-unsanitized/method": "error",
+    "no-unsanitized/property": "error",
 
     "putout/putout": [
       "error",
