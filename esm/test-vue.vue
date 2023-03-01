@@ -11,7 +11,7 @@ function log() {
   <button type="button" class="greeting" @click="log">{{ msg }}</button>
 </template>
 
-<style>
+<style scoped>
 .greeting {
   color: red;
   font-weight: bold;
