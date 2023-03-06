@@ -63,7 +63,7 @@
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-putout": "^16.4.0",
+    "eslint-plugin-putout": "^16.8.0",
     "eslint-plugin-ramda": "^2.5.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-form-fields": "^1.2.22",
