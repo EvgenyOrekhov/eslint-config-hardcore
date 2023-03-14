@@ -72,6 +72,7 @@
   "@html-eslint/require-meta-charset": "off",
   "@html-eslint/id-naming-convention": "off",
   "@html-eslint/no-restricted-attrs": "off",
+  "@html-eslint/require-attrs": "off",
 
   "vue/block-lang": "off",
   "vue/no-bare-strings-in-template": "off",
