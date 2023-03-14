@@ -109,6 +109,22 @@
           { "avoidEscape": true, "allowTemplateLiterals": false }
         ],
 
+        "lines-around-comment": "off",
+        "@typescript-eslint/lines-around-comment": [
+          "error",
+          {
+            "beforeBlockComment": true,
+            "beforeLineComment": true,
+            "allowBlockStart": true,
+            "allowObjectStart": true,
+            "allowArrayStart": true,
+            "allowClassStart": true,
+
+            "allowInterfaceStart": true,
+            "allowTypeStart": true
+          }
+        ],
+
         "@shopify/typescript/prefer-singular-enums": "error",
 
         "import/extensions": ["error", "never"],

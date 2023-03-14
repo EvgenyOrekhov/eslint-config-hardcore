@@ -8,7 +8,7 @@
         "plugin:vue/vue3-essential"
       ],
 
-      "plugins": ["import"],
+      "plugins": ["import", "@typescript-eslint"],
 
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
@@ -137,7 +137,8 @@
           { "allows": ["scoped", "module"] }
         ],
 
-        "lines-around-comment": [
+        "lines-around-comment": "off",
+        "@typescript-eslint/lines-around-comment": [
           "error",
           {
             "beforeBlockComment": true,
@@ -145,7 +146,10 @@
             "allowBlockStart": true,
             "allowObjectStart": true,
             "allowArrayStart": true,
-            "allowClassStart": true
+            "allowClassStart": true,
+
+            "allowInterfaceStart": true,
+            "allowTypeStart": true
           }
         ],
 
