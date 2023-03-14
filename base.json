@@ -806,22 +806,17 @@
         "rules": {
           "apply-shorthand-properties": "on",
           "convert-commonjs-to-esm": "on",
-          "apply-is-array": ["on", { "inline": true }],
+          "types/apply-is-array": ["on", { "inline": true }],
 
           "convert-array-copy-to-slice": "off",
-          "convert-for-each-to-for-of": "off",
-          "convert-map-to-for-of": "off",
-          "convert-reduce-to-for-of": "off",
           "remove-unused-variables": "off",
           "remove-debugger": "off",
           "remove-console": "off",
           "tape": "off",
-          "declare-undefined-variables": "off",
-          "apply-maybe": "off",
+          "declare": "off",
+          "maybe": "off",
           "remove-useless-operand": "off",
-          "remove-boolean-from-assertions": "off",
           "convert-esm-to-commonjs": "off",
-          "convert-typeof-to-is-type": "off",
           "convert-quotes-to-backticks": "off",
           "eslint": "off",
           "package-json": "off",
@@ -833,11 +828,18 @@
           "convert-const-to-let": "off",
 
           "nodejs/remove-process-exit": "off",
+          "nodejs/declare": "off",
           "math/apply-numeric-separators": "off",
           "remove-empty/import": "off",
           "promises/add-missing-await": "off",
           "typescript/remove-unused-types": "off",
-          "new/remove-useless": "off"
+          "new/remove-useless": "off",
+          "for-of/for-each": "off",
+          "for-of/map": "off",
+          "for-of/reduce": "off",
+          "conditions/remove-boolean": "off",
+          "types/convert-typeof-to-is-type": "off",
+          "types/declare": "off"
         },
 
         "match": {
