@@ -14,7 +14,12 @@
         "./prettier.json"
       ],
 
-      "plugins": ["import", "eslint-plugin-no-explicit-type-exports", "etc"],
+      "plugins": [
+        "import",
+        "eslint-plugin-no-explicit-type-exports",
+        "etc",
+        "total-functions"
+      ],
 
       "rules": {
         "@typescript-eslint/no-magic-numbers": [
@@ -147,6 +152,15 @@
         "etc/no-t": "error",
 
         "etc/prefer-interface": ["error", { "allowIntersection": false }],
+
+        "total-functions/no-unsafe-readonly-mutable-assignment": "error",
+        "total-functions/require-strict-mode": "error",
+        "total-functions/no-unsafe-enum-assignment": "error",
+        "total-functions/no-partial-url-constructor": "error",
+        "total-functions/no-partial-division": "error",
+        "total-functions/no-partial-string-normalize": "error",
+        "total-functions/no-premature-fp-ts-effects": "error",
+        "total-functions/no-partial-array-reduce": "error",
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/no-type-alias": "off",
