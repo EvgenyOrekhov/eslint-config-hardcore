@@ -78,7 +78,7 @@
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-styled-components-a11y": "^0.1.0",
     "eslint-plugin-testing-library": "^5.10.2",
-    "eslint-plugin-total-functions": "^6.9.2",
+    "eslint-plugin-total-functions": "^6.10.7",
     "eslint-plugin-unicorn": "^46.0.0",
     "eslint-plugin-validate-jsx-nesting": "^0.1.0",
     "eslint-plugin-vue": "^9.9.0",
