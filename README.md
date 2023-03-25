@@ -90,7 +90,7 @@ Example `.eslintrc.json` for a **TypeScript React** project:
 }
 ```
 
-Example `.eslintrc.json` for a **Javascript Vue 3** project:
+Example `.eslintrc.json` for a **Vue 3** project:
 
 ```json
 {
@@ -107,7 +107,7 @@ Example `.eslintrc.json` for a **Javascript Vue 3** project:
 }
 ```
 
-Example `.eslintrc.json` for a **Javascript Nuxt 3** project:
+Example `.eslintrc.json` for a **Nuxt 3** project:
 
 ```json
 {
