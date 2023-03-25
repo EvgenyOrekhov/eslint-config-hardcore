@@ -112,7 +112,12 @@
         "import/no-anonymous-default-export": "off"
       }
     },
-
+    {
+      "files": ["nuxt.config.js", "*.vue"],
+      "rules": {
+        "no-undef": "off"
+      }
+    },
     {
       "files": ["*.vue"],
 
@@ -158,7 +163,6 @@
           { "allowCallExpression": false, "allowObject": true }
         ],
 
-        "no-undef": "off",
         "init-declarations": "off",
         "@typescript-eslint/init-declarations": "off",
         "import/unambiguous": "off",
