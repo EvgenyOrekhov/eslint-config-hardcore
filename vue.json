@@ -113,7 +113,7 @@
       }
     },
     {
-      "files": ["nuxt.config.js", "*.vue"],
+      "files": ["nuxt.config.{js,ts}"],
       "rules": {
         "no-undef": "off"
       }
@@ -163,6 +163,7 @@
           { "allowCallExpression": false, "allowObject": true }
         ],
 
+        "no-undef": "off",
         "init-declarations": "off",
         "@typescript-eslint/init-declarations": "off",
         "import/unambiguous": "off",
