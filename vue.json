@@ -112,7 +112,12 @@
         "import/no-anonymous-default-export": "off"
       }
     },
-
+    {
+      "files": ["nuxt.config.{js,ts}"],
+      "rules": {
+        "no-undef": "off"
+      }
+    },
     {
       "files": ["*.vue"],
 

@@ -90,7 +90,7 @@ Example `.eslintrc.json` for a **TypeScript React** project:
 }
 ```
 
-Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
+Example `.eslintrc.json` for a **Vue 3** project:
 
 ```json
 {
@@ -100,6 +100,26 @@ Example `.eslintrc.json` for a **Vue 3/Nuxt 3** project:
     "import/resolver": {
       "alias": {
         "map": [["@", "./src/"]],
+        "extensions": [".js", ".vue"]
+      }
+    }
+  }
+}
+```
+
+Example `.eslintrc.json` for a **Nuxt 3** project:
+
+```json
+{
+  "extends": ["hardcore", "hardcore/vue"],
+
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@", "./"], 
+          ["#imports", ".nuxt/imports.d.ts"]
+        ],
         "extensions": [".js", ".vue"]
       }
     }
