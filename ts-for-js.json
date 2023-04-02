@@ -51,9 +51,7 @@
       "error",
       {
         "allowNumber": true,
-        "allowBoolean": false,
-        "allowAny": true,
-        "allowNullish": false
+        "allowAny": true
       }
     ],
 

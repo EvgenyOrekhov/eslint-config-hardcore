@@ -839,7 +839,8 @@
           "for-of/reduce": "off",
           "conditions/remove-boolean": "off",
           "types/convert-typeof-to-is-type": "off",
-          "types/declare": "off"
+          "types/declare": "off",
+          "math/declare": "off"
         },
 
         "match": {
