@@ -33,7 +33,7 @@
     "eslint": "^8.36.0"
   },
   "dependencies": {
-    "@html-eslint/eslint-plugin": "^0.17.1",
+    "@html-eslint/eslint-plugin": "^0.17.2",
     "@html-eslint/parser": "^0.17.1",
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
