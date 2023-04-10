@@ -73,7 +73,7 @@
     "eslint-plugin-regexp": "^1.14.0",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-sonarjs": "^0.19.0",
-    "eslint-plugin-sort-class-members": "^1.16.0",
+    "eslint-plugin-sort-class-members": "^1.17.0",
     "eslint-plugin-ssr-friendly": "^1.2.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-styled-components-a11y": "^0.1.0",
