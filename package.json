@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "^5.57.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-typescript": "^3.5.4",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-array-func": "^3.1.8",
     "eslint-plugin-decorator-position": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
