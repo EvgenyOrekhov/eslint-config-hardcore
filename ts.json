@@ -188,6 +188,8 @@
             ".js",
             ".json",
             ".node",
+            ".mts",
+            ".cts",
             ".ts",
             ".d.ts"
           ]

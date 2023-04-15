@@ -113,7 +113,7 @@
       }
     },
     {
-      "files": ["nuxt.config.{js,ts}"],
+      "files": ["nuxt.config.{js,cjs,mjs,ts,cts,mts}"],
       "rules": {
         "no-undef": "off"
       }
