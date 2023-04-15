@@ -941,6 +941,14 @@
     {
       "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
 
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "env": {
+        "commonjs": true
+      },
+
       "rules": {
         "unicorn/prefer-module": "off",
         "import/no-commonjs": "off",
