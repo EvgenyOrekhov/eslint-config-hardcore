@@ -933,6 +933,16 @@
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
       "rules": { "import/unambiguous": "off", "putout/putout": "off" }
+    },
+
+    {
+      "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
+
+      "rules": {
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off",
+        "import/unambiguous": "off"
+      }
     }
   ]
 }
