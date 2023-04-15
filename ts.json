@@ -41,17 +41,6 @@
           { "enforceForJSX": true }
         ],
 
-        "@typescript-eslint/no-unused-vars": [
-          "error",
-          {
-            "vars": "all",
-            "args": "after-used",
-            "caughtErrors": "all",
-            "varsIgnorePattern": "^ignore$",
-            "argsIgnorePattern": "^ignore$"
-          }
-        ],
-
         "@typescript-eslint/no-shadow": [
           "error",
           {
@@ -167,7 +156,8 @@
         "@typescript-eslint/no-type-alias": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-restricted-imports": "off"
+        "@typescript-eslint/no-restricted-imports": "off",
+        "@typescript-eslint/no-unused-vars": "off"
       },
 
       "settings": {

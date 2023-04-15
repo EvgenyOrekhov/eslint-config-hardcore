@@ -15,7 +15,8 @@
     "regexp",
     "no-only-tests",
     "@microsoft/sdl",
-    "no-unsanitized"
+    "no-unsanitized",
+    "unused-imports"
   ],
 
   "parserOptions": {
@@ -227,16 +228,6 @@
       }
     ],
     "no-undef": ["error", { "typeof": true }],
-    "no-unused-vars": [
-      "error",
-      {
-        "vars": "all",
-        "args": "after-used",
-        "caughtErrors": "all",
-        "varsIgnorePattern": "^ignore$",
-        "argsIgnorePattern": "^ignore$"
-      }
-    ],
     "no-underscore-dangle": [
       "error",
       {
@@ -800,6 +791,18 @@
 
     "no-unsanitized/method": "error",
     "no-unsanitized/property": "error",
+
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "caughtErrors": "all",
+        "varsIgnorePattern": "^ignore$",
+        "argsIgnorePattern": "^ignore$"
+      }
+    ],
 
     "putout/putout": [
       "error",

@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**45 plugins. 1228 rules.**
+**46 plugins. 1228 rules.**
 
 ## Usage
 
@@ -147,7 +147,7 @@ Base framework-agnostic config.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
-| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           188 |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           187 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            92 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            72 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            72 |
@@ -159,6 +159,7 @@ Base framework-agnostic config.
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                       |             5 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             4 |
+| [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)                 |             2 |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |             2 |
 | [eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized)                   |             2 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |             1 |
@@ -167,7 +168,7 @@ Base framework-agnostic config.
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
-| **Total:**                                                                                                |       **569** |
+| **Total:**                                                                                                |       **570** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -180,14 +181,14 @@ Config for TypeScript.
 
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           107 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           106 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [eslint-plugin-total-functions](https://github.com/danielnixon/eslint-plugin-total-functions)              |             9 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)      |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **132** |
+| **Total:**                                                                                                 |       **131** |
 
 ### `hardcore/node`
 
