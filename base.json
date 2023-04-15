@@ -467,6 +467,7 @@
           "**/jest.setup.{js,cjs,mjs,ts,cts,mts}",
           "**/setupTests.{js,cjs,mjs,ts,cts,mts}",
           "**/cypress.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/playwright.config.{js,cjs,mjs,ts,cts,mts}",
           "**/vue.config.{js,cjs,mjs,ts,cts,mts}",
           "**/next.config.{js,cjs,mjs,ts,cts,mts}",
           "**/nuxt.config.{js,cjs,mjs,ts,cts,mts}",
