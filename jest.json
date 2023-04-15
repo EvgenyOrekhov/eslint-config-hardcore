@@ -28,7 +28,9 @@
             "toBeFalsy": "Use more explicit matchers like `.toBe(false)`, `.toBe(0)`, or `.toBeUndefined()`. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#avoid-using-tobetruthy-or-tobefalsy",
             "toBeDefined": "Use a more explicit matcher. See https://docs.gitlab.com/ee/development/testing_guide/frontend_testing.html#tricky-tobedefined-matcher"
           }
-        ]
+        ],
+
+        "jest/unbound-method": "off"
       }
     },
 
