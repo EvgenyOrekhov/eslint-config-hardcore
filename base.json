@@ -474,6 +474,7 @@
           "**/rollup.config.{js,cjs,mjs,ts,cts,mts}",
           "**/rollup.config.*.{js,cjs,mjs,ts,cts,mts}",
           "**/vite.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/vitest.config.{js,cjs,mjs,ts,cts,mts}",
           "**/gulpfile.{js,cjs,mjs,ts,cts,mts}",
           "**/gulpfile.*.{js,cjs,mjs,ts,cts,mts}",
           "**/Gruntfile{,.js,.cjs,.mjs,.ts,.cts,.mts}",
