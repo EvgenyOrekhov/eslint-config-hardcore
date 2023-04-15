@@ -33,6 +33,8 @@ Example `.eslintrc.json` for a **React** project:
 
 ```json
 {
+  "root": true,
+
   "extends": [
     "hardcore",
     "hardcore/react",
@@ -48,7 +50,9 @@ Example `.eslintrc.json` for a **React** project:
   "overrides": [
     {
       "files": ["server/**/*.js"],
+
       "extends": ["hardcore/node"],
+
       "env": {
         "browser": false
       }
@@ -61,6 +65,8 @@ Example `.eslintrc.json` for a **TypeScript React** project:
 
 ```json
 {
+  "root": true,
+
   "extends": [
     "hardcore",
     "hardcore/react",
@@ -81,7 +87,9 @@ Example `.eslintrc.json` for a **TypeScript React** project:
   "overrides": [
     {
       "files": ["server/**/*.ts"],
+
       "extends": ["hardcore/node"],
+
       "env": {
         "browser": false
       }
@@ -94,6 +102,8 @@ Example `.eslintrc.json` for a **Vue 3** project:
 
 ```json
 {
+  "root": true,
+
   "extends": ["hardcore", "hardcore/vue"],
 
   "settings": {
@@ -111,6 +121,8 @@ Example `.eslintrc.json` for a **Nuxt 3** project:
 
 ```json
 {
+  "root": true,
+
   "extends": ["hardcore", "hardcore/vue"],
 
   "settings": {
@@ -120,6 +132,7 @@ Example `.eslintrc.json` for a **Nuxt 3** project:
           ["@", "./"],
           ["#imports", ".nuxt/imports.d.ts"]
         ],
+
         "extensions": [".js", ".vue"]
       }
     }
@@ -127,10 +140,49 @@ Example `.eslintrc.json` for a **Nuxt 3** project:
 }
 ```
 
-Example `.eslintrc.json` for a **TypeScript Vue 3/Nuxt 3** project:
+Example `.eslintrc.json` for a **TypeScript Vue 3** project:
 
 ```json
 {
+  "root": true,
+
+  "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
+
+  "parserOptions": {
+    "project": "tsconfig.app.json"
+  },
+
+  "overrides": [
+    {
+      "files": [
+        "vite.config.*",
+        "vitest.config.*",
+        "cypress.config.*",
+        "playwright.config.*"
+      ],
+
+      "parserOptions": {
+        "project": "tsconfig.node.json"
+      }
+    },
+
+    {
+      "files": ["src/**/__tests__/*"],
+
+      "parserOptions": {
+        "project": "tsconfig.vitest.json"
+      }
+    }
+  ]
+}
+```
+
+Example `.eslintrc.json` for a **TypeScript Nuxt 3** project:
+
+```json
+{
+  "root": true,
+
   "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
 
   "parserOptions": {
