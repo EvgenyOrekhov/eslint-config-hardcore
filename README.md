@@ -140,7 +140,9 @@ Example `.eslintrc.json` for a **Nuxt 3** project:
 }
 ```
 
-Example `.eslintrc.json` for a **TypeScript Vue 3** project:
+Example `.eslintrc.json` for a **TypeScript Vue 3** project (depending on
+project configuration, you might want to change `tsconfig.json` to
+`tsconfig.app.json`):
 
 ```json
 {
@@ -149,7 +151,7 @@ Example `.eslintrc.json` for a **TypeScript Vue 3** project:
   "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
 
   "parserOptions": {
-    "project": "tsconfig.app.json"
+    "project": "tsconfig.json"
   },
 
   "overrides": [
