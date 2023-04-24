@@ -81,7 +81,7 @@
     "eslint-plugin-total-functions": "^6.10.7",
     "eslint-plugin-unicorn": "^46.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-validate-jsx-nesting": "^0.1.0",
+    "eslint-plugin-validate-jsx-nesting": "^0.1.1",
     "eslint-plugin-vue": "^9.11.0",
     "eslint-plugin-vue-scoped-css": "^2.4.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
