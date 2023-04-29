@@ -99,7 +99,7 @@
 
   "total-functions/no-unsafe-mutable-readonly-assignment": "off",
   "total-functions/no-unsafe-optional-property-assignment": "off",
-  "total-functions/no-nested-fp-ts-effects": "off",
   "total-functions/no-enums": "off",
-  "total-functions/no-unsafe-type-assertion": "off"
+  "total-functions/no-unsafe-type-assertion": "off",
+  "total-functions/no-hidden-type-assertions": "off"
 }

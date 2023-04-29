@@ -32,22 +32,12 @@
 
   "overrides": [
     {
-      "files": ["*.cjs", ".*.cjs"],
-
-      "parserOptions": { "ecmaVersion": "latest" },
-
-      "rules": {
-        "unicorn/prefer-module": "off",
-        "import/no-commonjs": "off"
-      }
-    },
-    {
-      "files": ["*.mjs", ".*.mjs"],
+      "files": ["*.cjs", ".*.cjs", "*.mjs", ".*.mjs"],
 
       "parserOptions": { "ecmaVersion": "latest" }
     },
     {
-      "files": ["*.ts"],
+      "files": ["*.ts", "*.cts", "*.mts", ".*.ts", ".*.cts", ".*.mts"],
 
       "rules": {
         "n/file-extension-in-import": ["error", "never"]

@@ -15,7 +15,8 @@
     "regexp",
     "no-only-tests",
     "@microsoft/sdl",
-    "no-unsanitized"
+    "no-unsanitized",
+    "unused-imports"
   ],
 
   "parserOptions": {
@@ -227,16 +228,6 @@
       }
     ],
     "no-undef": ["error", { "typeof": true }],
-    "no-unused-vars": [
-      "error",
-      {
-        "vars": "all",
-        "args": "after-used",
-        "caughtErrors": "all",
-        "varsIgnorePattern": "^ignore$",
-        "argsIgnorePattern": "^ignore$"
-      }
-    ],
     "no-underscore-dangle": [
       "error",
       {
@@ -463,24 +454,27 @@
           "**/*.spec.*",
           "**/*.e2e.*",
           "**/*.e2e-spec.*",
-          "**/jest.config.{js,ts}",
-          "**/jest.setup.{js,ts}",
-          "**/setupTests.{js,ts}",
-          "**/cypress.config.{js,ts}",
-          "**/vue.config.{js,ts}",
-          "**/nuxt.config.{js,ts}",
-          "**/webpack.config.{js,ts}",
-          "**/webpack.config.*.{js,ts}",
-          "**/rollup.config.{js,ts}",
-          "**/rollup.config.*.{js,ts}",
-          "**/vite.config.{js,ts}",
-          "**/gulpfile.{js,ts}",
-          "**/gulpfile.*.{js,ts}",
-          "**/Gruntfile{,.js,.ts}",
-          "**/protractor.conf.{js,ts}",
-          "**/protractor.conf.*.{js,ts}",
-          "**/karma.conf.{js,ts}",
-          "**/.eslintrc.{js,cjs,ts}"
+          "**/jest.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/jest.setup.{js,cjs,mjs,ts,cts,mts}",
+          "**/setupTests.{js,cjs,mjs,ts,cts,mts}",
+          "**/cypress.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/playwright.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/vue.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/next.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/nuxt.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/webpack.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/webpack.config.*.{js,cjs,mjs,ts,cts,mts}",
+          "**/rollup.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/rollup.config.*.{js,cjs,mjs,ts,cts,mts}",
+          "**/vite.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/vitest.config.{js,cjs,mjs,ts,cts,mts}",
+          "**/gulpfile.{js,cjs,mjs,ts,cts,mts}",
+          "**/gulpfile.*.{js,cjs,mjs,ts,cts,mts}",
+          "**/Gruntfile{,.js,.cjs,.mjs,.ts,.cts,.mts}",
+          "**/protractor.conf.{js,cjs,mjs,ts,cts,mts}",
+          "**/protractor.conf.*.{js,cjs,mjs,ts,cts,mts}",
+          "**/karma.conf.{js,cjs,mjs,ts,cts,mts}",
+          "**/.eslintrc.{js,cjs,mjs,ts,cts,mts}"
         ],
         "optionalDependencies": false,
         "peerDependencies": false,
@@ -798,6 +792,18 @@
     "no-unsanitized/method": "error",
     "no-unsanitized/property": "error",
 
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "caughtErrors": "all",
+        "varsIgnorePattern": "^ignore$",
+        "argsIgnorePattern": "^ignore$"
+      }
+    ],
+
     "putout/putout": [
       "error",
       {
@@ -839,11 +845,12 @@
           "for-of/reduce": "off",
           "conditions/remove-boolean": "off",
           "types/convert-typeof-to-is-type": "off",
-          "types/declare": "off"
+          "types/declare": "off",
+          "math/declare": "off"
         },
 
         "match": {
-          "*.cjs": {
+          "*.{cjs,cts}": {
             "convert-commonjs-to-esm": "off",
             "convert-esm-to-commonjs": "on"
           }
@@ -932,6 +939,24 @@
       "files": ["*.json"],
       "extends": ["plugin:json/recommended"],
       "rules": { "import/unambiguous": "off", "putout/putout": "off" }
+    },
+
+    {
+      "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
+
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "env": {
+        "commonjs": true
+      },
+
+      "rules": {
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off",
+        "import/unambiguous": "off"
+      }
     }
   ]
 }

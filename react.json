@@ -73,6 +73,8 @@
     "jsx-a11y/prefer-tag-over-role": "error",
     "jsx-a11y/no-aria-hidden-on-focusable": "error",
 
+    "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
+
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
     "@shopify/react-no-multiple-render-methods": "error",
@@ -93,8 +95,8 @@
 
     {
       "files": [
-        "*.stories.@(ts|tsx|js|jsx|mjs|cjs)",
-        "*.story.@(ts|tsx|js|jsx|mjs|cjs)"
+        "*.stories.@(ts|tsx|js|jsx|mjs|cjs|mts|cts)",
+        "*.story.@(ts|tsx|js|jsx|mjs|cjs|mts|cts)"
       ],
       "rules": {
         "import/no-anonymous-default-export": "off",
@@ -114,7 +116,7 @@
       }
     },
     {
-      "files": [".storybook/main.@(js|cjs|mjs|ts)"],
+      "files": [".storybook/main.@(js|cjs|mjs|ts|cts|mts)"],
       "rules": {
         "storybook/no-uninstalled-addons": "error"
       }

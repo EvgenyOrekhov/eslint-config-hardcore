@@ -51,9 +51,7 @@
       "error",
       {
         "allowNumber": true,
-        "allowBoolean": false,
-        "allowAny": true,
-        "allowNullish": false
+        "allowAny": true
       }
     ],
 
@@ -70,6 +68,11 @@
       {
         "selector": ["typeLike", "enumMember"],
         "format": ["StrictPascalCase"]
+      },
+      {
+        "selector": ["objectLiteralProperty"],
+        "format": null,
+        "modifiers": ["requiresQuotes"]
       },
       {
         "selector": ["variable", "parameter", "property", "accessor"],
@@ -186,6 +189,11 @@
             "types": ["boolean"],
             "format": ["PascalCase"],
             "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+          },
+          {
+            "selector": ["objectLiteralProperty"],
+            "format": null,
+            "modifiers": ["requiresQuotes"]
           },
           {
             "selector": ["property"],
