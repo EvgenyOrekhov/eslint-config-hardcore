@@ -188,7 +188,7 @@
       }
     },
     {
-      "files": ["**/layouts/**/*.{js,ts}", "**/pages/**/*.{js,ts}"],
+      "files": ["**/layouts/**/*.{js,ts,vue}", "**/pages/**/*.{js,ts,vue}"],
       "rules": {
         "vue/no-multiple-template-root": "error"
       }
