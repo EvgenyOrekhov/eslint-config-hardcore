@@ -177,9 +177,20 @@
       }
     },
     {
-      "files": ["**/layouts/**/*.{js,ts}", "**/pages/**/*.{js,ts}"],
+      "files": [
+        "**/pages/**/*.{js,ts,vue}",
+        "**/layouts/**/*.{js,ts,vue}",
+        "**/app.{js,ts,vue}",
+        "**/error.{js,ts,vue}"
+      ],
       "rules": {
         "vue/multi-word-component-names": "off"
+      }
+    },
+    {
+      "files": ["**/layouts/**/*.{js,ts,vue}", "**/pages/**/*.{js,ts,vue}"],
+      "rules": {
+        "vue/no-multiple-template-root": "error"
       }
     },
     {
