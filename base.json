@@ -834,6 +834,7 @@
           "montag": "off",
           "extract-object-properties": "off",
           "convert-const-to-let": "off",
+          "remove-nested-blocks": "off",
 
           "nodejs/remove-process-exit": "off",
           "nodejs/declare": "off",
