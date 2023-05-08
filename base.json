@@ -596,6 +596,8 @@
     "unicorn/no-typeof-undefined": "error",
     "unicorn/prefer-set-size": "error",
     "unicorn/no-negated-condition": "error",
+    "unicorn/prefer-at": "error",
+    "unicorn/prefer-blob-reading-methods": "error",
 
     "unicorn/filename-case": [
       "error",
