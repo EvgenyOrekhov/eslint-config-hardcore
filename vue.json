@@ -99,13 +99,6 @@
           { "presets": ["all"] }
         ],
         "vue/no-irregular-whitespace": ["error", { "skipStrings": false }],
-        "vue/no-restricted-syntax": [
-          "error",
-          {
-            "selector": "SequenceExpression",
-            "message": "The comma operator is confusing and a common mistake. Don’t use it!"
-          }
-        ],
         "vue/no-required-prop-with-default": ["error", { "autofix": true }],
 
         "import/no-unused-modules": "off",

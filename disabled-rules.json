@@ -16,6 +16,7 @@
   "no-div-regex": "off",
   "class-methods-use-this": "off",
   "prefer-object-has-own": "off",
+  "no-restricted-syntax": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-callbacks": "off",
@@ -186,6 +187,7 @@
   "vue/no-restricted-html-elements": "off",
   "vue/no-restricted-props": "off",
   "vue/no-restricted-static-attribute": "off",
+  "vue/no-restricted-syntax": "off",
   "vue/no-restricted-v-bind": "off",
   "vue/no-undef-components": "off",
   "vue/no-undef-properties": "off",
