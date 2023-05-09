@@ -68,6 +68,7 @@
   "sonar/file-name-differ-from-class": "off",
   "sonar/fixme-tag": "off",
   "sonar/for-in": "off",
+  "sonar/for-loop-increment-sign": "off",
   "sonar/function-inside-loop": "off",
   "sonar/function-name": "off",
   "sonar/future-reserved-words": "off",
