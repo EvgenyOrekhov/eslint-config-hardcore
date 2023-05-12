@@ -46,7 +46,7 @@
     "eslint-plugin-array-func": "^3.1.8",
     "eslint-plugin-decorator-position": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-etc": "^2.0.2",
+    "eslint-plugin-etc": "^2.0.3",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.27.5",
