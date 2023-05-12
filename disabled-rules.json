@@ -203,7 +203,6 @@
   "vue-scoped-css/no-unused-selector": "off",
 
   "total-functions/no-unsafe-mutable-readonly-assignment": "off",
-  "total-functions/no-unsafe-optional-property-assignment": "off",
   "total-functions/no-enums": "off",
   "total-functions/no-unsafe-type-assertion": "off",
   "total-functions/no-hidden-type-assertions": "off"
