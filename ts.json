@@ -133,7 +133,10 @@
         "etc/no-assign-mutated-array": "error",
         "etc/no-commented-out-code": "error",
         "etc/no-const-enum": "error",
+
+        "import/no-deprecated": "off",
         "etc/no-deprecated": "error",
+
         "etc/no-enum": "error",
         "etc/no-implicit-any-catch": "error",
         "etc/no-internal": "error",
