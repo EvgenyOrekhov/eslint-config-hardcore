@@ -159,7 +159,20 @@
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-restricted-imports": "off",
-        "@typescript-eslint/no-unused-vars": "off"
+        "@typescript-eslint/no-unused-vars": "off",
+
+        "sonar/argument-type": "off",
+        "sonar/no-associative-arrays": "off",
+        "sonar/no-invalid-await": "off",
+        "sonar/operation-returning-nan": "off",
+        "sonar/values-not-convertible-to-numbers": "off",
+        "sonar/class-prototype": "off",
+        "sonar/no-for-in-iterable": "off",
+        "sonar/non-number-in-arithmetic-expression": "off",
+        "sonar/null-dereference": "off",
+        "sonar/in-operator-type-error": "off",
+        "sonar/no-incorrect-string-concat": "off",
+        "sonar/no-misleading-array-reverse": "off"
       },
 
       "settings": {
