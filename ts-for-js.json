@@ -5,7 +5,8 @@
     "@typescript-eslint",
     "sort-class-members",
     "decorator-position",
-    "@shopify"
+    "@shopify",
+    "etc"
   ],
 
   "rules": {
@@ -163,6 +164,13 @@
 
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error",
+
+    "etc/no-assign-mutated-array": "error",
+    "etc/no-commented-out-code": "error",
+    "etc/no-internal": "error",
+
+    "import/no-deprecated": "off",
+    "etc/no-deprecated": "error",
 
     "sonar/argument-type": "off",
     "sonar/no-associative-arrays": "off",
