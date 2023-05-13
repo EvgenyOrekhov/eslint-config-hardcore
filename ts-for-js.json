@@ -162,7 +162,20 @@
     "decorator-position/decorator-position": "error",
 
     "@shopify/prefer-class-properties": "error",
-    "@shopify/no-fully-static-classes": "error"
+    "@shopify/no-fully-static-classes": "error",
+
+    "sonar/argument-type": "off",
+    "sonar/no-associative-arrays": "off",
+    "sonar/no-invalid-await": "off",
+    "sonar/operation-returning-nan": "off",
+    "sonar/values-not-convertible-to-numbers": "off",
+    "sonar/class-prototype": "off",
+    "sonar/no-for-in-iterable": "off",
+    "sonar/non-number-in-arithmetic-expression": "off",
+    "sonar/null-dereference": "off",
+    "sonar/in-operator-type-error": "off",
+    "sonar/no-incorrect-string-concat": "off",
+    "sonar/no-misleading-array-reverse": "off"
   },
 
   "overrides": [
