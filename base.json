@@ -13,7 +13,6 @@
     "putout",
     "@shopify",
     "regexp",
-    "no-only-tests",
     "@microsoft/sdl",
     "no-unsanitized",
     "unused-imports"
@@ -775,8 +774,6 @@
     "regexp/hexadecimal-escape": ["error", "never"],
     "regexp/unicode-escape": ["error", "unicodeEscape"],
 
-    "no-only-tests/no-only-tests": "error",
-
     "@microsoft/sdl/no-cookies": "error",
     "@microsoft/sdl/no-document-domain": "error",
     "@microsoft/sdl/no-html-method": "error",
@@ -867,6 +864,8 @@
         "*.e2e-spec.*"
       ],
 
+      "plugins": ["no-only-tests"],
+
       "rules": {
         "max-statements": ["error", 15],
 
@@ -885,6 +884,8 @@
             ]
           }
         ],
+
+        "no-only-tests/no-only-tests": "error",
 
         "no-magic-numbers": "off",
         "max-classes-per-file": "off",
