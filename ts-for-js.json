@@ -71,15 +71,25 @@
         "format": ["StrictPascalCase"]
       },
       {
+        "selector": ["variable", "parameter", "accessor"],
+        "types": ["boolean"],
+        "format": ["PascalCase"],
+        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+      },
+      {
         "selector": ["objectLiteralProperty"],
         "format": null,
         "modifiers": ["requiresQuotes"]
       },
       {
-        "selector": ["variable", "parameter", "property", "accessor"],
+        "selector": ["property"],
         "types": ["boolean"],
         "format": ["PascalCase"],
-        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+        "prefix": ["is", "has", "are", "can", "should", "did", "will"],
+        "filter": {
+          "regex": "^(allowfullscreen|allowFullScreen|async|autofocus|autoFocus|autoplay|autoPlay|checked|defaultChecked|contenteditable|contentEditable|controls|default|defer|disabled|draggable|formnovalidate|formNoValidate|hidden|inert|ismap|itemscope|itemScope|loop|multiple|muted|nomodule|noModule|novalidate|noValidate|open|playsinline|playsInline|readonly|readOnly|required|reversed|selected|spellcheck|spellCheck)$",
+          "match": false
+        }
       }
     ],
 
@@ -184,50 +194,5 @@
     "sonar/in-operator-type-error": "off",
     "sonar/no-incorrect-string-concat": "off",
     "sonar/no-misleading-array-reverse": "off"
-  },
-
-  "overrides": [
-    {
-      "files": ["*.vue"],
-
-      "rules": {
-        "@typescript-eslint/naming-convention": [
-          "error",
-          {
-            "selector": "default",
-            "format": ["strictCamelCase"]
-          },
-          {
-            "selector": "function",
-            "format": ["strictCamelCase", "StrictPascalCase"]
-          },
-          {
-            "selector": ["typeLike", "enumMember"],
-            "format": ["StrictPascalCase"]
-          },
-          {
-            "selector": ["variable", "parameter", "accessor"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"]
-          },
-          {
-            "selector": ["objectLiteralProperty"],
-            "format": null,
-            "modifiers": ["requiresQuotes"]
-          },
-          {
-            "selector": ["property"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"],
-            "filter": {
-              "regex": "^required$",
-              "match": false
-            }
-          }
-        ]
-      }
-    }
-  ]
+  }
 }
