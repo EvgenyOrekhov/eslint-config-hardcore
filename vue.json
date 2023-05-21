@@ -41,7 +41,6 @@
         "vue/component-name-in-template-casing": "error",
         "vue/component-options-name-casing": "error",
         "vue/custom-event-name-casing": "error",
-        "vue/define-macros-order": "error",
         "vue/html-button-has-type": "error",
         "vue/html-comment-content-newline": "error",
         "vue/html-comment-content-spacing": "error",
@@ -74,6 +73,8 @@
         "vue/define-props-declaration": "error",
         "vue/padding-lines-in-component-definition": "error",
         "vue/no-root-v-if": "error",
+        "vue/prefer-define-options": "error",
+        "vue/valid-define-options": "error",
 
         "vue/camelcase": "error",
         "vue/dot-notation": "error",
@@ -86,6 +87,17 @@
         "vue/object-shorthand": "error",
         "vue/prefer-template": "error",
 
+        "vue/define-macros-order": [
+          "error",
+          {
+            "order": [
+              "defineOptions",
+              "defineProps",
+              "defineEmits",
+              "defineSlots"
+            ]
+          }
+        ],
         "vue/v-on-event-hyphenation": ["error", "always", { "autofix": true }],
         "vue/html-self-closing": ["error", { "html": { "void": "always" } }],
         "vue/match-component-file-name": [
