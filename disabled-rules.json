@@ -17,6 +17,8 @@
   "class-methods-use-this": "off",
   "prefer-object-has-own": "off",
   "no-restricted-syntax": "off",
+  "line-comment-position": "off",
+  "no-inline-comments": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-callbacks": "off",
