@@ -680,7 +680,6 @@
     "no-use-extend-native/no-use-extend-native": "error",
 
     "no-constructor-bind/no-constructor-bind": "error",
-    "no-constructor-bind/no-constructor-state": "error",
 
     "ext/lines-between-object-properties": [
       "error",
