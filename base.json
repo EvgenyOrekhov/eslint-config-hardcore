@@ -618,7 +618,6 @@
     "unicorn/prefer-array-find": ["error", { "checkFromLast": true }],
 
     "array-func/from-map": "error",
-    "array-func/no-unnecessary-this-arg": "error",
     "array-func/prefer-array-from": "error",
     "array-func/avoid-reverse": "error",
 
