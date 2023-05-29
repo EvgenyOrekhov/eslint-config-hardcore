@@ -92,7 +92,7 @@
     "eslint-plugin-vue-scoped-css": "^2.4.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
     "prettier": "^2.8.8",
-    "putout": "^29.8.3"
+    "putout": "^29.9.0"
   },
   "files": [
     "base.json",

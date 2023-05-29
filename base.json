@@ -832,6 +832,7 @@
           "for-of/map": "off",
           "for-of/reduce": "off",
           "conditions/remove-boolean": "off",
+          "conditions/remove-zero": "off",
           "types/convert-typeof-to-is-type": "off",
           "types/declare": "off",
           "math/declare": "off"
