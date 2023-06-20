@@ -73,7 +73,7 @@
     "jsx-a11y/prefer-tag-over-role": "error",
     "jsx-a11y/no-aria-hidden-on-focusable": "error",
 
-    "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
+    "jsx-a11y/alt-text": ["error", { "img": ["Image", "Img"] }],
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
@@ -146,6 +146,12 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "jsx-a11y": {
+      "components": {
+        "Image": "img",
+        "Img": "img"
+      }
     }
   }
 }

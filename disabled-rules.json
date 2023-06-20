@@ -221,6 +221,8 @@
   "vue/static-class-names-order": "off",
   "vue/padding-line-between-tags": "off",
   "vue/require-prop-comment": "off",
+  "vue/no-restricted-component-names": "off",
+  "vue/max-lines-per-block": "off",
 
   "vue-scoped-css/no-unused-selector": "off",
 

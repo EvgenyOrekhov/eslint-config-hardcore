@@ -2,7 +2,7 @@
 const message = "Hello!";
 
 function log() {
-  // eslint-disable-next-line no-console
+  // eslint-disable-next-line no-console, vue/no-console
   console.log(message);
 }
 </script>
