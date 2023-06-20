@@ -12,7 +12,13 @@
     "./prettier.json"
   ],
 
-  "plugins": ["import", "@shopify", "storybook", "validate-jsx-nesting"],
+  "plugins": [
+    "import",
+    "@shopify",
+    "storybook",
+    "validate-jsx-nesting",
+    "sonar"
+  ],
 
   "env": {
     "browser": true
@@ -83,6 +89,9 @@
     "react-form-fields/styled-no-only-value-prop": "error",
 
     "validate-jsx-nesting/no-invalid-jsx-nesting": "error",
+
+    "sonar/no-hook-setter-in-body": "error",
+    "sonar/no-useless-react-setstate": "error",
 
     "react/jsx-no-literals": "off",
     "react/react-in-jsx-scope": "off"

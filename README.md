@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**46 plugins. 1230 rules.**
+**47 plugins. 1335 rules.**
 
 ## Usage
 
@@ -205,6 +205,7 @@ Base framework-agnostic config.
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |            94 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            72 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            72 |
+| [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                       |            49 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            34 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            31 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
@@ -222,7 +223,7 @@ Base framework-agnostic config.
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
-| **Total:**                                                                                                |       **567** |
+| **Total:**                                                                                                |       **616** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -250,9 +251,10 @@ Config for Node.js.
 
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)    |            53 |
 | [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n) |            35 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)    |             1 |
-| **Total:**                                                             |        **36** |
+| **Total:**                                                             |        **89** |
 
 ### `hardcore/react`
 
@@ -270,8 +272,9 @@ Config for React.
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)              |             3 |
 | [eslint-plugin-react-hook-form](https://github.com/andykao1213/eslint-plugin-react-hook-form)                  |             3 |
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)    |             2 |
+| [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                            |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)          |             1 |
-| **Total:**                                                                                                     |       **183** |
+| **Total:**                                                                                                     |       **185** |
 
 ### `hardcore/vue`
 
@@ -282,7 +285,8 @@ Config for Vue 3/Nuxt 3.
 | [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           161 |
 | [eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) |            21 |
 | [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css)   |            13 |
-| **Total:**                                                                                         |       **195** |
+| [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                |             1 |
+| **Total:**                                                                                         |       **196** |
 
 ### `hardcore/react-testing-library`
 

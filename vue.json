@@ -8,7 +8,7 @@
         "plugin:vue/vue3-essential"
       ],
 
-      "plugins": ["import", "@typescript-eslint"],
+      "plugins": ["import", "@typescript-eslint", "sonar"],
 
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
@@ -116,6 +116,8 @@
         ],
         "vue/no-irregular-whitespace": ["error", { "skipStrings": false }],
         "vue/no-required-prop-with-default": ["error", { "autofix": true }],
+
+        "sonar/no-vue-bypass-sanitization": "error",
 
         "import/no-unused-modules": "off",
         "import/no-anonymous-default-export": "off"
