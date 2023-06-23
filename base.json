@@ -16,7 +16,8 @@
     "@microsoft/sdl",
     "no-unsanitized",
     "unused-imports",
-    "sonar"
+    "sonar",
+    "simple-import-sort"
   ],
 
   "parserOptions": {
@@ -473,21 +474,6 @@
       }
     ],
     "import/extensions": ["error", "ignorePackages"],
-    "import/order": [
-      "error",
-      {
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "unknown",
-          "parent",
-          "sibling",
-          "index"
-        ],
-        "newlines-between": "always"
-      }
-    ],
     "import/no-dynamic-require": ["error", { "esmodule": true }],
     "import/named": ["error", { "commonjs": true }],
     "import/no-anonymous-default-export": [
@@ -842,6 +828,9 @@
     "sonar/values-not-convertible-to-numbers": "error",
     "sonar/xpath": "error",
 
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+
     "putout/putout": [
       "error",
       {
@@ -997,6 +986,22 @@
       },
 
       "rules": {
+        "import/order": [
+          "error",
+          {
+            "groups": [
+              "builtin",
+              "external",
+              "internal",
+              "unknown",
+              "parent",
+              "sibling",
+              "index"
+            ],
+            "newlines-between": "always"
+          }
+        ],
+
         "unicorn/prefer-module": "off",
         "import/no-commonjs": "off",
         "import/unambiguous": "off"

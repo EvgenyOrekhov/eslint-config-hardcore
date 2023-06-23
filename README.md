@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**47 plugins. 1335 rules.**
+**48 plugins. 1337 rules.**
 
 ## Usage
 
@@ -215,6 +215,7 @@ Base framework-agnostic config.
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                       |             5 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             3 |
 | [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)                 |             2 |
+| [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)            |             2 |
 | [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |             1 |
 | [eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized)                   |             2 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)         |             1 |
@@ -223,7 +224,7 @@ Base framework-agnostic config.
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
-| **Total:**                                                                                                |       **616** |
+| **Total:**                                                                                                |       **618** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
