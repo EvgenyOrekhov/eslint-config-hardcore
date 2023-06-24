@@ -46,7 +46,6 @@
       { "checkContextTypes": true, "checkChildContextTypes": true }
     ],
     "react/no-unsafe": ["error", { "checkAliases": true }],
-    "react/sort-prop-types": ["error", { "sortShapeProp": true }],
     "react/boolean-prop-naming": [
       "error",
       {
@@ -94,7 +93,10 @@
     "sonar/no-useless-react-setstate": "error",
 
     "react/jsx-no-literals": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-sort-props": "off",
+    "react/sort-prop-types": "off",
+    "react/sort-default-props": "off"
   },
 
   "overrides": [

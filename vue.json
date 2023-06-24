@@ -17,7 +17,6 @@
       },
 
       "rules": {
-        "vue/attributes-order": "error",
         "vue/component-tags-order": "error",
         "vue/no-lone-template": "error",
         "vue/no-multiple-slot-args": "error",
@@ -77,6 +76,7 @@
         "vue/no-root-v-if": "error",
         "vue/prefer-define-options": "error",
         "vue/valid-define-options": "error",
+        "vue/static-class-names-order": "error",
 
         "vue/camelcase": "error",
         "vue/dot-notation": "error",
@@ -116,11 +116,13 @@
         ],
         "vue/no-irregular-whitespace": ["error", { "skipStrings": false }],
         "vue/no-required-prop-with-default": ["error", { "autofix": true }],
+        "vue/attributes-order": ["error", { "alphabetical": true }],
 
         "sonar/no-vue-bypass-sanitization": "error",
 
         "import/no-unused-modules": "off",
-        "import/no-anonymous-default-export": "off"
+        "import/no-anonymous-default-export": "off",
+        "perfectionist/sort-objects": "off"
       }
     },
     {
