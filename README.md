@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**48 plugins. 1337 rules.**
+**49 plugins. 1341 rules.**
 
 ## Usage
 
@@ -211,6 +211,7 @@ Base framework-agnostic config.
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            13 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
+| [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |             7 |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                       |             5 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             3 |
@@ -224,7 +225,7 @@ Base framework-agnostic config.
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
-| **Total:**                                                                                                |       **618** |
+| **Total:**                                                                                                |       **625** |
 
 ¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
 "no-invalid-json" rule.
@@ -237,14 +238,14 @@ Config for TypeScript.
 
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           106 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           105 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [eslint-plugin-total-functions](https://github.com/danielnixon/eslint-plugin-total-functions)              |             8 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)      |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **130** |
+| **Total:**                                                                                                 |       **129** |
 
 ### `hardcore/node`
 
@@ -263,7 +264,7 @@ Config for React.
 
 | Plugin                                                                                                         | Enabled rules |
 | -------------------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                        |            81 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                        |            78 |
 | [eslint-plugin-styled-components-a11y](https://github.com/brendanmorrell/eslint-plugin-styled-components-a11y) |            33 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                                 |            34 |
 | [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                              |            14 |
@@ -275,7 +276,7 @@ Config for React.
 | [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)    |             2 |
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                            |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)          |             1 |
-| **Total:**                                                                                                     |       **185** |
+| **Total:**                                                                                                     |       **182** |
 
 ### `hardcore/vue`
 
@@ -283,11 +284,11 @@ Config for Vue 3/Nuxt 3.
 
 | Plugin                                                                                             | Enabled rules |
 | -------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           161 |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           162 |
 | [eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) |            21 |
 | [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css)   |            13 |
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                |             1 |
-| **Total:**                                                                                         |       **196** |
+| **Total:**                                                                                         |       **197** |
 
 ### `hardcore/react-testing-library`
 
