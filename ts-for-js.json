@@ -205,6 +205,8 @@
     "sonar/null-dereference": "off",
     "sonar/in-operator-type-error": "off",
     "sonar/no-incorrect-string-concat": "off",
-    "sonar/no-misleading-array-reverse": "off"
+    "sonar/no-misleading-array-reverse": "off",
+
+    "react/sort-comp": "off"
   }
 }
