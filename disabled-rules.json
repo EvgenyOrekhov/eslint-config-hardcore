@@ -221,7 +221,6 @@
   "vue/no-unused-properties": "off",
   "vue/no-unused-refs": "off",
   "vue/sort-keys": "off",
-  "vue/static-class-names-order": "off",
   "vue/padding-line-between-tags": "off",
   "vue/require-prop-comment": "off",
   "vue/no-restricted-component-names": "off",
@@ -232,5 +231,12 @@
   "total-functions/no-unsafe-mutable-readonly-assignment": "off",
   "total-functions/no-enums": "off",
   "total-functions/no-unsafe-type-assertion": "off",
-  "total-functions/no-hidden-type-assertions": "off"
+  "total-functions/no-hidden-type-assertions": "off",
+
+  "perfectionist/sort-classes": "off",
+  "perfectionist/sort-exports": "off",
+  "perfectionist/sort-imports": "off",
+  "perfectionist/sort-named-exports": "off",
+  "perfectionist/sort-named-imports": "off",
+  "perfectionist/sort-union-types": "off"
 }

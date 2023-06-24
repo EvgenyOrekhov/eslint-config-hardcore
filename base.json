@@ -17,7 +17,8 @@
     "no-unsanitized",
     "unused-imports",
     "sonar",
-    "simple-import-sort"
+    "simple-import-sort",
+    "perfectionist"
   ],
 
   "parserOptions": {
@@ -831,6 +832,35 @@
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
 
+    "perfectionist/sort-array-includes": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-enums": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-interfaces": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-jsx-props": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-map-elements": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-object-types": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+    "perfectionist/sort-objects": [
+      "error",
+      { "type": "natural", "ignore-case": true }
+    ],
+
     "putout/putout": [
       "error",
       {
@@ -998,7 +1028,12 @@
               "sibling",
               "index"
             ],
-            "newlines-between": "always"
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "orderImportKind": "asc",
+              "caseInsensitive": true
+            }
           }
         ],
 

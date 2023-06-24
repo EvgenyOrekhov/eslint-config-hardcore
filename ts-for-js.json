@@ -100,31 +100,41 @@
           "static-arrow-function-properties": [
             {
               "static": true,
-              "propertyType": "ArrowFunctionExpression"
+              "propertyType": "ArrowFunctionExpression",
+              "sort": "alphabetical"
             }
           ],
           "static-async-methods": [
             {
               "static": true,
               "type": "method",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ],
-          "static-accessor-pairs": [{ "static": true, "accessorPair": true }],
-          "static-getters": [{ "static": true, "kind": "get" }],
-          "static-setters": [{ "static": true, "kind": "set" }],
+          "static-accessor-pairs": [
+            { "static": true, "accessorPair": true, "sort": "alphabetical" }
+          ],
+          "static-getters": [
+            { "static": true, "kind": "get", "sort": "alphabetical" }
+          ],
+          "static-setters": [
+            { "static": true, "kind": "set", "sort": "alphabetical" }
+          ],
           "static-conventional-private-properties": [
             {
               "static": true,
               "type": "property",
-              "name": "/_.+/"
+              "name": "/_.+/",
+              "sort": "alphabetical"
             }
           ],
           "static-conventional-private-methods": [
             {
               "static": true,
               "type": "method",
-              "name": "/_.+/"
+              "name": "/_.+/",
+              "sort": "alphabetical"
             }
           ],
           "static-async-conventional-private-methods": [
@@ -132,14 +142,16 @@
               "static": true,
               "type": "method",
               "name": "/_.+/",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ],
           "async-conventional-private-methods": [
             {
               "type": "method",
               "name": "/_.+/",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ]
         },

@@ -67,6 +67,7 @@
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-no-unsanitized": "^4.0.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-perfectionist": "^1.4.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-putout": "^17.7.0",
