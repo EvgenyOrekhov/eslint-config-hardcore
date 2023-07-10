@@ -94,7 +94,7 @@
     "eslint-plugin-vue": "^9.15.1",
     "eslint-plugin-vue-scoped-css": "^2.5.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "putout": "^30.2.0"
   },
   "files": [
