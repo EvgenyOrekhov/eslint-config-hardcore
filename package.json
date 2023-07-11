@@ -68,7 +68,7 @@
     "eslint-plugin-no-unsanitized": "^4.0.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-perfectionist": "^1.4.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-putout": "^18.0.0",
     "eslint-plugin-ramda": "^2.5.1",
@@ -94,7 +94,7 @@
     "eslint-plugin-vue": "^9.15.1",
     "eslint-plugin-vue-scoped-css": "^2.5.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "putout": "^30.2.0"
   },
   "files": [
