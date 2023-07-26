@@ -77,7 +77,7 @@ Example `.eslintrc.json` for a **TypeScript React** project:
   ],
 
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": true
   },
 
   "env": {
@@ -141,8 +141,8 @@ Example `.eslintrc.json` for a **Nuxt 3** project:
 ```
 
 Example `.eslintrc.json` for a **TypeScript Vue 3** project (depending on
-project configuration, you might want to change `tsconfig.json` to
-`tsconfig.app.json`):
+project configuration, you might want to change `"project": true` to
+`"project": "tsconfig.app.json"`):
 
 ```json
 {
@@ -151,7 +151,7 @@ project configuration, you might want to change `tsconfig.json` to
   "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
 
   "parserOptions": {
-    "project": "tsconfig.json"
+    "project": true
   },
 
   "overrides": [
@@ -188,7 +188,7 @@ Example `.eslintrc.json` for a **TypeScript Nuxt 3** project:
   "extends": ["hardcore", "hardcore/ts", "hardcore/vue"],
 
   "parserOptions": {
-    "project": "tsconfig.json"
+    "project": true
   }
 }
 ```
@@ -362,7 +362,7 @@ without the need to switch to writing TypeScript.
       "files": ["*.js"],
       "extends": ["hardcore/ts-for-js"],
       "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": true
       }
     }
   ]

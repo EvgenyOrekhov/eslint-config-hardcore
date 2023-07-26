@@ -66,19 +66,9 @@
           { "ignoreTypeReferences": false }
         ],
 
-        "@typescript-eslint/restrict-plus-operands": [
-          "error",
-          { "checkCompoundAssignments": true }
-        ],
-
         "@typescript-eslint/no-meaningless-void-operator": [
           "error",
           { "checkNever": true }
-        ],
-
-        "@typescript-eslint/no-throw-literal": [
-          "error",
-          { "allowThrowingAny": false, "allowThrowingUnknown": false }
         ],
 
         "@typescript-eslint/consistent-indexed-object-style": [
@@ -89,11 +79,6 @@
         "@typescript-eslint/consistent-type-assertions": [
           "error",
           { "assertionStyle": "never" }
-        ],
-
-        "@typescript-eslint/prefer-nullish-coalescing": [
-          "error",
-          { "ignoreTernaryTests": false }
         ],
 
         "quotes": "off",
@@ -149,12 +134,12 @@
         "total-functions/no-nested-fp-ts-effects": "error",
 
         "@typescript-eslint/member-ordering": "off",
-        "@typescript-eslint/no-type-alias": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-restricted-imports": "off",
         "@typescript-eslint/no-unused-vars": "off",
-        "@typescript-eslint/adjacent-overload-signatures": "off"
+        "@typescript-eslint/adjacent-overload-signatures": "off",
+        "@typescript-eslint/class-methods-use-this": "off"
       },
 
       "settings": {

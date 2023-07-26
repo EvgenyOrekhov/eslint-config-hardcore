@@ -51,8 +51,12 @@
     "@typescript-eslint/restrict-template-expressions": [
       "error",
       {
+        "allowAny": true,
         "allowNumber": true,
-        "allowAny": true
+
+        "allowBoolean": false,
+        "allowNullish": false,
+        "allowRegExp": false
       }
     ],
 

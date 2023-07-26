@@ -44,8 +44,8 @@
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.5.5",
@@ -89,13 +89,13 @@
     "eslint-plugin-testing-library": "^5.11.0",
     "eslint-plugin-total-functions": "^7.0.7",
     "eslint-plugin-unicorn": "^48.0.1",
-    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
     "eslint-plugin-validate-jsx-nesting": "^0.1.1",
     "eslint-plugin-vue": "^9.15.1",
     "eslint-plugin-vue-scoped-css": "^2.5.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
     "prettier": "^3.0.0",
-    "putout": "^30.6.0"
+    "putout": "^30.7.0"
   },
   "files": [
     "base.json",
