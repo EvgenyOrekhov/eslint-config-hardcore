@@ -71,6 +71,7 @@
       { "destructureInSignature": "always" }
     ],
     "react/jsx-no-leaked-render": ["error", { "validStrategies": ["coerce"] }],
+    "react/display-name": ["error", { "checkContextObjects": true }],
 
     "react-hooks/exhaustive-deps": "error",
 
