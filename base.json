@@ -160,7 +160,6 @@
     "symbol-description": "error",
     "prefer-numeric-literals": "error",
     "no-useless-return": "error",
-    "no-return-await": "error",
     "require-await": "error",
     "no-await-in-loop": "error",
     "no-multi-assign": "error",
