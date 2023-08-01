@@ -12,8 +12,6 @@
   "rules": {
     "require-await": "off",
     "@typescript-eslint/require-await": "error",
-
-    "no-return-await": "off",
     "@typescript-eslint/return-await": ["error", "always"],
 
     "no-throw-literal": "off",
