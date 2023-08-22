@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**49 plugins. 1342 rules.**
+**49 plugins. 1341 rules.**
 
 ## Usage
 
@@ -296,8 +296,8 @@ Config for React Testing Library.
 
 | Plugin                                                                                            | Enabled rules |
 | ------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) |            25 |
-| **Total:**                                                                                        |        **25** |
+| [eslint-plugin-testing-library](https://github.com/testing-library/eslint-plugin-testing-library) |            24 |
+| **Total:**                                                                                        |        **24** |
 
 ### `hardcore/jest`
 
