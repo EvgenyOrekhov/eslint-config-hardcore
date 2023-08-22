@@ -44,9 +44,9 @@
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^42.1.0",
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
-    "@typescript-eslint/parser": "^6.2.1",
-    "eslint-config-prettier": "^8.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.6.0",
     "eslint-plugin-array-func": "^3.1.8",
@@ -55,13 +55,13 @@
     "eslint-plugin-etc": "^2.0.3",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-jest-dom": "^5.0.2",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-n": "^16.0.2",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-only-tests": "^3.1.0",
@@ -72,7 +72,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-putout": "^18.2.0",
     "eslint-plugin-ramda": "^2.5.1",
-    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-form-fields": "^1.2.22",
     "eslint-plugin-react-hook-form": "^0.3.0",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -94,7 +94,7 @@
     "eslint-plugin-vue": "^9.16.1",
     "eslint-plugin-vue-scoped-css": "^2.5.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
-    "prettier": "^3.0.1",
+    "prettier": "^3.0.2",
     "putout": "^30.7.0"
   },
   "files": [
@@ -111,7 +111,7 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "typescript": "^5.1.6"
   }
 }
