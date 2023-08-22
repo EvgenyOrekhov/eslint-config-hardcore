@@ -43,7 +43,7 @@
     "@html-eslint/parser": "^0.19.1",
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
-    "@shopify/eslint-plugin": "^42.1.0",
+    "@shopify/eslint-plugin": "^43.0.0",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "eslint-config-prettier": "^9.0.0",
