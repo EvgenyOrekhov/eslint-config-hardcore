@@ -238,5 +238,8 @@
   "perfectionist/sort-imports": "off",
   "perfectionist/sort-named-exports": "off",
   "perfectionist/sort-named-imports": "off",
-  "perfectionist/sort-union-types": "off"
+  "perfectionist/sort-union-types": "off",
+  "perfectionist/sort-svelte-attributes": "off",
+  "perfectionist/sort-astro-attributes": "off",
+  "perfectionist/sort-vue-attributes": "off"
 }

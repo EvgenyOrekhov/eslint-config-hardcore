@@ -846,7 +846,7 @@
       "error",
       { "type": "natural", "ignore-case": true }
     ],
-    "perfectionist/sort-map-elements": [
+    "perfectionist/sort-maps": [
       "error",
       { "type": "natural", "ignore-case": true }
     ],
