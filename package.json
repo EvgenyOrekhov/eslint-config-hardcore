@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
-    "eslint": "^8.46.0",
+    "eslint": "^8.50.0",
     "typescript": ">=4.0.0"
   },
   "peerDependenciesMeta": {
@@ -111,7 +111,7 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.50.0",
     "typescript": "^5.2.2"
   }
 }
