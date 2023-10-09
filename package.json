@@ -44,7 +44,7 @@
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^43.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
