@@ -195,7 +195,6 @@
     "no-nonoctal-decimal-escape": "error",
     "init-declarations": "error",
     "consistent-return": "error",
-    "prefer-destructuring": "error",
     "no-unused-private-class-members": "error",
     "no-constant-binary-expression": "error",
     "no-empty-static-block": "error",
@@ -282,6 +281,11 @@
       "error",
       "always",
       { "enforceForIfStatements": true }
+    ],
+    "prefer-destructuring": [
+      "error",
+      { "array": true, "object": true },
+      { "enforceForRenamedProperties": true }
     ],
 
     "no-restricted-globals": [
