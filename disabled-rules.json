@@ -234,6 +234,7 @@
   "total-functions/no-hidden-type-assertions": "off",
 
   "perfectionist/sort-classes": "off",
+  "perfectionist/sort-interfaces": "off",
   "perfectionist/sort-exports": "off",
   "perfectionist/sort-imports": "off",
   "perfectionist/sort-named-exports": "off",

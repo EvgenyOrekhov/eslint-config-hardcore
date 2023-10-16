@@ -180,7 +180,8 @@
           "[conventional-private-methods]",
           "[async-conventional-private-methods]"
         ],
-        "accessorPairPositioning": "getThenSet"
+        "accessorPairPositioning": "getThenSet",
+        "sortInterfaces": true
       }
     ],
 
