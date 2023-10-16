@@ -838,10 +838,6 @@
       "error",
       { "type": "natural", "ignore-case": true }
     ],
-    "perfectionist/sort-interfaces": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
     "perfectionist/sort-jsx-props": [
       "error",
       { "type": "natural", "ignore-case": true }
