@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.19.1",
-    "@html-eslint/parser": "^0.19.1",
+    "@html-eslint/parser": "^0.20.0",
     "@microsoft/eslint-plugin-sdl": "^0.2.0",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^43.0.0",
