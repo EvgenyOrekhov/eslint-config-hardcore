@@ -77,7 +77,7 @@
     "eslint-plugin-react-hook-form": "^0.3.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-perf": "^3.3.1",
-    "eslint-plugin-regexp": "^1.15.0",
+    "eslint-plugin-regexp": "^2.1.1",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sonar": "^0.12.0",
