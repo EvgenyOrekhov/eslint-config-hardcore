@@ -80,6 +80,23 @@
     "jsx-a11y/no-aria-hidden-on-focusable": "error",
 
     "jsx-a11y/alt-text": ["error", { "img": ["Image", "Img"] }],
+    "jsx-a11y/mouse-events-have-key-events": [
+      "error",
+      {
+        "hoverInHandlers": [
+          "onMouseOver",
+          "onMouseEnter",
+          "onPointerOver",
+          "onPointerEnter"
+        ],
+        "hoverOutHandlers": [
+          "onMouseOut",
+          "onMouseLeave",
+          "onPointerOut",
+          "onPointerLeave"
+        ]
+      }
+    ],
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
@@ -160,6 +177,7 @@
       "version": "detect"
     },
     "jsx-a11y": {
+      "polymorphicPropName": "as",
       "components": {
         "Image": "img",
         "Img": "img"
