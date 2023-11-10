@@ -750,6 +750,7 @@
     "regexp/no-useless-set-operand": "error",
     "regexp/prefer-set-operation": "error",
     "regexp/grapheme-string-literal": "error",
+    "regexp/require-unicode-sets-regexp": "error",
 
     "regexp/letter-case": [
       "error",
