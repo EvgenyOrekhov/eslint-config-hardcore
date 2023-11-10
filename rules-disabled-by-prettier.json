@@ -58,6 +58,7 @@
   "no-extra-parens": "off",
   "newline-per-chained-call": "off",
   "no-confusing-arrow": "off",
+  "max-statements-per-line": "off",
 
   "no-mixed-operators": "off",
   "no-unexpected-multiline": "off",

@@ -150,7 +150,6 @@
     "no-unused-labels": "error",
     "no-useless-constructor": "error",
     "no-useless-escape": "error",
-    "max-statements-per-line": "error",
     "no-duplicate-imports": "error",
     "no-unsafe-finally": "error",
     "no-useless-computed-key": "error",
