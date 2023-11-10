@@ -65,7 +65,7 @@
         "format": ["strictCamelCase"]
       },
       {
-        "selector": "function",
+        "selector": ["function", "import"],
         "format": ["strictCamelCase", "StrictPascalCase"]
       },
       {
