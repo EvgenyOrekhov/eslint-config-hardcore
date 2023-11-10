@@ -19,6 +19,8 @@
   "no-restricted-syntax": "off",
   "line-comment-position": "off",
   "no-inline-comments": "off",
+  "no-empty-character-class": "off",
+  "require-unicode-regexp": "off",
 
   "promise/no-native": "off",
   "promise/prefer-await-to-callbacks": "off",

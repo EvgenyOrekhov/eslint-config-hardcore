@@ -73,7 +73,6 @@
     "no-dupe-args": "error",
     "no-duplicate-case": "error",
     "no-empty": "error",
-    "no-empty-character-class": "error",
     "no-empty-pattern": "error",
     "no-eq-null": "error",
     "no-eval": "error",
@@ -173,7 +172,6 @@
     "no-misleading-character-class": "error",
     "require-atomic-updates": "error",
     "no-async-promise-executor": "error",
-    "require-unicode-regexp": "error",
     "no-useless-catch": "error",
     "prefer-named-capture-group": "error",
     "no-redeclare": "error",
@@ -746,6 +744,12 @@
     "regexp/no-missing-g-flag": "error",
     "regexp/no-extra-lookaround-assertions": "error",
     "regexp/no-misleading-capturing-group": "error",
+    "regexp/simplify-set-operations": "error",
+    "regexp/no-useless-string-literal": "error",
+    "regexp/no-empty-string-literal": "error",
+    "regexp/no-useless-set-operand": "error",
+    "regexp/prefer-set-operation": "error",
+    "regexp/grapheme-string-literal": "error",
 
     "regexp/letter-case": [
       "error",
