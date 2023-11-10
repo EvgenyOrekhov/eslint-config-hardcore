@@ -201,6 +201,7 @@
   "@html-eslint/require-meta-charset": "off",
   "@html-eslint/id-naming-convention": "off",
   "@html-eslint/no-restricted-attrs": "off",
+  "@html-eslint/no-restricted-attr-values": "off",
   "@html-eslint/require-attrs": "off",
 
   "vue/block-lang": "off",
