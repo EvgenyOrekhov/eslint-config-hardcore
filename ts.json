@@ -81,6 +81,11 @@
           { "assertionStyle": "never" }
         ],
 
+        "@typescript-eslint/switch-exhaustiveness-check": [
+          "error",
+          { "requireDefaultForNonUnion": true }
+        ],
+
         "quotes": "off",
         "@typescript-eslint/quotes": [
           "error",
