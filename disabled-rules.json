@@ -184,11 +184,6 @@
   "sonar/pseudo-random": "off",
   "sonar/standard-input": "off",
 
-  "fp/no-nil": "off",
-  "fp/no-unused-expression": ["off", { "allowUseStrict": true }],
-  "fp/no-rest-parameters": "off",
-  "fp/no-throw": "off",
-
   "ramda/compose-pipe-style": "off",
   "ramda/prefer-ramda-boolean": "off",
 

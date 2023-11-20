@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**49 plugins. 1347 rules.**
+**49 plugins. 1319 rules.**
 
 ## Usage
 
@@ -314,11 +314,10 @@ Config for Jest.
 
 Config for functional programming.
 
-| Plugin                                                              | Enabled rules |
-| ------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-fp](https://github.com/jfmengels/eslint-plugin-fp)   |            13 |
-| [eslint-plugin-ramda](https://github.com/ramda/eslint-plugin-ramda) |            24 |
-| **Total:**                                                          |        **37** |
+| Plugin                                                                                    | Enabled rules |
+| ----------------------------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-functional](https://github.com/eslint-functional/eslint-plugin-functional) |             9 |
+| **Total:**                                                                                |         **9** |
 
 ### `hardcore/ts-for-js`
 
