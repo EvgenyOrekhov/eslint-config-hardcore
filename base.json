@@ -421,7 +421,6 @@
     "import/no-relative-packages": "error",
     "import/no-import-module-exports": "error",
     "import/no-empty-named-blocks": "error",
-    "import/no-default-export": "error",
 
     "import/no-unresolved": [
       "error",
