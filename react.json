@@ -9,6 +9,7 @@
     "plugin:react-hook-form/recommended",
     "plugin:react-form-fields/recommended",
     "plugin:ssr-friendly/recommended",
+    "plugin:react-prefer-function-component/recommended",
     "./prettier.json"
   ],
 
