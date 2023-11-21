@@ -102,6 +102,7 @@
     "ts-for-js.json",
     "ts.json",
     "react.json",
+    "react-performance.json",
     "react-testing-library.json",
     "vue.json",
     "jest.json"

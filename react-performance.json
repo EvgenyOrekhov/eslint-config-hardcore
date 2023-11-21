@@ -1,0 +1,47 @@
+{
+  "extends": ["plugin:react-perf/all"],
+
+  "plugins": ["react"],
+
+  "rules": {
+    "react/require-optimization": "error",
+    "react/jsx-no-bind": "error",
+    "react/jsx-no-constructed-context-values": "error",
+    "react/no-object-type-as-default-prop": "error"
+  },
+
+  "overrides": [
+    {
+      "files": ["*.jsx"]
+    },
+
+    {
+      "files": [
+        "**/test/**",
+        "**/tests/**",
+        "**/spec/**",
+        "**/__tests__/**",
+        "*.test.*",
+        "*.spec.*",
+        "*.e2e.*",
+        "*.e2e-spec.*",
+
+        "*.stories.@(ts|tsx|js|jsx|mjs|cjs|mts|cts)",
+        "*.story.@(ts|tsx|js|jsx|mjs|cjs|mts|cts)"
+      ],
+
+      "rules": {
+        "react-perf/jsx-no-new-object-as-prop": "off",
+        "react-perf/jsx-no-new-array-as-prop": "off",
+        "react-perf/jsx-no-new-function-as-prop": "off",
+        "react-perf/jsx-no-jsx-as-prop": "off"
+      }
+    }
+  ],
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

@@ -3,6 +3,7 @@
     "./index.json",
     "./fp.json",
     "./react.json",
+    "./react-performance.json",
     "./react-testing-library.json",
     "./jest.json",
     "./ts.json",

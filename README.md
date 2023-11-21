@@ -22,6 +22,7 @@ Available configs:
 - `hardcore/ts` - additional config for TypeScript
 - `hardcore/node`- additional config for Node.js
 - `hardcore/react` - additional config for React
+- `hardcore/react-performance` - additional React config with performance rules
 - `hardcore/vue` - additional config for Vue 3/Nuxt 3
 - `hardcore/react-testing-library` - additional config for React Testing Library
 - `hardcore/jest` - additional config for Jest
@@ -38,6 +39,7 @@ Example `.eslintrc.json` for a **React** project:
   "extends": [
     "hardcore",
     "hardcore/react",
+    "hardcore/react-performance",
     "hardcore/react-testing-library",
     "hardcore/jest",
     "hardcore/fp"
@@ -70,6 +72,7 @@ Example `.eslintrc.json` for a **TypeScript React** project:
   "extends": [
     "hardcore",
     "hardcore/react",
+    "hardcore/react-performance",
     "hardcore/react-testing-library",
     "hardcore/jest",
     "hardcore/fp",
@@ -264,11 +267,10 @@ Config for React.
 
 | Plugin                                                                                                                         | Enabled rules |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                                        |            78 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                                        |            74 |
 | [eslint-plugin-styled-components-a11y](https://github.com/brendanmorrell/eslint-plugin-styled-components-a11y)                 |            33 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                                                 |            34 |
 | [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                                              |            14 |
-| [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)                                                 |             4 |
 | [eslint-plugin-react-form-fields](https://github.com/kotarella1110/eslint-plugin-react-form-fields)                            |             4 |
 | [eslint-plugin-ssr-friendly](https://github.com/kopiro/eslint-plugin-ssr-friendly)                                             |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)                              |             3 |
@@ -277,7 +279,17 @@ Config for React.
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                                            |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)                          |             1 |
 | [eslint-plugin-react-prefer-function-component](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component) |             1 |
-| **Total:**                                                                                                                     |       **183** |
+| **Total:**                                                                                                                     |       **175** |
+
+### `hardcore/react-performance`
+
+Config with performance rules for React.
+
+| Plugin                                                                         | Enabled rules |
+| ------------------------------------------------------------------------------ | ------------: |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)        |             4 |
+| [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf) |             4 |
+| **Total:**                                                                     |         **8** |
 
 ### `hardcore/vue`
 

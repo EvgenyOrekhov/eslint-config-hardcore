@@ -3,7 +3,6 @@
     "plugin:import/react",
     "plugin:react/all",
     "plugin:react-hooks/recommended",
-    "plugin:react-perf/all",
     "plugin:styled-components-a11y/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hook-form/recommended",
@@ -115,7 +114,12 @@
     "react/react-in-jsx-scope": "off",
     "react/jsx-sort-props": "off",
     "react/sort-prop-types": "off",
-    "react/sort-default-props": "off"
+    "react/sort-default-props": "off",
+
+    "react/require-optimization": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "react/no-object-type-as-default-prop": "off"
   },
 
   "overrides": [
@@ -149,26 +153,6 @@
       "files": [".storybook/main.@(js|cjs|mjs|ts|cts|mts)"],
       "rules": {
         "storybook/no-uninstalled-addons": "error"
-      }
-    },
-
-    {
-      "files": [
-        "**/test/**",
-        "**/tests/**",
-        "**/spec/**",
-        "**/__tests__/**",
-        "*.test.*",
-        "*.spec.*",
-        "*.e2e.*",
-        "*.e2e-spec.*"
-      ],
-
-      "rules": {
-        "react-perf/jsx-no-new-object-as-prop": "off",
-        "react-perf/jsx-no-new-array-as-prop": "off",
-        "react-perf/jsx-no-new-function-as-prop": "off",
-        "react-perf/jsx-no-jsx-as-prop": "off"
       }
     }
   ],
