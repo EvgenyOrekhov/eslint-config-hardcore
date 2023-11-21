@@ -1,13 +1,15 @@
 {
   "extends": ["plugin:react-perf/all"],
 
-  "plugins": ["react"],
+  "plugins": ["react", "@arthurgeron/react-usememo"],
 
   "rules": {
     "react/require-optimization": "error",
     "react/jsx-no-bind": "error",
     "react/jsx-no-constructed-context-values": "error",
-    "react/no-object-type-as-default-prop": "error"
+    "react/no-object-type-as-default-prop": "error",
+
+    "@arthurgeron/react-usememo/require-usememo": "error"
   },
 
   "overrides": [

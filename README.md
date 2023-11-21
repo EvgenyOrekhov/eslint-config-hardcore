@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**49 plugins. 1320 rules.**
+**50 plugins. 1321 rules.**
 
 ## Usage
 
@@ -285,11 +285,12 @@ Config for React.
 
 Config with performance rules for React.
 
-| Plugin                                                                         | Enabled rules |
-| ------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)        |             4 |
-| [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf) |             4 |
-| **Total:**                                                                     |         **8** |
+| Plugin                                                                                    | Enabled rules |
+| ----------------------------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                   |             4 |
+| [eslint-plugin-react-perf](https://github.com/cvazac/eslint-plugin-react-perf)            |             4 |
+| [eslint-plugin-react-usememo](https://github.com/arthurgeron/eslint-plugin-react-usememo) |             1 |
+| **Total:**                                                                                |         **9** |
 
 ### `hardcore/vue`
 
