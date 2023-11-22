@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "extends": [
     "plugin:import/react",
     "plugin:react/all",

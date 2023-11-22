@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "rules": {
     "import/no-unused-modules": "off"
   },

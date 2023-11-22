@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "extends": ["plugin:prettier/recommended"],
 
   "rules": {
