@@ -1028,6 +1028,30 @@
     },
 
     {
+      "files": ["*.toml", ".*.toml"],
+      "extends": ["plugin:toml/standard"],
+      "parser": "toml-eslint-parser",
+
+      "rules": {
+        "toml/no-non-decimal-integer": "error",
+
+        "prettier/prettier": [
+          "error",
+          {
+            "plugins": ["prettier-plugin-toml"],
+            "parser": "toml"
+          }
+        ],
+
+        "toml/array-element-newline": "off",
+        "toml/array-bracket-spacing": "off",
+
+        "import/unambiguous": "off",
+        "putout/putout": "off"
+      }
+    },
+
+    {
       "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
 
       "parserOptions": {

@@ -84,6 +84,7 @@
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-styled-components-a11y": "^2.1.31",
     "eslint-plugin-testing-library": "^6.2.0",
+    "eslint-plugin-toml": "^0.7.1",
     "eslint-plugin-total-functions": "^7.1.0",
     "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
@@ -93,6 +94,7 @@
     "eslint-plugin-vuejs-accessibility": "^2.2.0",
     "eslint-plugin-yml": "^1.10.0",
     "prettier": "^3.1.0",
+    "prettier-plugin-toml": "^1.0.0",
     "putout": "^30.7.0"
   },
   "files": [
