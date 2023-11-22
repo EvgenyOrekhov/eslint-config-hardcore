@@ -240,5 +240,7 @@
   "perfectionist/sort-union-types": "off",
   "perfectionist/sort-svelte-attributes": "off",
   "perfectionist/sort-astro-attributes": "off",
-  "perfectionist/sort-vue-attributes": "off"
+  "perfectionist/sort-vue-attributes": "off",
+
+  "yml/sort-keys": "off"
 }

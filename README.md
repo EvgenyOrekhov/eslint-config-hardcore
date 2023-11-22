@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**50 plugins. 1321 rules.**
+**51 plugins. 1322 rules.**
 
 ## Usage
 
@@ -227,11 +227,12 @@ Base framework-agnostic config.
 | [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
 | [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
+| [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                      |             1 |
 | [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)²                             |             1 |
-| **Total:**                                                                                                |       **627** |
+| **Total:**                                                                                                |       **628** |
 
-¹ eslint-plugin-json actually includes 19 rules, but I consider them as one
-"no-invalid-json" rule.
+¹ eslint-plugin-json and eslint-plugin-yml actually include several rules, but I
+consider each plugin as a single "no-invalid" rule.
 ² eslint-plugin-prettier actually replaces dozens of other formatting rules, but
 I consider it as one "no-invalid-formatting" rule.
 

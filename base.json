@@ -1012,6 +1012,22 @@
     },
 
     {
+      "files": ["*.yaml", "*.yml", ".*.yaml", ".*.yml"],
+      "extends": ["plugin:yml/standard", "plugin:yml/prettier"],
+      "parser": "yaml-eslint-parser",
+
+      "rules": {
+        "yml/require-string-key": "error",
+        "yml/no-multiple-empty-lines": "error",
+
+        "prettier/prettier": ["error", { "parser": "yaml" }],
+
+        "import/unambiguous": "off",
+        "putout/putout": "off"
+      }
+    },
+
+    {
       "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
 
       "parserOptions": {
