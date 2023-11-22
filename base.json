@@ -1006,7 +1006,7 @@
     },
 
     {
-      "files": ["*.json"],
+      "files": ["*.json", ".*.json"],
       "extends": ["plugin:json/recommended"],
       "rules": { "import/unambiguous": "off", "putout/putout": "off" }
     },
