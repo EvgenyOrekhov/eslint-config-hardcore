@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
 
-  "extends": ["plugin:prettier/recommended"],
+  "extends": ["prettier"],
 
   "rules": {
     "arrow-body-style": "error",
@@ -36,12 +36,5 @@
         "afterHashbangComment": true
       }
     ]
-  },
-
-  "overrides": [
-    {
-      "files": ["*.htm", "*.html"],
-      "rules": { "prettier/prettier": ["error", { "parser": "html" }] }
-    }
-  ]
+  }
 }

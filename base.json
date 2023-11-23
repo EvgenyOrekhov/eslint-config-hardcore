@@ -1023,8 +1023,6 @@
         "yml/require-string-key": "error",
         "yml/no-multiple-empty-lines": "error",
 
-        "prettier/prettier": ["error", { "parser": "yaml" }],
-
         "import/unambiguous": "off",
         "putout/putout": "off"
       }
@@ -1037,14 +1035,6 @@
 
       "rules": {
         "toml/no-non-decimal-integer": "error",
-
-        "prettier/prettier": [
-          "error",
-          {
-            "plugins": ["prettier-plugin-toml"],
-            "parser": "toml"
-          }
-        ],
 
         "toml/array-element-newline": "off",
         "toml/array-bracket-spacing": "off",
