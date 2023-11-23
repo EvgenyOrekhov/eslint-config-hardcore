@@ -20,7 +20,8 @@
     "unused-imports",
     "sonar",
     "simple-import-sort",
-    "perfectionist"
+    "perfectionist",
+    "compat"
   ],
 
   "parserOptions": {
@@ -867,6 +868,8 @@
       "error",
       { "type": "natural", "ignore-case": true }
     ],
+
+    "compat/compat": "error",
 
     "putout/putout": [
       "error",

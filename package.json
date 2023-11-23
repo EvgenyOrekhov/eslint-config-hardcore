@@ -47,6 +47,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-array-func": "^4.0.0",
+    "eslint-plugin-compat": "^4.2.0",
     "eslint-plugin-decorator-position": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-etc": "^2.0.3",
