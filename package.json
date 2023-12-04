@@ -35,7 +35,7 @@
     }
   },
   "dependencies": {
-    "@arthurgeron/eslint-plugin-react-usememo": "^2.1.4",
+    "@arthurgeron/eslint-plugin-react-usememo": "^2.2.1",
     "@html-eslint/eslint-plugin": "^0.20.0",
     "@html-eslint/parser": "^0.20.0",
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
