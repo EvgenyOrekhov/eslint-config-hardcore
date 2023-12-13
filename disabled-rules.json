@@ -224,6 +224,7 @@
   "vue/require-prop-comment": "off",
   "vue/no-restricted-component-names": "off",
   "vue/max-lines-per-block": "off",
+  "vue/v-if-else-key": "off",
 
   "vue-scoped-css/no-unused-selector": "off",
 

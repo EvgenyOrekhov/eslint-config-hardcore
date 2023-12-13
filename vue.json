@@ -57,6 +57,7 @@
         "vue/no-static-inline-styles": "error",
         "vue/no-template-target-blank": "error",
         "vue/no-this-in-before-route-enter": "error",
+        "vue/no-unused-emit-declarations": "error",
         "vue/no-use-v-else-with-v-for": "error",
         "vue/no-useless-mustaches": "error",
         "vue/no-useless-v-bind": "error",
@@ -75,7 +76,6 @@
         "vue/v-for-delimiter-style": "error",
         "vue/v-on-handler-style": "error",
         "vue/no-ref-object-reactivity-loss": "error",
-        "vue/define-emits-declaration": "error",
         "vue/define-props-declaration": "error",
         "vue/padding-lines-in-component-definition": "error",
         "vue/no-root-v-if": "error",
@@ -123,6 +123,7 @@
         "vue/no-irregular-whitespace": ["error", { "skipStrings": false }],
         "vue/no-required-prop-with-default": ["error", { "autofix": true }],
         "vue/attributes-order": ["error", { "alphabetical": true }],
+        "vue/define-emits-declaration": ["error", "type-literal"],
 
         "sonar/no-vue-bypass-sanitization": "error",
 

@@ -41,9 +41,9 @@
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
     "@putout/plugin-apply-shorthand-properties": "^3.0.2",
     "@shopify/eslint-plugin": "^43.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
-    "eslint-config-prettier": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-array-func": "^4.0.0",
@@ -59,13 +59,13 @@
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-no-unsanitized": "^4.0.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
-    "eslint-plugin-perfectionist": "^2.4.2",
+    "eslint-plugin-perfectionist": "^2.5.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-putout": "^18.2.0",
     "eslint-plugin-react": "^7.33.2",
@@ -74,7 +74,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-perf": "^3.3.1",
     "eslint-plugin-react-prefer-function-component": "^3.3.0",
-    "eslint-plugin-regexp": "^2.1.1",
+    "eslint-plugin-regexp": "^2.1.2",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sonar": "^0.12.0",
@@ -89,8 +89,8 @@
     "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "eslint-plugin-validate-jsx-nesting": "^0.1.1",
-    "eslint-plugin-vue": "^9.18.1",
-    "eslint-plugin-vue-scoped-css": "^2.5.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-vue-scoped-css": "^2.6.1",
     "eslint-plugin-vuejs-accessibility": "^2.2.0",
     "eslint-plugin-yml": "^1.10.0",
     "putout": "^30.7.0"
@@ -110,7 +110,7 @@
     "jest.json"
   ],
   "devDependencies": {
-    "eslint": "^8.54.0",
-    "typescript": "^5.3.2"
+    "eslint": "^8.55.0",
+    "typescript": "^5.3.3"
   }
 }
