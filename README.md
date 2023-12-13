@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**52 plugins. 1324 rules.**
+**52 plugins. 1325 rules.**
 
 ## Usage
 
@@ -211,7 +211,7 @@ Base framework-agnostic config.
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                       |            49 |
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            33 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            31 |
-| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            21 |
+| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            22 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            13 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
 | [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |             7 |
@@ -230,7 +230,7 @@ Base framework-agnostic config.
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                      |             1 |
 | [eslint-plugin-toml](https://github.com/ota-meshi/eslint-plugin-toml)¹                                    |             1 |
-| **Total:**                                                                                                |       **629** |
+| **Total:**                                                                                                |       **630** |
 
 ¹ json/yml/toml plugins actually include several rules, but I consider each
 plugin as a single "no-invalid" rule.

@@ -1001,6 +1001,8 @@
         "@html-eslint/no-aria-hidden-body": "error",
         "@html-eslint/no-accesskey-attrs": "error",
 
+        "@html-eslint/sort-attrs": ["error", { "priority": [] }],
+
         "spaced-comment": "off",
         "no-inline-comments": "off",
         "import/unambiguous": "off",

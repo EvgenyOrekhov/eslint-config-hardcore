@@ -201,6 +201,8 @@
   "@html-eslint/no-restricted-attrs": "off",
   "@html-eslint/no-restricted-attr-values": "off",
   "@html-eslint/require-attrs": "off",
+  "@html-eslint/lowercase": "off",
+  "@html-eslint/require-open-graph-protocol": "off",
 
   "vue/block-lang": "off",
   "vue/no-bare-strings-in-template": "off",
