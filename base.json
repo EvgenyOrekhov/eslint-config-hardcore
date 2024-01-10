@@ -576,6 +576,7 @@
     "unicorn/no-negated-condition": "error",
     "unicorn/prefer-at": "error",
     "unicorn/prefer-blob-reading-methods": "error",
+    "unicorn/no-unnecessary-polyfills": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -802,11 +803,13 @@
     "sonar/in-operator-type-error": "error",
     "sonar/link-with-target-blank": "error",
     "sonar/misplaced-loop-counter": "error",
+    "sonar/new-cap": "error",
     "sonar/no-accessor-field-mismatch": "error",
     "sonar/no-alphabetical-sort": "error",
     "sonar/no-angular-bypass-sanitization": "error",
     "sonar/no-array-delete": "error",
     "sonar/no-associative-arrays": "error",
+    "sonar/no-base-to-string": "error",
     "sonar/no-clear-text-protocols": "error",
     "sonar/no-dead-store": "error",
     "sonar/no-empty-after-reluctant": "error",
@@ -963,6 +966,8 @@
         ],
 
         "no-only-tests/no-only-tests": "error",
+
+        "sonar/stable-tests": "error",
 
         "no-magic-numbers": "off",
         "max-classes-per-file": "off",

@@ -20,7 +20,8 @@
         "import",
         "eslint-plugin-no-explicit-type-exports",
         "etc",
-        "total-functions"
+        "total-functions",
+        "sonar"
       ],
 
       "rules": {
@@ -88,29 +89,6 @@
           { "requireDefaultForNonUnion": true }
         ],
 
-        "quotes": "off",
-        "@typescript-eslint/quotes": [
-          "error",
-          "double",
-          { "avoidEscape": true, "allowTemplateLiterals": false }
-        ],
-
-        "lines-around-comment": "off",
-        "@typescript-eslint/lines-around-comment": [
-          "error",
-          {
-            "beforeBlockComment": true,
-            "beforeLineComment": true,
-            "allowBlockStart": true,
-            "allowObjectStart": true,
-            "allowArrayStart": true,
-            "allowClassStart": true,
-
-            "allowInterfaceStart": true,
-            "allowTypeStart": true
-          }
-        ],
-
         "prefer-destructuring": "off",
         "@typescript-eslint/prefer-destructuring": [
           "error",
@@ -149,6 +127,8 @@
         "total-functions/no-premature-fp-ts-effects": "error",
         "total-functions/no-partial-array-reduce": "error",
         "total-functions/no-nested-fp-ts-effects": "error",
+
+        "sonar/public-static-readonly": "error",
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",

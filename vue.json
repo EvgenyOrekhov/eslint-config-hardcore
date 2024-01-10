@@ -162,22 +162,6 @@
           { "allows": ["scoped", "module"] }
         ],
 
-        "lines-around-comment": "off",
-        "@typescript-eslint/lines-around-comment": [
-          "error",
-          {
-            "beforeBlockComment": true,
-            "beforeLineComment": false,
-            "allowBlockStart": true,
-            "allowObjectStart": true,
-            "allowArrayStart": true,
-            "allowClassStart": true,
-
-            "allowInterfaceStart": true,
-            "allowTypeStart": true
-          }
-        ],
-
         "import/no-anonymous-default-export": [
           "error",
           { "allowCallExpression": false, "allowObject": true }
