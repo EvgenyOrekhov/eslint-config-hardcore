@@ -299,9 +299,9 @@ Config for Vue 3/Nuxt 3.
 
 | Plugin                                                                                             | Enabled rules |
 | -------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           166 |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           167 |
 | [eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) |            20 |
-| [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css)   |            13 |
+| [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css)   |            12 |
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                |             1 |
 | **Total:**                                                                                         |       **200** |
 

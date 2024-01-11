@@ -101,10 +101,12 @@
           {
             "order": [
               "defineOptions",
+              "defineModel",
               "defineProps",
               "defineEmits",
               "defineSlots"
-            ]
+            ],
+            "defineExposeLast": true
           }
         ],
         "vue/v-on-event-hyphenation": ["error", "always", { "autofix": true }],
@@ -124,6 +126,10 @@
         "vue/no-required-prop-with-default": ["error", { "autofix": true }],
         "vue/attributes-order": ["error", { "alphabetical": true }],
         "vue/define-emits-declaration": ["error", "type-literal"],
+        "vue/enforce-style-attribute": [
+          "error",
+          { "allow": ["scoped", "module"] }
+        ],
 
         "sonar/no-vue-bypass-sanitization": "error",
 
