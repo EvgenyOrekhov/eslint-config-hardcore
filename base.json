@@ -809,7 +809,6 @@
     "sonar/no-angular-bypass-sanitization": "error",
     "sonar/no-array-delete": "error",
     "sonar/no-associative-arrays": "error",
-    "sonar/no-base-to-string": "error",
     "sonar/no-clear-text-protocols": "error",
     "sonar/no-dead-store": "error",
     "sonar/no-empty-after-reluctant": "error",

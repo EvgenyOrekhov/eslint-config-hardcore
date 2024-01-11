@@ -107,6 +107,7 @@
   "sonar/mouse-events-a11y": "off",
   "sonar/nested-control-flow": "off",
   "sonar/new-operator-misuse": "off",
+  "sonar/no-base-to-string": "off",
   "sonar/no-built-in-override": "off",
   "sonar/no-case-label-in-switch": "off",
   "sonar/no-commented-code": "off",
