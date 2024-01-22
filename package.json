@@ -90,7 +90,7 @@
     "eslint-plugin-unused-imports": "^3.0.0",
     "eslint-plugin-validate-jsx-nesting": "^0.1.1",
     "eslint-plugin-vue": "^9.20.1",
-    "eslint-plugin-vue-scoped-css": "^2.6.1",
+    "eslint-plugin-vue-scoped-css": "^2.7.2",
     "eslint-plugin-vuejs-accessibility": "^2.2.0",
     "eslint-plugin-yml": "^1.12.2",
     "putout": "^30.7.0"
