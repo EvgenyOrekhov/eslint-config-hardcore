@@ -34,7 +34,6 @@
         "vue/require-default-prop": "error",
         "vue/require-explicit-emits": "error",
         "vue/require-prop-types": "error",
-        "vue/v-bind-style": "error",
         "vue/v-on-style": "error",
         "vue/v-slot-style": "error",
 
@@ -68,6 +67,7 @@
         "vue/prefer-true-attribute-shorthand": "error",
         "vue/require-direct-export": "error",
         "vue/require-emit-validator": "error",
+        "vue/require-explicit-slots": "error",
         "vue/require-expose": "error",
         "vue/require-macro-variable-name": "error",
         "vue/require-name-property": "error",
@@ -129,6 +129,11 @@
         "vue/enforce-style-attribute": [
           "error",
           { "allow": ["scoped", "module"] }
+        ],
+        "vue/v-bind-style": [
+          "error",
+          "shorthand",
+          { "sameNameShorthand": "always" }
         ],
 
         "sonar/no-vue-bypass-sanitization": "error",

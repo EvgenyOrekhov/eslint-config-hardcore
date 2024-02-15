@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**52 plugins. 1326 rules.**
+**52 plugins. 1327 rules.**
 
 ## Usage
 
@@ -299,11 +299,11 @@ Config for Vue 3/Nuxt 3.
 
 | Plugin                                                                                             | Enabled rules |
 | -------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           167 |
+| [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)                                    |           168 |
 | [eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) |            20 |
 | [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css)   |            12 |
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                |             1 |
-| **Total:**                                                                                         |       **200** |
+| **Total:**                                                                                         |       **201** |
 
 ### `hardcore/react-testing-library`
 
