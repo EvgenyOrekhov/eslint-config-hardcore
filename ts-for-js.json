@@ -19,6 +19,9 @@
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": "error",
 
+    "prefer-promise-reject-errors": "off",
+    "@typescript-eslint/prefer-promise-reject-errors": "error",
+
     "no-void": ["error", { "allowAsStatement": true }],
     "@typescript-eslint/no-floating-promises": "error",
 

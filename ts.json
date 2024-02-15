@@ -136,7 +136,9 @@
         "@typescript-eslint/no-restricted-imports": "off",
         "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/adjacent-overload-signatures": "off",
-        "@typescript-eslint/class-methods-use-this": "off"
+        "@typescript-eslint/class-methods-use-this": "off",
+        "@typescript-eslint/no-array-delete": "off",
+        "@typescript-eslint/prefer-find": "off"
       },
 
       "settings": {

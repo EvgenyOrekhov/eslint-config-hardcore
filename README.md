@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**52 plugins. 1327 rules.**
+**52 plugins. 1328 rules.**
 
 ## Usage
 
@@ -241,7 +241,7 @@ Config for TypeScript.
 
 | Plugin                                                                                                     | Enabled rules |
 | ---------------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           104 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                                |           105 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                          |            10 |
 | [eslint-plugin-total-functions](https://github.com/danielnixon/eslint-plugin-total-functions)              |             8 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)          |             3 |
@@ -249,7 +249,7 @@ Config for TypeScript.
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)      |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **129** |
+| **Total:**                                                                                                 |       **130** |
 
 ### `hardcore/node`
 
@@ -341,12 +341,12 @@ Config for linting JavaScript with
 
 | Plugin                                                                                                | Enabled rules |
 | ----------------------------------------------------------------------------------------------------- | ------------: |
-| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            27 |
+| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)                           |            28 |
 | [eslint-plugin-etc](https://github.com/cartant/eslint-plugin-etc)                                     |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total:**                                                                                            |        **35** |
+| **Total:**                                                                                            |        **36** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
