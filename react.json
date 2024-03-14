@@ -119,6 +119,7 @@
     "react/jsx-sort-props": "off",
     "react/sort-prop-types": "off",
     "react/sort-default-props": "off",
+    "react/checked-requires-onchange-or-readonly": "off",
 
     "react/require-optimization": "off",
     "react/jsx-no-bind": "off",
