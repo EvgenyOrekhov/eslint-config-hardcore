@@ -74,6 +74,8 @@
     ],
     "react/jsx-no-leaked-render": ["error", { "validStrategies": ["coerce"] }],
     "react/display-name": ["error", { "checkContextObjects": true }],
+    "react/no-unknown-property": ["error", { "requireDataLowercase": true }],
+    "react/jsx-no-script-url": ["error", { "includeFromSettings": true }],
 
     "react-hooks/exhaustive-deps": "error",
 
