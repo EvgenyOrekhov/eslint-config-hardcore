@@ -880,7 +880,7 @@
 
         "rules": {
           "apply-shorthand-properties": "on",
-          "convert-commonjs-to-esm": "on",
+          "nodejs/convert-commonjs-to-esm": "on",
           "types/apply-is-array": ["on", { "inline": true }],
 
           "convert-array-copy-to-slice": "off",
