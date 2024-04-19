@@ -577,6 +577,9 @@
     "unicorn/prefer-at": "error",
     "unicorn/prefer-blob-reading-methods": "error",
     "unicorn/no-unnecessary-polyfills": "error",
+    "unicorn/no-single-promise-in-promise-methods": "error",
+    "unicorn/no-await-in-promise-methods": "error",
+    "unicorn/no-anonymous-default-export": "error",
 
     "unicorn/filename-case": [
       "error",
