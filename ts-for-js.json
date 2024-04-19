@@ -8,7 +8,8 @@
     "sort-class-members",
     "decorator-position",
     "@shopify",
-    "etc"
+    "etc",
+    "typescript-compat"
   ],
 
   "rules": {
@@ -200,6 +201,8 @@
 
     "import/no-deprecated": "off",
     "etc/no-deprecated": "error",
+
+    "typescript-compat/compat": "error",
 
     "sonar/argument-type": "off",
     "sonar/no-associative-arrays": "off",

@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**52 plugins. 1332 rules.**
+**53 plugins. 1333 rules.**
 
 ## Usage
 
@@ -249,7 +249,8 @@ Config for TypeScript.
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)        |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)      |             1 |
 | [eslint-plugin-no-explicit-type-exports](https://github.com/intuit/eslint-plugin-no-explicit-type-exports) |             1 |
-| **Total:**                                                                                                 |       **130** |
+| [eslint-plugin-typescript-compat](https://github.com/azu/eslint-plugin-typescript-compat)                  |             1 |
+| **Total:**                                                                                                 |       **131** |
 
 ### `hardcore/node`
 
@@ -346,7 +347,8 @@ Config for linting JavaScript with
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)     |             2 |
 | [eslint-plugin-sort-class-members](https://github.com/bryanrsmith/eslint-plugin-sort-class-members)   |             1 |
 | [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position) |             1 |
-| **Total:**                                                                                            |        **36** |
+| [eslint-plugin-typescript-compat](https://github.com/azu/eslint-plugin-typescript-compat)             |             1 |
+| **Total:**                                                                                            |        **37** |
 
 Did you know you can lint JavaScript code with
 [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)?
