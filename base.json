@@ -766,6 +766,14 @@
     ],
     "regexp/hexadecimal-escape": ["error", "never"],
     "regexp/unicode-escape": ["error", "unicodeEscape"],
+    "regexp/unicode-property": [
+      "error",
+      {
+        "generalCategory": "never",
+        "key": "long",
+        "property": "long"
+      }
+    ],
 
     "@microsoft/sdl/no-cookies": "error",
     "@microsoft/sdl/no-document-domain": "error",

@@ -294,6 +294,7 @@
   "perfectionist/sort-svelte-attributes": "off",
   "perfectionist/sort-astro-attributes": "off",
   "perfectionist/sort-vue-attributes": "off",
+  "perfectionist/sort-intersection-types": "off",
 
   "yml/sort-keys": "off"
 }
