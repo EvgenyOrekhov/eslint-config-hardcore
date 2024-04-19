@@ -75,7 +75,7 @@
     "eslint-plugin-react-perf": "^3.3.2",
     "eslint-plugin-react-prefer-function-component": "^3.3.0",
     "eslint-plugin-regexp": "^2.5.0",
-    "eslint-plugin-security": "^2.1.1",
+    "eslint-plugin-security": "^3.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.0",
     "eslint-plugin-sonar": "^0.13.2",
     "eslint-plugin-sonarjs": "^0.25.1",
