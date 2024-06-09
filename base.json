@@ -13,7 +13,6 @@
     "no-constructor-bind",
     "ext",
     "putout",
-    "@shopify",
     "regexp",
     "@microsoft/sdl",
     "no-unsanitized",
@@ -155,7 +154,7 @@
     "no-useless-escape": "error",
     "no-duplicate-imports": "error",
     "no-unsafe-finally": "error",
-    "no-useless-computed-key": "error",
+    "no-useless-computed-key": ["error", { "enforceForClassMembers": true }],
     "no-useless-rename": "error",
     "max-lines": "error",
     "no-template-curly-in-string": "error",
@@ -656,8 +655,6 @@
       "always",
       { "exceptBetweenSingleLines": true }
     ],
-
-    "@shopify/no-useless-computed-properties": "error",
 
     "regexp/match-any": "error",
     "regexp/no-empty-capturing-group": "error",
