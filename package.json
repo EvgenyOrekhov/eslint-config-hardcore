@@ -39,7 +39,7 @@
     "@html-eslint/eslint-plugin": "^0.24.1",
     "@html-eslint/parser": "^0.24.1",
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
-    "@putout/plugin-apply-shorthand-properties": "^3.0.2",
+    "@putout/plugin-apply-shorthand-properties": "^5.1.1",
     "@shopify/eslint-plugin": "^44.0.0",
     "@stylistic/eslint-plugin": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -68,7 +68,7 @@
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-perfectionist": "^2.10.0",
     "eslint-plugin-promise": "^6.2.0",
-    "eslint-plugin-putout": "^18.2.0",
+    "eslint-plugin-putout": "^22.9.0",
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-form-fields": "^1.2.22",
     "eslint-plugin-react-hook-form": "^0.3.0",
@@ -95,7 +95,7 @@
     "eslint-plugin-vue-scoped-css": "^2.8.0",
     "eslint-plugin-vuejs-accessibility": "^2.3.0",
     "eslint-plugin-yml": "^1.14.0",
-    "putout": "^30.7.0"
+    "putout": "^35.33.0"
   },
   "files": [
     "base.json",

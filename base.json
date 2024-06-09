@@ -897,11 +897,13 @@
     "putout/putout": [
       "error",
       {
+        "esm": true,
+
         "plugins": ["apply-shorthand-properties"],
 
         "rules": {
           "apply-shorthand-properties": "on",
-          "convert-commonjs-to-esm": "on",
+          "nodejs/convert-commonjs-to-esm": "on",
           "types/apply-is-array": ["on", { "inline": true }],
 
           "convert-array-copy-to-slice": "off",
@@ -912,7 +914,7 @@
           "declare": "off",
           "maybe": "off",
           "remove-useless-operand": "off",
-          "convert-esm-to-commonjs": "off",
+          "nodejs/convert-esm-to-commonjs": "off",
           "convert-quotes-to-backticks": "off",
           "eslint": "off",
           "package-json": "off",
@@ -923,6 +925,8 @@
           "extract-object-properties": "off",
           "convert-const-to-let": "off",
           "remove-nested-blocks": "off",
+          "apply-dot-notation": "off",
+          "sort-imports-by-specifiers": "off",
 
           "nodejs/remove-process-exit": "off",
           "nodejs/declare": "off",
@@ -936,6 +940,7 @@
           "for-of/reduce": "off",
           "conditions/remove-boolean": "off",
           "conditions/remove-zero": "off",
+          "conditions/apply-consistent-blocks": "off",
           "types/convert-typeof-to-is-type": "off",
           "types/declare": "off",
           "math/declare": "off"
@@ -943,8 +948,8 @@
 
         "match": {
           "*.{cjs,cts}": {
-            "convert-commonjs-to-esm": "off",
-            "convert-esm-to-commonjs": "on"
+            "nodejs/convert-commonjs-to-esm": "off",
+            "nodejs/convert-esm-to-commonjs": "on"
           }
         }
       }
