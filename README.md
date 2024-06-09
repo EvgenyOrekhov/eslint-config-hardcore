@@ -204,7 +204,7 @@ Base framework-agnostic config.
 
 | Plugin                                                                                                    | Enabled rules |
 | --------------------------------------------------------------------------------------------------------- | ------------: |
-| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           180 |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           173 |
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |           102 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            80 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            73 |
@@ -215,6 +215,7 @@ Base framework-agnostic config.
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            13 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
 | [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |             7 |
+| [@stylistic/eslint-plugin](https://github.com/eslint-stylistic/eslint-stylistic)                          |             7 |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                       |             5 |
 | [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             3 |
