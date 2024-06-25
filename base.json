@@ -557,6 +557,8 @@
     "unicorn/no-invalid-fetch-options": "error",
     "unicorn/no-magic-array-flat-depth": "error",
     "unicorn/prefer-structured-clone": "error",
+    "unicorn/prefer-array-find": "error",
+    "unicorn/no-negation-in-equality-check": "error",
 
     "unicorn/filename-case": [
       "error",
@@ -585,7 +587,6 @@
       }
     ],
     "unicorn/prefer-export-from": ["error", { "ignoreUsedVariables": true }],
-    "unicorn/prefer-array-find": ["error", { "checkFromLast": true }],
 
     "array-func/from-map": "error",
     "array-func/prefer-array-from": "error",
