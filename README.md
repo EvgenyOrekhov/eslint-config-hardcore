@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**53 plugins. 1342 rules.**
+**53 plugins. 1341 rules.**
 
 ## Usage
 
@@ -259,9 +259,9 @@ Config for Node.js.
 | Plugin                                                                 | Enabled rules |
 | ---------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)    |            53 |
-| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n) |            35 |
+| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n) |            34 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)    |             1 |
-| **Total:**                                                             |        **89** |
+| **Total:**                                                             |        **88** |
 
 ### `hardcore/react`
 

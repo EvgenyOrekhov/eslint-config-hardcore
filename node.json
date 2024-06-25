@@ -10,7 +10,6 @@
   "rules": {
     "n/no-callback-literal": "error",
     "n/exports-style": "error",
-    "n/file-extension-in-import": "error",
     "n/prefer-global/buffer": "error",
     "n/prefer-global/console": "error",
     "n/prefer-global/process": "error",
@@ -92,13 +91,6 @@
       "files": ["*.cjs", ".*.cjs", "*.mjs", ".*.mjs"],
 
       "parserOptions": { "ecmaVersion": "latest" }
-    },
-    {
-      "files": ["*.ts", "*.cts", "*.mts", ".*.ts", ".*.cts", ".*.mts"],
-
-      "rules": {
-        "n/file-extension-in-import": ["error", "never"]
-      }
     }
   ]
 }
