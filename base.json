@@ -957,6 +957,8 @@
   },
 
   "overrides": [
+    { "files": [".*.js", "*.mjs", ".*.mjs", "*.cjs", ".*.cjs"] },
+
     {
       "files": [
         "**/test/**",
@@ -1078,7 +1080,7 @@
     },
 
     {
-      "files": ["*.cjs", ".*.cjs", "*.cts", ".*.cts"],
+      "files": ["*.cjs", ".*.cjs"],
 
       "parserOptions": {
         "sourceType": "script"

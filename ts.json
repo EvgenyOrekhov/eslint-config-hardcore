@@ -7,7 +7,16 @@
 
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx", "*.vue"],
+      "files": [
+        "*.ts",
+        ".*.ts",
+        "*.tsx",
+        "*.mts",
+        ".*.mts",
+        "*.cts",
+        ".*.cts",
+        "*.vue"
+      ],
 
       "extends": [
         "plugin:import/typescript",
@@ -165,6 +174,45 @@
             ".d.ts"
           ]
         }
+      }
+    },
+
+    {
+      "files": ["*.cts", ".*.cts"],
+
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "env": {
+        "commonjs": true
+      },
+
+      "rules": {
+        "import/order": [
+          "error",
+          {
+            "groups": [
+              "builtin",
+              "external",
+              "internal",
+              "unknown",
+              "parent",
+              "sibling",
+              "index"
+            ],
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "orderImportKind": "asc",
+              "caseInsensitive": true
+            }
+          }
+        ],
+
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off",
+        "import/unambiguous": "off"
       }
     },
 
