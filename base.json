@@ -924,6 +924,8 @@
           "remove-nested-blocks": "off",
           "apply-dot-notation": "off",
           "sort-imports-by-specifiers": "off",
+          "convert-assignment-to-declaration": "off",
+          "group-imports-by-source": "off",
 
           "nodejs/remove-process-exit": "off",
           "nodejs/declare": "off",
