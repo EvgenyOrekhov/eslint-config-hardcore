@@ -85,7 +85,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-styled-components-a11y": "^2.1.34",
     "eslint-plugin-testing-library": "^6.2.2",
-    "eslint-plugin-toml": "^0.11.0",
+    "eslint-plugin-toml": "^0.11.1",
     "eslint-plugin-total-functions": "^7.1.0",
     "eslint-plugin-typescript-compat": "^1.0.2",
     "eslint-plugin-unicorn": "^54.0.0",
@@ -95,7 +95,7 @@
     "eslint-plugin-vue-scoped-css": "^2.8.1",
     "eslint-plugin-vuejs-accessibility": "^2.3.1",
     "eslint-plugin-yml": "^1.14.0",
-    "putout": "^35.36.0"
+    "putout": "^35.36.1"
   },
   "files": [
     "base.json",
