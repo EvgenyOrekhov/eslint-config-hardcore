@@ -27,7 +27,7 @@
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
     "eslint": "^8.57.0",
-    "typescript": ">=4.0.0"
+    "typescript": ">=4.7.4"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -40,10 +40,9 @@
     "@html-eslint/parser": "^0.25.0",
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
     "@putout/plugin-apply-shorthand-properties": "^5.1.1",
-    "@shopify/eslint-plugin": "^44.0.0",
+    "@shopify/eslint-plugin": "^45.0.0",
     "@stylistic/eslint-plugin": "^2.3.0",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "typescript-eslint": "^7.16.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -78,8 +77,8 @@
     "eslint-plugin-regexp": "^2.6.0",
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-sonar": "^0.13.2",
-    "eslint-plugin-sonarjs": "^0.25.1",
+    "eslint-plugin-sonar": "^0.14.1",
+    "eslint-plugin-sonarjs": "^1.0.3",
     "eslint-plugin-sort-class-members": "^1.20.0",
     "eslint-plugin-ssr-friendly": "^1.3.0",
     "eslint-plugin-storybook": "^0.8.0",
