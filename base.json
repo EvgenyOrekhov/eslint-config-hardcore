@@ -801,7 +801,6 @@
     "sonar/no-empty-after-reluctant": "error",
     "sonar/no-equals-in-for-termination": "error",
     "sonar/no-for-in-iterable": "error",
-    "sonar/no-hardcoded-credentials": "error",
     "sonar/no-hardcoded-ip": "error",
     "sonar/no-in-misuse": "error",
     "sonar/no-incorrect-string-concat": "error",
@@ -825,6 +824,41 @@
     "sonar/unused-named-groups": "error",
     "sonar/values-not-convertible-to-numbers": "error",
     "sonar/xpath": "error",
+
+    "sonar/no-hardcoded-credentials": [
+      "error",
+      {
+        "credentialWords": [
+          "accessToken",
+          "access_token",
+          "apiKey",
+          "api_key",
+          "authToken",
+          "auth_token",
+          "authenticationToken",
+          "authentication_token",
+          "authorizationToken",
+          "authorization_token",
+          "cert",
+          "certificate",
+          "credentials",
+          "creds",
+          "passPhrase",
+          "pass_phrase",
+          "passphrase",
+          "password",
+          "privateKey",
+          "private_key",
+          "pwd",
+          "secret",
+          "secretKey",
+          "secret_key",
+          "sshKey",
+          "ssh_key",
+          "token"
+        ]
+      }
+    ],
 
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
