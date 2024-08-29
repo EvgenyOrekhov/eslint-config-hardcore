@@ -12,7 +12,6 @@
     "no-use-extend-native",
     "no-constructor-bind",
     "ext",
-    "putout",
     "regexp",
     "@microsoft/sdl",
     "no-unsanitized",
@@ -21,7 +20,7 @@
     "simple-import-sort",
     "perfectionist",
     "compat",
-    "@stylistic"
+    "nested-if"
   ],
 
   "parserOptions": {
@@ -120,7 +119,6 @@
     "no-useless-concat": "error",
     "no-void": "error",
     "no-var": "error",
-    "no-warning-comments": "error",
     "no-with": "error",
     "block-scoped-var": "error",
     "camelcase": "error",
@@ -130,11 +128,15 @@
     "dot-notation": "error",
     "eqeqeq": "error",
     "guard-for-in": "error",
-    "id-length": "error",
+    "id-length": [
+      "error", { "exceptions": [
+        "_"
+      ] }],
     "max-depth": "error",
     "max-nested-callbacks": "error",
-    "max-params": "error",
-    "max-statements": "error",
+    "max-params": [
+      "error", { "max": 3 }],
+    "max-statements": ["error", 20],
     "new-cap": "error",
     "object-shorthand": "error",
     "operator-assignment": "error",
@@ -162,7 +164,6 @@
     "prefer-numeric-literals": "error",
     "no-useless-return": "error",
     "require-await": "error",
-    "no-await-in-loop": "error",
     "no-multi-assign": "error",
     "prefer-promise-reject-errors": "error",
     "no-compare-neg-zero": "error",
@@ -207,9 +208,9 @@
         "ignoreClassFieldInitialValues": true
       }
     ],
-    "complexity": ["error", { "max": 10 }],
+    "complexity": ["error", { "max": 12 }],
     "func-names": ["error", "as-needed"],
-    "func-style": ["error", "declaration"],
+    "func-style": ["error", "expression"],
     "one-var": ["error", "never"],
     "no-else-return": ["error", { "allowElseIf": false }],
     "no-cond-assign": ["error", "always"],
@@ -225,16 +226,6 @@
       }
     ],
     "no-undef": ["error", { "typeof": true }],
-    "no-underscore-dangle": [
-      "error",
-      {
-        "enforceInMethodNames": true,
-        "enforceInClassFields": true,
-        "allowFunctionParams": false,
-        "allowInArrayDestructuring": false,
-        "allowInObjectDestructuring": false
-      }
-    ],
     "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
     "func-name-matching": ["error", { "considerPropertyDescriptor": true }],
     "use-isnan": [
@@ -254,7 +245,12 @@
           "res",
           "response",
           "$scope",
-          "staticContext"
+          "staticContext",
+          "ref",
+          "model"
+        ],
+        "ignorePropertyModificationsForRegex": [
+          "^.*(?:Ref|Model)$"
         ]
       }
     ],
@@ -352,7 +348,6 @@
     "promise/no-return-wrap": "error",
     "promise/no-nesting": "error",
     "promise/no-promise-in-callback": "error",
-    "promise/avoid-new": "error",
     "promise/no-callback-in-promise": "error",
     "promise/no-return-in-finally": "error",
     "promise/valid-params": "error",
@@ -407,48 +402,14 @@
       "error",
       { "missingExports": false, "unusedExports": true }
     ],
-    "import/no-extraneous-dependencies": [
+    "import/extensions": [
       "error",
+      "ignorePackages",
       {
-        "devDependencies": [
-          "**/test/**",
-          "**/tests/**",
-          "**/spec/**",
-          "**/__tests__/**",
-          "**/__mocks__/**",
-          "**/*.test.*",
-          "**/*.spec.*",
-          "**/*.e2e.*",
-          "**/*.e2e-spec.*",
-          "**/jest.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/jest.setup.{js,cjs,mjs,ts,cts,mts}",
-          "**/setupTests.{js,cjs,mjs,ts,cts,mts}",
-          "**/cypress.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/playwright.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/vue.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/next.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/nuxt.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/webpack.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/webpack.config.*.{js,cjs,mjs,ts,cts,mts}",
-          "**/rollup.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/rollup.config.*.{js,cjs,mjs,ts,cts,mts}",
-          "**/vite.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/vitest.config.{js,cjs,mjs,ts,cts,mts}",
-          "**/gulpfile.{js,cjs,mjs,ts,cts,mts}",
-          "**/gulpfile.*.{js,cjs,mjs,ts,cts,mts}",
-          "**/Gruntfile{,.js,.cjs,.mjs,.ts,.cts,.mts}",
-          "**/protractor.conf.{js,cjs,mjs,ts,cts,mts}",
-          "**/protractor.conf.*.{js,cjs,mjs,ts,cts,mts}",
-          "**/karma.conf.{js,cjs,mjs,ts,cts,mts}",
-          "**/.eslintrc.{js,cjs,mjs,ts,cts,mts}"
-        ],
-        "optionalDependencies": false,
-        "peerDependencies": false,
-        "bundledDependencies": false,
-        "includeTypes": true
+        "ts": "never",
+        "vue": "always"
       }
     ],
-    "import/extensions": ["error", "ignorePackages"],
     "import/no-dynamic-require": ["error", { "esmodule": true }],
     "import/named": ["error", { "commonjs": true }],
     "import/no-anonymous-default-export": [
@@ -495,7 +456,6 @@
     "unicorn/prefer-modern-dom-apis": "error",
     "unicorn/prefer-string-replace-all": "error",
     "unicorn/prefer-number-properties": "error",
-    "unicorn/no-null": "error",
     "unicorn/prefer-optional-catch-binding": "error",
     "unicorn/no-object-as-default-parameter": "error",
     "unicorn/explicit-length-check": "error",
@@ -570,11 +530,14 @@
       {
         "allowList": {
           "args": true,
-          "ctx": true,
           "props": true,
           "Props": true,
-          "req": true,
-          "res": true
+          "ref": true,
+          "Ref": true,
+          "refs": true,
+          "Refs": true,
+          "params": true,
+          "Params": true
         },
         "ignore": ["\\.e2e$", "\\.e2e-spec$"],
         "checkShorthandProperties": true
@@ -623,7 +586,7 @@
     "sonarjs/non-existent-operator": "error",
     "sonarjs/no-nested-template-literals": "error",
 
-    "sonarjs/cognitive-complexity": ["error", 10],
+    "sonarjs/cognitive-complexity": ["error", 12],
 
     "eslint-comments/no-duplicate-disable": "error",
     "eslint-comments/no-unlimited-disable": "error",
@@ -653,8 +616,7 @@
 
     "ext/lines-between-object-properties": [
       "error",
-      "always",
-      { "exceptBetweenSingleLines": true }
+      "never"
     ],
 
     "regexp/match-any": "error",
@@ -801,7 +763,6 @@
     "sonar/no-empty-after-reluctant": "error",
     "sonar/no-equals-in-for-termination": "error",
     "sonar/no-for-in-iterable": "error",
-    "sonar/no-hardcoded-credentials": "error",
     "sonar/no-hardcoded-ip": "error",
     "sonar/no-in-misuse": "error",
     "sonar/no-incorrect-string-concat": "error",
@@ -837,10 +798,6 @@
       "error",
       { "type": "natural", "ignore-case": true }
     ],
-    "perfectionist/sort-interfaces": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
     "perfectionist/sort-jsx-props": [
       "error",
       { "type": "natural", "ignore-case": true }
@@ -860,100 +817,7 @@
 
     "compat/compat": "error",
 
-    "@stylistic/lines-between-class-members": "error",
-    "@stylistic/spaced-comment": [
-      "error",
-      "always",
-      { "block": { "balanced": true } }
-    ],
-    "@stylistic/padding-line-between-statements": [
-      "error",
-      { "blankLine": "always", "prev": "*", "next": "*" },
-      { "blankLine": "any", "prev": "expression", "next": "expression" },
-      { "blankLine": "always", "prev": "iife", "next": "iife" },
-      { "blankLine": "any", "prev": "*", "next": "case" },
-      { "blankLine": "any", "prev": "directive", "next": "directive" },
-      { "blankLine": "any", "prev": "const", "next": "const" },
-      { "blankLine": "any", "prev": "let", "next": "let" },
-      { "blankLine": "any", "prev": "var", "next": "var" },
-      { "blankLine": "any", "prev": "import", "next": "import" },
-      { "blankLine": "any", "prev": "export", "next": "export" },
-      {
-        "blankLine": "always",
-        "prev": "*",
-        "next": ["cjs-import", "cjs-export"]
-      },
-      {
-        "blankLine": "always",
-        "prev": ["cjs-import", "cjs-export"],
-        "next": "*"
-      },
-      { "blankLine": "any", "prev": "cjs-import", "next": "cjs-import" },
-      { "blankLine": "any", "prev": "cjs-export", "next": "cjs-export" }
-    ],
-
-    "putout/putout": [
-      "error",
-      {
-        "esm": true,
-
-        "plugins": ["apply-shorthand-properties"],
-
-        "rules": {
-          "apply-shorthand-properties": "on",
-          "nodejs/convert-commonjs-to-esm": "on",
-          "types/apply-is-array": ["on", { "inline": true }],
-
-          "convert-array-copy-to-slice": "off",
-          "remove-unused-variables": "off",
-          "remove-debugger": "off",
-          "remove-console": "off",
-          "tape": "off",
-          "declare": "off",
-          "maybe": "off",
-          "remove-useless-operand": "off",
-          "nodejs/convert-esm-to-commonjs": "off",
-          "convert-quotes-to-backticks": "off",
-          "eslint": "off",
-          "package-json": "off",
-          "gitignore": "off",
-          "npmignore": "off",
-          "try-catch": "off",
-          "montag": "off",
-          "extract-object-properties": "off",
-          "convert-const-to-let": "off",
-          "remove-nested-blocks": "off",
-          "apply-dot-notation": "off",
-          "sort-imports-by-specifiers": "off",
-          "convert-assignment-to-declaration": "off",
-          "group-imports-by-source": "off",
-
-          "nodejs/remove-process-exit": "off",
-          "nodejs/declare": "off",
-          "math/apply-numeric-separators": "off",
-          "remove-empty/import": "off",
-          "promises/add-missing-await": "off",
-          "typescript/remove-unused-types": "off",
-          "new/remove-useless": "off",
-          "for-of/for-each": "off",
-          "for-of/map": "off",
-          "for-of/reduce": "off",
-          "conditions/remove-boolean": "off",
-          "conditions/remove-zero": "off",
-          "conditions/apply-consistent-blocks": "off",
-          "types/convert-typeof-to-is-type": "off",
-          "types/declare": "off",
-          "math/declare": "off"
-        },
-
-        "match": {
-          "*.{cjs,cts}": {
-            "nodejs/convert-commonjs-to-esm": "off",
-            "nodejs/convert-esm-to-commonjs": "on"
-          }
-        }
-      }
-    ]
+    "nested-if/nested-if-statements": ["error", 2]
   },
 
   "overrides": [
@@ -1035,17 +899,15 @@
 
         "@html-eslint/sort-attrs": ["error", { "priority": [] }],
 
-        "@stylistic/spaced-comment": "off",
         "no-inline-comments": "off",
-        "import/unambiguous": "off",
-        "putout/putout": "off"
+        "import/unambiguous": "off"
       }
     },
 
     {
       "files": ["*.json", ".*.json"],
       "extends": ["plugin:json/recommended"],
-      "rules": { "import/unambiguous": "off", "putout/putout": "off" }
+      "rules": { "import/unambiguous": "off" }
     },
 
     {
@@ -1057,8 +919,7 @@
         "yml/require-string-key": "error",
         "yml/no-multiple-empty-lines": "error",
 
-        "import/unambiguous": "off",
-        "putout/putout": "off"
+        "import/unambiguous": "off"
       }
     },
 
@@ -1073,9 +934,7 @@
         "toml/array-element-newline": "off",
         "toml/array-bracket-spacing": "off",
 
-        "@stylistic/spaced-comment": "off",
-        "import/unambiguous": "off",
-        "putout/putout": "off"
+        "import/unambiguous": "off"
       }
     },
 

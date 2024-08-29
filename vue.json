@@ -12,6 +12,7 @@
 
       "plugins": ["import", "@typescript-eslint", "sonar"],
 
+      "parser": "vue-eslint-parser",
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "ecmaVersion": "latest",
@@ -19,13 +20,20 @@
       },
 
       "rules": {
-        "vue/block-order": "error",
+        "vue/block-order": [
+          "error",
+          { "order": [
+            "script", "template", "style"
+          ] }
+        ],
         "vue/no-lone-template": "error",
         "vue/no-multiple-slot-args": "error",
         "vue/no-v-html": "error",
         "vue/order-in-components": "error",
         "vue/this-in-template": "error",
-        "vue/attribute-hyphenation": "error",
+        "vue/attribute-hyphenation": [
+          "error", "never"
+        ],
         "vue/component-definition-name-casing": "error",
         "vue/first-attribute-linebreak": "error",
         "vue/no-template-shadow": "error",
@@ -35,13 +43,19 @@
         "vue/require-explicit-emits": "error",
         "vue/require-prop-types": "error",
         "vue/v-on-style": "error",
-        "vue/v-slot-style": "error",
+        "vue/v-slot-style": [
+          "error",
+          {
+            "atComponent": "v-slot",
+            "default": "v-slot",
+            "named": "longform"
+          }
+        ],
 
         "vue/component-api-style": "error",
         "vue/component-name-in-template-casing": "error",
         "vue/component-options-name-casing": "error",
         "vue/custom-event-name-casing": "error",
-        "vue/html-button-has-type": "error",
         "vue/html-comment-content-newline": "error",
         "vue/html-comment-content-spacing": "error",
         "vue/html-comment-indent": "error",
@@ -67,19 +81,19 @@
         "vue/prefer-true-attribute-shorthand": "error",
         "vue/require-direct-export": "error",
         "vue/require-emit-validator": "error",
-        "vue/require-explicit-slots": "error",
         "vue/require-expose": "error",
         "vue/require-macro-variable-name": "error",
         "vue/require-name-property": "error",
         "vue/require-typed-object-prop": "error",
         "vue/require-typed-ref": "error",
         "vue/v-for-delimiter-style": "error",
-        "vue/v-on-handler-style": "error",
+        "vue/v-on-handler-style": ["error", [
+          "method", "inline"
+        ]],
         "vue/no-ref-object-reactivity-loss": "error",
         "vue/define-props-declaration": "error",
         "vue/padding-lines-in-component-definition": "error",
         "vue/no-root-v-if": "error",
-        "vue/no-setup-props-reactivity-loss": "error",
         "vue/prefer-define-options": "error",
         "vue/valid-define-options": "error",
         "vue/static-class-names-order": "error",
@@ -109,7 +123,7 @@
             "defineExposeLast": true
           }
         ],
-        "vue/v-on-event-hyphenation": ["error", "always", { "autofix": true }],
+        "vue/v-on-event-hyphenation": ["error", "never", { "autofix": true }],
         "vue/html-self-closing": ["error", { "html": { "void": "always" } }],
         "vue/match-component-file-name": [
           "error",
@@ -136,11 +150,23 @@
           { "sameNameShorthand": "always" }
         ],
 
-        "sonar/no-vue-bypass-sanitization": "error",
-
         "import/no-unused-modules": "off",
         "import/no-anonymous-default-export": "off",
-        "perfectionist/sort-objects": "off"
+        "perfectionist/sort-objects": "off",
+        "no-restricted-syntax": [
+          "error",
+          {
+            "selector": "CallExpression[callee.name='defineEmits']",
+            "message":
+            "Pass event handlers as props with the \"on\" prefix instead"
+          },
+          {
+            "selector": "CallExpression[callee.name=\"reactive\"]",
+            "message": "use ref instead of reactive for code consistency"
+          }
+        ],
+        "vue/block-lang": ["error", { "script": { "lang": "ts" } }],
+        "vue/multi-word-component-names": "off"
       }
     },
     {
@@ -170,7 +196,7 @@
 
         "vue-scoped-css/enforce-style-type": [
           "error",
-          { "allows": ["scoped", "module"] }
+          { "allows": ["module"] }
         ],
 
         "import/no-anonymous-default-export": [
@@ -182,7 +208,15 @@
         "init-declarations": "off",
         "@typescript-eslint/init-declarations": "off",
         "import/unambiguous": "off",
-        "putout/putout": "off"
+        "vue/no-restricted-syntax": [
+          "error",
+          {
+            "selector": "VDirectiveKey[argument.rawName=/^on.*/]",
+            "message": "Use the @ (v-on) directive instead and pass the event handler without the \"on\" prefix"
+          }
+        ],
+        "vuejs-accessibility/form-control-has-label": "off",
+        "vuejs-accessibility/label-has-for": "off"
       }
     },
     {
@@ -197,16 +231,7 @@
         "**/layouts/**/*.{js,ts,vue}",
         "**/app.{js,ts,vue}",
         "**/error.{js,ts,vue}"
-      ],
-      "rules": {
-        "vue/multi-word-component-names": "off"
-      }
-    },
-    {
-      "files": ["**/layouts/**/*.{js,ts,vue}", "**/pages/**/*.{js,ts,vue}"],
-      "rules": {
-        "vue/no-multiple-template-root": "error"
-      }
+      ]
     },
     {
       "files": ["server/**/*.{js,ts}"],

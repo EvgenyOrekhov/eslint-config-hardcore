@@ -3,4 +3,4 @@
   import/no-unused-modules,
   vue/require-direct-export
 */
-export default "test";
+export default 'test'

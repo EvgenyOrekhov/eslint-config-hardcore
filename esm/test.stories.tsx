@@ -5,4 +5,4 @@
   storybook/story-exports
 */
 
-export default {};
+export default {}

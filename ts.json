@@ -37,7 +37,7 @@
         "@typescript-eslint/no-magic-numbers": [
           "error",
           {
-            "ignore": [0, 1],
+            "ignore": [0, 1, -1],
             "enforceConst": true,
             "ignoreDefaultValues": true,
             "ignoreClassFieldInitialValues": true,
@@ -68,11 +68,6 @@
           }
         ],
 
-        "@typescript-eslint/prefer-readonly-parameter-types": [
-          "error",
-          { "ignoreInferredTypes": true }
-        ],
-
         "@typescript-eslint/no-use-before-define": [
           "error",
           { "ignoreTypeReferences": false }
@@ -85,12 +80,12 @@
 
         "@typescript-eslint/consistent-indexed-object-style": [
           "error",
-          "index-signature"
+          "record"
         ],
 
         "@typescript-eslint/consistent-type-assertions": [
           "error",
-          { "assertionStyle": "never" }
+          { "assertionStyle": "as" }
         ],
 
         "@typescript-eslint/switch-exhaustiveness-check": [
@@ -101,7 +96,16 @@
         "prefer-destructuring": "off",
         "@typescript-eslint/prefer-destructuring": [
           "error",
-          { "array": true, "object": true },
+          {
+            "VariableDeclarator": {
+              "array": true,
+              "object": true
+            },
+            "AssignmentExpression": {
+              "array": false,
+              "object": false
+            }
+          },
           {
             "enforceForRenamedProperties": true,
             "enforceForDeclarationWithTypeAnnotation": true
@@ -110,7 +114,6 @@
 
         "@shopify/typescript/prefer-singular-enums": "error",
 
-        "import/extensions": ["error", "never"],
         "import/no-unused-modules": [
           "error",
           { "missingExports": false, "unusedExports": true }
@@ -121,16 +124,12 @@
 
         "etc/no-const-enum": "error",
 
-        "etc/no-enum": "error",
         "etc/no-implicit-any-catch": "error",
-        "etc/no-misused-generics": "error",
         "etc/no-t": "error",
 
         "etc/prefer-interface": ["error", { "allowIntersection": false }],
 
-        "total-functions/no-unsafe-readonly-mutable-assignment": "error",
         "total-functions/require-strict-mode": "error",
-        "total-functions/no-partial-url-constructor": "error",
         "total-functions/no-partial-division": "error",
         "total-functions/no-partial-string-normalize": "error",
         "total-functions/no-premature-fp-ts-effects": "error",
@@ -141,13 +140,38 @@
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-restricted-imports": "off",
         "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/adjacent-overload-signatures": "off",
         "@typescript-eslint/class-methods-use-this": "off",
         "@typescript-eslint/no-array-delete": "off",
-        "@typescript-eslint/prefer-find": "off"
+        "@typescript-eslint/prefer-find": "off",
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          { "allowExpressions": true }
+        ],
+        "@typescript-eslint/method-signature-style": [
+          "error", "method"
+        ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          "error",
+          {
+            "accessibility": "explicit",
+            "overrides": {
+              "constructors": "off"
+            }
+          }
+        ],
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          { "fixStyle": "inline-type-imports" }
+        ],
+        "@typescript-eslint/prefer-readonly-parameter-types": "off",
+        "@typescript-eslint/no-empty-interface": ["error", { "allowSingleExtends": true }],
+        "@typescript-eslint/unbound-method": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/prefer-function-type": "off",
+        "@typescript-eslint/non-nullable-type-assertion-style": "off"
       },
 
       "settings": {

@@ -1,47 +1,23 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
 
-  "extends": ["prettier"],
-
-  "plugins": ["@stylistic"],
+  "extends": ["plugin:prettier/recommended"],
 
   "rules": {
-    "arrow-body-style": "error",
-    "curly": "error",
-
-    "@stylistic/no-tabs": "error",
-    "@stylistic/max-len": [
-      "error",
-      {
-        "code": 120,
-        "comments": 80,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
-      }
+    "arrow-body-style": [
+      "error", "as-needed"
     ],
-    "@stylistic/quotes": [
-      "error",
-      "double",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
-    "@stylistic/lines-around-comment": [
-      "error",
-      {
-        "beforeBlockComment": true,
-        "beforeLineComment": true,
-        "allowBlockStart": true,
-        "allowObjectStart": true,
-        "allowArrayStart": true,
-        "allowClassStart": true,
-        "afterHashbangComment": true,
+    "curly": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.toml", ".*.toml"],
+      "extends": ["plugin:toml/standard"],
+      "parser": "toml-eslint-parser",
 
-        "allowEnumStart": true,
-        "allowInterfaceStart": true,
-        "allowModuleStart": true,
-        "allowTypeStart": true
+      "rules": {
+        "prettier/prettier": "off"
       }
-    ]
-  }
+    }
+  ]
 }

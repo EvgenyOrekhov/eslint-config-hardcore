@@ -16,7 +16,6 @@
   "no-div-regex": "off",
   "class-methods-use-this": "off",
   "prefer-object-has-own": "off",
-  "no-restricted-syntax": "off",
   "line-comment-position": "off",
   "no-inline-comments": "off",
   "no-empty-character-class": "off",
@@ -48,7 +47,6 @@
   "unicorn/string-content": "off",
   "unicorn/prefer-set-has": "off",
   "unicorn/no-array-reduce": "off",
-  "unicorn/no-useless-undefined": "off",
   "unicorn/import-style": "off",
   "unicorn/no-array-for-each": "off",
   "unicorn/template-indent": "off",
@@ -255,7 +253,6 @@
   "@html-eslint/lowercase": "off",
   "@html-eslint/require-open-graph-protocol": "off",
 
-  "vue/block-lang": "off",
   "vue/no-bare-strings-in-template": "off",
   "vue/no-restricted-block": "off",
   "vue/no-restricted-call-after-await": "off",
@@ -265,7 +262,6 @@
   "vue/no-restricted-html-elements": "off",
   "vue/no-restricted-props": "off",
   "vue/no-restricted-static-attribute": "off",
-  "vue/no-restricted-syntax": "off",
   "vue/no-restricted-v-bind": "off",
   "vue/no-restricted-v-on": "off",
   "vue/no-undef-components": "off",
@@ -279,6 +275,8 @@
   "vue/no-restricted-component-names": "off",
   "vue/max-lines-per-block": "off",
   "vue/v-if-else-key": "off",
+  "vue/no-multiple-template-root": "off",
+  "vuejs-accessibility/label-has-for": "off",
 
   "vue-scoped-css/no-unused-selector": "off",
 

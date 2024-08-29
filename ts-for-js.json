@@ -1,8 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
-
   "parser": "@typescript-eslint/parser",
-
   "plugins": [
     "@typescript-eslint",
     "sort-class-members",
@@ -11,21 +9,24 @@
     "etc",
     "typescript-compat"
   ],
-
   "rules": {
     "require-await": "off",
     "@typescript-eslint/require-await": "error",
-    "@typescript-eslint/return-await": ["error", "always"],
-
+    "@typescript-eslint/return-await": [
+      "error",
+      "always"
+    ],
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": "error",
-
     "prefer-promise-reject-errors": "off",
     "@typescript-eslint/prefer-promise-reject-errors": "error",
-
-    "no-void": ["error", { "allowAsStatement": true }],
+    "no-void": [
+      "error",
+      {
+        "allowAsStatement": true
+      }
+    ],
     "@typescript-eslint/no-floating-promises": "error",
-
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/ban-ts-comment": "error",
     "@typescript-eslint/ban-tslint-comment": "error",
@@ -43,64 +44,111 @@
     "@typescript-eslint/prefer-string-starts-ends-with": "error",
     "@typescript-eslint/promise-function-async": "error",
     "@typescript-eslint/require-array-sort-compare": "error",
-    "@typescript-eslint/unbound-method": "error",
     "@typescript-eslint/no-confusing-void-expression": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
-
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
       "error",
-      { "allowComparingNullableBooleansToTrue": false }
+      {
+        "allowComparingNullableBooleansToTrue": false
+      }
     ],
-
     "@typescript-eslint/restrict-template-expressions": [
       "error",
       {
         "allowAny": true,
         "allowNumber": true,
-
         "allowBoolean": false,
         "allowNullish": false,
         "allowRegExp": false
       }
     ],
-
     "@typescript-eslint/naming-convention": [
       "error",
       {
         "selector": "default",
-        "format": ["strictCamelCase"]
-      },
-      {
-        "selector": ["function", "import"],
-        "format": ["strictCamelCase", "StrictPascalCase"]
-      },
-      {
-        "selector": ["typeLike", "enumMember"],
-        "format": ["StrictPascalCase"]
-      },
-      {
-        "selector": ["variable", "parameter", "accessor"],
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
-      },
-      {
-        "selector": ["objectLiteralProperty"],
-        "format": null,
-        "modifiers": ["requiresQuotes"]
-      },
-      {
-        "selector": ["property"],
-        "types": ["boolean"],
-        "format": ["PascalCase"],
-        "prefix": ["is", "has", "are", "can", "should", "did", "will"],
+        "format": [
+          "strictCamelCase",
+          "StrictPascalCase"
+        ],
         "filter": {
-          "regex": "^(allowfullscreen|allowFullScreen|async|autofocus|autoFocus|autoplay|autoPlay|checked|defaultChecked|contenteditable|contentEditable|controls|default|defer|disabled|draggable|formnovalidate|formNoValidate|hidden|inert|ismap|itemscope|itemScope|loop|multiple|muted|nomodule|noModule|novalidate|noValidate|open|playsinline|playsInline|readonly|readOnly|required|reversed|selected|spellcheck|spellCheck)$",
+          "regex": "(syncVModel|baseURL)",
           "match": false
         }
+      },
+      {
+        "selector": [
+          "enum",
+          "class"
+        ],
+        "format": [
+          "StrictPascalCase"
+        ]
+      },
+      {
+        "selector": [
+          "enumMember"
+        ],
+        "format": [
+          "UPPER_CASE"
+        ]
+      },
+      {
+        "selector": [
+          "interface"
+        ],
+        "format": [
+          "StrictPascalCase"
+        ],
+        "prefix": [
+          "I"
+        ]
+      },
+      {
+        "selector": [
+          "typeAlias"
+        ],
+        "format": [
+          "StrictPascalCase"
+        ],
+        "prefix": [
+          "T"
+        ]
+      },
+      {
+        "selector": [
+          "typeParameter"
+        ],
+        "format": [
+          "StrictPascalCase"
+        ]
+      },
+      {
+        "selector": [
+          "objectLiteralProperty"
+        ],
+        "format": null,
+        "modifiers": [
+          "requiresQuotes"
+        ]
+      },
+      {
+        "selector": "import",
+        "format": [
+          "PascalCase",
+          "strictCamelCase"
+        ]
+      },
+      {
+        "selector": "parameter",
+        "format": [
+          "camelCase"
+        ],
+        "modifiers": [
+          "unused"
+        ],
+        "leadingUnderscore": "allow"
       }
     ],
-
     "sort-class-members/sort-class-members": [
       "error",
       {
@@ -121,13 +169,25 @@
             }
           ],
           "static-accessor-pairs": [
-            { "static": true, "accessorPair": true, "sort": "alphabetical" }
+            {
+              "static": true,
+              "accessorPair": true,
+              "sort": "alphabetical"
+            }
           ],
           "static-getters": [
-            { "static": true, "kind": "get", "sort": "alphabetical" }
+            {
+              "static": true,
+              "kind": "get",
+              "sort": "alphabetical"
+            }
           ],
           "static-setters": [
-            { "static": true, "kind": "set", "sort": "alphabetical" }
+            {
+              "static": true,
+              "kind": "set",
+              "sort": "alphabetical"
+            }
           ],
           "static-conventional-private-properties": [
             {
@@ -189,21 +249,15 @@
         "accessorPairPositioning": "getThenSet"
       }
     ],
-
     "decorator-position/decorator-position": "error",
-
     "@shopify/prefer-class-properties": "error",
     "@shopify/no-fully-static-classes": "error",
-
     "etc/no-assign-mutated-array": "error",
     "etc/no-commented-out-code": "error",
     "etc/no-internal": "error",
-
     "import/no-deprecated": "off",
     "etc/no-deprecated": "error",
-
     "typescript-compat/compat": "error",
-
     "sonar/argument-type": "off",
     "sonar/no-associative-arrays": "off",
     "sonar/no-invalid-await": "off",
@@ -216,7 +270,6 @@
     "sonar/in-operator-type-error": "off",
     "sonar/no-incorrect-string-concat": "off",
     "sonar/no-misleading-array-reverse": "off",
-
     "react/sort-comp": "off"
   }
 }

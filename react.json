@@ -55,10 +55,6 @@
         "validateNested": true
       }
     ],
-    "react/require-default-props": [
-      "error",
-      { "forbidDefaultForRequired": true, "functions": "defaultArguments" }
-    ],
     "react/jsx-no-target-blank": [
       "error",
       { "forms": true, "warnOnSpreadAttributes": true }
@@ -129,7 +125,23 @@
 
   "overrides": [
     {
-      "files": ["*.jsx"]
+      "files": ["*.tsx"],
+      "rules": {
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "function",
+            "format": [
+              "StrictPascalCase"
+            ]
+          }
+        ],
+        "react/function-component-definition": [
+          "error",
+          { "namedComponents": "arrow-function" }
+        ],
+        "jsx-quotes": ["error", "prefer-single"]
+      }
     },
 
     {

@@ -3,7 +3,6 @@
   no-empty-function,
   no-useless-constructor,
   @typescript-eslint/naming-convention,
-  no-underscore-dangle,
   getter-return,
   accessor-pairs,
   no-undef,
@@ -12,9 +11,9 @@
 
 // eslint-disable-next-line import/no-unused-modules
 export default class Example {
-  static staticProperty;
+  static staticProperty
 
-  static staticArrowFunctionProperty = () => {};
+  static staticArrowFunctionProperty = () => {}
 
   static get staticAccessorPair() {}
 
@@ -28,11 +27,11 @@ export default class Example {
 
   static async staticAsyncMethod() {}
 
-  @decorator decoratedProperty = "bar";
+  @decorator decoratedProperty = 'bar'
 
-  property = "bar";
+  property = 'bar'
 
-  arrowFunctionProperty = () => {};
+  arrowFunctionProperty = () => {}
 
   constructor() {}
 
@@ -54,13 +53,13 @@ export default class Example {
 
   async asyncMethod() {}
 
-  static _staticConventionalPrivateProperty;
+  static _staticConventionalPrivateProperty
 
   static _staticConventionalPrivateMethod() {}
 
   static async _staticAsyncConventionalPrivateMethod() {}
 
-  _conventionalPrivateProperty;
+  _conventionalPrivateProperty
 
   _conventionalPrivateMethod() {}
 

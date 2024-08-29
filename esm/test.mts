@@ -3,4 +3,4 @@
   import/no-unused-modules,
   import/no-anonymous-default-export
 */
-export default "test";
+export default 'test'
