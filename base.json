@@ -371,7 +371,6 @@
     "security/detect-bidi-characters": "error",
 
     "import/default": "error",
-    "import/namespace": "error",
     "import/no-absolute-path": "error",
     "import/no-webpack-loader-syntax": "error",
     "import/no-self-import": "error",
@@ -422,7 +421,6 @@
       { "considerQueryString": true, "prefer-inline": true }
     ],
 
-    "unicorn/custom-error-definition": "error",
     "unicorn/error-message": "error",
     "unicorn/escape-case": "error",
     "unicorn/new-for-builtins": "error",
@@ -508,7 +506,6 @@
     "unicorn/no-negated-condition": "error",
     "unicorn/prefer-at": "error",
     "unicorn/prefer-blob-reading-methods": "error",
-    "unicorn/no-unnecessary-polyfills": "error",
     "unicorn/no-single-promise-in-promise-methods": "error",
     "unicorn/no-await-in-promise-methods": "error",
     "unicorn/no-anonymous-default-export": "error",
@@ -814,8 +811,6 @@
       "error",
       { "type": "natural", "ignore-case": true }
     ],
-
-    "compat/compat": "error",
 
     "nested-if/nested-if-statements": ["error", 2]
   },
