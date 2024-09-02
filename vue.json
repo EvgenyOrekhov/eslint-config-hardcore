@@ -53,7 +53,11 @@
         ],
 
         "vue/component-api-style": "error",
-        "vue/component-name-in-template-casing": "error",
+        "vue/component-name-in-template-casing": [
+          "error",
+          "PascalCase",
+          { "registeredComponentsOnly": false }
+        ],
         "vue/component-options-name-casing": "error",
         "vue/custom-event-name-casing": "error",
         "vue/html-comment-content-newline": "error",
