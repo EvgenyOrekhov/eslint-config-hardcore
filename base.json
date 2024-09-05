@@ -749,7 +749,6 @@
     "sonar/in-operator-type-error": "error",
     "sonar/link-with-target-blank": "error",
     "sonar/misplaced-loop-counter": "error",
-    "sonar/new-cap": "error",
     "sonar/no-accessor-field-mismatch": "error",
     "sonar/no-alphabetical-sort": "error",
     "sonar/no-angular-bypass-sanitization": "error",
