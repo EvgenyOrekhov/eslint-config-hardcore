@@ -20,7 +20,8 @@
     "simple-import-sort",
     "perfectionist",
     "compat",
-    "nested-if"
+    "nested-if",
+    "prefer-arrow-functions"
   ],
 
   "parserOptions": {
@@ -128,14 +129,10 @@
     "dot-notation": "error",
     "eqeqeq": "error",
     "guard-for-in": "error",
-    "id-length": [
-      "error", { "exceptions": [
-        "_"
-      ] }],
+    "id-length": ["error", { "exceptions": ["_"] }],
     "max-depth": "error",
     "max-nested-callbacks": "error",
-    "max-params": [
-      "error", { "max": 3 }],
+    "max-params": ["error", { "max": 3 }],
     "max-statements": ["error", 20],
     "new-cap": "error",
     "object-shorthand": "error",
@@ -210,7 +207,7 @@
     ],
     "complexity": ["error", { "max": 12 }],
     "func-names": ["error", "as-needed"],
-    "func-style": ["error", "expression"],
+    "prefer-arrow-functions/prefer-arrow-functions": ["error"],
     "one-var": ["error", "never"],
     "no-else-return": ["error", { "allowElseIf": false }],
     "no-cond-assign": ["error", "always"],
@@ -249,9 +246,7 @@
           "ref",
           "model"
         ],
-        "ignorePropertyModificationsForRegex": [
-          "^.*(?:Ref|Model)$"
-        ]
+        "ignorePropertyModificationsForRegex": ["^.*(?:Ref|Model)$"]
       }
     ],
     "no-unsafe-negation": ["error", { "enforceForOrderingRelations": true }],
@@ -611,10 +606,7 @@
 
     "no-constructor-bind/no-constructor-bind": "error",
 
-    "ext/lines-between-object-properties": [
-      "error",
-      "never"
-    ],
+    "ext/lines-between-object-properties": ["error", "never"],
 
     "regexp/match-any": "error",
     "regexp/no-empty-capturing-group": "error",
