@@ -8,7 +8,7 @@ const log = (): void => {
 </script>
 
 <template>
-  <button :class="$style.greeting" type="button" @click="log">
+  <button :class="$style.greeting" type="button" @click="log()">
     {{ message }}
   </button>
 </template>

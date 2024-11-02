@@ -91,9 +91,7 @@
         "vue/require-typed-object-prop": "error",
         "vue/require-typed-ref": "error",
         "vue/v-for-delimiter-style": "error",
-        "vue/v-on-handler-style": ["error", [
-          "method", "inline"
-        ]],
+        "vue/v-on-handler-style": ["error", "inline"],
         "vue/no-ref-object-reactivity-loss": "error",
         "vue/define-props-declaration": "error",
         "vue/padding-lines-in-component-definition": "error",
