@@ -357,10 +357,12 @@
     "promise/no-return-in-finally": "error",
     "promise/valid-params": "error",
     "promise/no-new-statics": "error",
-    "promise/prefer-await-to-then": "error",
     "promise/no-multiple-resolved": "error",
+    "promise/spec-only": "error",
+    "promise/prefer-catch": "error",
 
     "promise/catch-or-return": ["error", { "allowFinally": true }],
+    "promise/prefer-await-to-then": ["error", { "strict": true }],
 
     "security/detect-buffer-noassert": "error",
     "security/detect-child-process": "error",
@@ -448,7 +450,11 @@
         "includeTypes": true
       }
     ],
-    "import/extensions": ["error", "ignorePackages"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      { "checkTypeImports": true }
+    ],
     "import/no-dynamic-require": ["error", { "esmodule": true }],
     "import/named": ["error", { "commonjs": true }],
     "import/no-anonymous-default-export": [

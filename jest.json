@@ -5,11 +5,7 @@
     {
       "files": ["**/__tests__/**", "*.test.*", "*.spec.*"],
 
-      "extends": [
-        "plugin:jest/all",
-        "plugin:jest-dom/all",
-        "plugin:jest-formatting/strict"
-      ],
+      "extends": ["plugin:jest/all", "plugin:jest-dom/all"],
 
       "env": {
         "jest": true

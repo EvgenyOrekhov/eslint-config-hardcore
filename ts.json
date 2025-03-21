@@ -110,7 +110,7 @@
 
         "@shopify/typescript/prefer-singular-enums": "error",
 
-        "import/extensions": ["error", "never"],
+        "import/extensions": ["error", "never", { "checkTypeImports": true }],
         "import/no-unused-modules": [
           "error",
           { "missingExports": false, "unusedExports": true }
@@ -192,6 +192,7 @@
         "import/order": [
           "error",
           {
+            "named": true,
             "groups": [
               "builtin",
               "external",

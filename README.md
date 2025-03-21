@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**53 plugins. 1341 rules.**
+**52 plugins. 1346 rules.**
 
 ## Usage
 
@@ -212,7 +212,7 @@ Base framework-agnostic config.
 | [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            33 |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)                             |            31 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            22 |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            13 |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            15 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
 | [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |             7 |
 | [@stylistic/eslint-plugin](https://github.com/eslint-stylistic/eslint-stylistic)                          |             7 |
@@ -230,7 +230,7 @@ Base framework-agnostic config.
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                      |             1 |
 | [eslint-plugin-toml](https://github.com/ota-meshi/eslint-plugin-toml)¹                                    |             1 |
-| **Total:**                                                                                                |       **645** |
+| **Total:**                                                                                                |       **647** |
 
 ¹ json/yml/toml plugins actually include several rules, but I consider each
 plugin as a single "no-invalid" rule.
@@ -269,7 +269,7 @@ Config for React.
 
 | Plugin                                                                                                                         | Enabled rules |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                                        |            74 |
+| [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                                        |            76 |
 | [eslint-plugin-styled-components-a11y](https://github.com/brendanmorrell/eslint-plugin-styled-components-a11y)                 |            33 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                                                 |            34 |
 | [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                                              |            14 |
@@ -281,7 +281,7 @@ Config for React.
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                                            |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)                          |             1 |
 | [eslint-plugin-react-prefer-function-component](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component) |             1 |
-| **Total:**                                                                                                                     |       **175** |
+| **Total:**                                                                                                                     |       **177** |
 
 ### `hardcore/react-performance`
 
@@ -319,12 +319,11 @@ Config for React Testing Library.
 
 Config for Jest.
 
-| Plugin                                                                                           | Enabled rules |
-| ------------------------------------------------------------------------------------------------ | ------------: |
-| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)                       |            50 |
-| [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom)              |            11 |
-| [eslint-plugin-jest-formatting](https://github.com/dangreenisrael/eslint-plugin-jest-formatting) |             7 |
-| **Total:**                                                                                       |        **68** |
+| Plugin                                                                              | Enabled rules |
+| ----------------------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)          |            50 |
+| [eslint-plugin-jest-dom](https://github.com/testing-library/eslint-plugin-jest-dom) |            19 |
+| **Total:**                                                                          |        **69** |
 
 ### `hardcore/fp`
 
