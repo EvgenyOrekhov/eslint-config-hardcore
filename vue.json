@@ -95,11 +95,17 @@
         "vue/no-useless-concat": "error",
         "vue/object-shorthand": "error",
         "vue/prefer-template": "error",
+        "vue/require-default-export": "error",
+        "vue/no-deprecated-delete-set": "error",
+        "vue/prefer-use-template-ref": "error",
+        "vue/slot-name-casing": "error",
+        "vue/no-implicit-coercion": "error",
 
         "vue/define-macros-order": [
           "error",
           {
             "order": [
+              "definePage",
               "defineOptions",
               "defineModel",
               "defineProps",
