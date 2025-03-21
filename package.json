@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@arthurgeron/eslint-plugin-react-usememo": "^2.4.4",
-    "@html-eslint/eslint-plugin": "^0.25.0",
-    "@html-eslint/parser": "^0.25.0",
+    "@html-eslint/eslint-plugin": "^0.36.0",
+    "@html-eslint/parser": "^0.36.0",
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
     "@putout/plugin-apply-shorthand-properties": "^5.1.1",
     "@shopify/eslint-plugin": "^44.0.0",

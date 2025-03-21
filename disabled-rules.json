@@ -254,6 +254,8 @@
   "@html-eslint/require-attrs": "off",
   "@html-eslint/lowercase": "off",
   "@html-eslint/require-open-graph-protocol": "off",
+  "@html-eslint/no-extra-spacing-text": "off",
+  "@html-eslint/max-element-depth": "off",
 
   "vue/block-lang": "off",
   "vue/no-bare-strings-in-template": "off",
