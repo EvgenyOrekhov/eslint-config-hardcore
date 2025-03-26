@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**52 plugins. 1358 rules.**
+**52 plugins. 1359 rules.**
 
 ## Usage
 
@@ -272,7 +272,7 @@ Config for React.
 | [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)                                                        |            76 |
 | [eslint-plugin-styled-components-a11y](https://github.com/brendanmorrell/eslint-plugin-styled-components-a11y)                 |            33 |
 | [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                                                 |            34 |
-| [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                                              |            14 |
+| [eslint-plugin-storybook](https://github.com/storybookjs/eslint-plugin-storybook)                                              |            15 |
 | [eslint-plugin-react-form-fields](https://github.com/kotarella1110/eslint-plugin-react-form-fields)                            |             4 |
 | [eslint-plugin-ssr-friendly](https://github.com/kopiro/eslint-plugin-ssr-friendly)                                             |             4 |
 | [@shopify/eslint-plugin](https://github.com/Shopify/web-configs/tree/main/packages/eslint-plugin)                              |             3 |
@@ -281,7 +281,7 @@ Config for React.
 | [eslint-plugin-sonar](https://github.com/un-ts/eslint-plugin-sonar)                                                            |             2 |
 | [eslint-plugin-validate-jsx-nesting](https://github.com/MananTank/eslint-plugin-validate-jsx-nesting)                          |             1 |
 | [eslint-plugin-react-prefer-function-component](https://github.com/tatethurston/eslint-plugin-react-prefer-function-component) |             1 |
-| **Total:**                                                                                                                     |       **177** |
+| **Total:**                                                                                                                     |       **178** |
 
 ### `hardcore/react-performance`
 

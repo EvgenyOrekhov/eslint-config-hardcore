@@ -81,7 +81,7 @@
     "eslint-plugin-sonarjs": "^0.25.1",
     "eslint-plugin-sort-class-members": "^1.21.0",
     "eslint-plugin-ssr-friendly": "^1.3.0",
-    "eslint-plugin-storybook": "^0.11.6",
+    "eslint-plugin-storybook": "^0.12.0",
     "eslint-plugin-styled-components-a11y": "^2.2.0",
     "eslint-plugin-testing-library": "^7.1.1",
     "eslint-plugin-toml": "^0.12.0",
