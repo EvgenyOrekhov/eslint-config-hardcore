@@ -19,7 +19,7 @@
     "@shopify",
     "storybook",
     "validate-jsx-nesting",
-    "sonar"
+    "sonarjs"
   ],
 
   "env": {
@@ -112,8 +112,8 @@
 
     "validate-jsx-nesting/no-invalid-jsx-nesting": "error",
 
-    "sonar/no-hook-setter-in-body": "error",
-    "sonar/no-useless-react-setstate": "error",
+    "sonarjs/no-hook-setter-in-body": "error",
+    "sonarjs/no-useless-react-setstate": "error",
 
     "react/jsx-no-literals": "off",
     "react/react-in-jsx-scope": "off",

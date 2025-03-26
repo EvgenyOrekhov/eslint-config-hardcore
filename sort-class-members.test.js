@@ -7,7 +7,6 @@
   getter-return,
   accessor-pairs,
   no-undef,
-  sonar/no-accessor-field-mismatch,
 */
 
 // eslint-disable-next-line import/no-unused-modules

@@ -5,7 +5,8 @@
   storybook/story-exports,
   vue/multi-word-component-names,
   vue/require-expose,
-  vue/require-name-property
+  vue/require-name-property,
+  storybook/meta-satisfies-type
 */
 
 export default {};

@@ -30,7 +30,7 @@
         "eslint-plugin-no-explicit-type-exports",
         "etc",
         "total-functions",
-        "sonar"
+        "sonarjs"
       ],
 
       "rules": {
@@ -137,7 +137,7 @@
         "total-functions/no-partial-array-reduce": "error",
         "total-functions/no-nested-fp-ts-effects": "error",
 
-        "sonar/public-static-readonly": "error",
+        "sonarjs/public-static-readonly": "error",
 
         "@typescript-eslint/member-ordering": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",

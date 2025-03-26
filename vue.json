@@ -10,7 +10,7 @@
         "plugin:vue/vue3-essential"
       ],
 
-      "plugins": ["import", "@typescript-eslint", "sonar"],
+      "plugins": ["import", "@typescript-eslint", "sonarjs"],
 
       "parserOptions": {
         "parser": "@typescript-eslint/parser",
@@ -142,7 +142,7 @@
           { "sameNameShorthand": "always" }
         ],
 
-        "sonar/no-vue-bypass-sanitization": "error",
+        "sonarjs/no-vue-bypass-sanitization": "error",
 
         "import/no-unused-modules": "off",
         "import/no-anonymous-default-export": "off",
