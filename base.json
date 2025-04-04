@@ -490,7 +490,6 @@
     "unicorn/prefer-string-starts-ends-with": "error",
     "unicorn/prefer-dom-node-text-content": "error",
     "unicorn/prefer-type-error": "error",
-    "unicorn/better-regex": "error",
     "unicorn/throw-new-error": "error",
     "unicorn/consistent-function-scoping": "error",
     "unicorn/prefer-reflect-apply": "error",
@@ -565,6 +564,9 @@
     "unicorn/prefer-structured-clone": "error",
     "unicorn/prefer-array-find": "error",
     "unicorn/no-negation-in-equality-check": "error",
+    "unicorn/prefer-global-this": "error",
+    "unicorn/prefer-math-min-max": "error",
+    "unicorn/consistent-existence-index-check": "error",
 
     "unicorn/filename-case": [
       "error",

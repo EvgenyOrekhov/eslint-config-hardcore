@@ -86,7 +86,7 @@
     "eslint-plugin-toml": "^0.12.0",
     "eslint-plugin-total-functions": "^7.1.0",
     "eslint-plugin-typescript-compat": "^1.0.2",
-    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-unicorn": "^56.0.1",
     "eslint-plugin-unused-imports": "^3.2.0",
     "eslint-plugin-validate-jsx-nesting": "^0.1.1",
     "eslint-plugin-vue": "^9.33.0",
