@@ -129,7 +129,7 @@
     "dot-notation": "error",
     "eqeqeq": "error",
     "guard-for-in": "error",
-    "id-length": ["error", { "exceptions": ["_"] }],
+    "id-length": ["error", { "exceptions": ["_", "t"] }],
     "max-depth": "error",
     "max-nested-callbacks": "error",
     "max-params": ["error", { "max": 3 }],
