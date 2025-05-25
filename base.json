@@ -901,6 +901,7 @@
     "@html-eslint/no-invalid-role": "error",
     "@html-eslint/no-nested-interactive": "error",
     "@html-eslint/require-explicit-size": "error",
+    "@html-eslint/no-duplicate-class": "error",
 
     "@html-eslint/sort-attrs": ["error", { "priority": [] }],
 

@@ -193,6 +193,7 @@
   "@html-eslint/require-open-graph-protocol": "off",
   "@html-eslint/no-extra-spacing-text": "off",
   "@html-eslint/max-element-depth": "off",
+  "@html-eslint/use-baseline": "off",
 
   "vue/block-lang": "off",
   "vue/no-bare-strings-in-template": "off",
