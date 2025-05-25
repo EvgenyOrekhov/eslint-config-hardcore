@@ -9,6 +9,7 @@
       "error",
       { "assertion": "toBeInTheDocument" }
     ],
-    "testing-library/no-debugging-utils": "error"
+    "testing-library/no-debugging-utils": "error",
+    "testing-library/no-test-id-queries": "error"
   }
 }
