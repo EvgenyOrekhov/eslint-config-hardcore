@@ -206,7 +206,6 @@
 
     "sonarjs/argument-type": "off",
     "sonarjs/no-associative-arrays": "off",
-    "sonarjs/no-invalid-await": "off",
     "sonarjs/operation-returning-nan": "off",
     "sonarjs/values-not-convertible-to-numbers": "off",
     "sonarjs/class-prototype": "off",

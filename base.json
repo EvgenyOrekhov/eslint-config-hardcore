@@ -466,6 +466,7 @@
       "error",
       { "considerQueryString": true, "prefer-inline": true }
     ],
+    "import/enforce-node-protocol-usage": ["error", "always"],
 
     "unicorn/custom-error-definition": "error",
     "unicorn/error-message": "error",
@@ -810,7 +811,6 @@
     "sonarjs/no-hardcoded-ip": "error",
     "sonarjs/no-in-misuse": "error",
     "sonarjs/no-incorrect-string-concat": "error",
-    "sonarjs/no-invalid-await": "error",
     "sonarjs/no-invariant-returns": "error",
     "sonarjs/no-misleading-array-reverse": "error",
     "sonarjs/no-redundant-assignments": "error",

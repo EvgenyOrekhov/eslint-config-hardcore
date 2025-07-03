@@ -208,8 +208,8 @@ Base framework-agnostic config.
 | [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |           105 |
 | [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            80 |
 | [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            76 |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            33 |
-| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules)       |            87 |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            34 |
+| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules)       |            86 |
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            29 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            15 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
