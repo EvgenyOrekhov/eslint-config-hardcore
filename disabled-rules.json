@@ -181,6 +181,7 @@
   "n/no-restricted-import": "off",
   "n/prefer-node-protocol": "off",
   "n/file-extension-in-import": "off",
+  "n/no-top-level-await": "off",
 
   "regexp/sort-character-class-elements": "off",
 

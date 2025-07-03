@@ -59,7 +59,7 @@
     "eslint-plugin-jest-dom": "^5.5.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-n": "^17.18.0",
+    "eslint-plugin-n": "^17.20.0",
     "eslint-plugin-no-constructor-bind": "^2.0.4",
     "eslint-plugin-no-explicit-type-exports": "^0.12.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
