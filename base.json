@@ -976,6 +976,7 @@
           "sort-imports-by-specifiers": "off",
           "convert-assignment-to-declaration": "off",
           "group-imports-by-source": "off",
+          "remove-quotes-from-import-assertions": "off",
 
           "nodejs/remove-process-exit": "off",
           "nodejs/declare": "off",
