@@ -43,7 +43,7 @@
     "@stylistic/eslint-plugin": "^3.1.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
-    "eslint-config-prettier": "^10.1.5",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^4.4.0",
     "eslint-plugin-array-func": "^4.0.0",
@@ -110,6 +110,6 @@
   ],
   "devDependencies": {
     "eslint": "^8.57.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }
