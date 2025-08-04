@@ -240,6 +240,7 @@
   "perfectionist/sort-astro-attributes": "off",
   "perfectionist/sort-vue-attributes": "off",
   "perfectionist/sort-intersection-types": "off",
+  "perfectionist/sort-variable-declarations": "off",
 
   "yml/sort-keys": "off"
 }

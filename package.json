@@ -27,7 +27,7 @@
   "homepage": "https://github.com/EvgenyOrekhov/eslint-config-hardcore#readme",
   "peerDependencies": {
     "eslint": "^8.57.0",
-    "typescript": ">=4.0.0"
+    "typescript": ">=4.7.4"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -39,10 +39,9 @@
     "@html-eslint/eslint-plugin": "^0.44.0",
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
     "@putout/plugin-apply-shorthand-properties": "^5.1.1",
-    "@shopify/eslint-plugin": "^44.0.0",
+    "@shopify/eslint-plugin": "^45.0.0",
     "@stylistic/eslint-plugin": "^3.1.0",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "typescript-eslint": "^7.18.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^4.4.0",
@@ -64,7 +63,7 @@
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-no-unsanitized": "^4.1.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
-    "eslint-plugin-perfectionist": "^2.11.0",
+    "eslint-plugin-perfectionist": "^4.15.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-putout": "^22.10.0",
     "eslint-plugin-react": "^7.37.5",

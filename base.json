@@ -842,34 +842,18 @@
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
 
-    "perfectionist/sort-array-includes": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-enums": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-interfaces": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-jsx-props": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-maps": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-object-types": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
-    "perfectionist/sort-objects": [
-      "error",
-      { "type": "natural", "ignore-case": true }
-    ],
+    "perfectionist/sort-array-includes": "error",
+    "perfectionist/sort-enums": "error",
+    "perfectionist/sort-interfaces": "error",
+    "perfectionist/sort-jsx-props": "error",
+    "perfectionist/sort-maps": "error",
+    "perfectionist/sort-object-types": "error",
+    "perfectionist/sort-objects": "error",
+    "perfectionist/sort-switch-case": "error",
+    "perfectionist/sort-sets": "error",
+    "perfectionist/sort-decorators": "error",
+    "perfectionist/sort-heritage-clauses": "error",
+    "perfectionist/sort-modules": "error",
 
     "compat/compat": "error",
 
@@ -1174,5 +1158,11 @@
         "import/unambiguous": "off"
       }
     }
-  ]
+  ],
+
+  "settings": {
+    "perfectionist": {
+      "type": "natural"
+    }
+  }
 }
