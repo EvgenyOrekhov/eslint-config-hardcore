@@ -1163,6 +1163,8 @@
   "settings": {
     "perfectionist": {
       "type": "natural"
-    }
+    },
+
+    "import/docstyle": ["jsdoc", "tomdoc"]
   }
 }
