@@ -17,9 +17,6 @@
     "@typescript-eslint/require-await": "error",
     "@typescript-eslint/return-await": ["error", "always"],
 
-    "no-throw-literal": "off",
-    "@typescript-eslint/no-throw-literal": "error",
-
     "prefer-promise-reject-errors": "off",
     "@typescript-eslint/prefer-promise-reject-errors": "error",
 
@@ -29,7 +26,6 @@
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/ban-ts-comment": "error",
     "@typescript-eslint/ban-tslint-comment": "error",
-    "@typescript-eslint/no-base-to-string": "error",
     "@typescript-eslint/no-dynamic-delete": "error",
     "@typescript-eslint/no-extraneous-class": "error",
     "@typescript-eslint/no-for-in-array": "error",
@@ -46,6 +42,8 @@
     "@typescript-eslint/unbound-method": "error",
     "@typescript-eslint/no-confusing-void-expression": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
+
+    "@typescript-eslint/no-base-to-string": ["error", { "checkUnknown": true }],
 
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": [
       "error",
@@ -200,7 +198,7 @@
     "etc/no-internal": "error",
 
     "import/no-deprecated": "off",
-    "etc/no-deprecated": "error",
+    "@typescript-eslint/no-deprecated": "error",
 
     "typescript-compat/compat": "error",
 
