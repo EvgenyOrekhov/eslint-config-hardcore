@@ -65,7 +65,7 @@
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-perfectionist": "^4.15.0",
     "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-putout": "^22.10.0",
+    "eslint-plugin-putout": "^28.0.5",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-form-fields": "^1.2.22",
     "eslint-plugin-react-hook-form": "^0.3.1",
