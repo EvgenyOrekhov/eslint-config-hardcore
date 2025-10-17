@@ -4,7 +4,7 @@
   "extends": [
     "plugin:import/react",
     "plugin:react/all",
-    "plugin:react-hooks/recommended",
+    "plugin:react-hooks/recommended-latest",
     "plugin:styled-components-a11y/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hook-form/recommended",
@@ -79,6 +79,8 @@
     "react/no-danger": ["error", { "customComponentNames": ["*"] }],
 
     "react-hooks/exhaustive-deps": "error",
+    "react-hooks/unsupported-syntax": "error",
+    "react-hooks/incompatible-library": "error",
 
     "jsx-a11y/lang": "error",
     "jsx-a11y/prefer-tag-over-role": "error",

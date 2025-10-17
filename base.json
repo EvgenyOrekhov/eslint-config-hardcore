@@ -606,7 +606,6 @@
     "sonarjs/no-extra-arguments": "error",
     "sonarjs/no-identical-conditions": "error",
     "sonarjs/no-identical-expressions": "error",
-    "sonarjs/no-one-iteration-loop": "error",
     "sonarjs/no-use-of-empty-return-value": "error",
     "sonarjs/max-switch-cases": "error",
     "sonarjs/no-collapsible-if": "error",
