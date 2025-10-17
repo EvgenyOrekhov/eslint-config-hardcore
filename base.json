@@ -1073,6 +1073,7 @@
         "@html-eslint/no-invalid-role": "error",
         "@html-eslint/no-nested-interactive": "error",
         "@html-eslint/require-explicit-size": "error",
+        "@html-eslint/no-ineffective-attrs": "error",
 
         "@html-eslint/sort-attrs": ["error", { "priority": [] }],
 
