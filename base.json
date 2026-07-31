@@ -4,6 +4,7 @@
   "plugins": [
     "promise",
     "security",
+    "secure-coding",
     "import",
     "unicorn",
     "array-func",
@@ -376,6 +377,12 @@
     "security/detect-pseudoRandomBytes": "error",
     "security/detect-unsafe-regex": "error",
     "security/detect-bidi-characters": "error",
+
+    "secure-coding/detect-weak-password-validation": "error",
+    "secure-coding/no-pii-in-logs": "error",
+    "secure-coding/no-privilege-escalation": "error",
+    "secure-coding/no-template-injection": "error",
+    "secure-coding/require-secure-defaults": "error",
 
     "import/default": "error",
     "import/namespace": "error",

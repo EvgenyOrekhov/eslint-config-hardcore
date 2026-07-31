@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**51 plugins. 1377 rules.**
+**53 plugins. 1395 rules.**
 
 ## Usage
 
@@ -213,6 +213,7 @@ Base framework-agnostic config.
 | [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            34 |
 | [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            15 |
 | [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
+| [eslint-plugin-secure-coding](https://github.com/ofri-peretz/eslint)                                      |             5 |
 | [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |            12 |
 | [@stylistic/eslint-plugin](https://github.com/eslint-stylistic/eslint-stylistic)                          |             7 |
 | [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
@@ -229,7 +230,7 @@ Base framework-agnostic config.
 | [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
 | [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                      |             1 |
 | [eslint-plugin-toml](https://github.com/ota-meshi/eslint-plugin-toml)¹                                    |             1 |
-| **Total:**                                                                                                |       **671** |
+| **Total:**                                                                                                |       **676** |
 
 ¹ json/yml/toml plugins actually include several rules, but I consider each
 plugin as a single "no-invalid" rule.
@@ -259,8 +260,9 @@ Config for Node.js.
 | --------------------------------------------------------------------------------------------------- | ------------: |
 | [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules) |            53 |
 | [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                              |            34 |
+| [eslint-plugin-node-security](https://github.com/ofri-peretz/eslint)                                |            13 |
 | [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                 |             1 |
-| **Total:**                                                                                          |        **88** |
+| **Total:**                                                                                          |       **101** |
 
 ### `hardcore/react`
 
