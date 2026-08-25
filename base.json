@@ -379,6 +379,9 @@
     "security/detect-bidi-characters": "error",
 
     "secure-coding/detect-weak-password-validation": "error",
+    "secure-coding/no-fail-open-auth": "error",
+    "secure-coding/no-homoglyph-identifiers": "error",
+    "secure-coding/no-log-injection": "error",
     "secure-coding/no-pii-in-logs": "error",
     "secure-coding/no-privilege-escalation": "error",
     "secure-coding/no-template-injection": "error",

@@ -30,6 +30,7 @@
 
   "secure-coding/detect-non-literal-regexp": "off",
   "secure-coding/detect-object-injection": "off",
+  "secure-coding/no-bidi-characters": "off",
   "secure-coding/no-directive-injection": "off",
   "secure-coding/no-electron-security-issues": "off",
   "secure-coding/no-format-string-injection": "off",
@@ -43,6 +44,7 @@
   "secure-coding/no-missing-authentication": "off",
   "secure-coding/no-redos-vulnerable-regex": "off",
   "secure-coding/no-sensitive-data-exposure": "off",
+  "secure-coding/no-sql-injection": "off",
   "secure-coding/no-unchecked-loop-condition": "off",
   "secure-coding/no-unlimited-resource-allocation": "off",
   "secure-coding/no-unsafe-deserialization": "off",
