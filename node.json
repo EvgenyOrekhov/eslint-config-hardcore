@@ -89,15 +89,22 @@
     "node-security/no-cryptojs-weak-random": "error",
     "node-security/no-deprecated-cipher-method": "error",
     "node-security/no-dynamic-algorithm-selection": "error",
+    "node-security/no-dynamic-command-string": "error",
     "node-security/no-ecb-mode": "error",
+    "node-security/no-env-injection": "error",
+    "node-security/no-insecure-http-parser": "error",
     "node-security/no-insecure-key-derivation": "error",
     "node-security/no-insecure-rsa-padding": "error",
     "node-security/no-self-signed-certs": "error",
     "node-security/no-shell-injection": "error",
     "node-security/no-static-iv": "error",
     "node-security/no-toctou-vulnerability": "error",
+    "node-security/no-unbounded-decompression": "error",
+    "node-security/no-unsafe-buffer-alloc": "error",
     "node-security/no-weak-cipher-algorithm": "error",
-    "node-security/no-weak-hash-algorithm": "error"
+    "node-security/no-weak-hash-algorithm": "error",
+    "node-security/require-aead-tag-verification": "error",
+    "node-security/require-stream-error-handler": "error"
   },
 
   "overrides": [
