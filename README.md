@@ -8,7 +8,7 @@ The most strict (yet practical) ESLint config.
 Aims to include as many plugins and rules as possible to make your code
 extremely consistent and robust.
 
-**53 plugins. 1395 rules.**
+**53 plugins. 1405 rules.**
 
 ## Usage
 
@@ -202,35 +202,35 @@ Example `.eslintrc.json` for a **TypeScript Nuxt 3** project:
 
 Base framework-agnostic config.
 
-| Plugin                                                                                                    | Enabled rules |
-| --------------------------------------------------------------------------------------------------------- | ------------: |
-| [ESLint core rules](https://eslint.org/docs/rules/)                                                       |           173 |
-| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                            |           105 |
-| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                 |            80 |
-| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)    |            76 |
-| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                 |            34 |
-| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules)       |            86 |
-| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                    |            34 |
-| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                |            15 |
-| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                          |            12 |
-| [eslint-plugin-secure-coding](https://github.com/ofri-peretz/eslint)                                      |             5 |
-| [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                     |            12 |
-| [@stylistic/eslint-plugin](https://github.com/eslint-stylistic/eslint-stylistic)                          |             7 |
-| [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)              |             6 |
-| [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                       |             5 |
-| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                      |             3 |
-| [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)                 |             2 |
-| [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)            |             2 |
-| [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)      |             1 |
-| [eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized)                   |             2 |
-| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native) |             1 |
-| [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                   |             1 |
-| [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                 |             1 |
-| [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                 |             1 |
-| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                      |             1 |
-| [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                      |             1 |
-| [eslint-plugin-toml](https://github.com/ota-meshi/eslint-plugin-toml)¹                                    |             1 |
-| **Total:**                                                                                                |       **676** |
+| Plugin                                                                                                              | Enabled rules |
+| ------------------------------------------------------------------------------------------------------------------- | ------------: |
+| [ESLint core rules](https://eslint.org/docs/rules/)                                                                 |           173 |
+| [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)                                      |           105 |
+| [eslint-plugin-regexp](https://github.com/ota-meshi/eslint-plugin-regexp)                                           |            80 |
+| [eslint-plugin-putout](https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout)              |            76 |
+| [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)                                           |            34 |
+| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules)                 |            86 |
+| [HTML ESLint](https://github.com/yeonjuan/html-eslint)                                                              |            34 |
+| [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)                                          |            15 |
+| [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)                                    |            12 |
+| [eslint-plugin-secure-coding](https://github.com/ofri-peretz/eslint/tree/main/packages/eslint-plugin-secure-coding) |             8 |
+| [eslint-plugin-perfectionist](https://github.com/azat-io/eslint-plugin-perfectionist)                               |            12 |
+| [@stylistic/eslint-plugin](https://github.com/eslint-stylistic/eslint-stylistic)                                    |             7 |
+| [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)                        |             6 |
+| [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                                 |             5 |
+| [eslint-plugin-array-func](https://github.com/freaktechnik/eslint-plugin-array-func)                                |             3 |
+| [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)                           |             2 |
+| [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)                      |             2 |
+| [eslint-plugin-no-constructor-bind](https://github.com/markalfred/eslint-plugin-no-constructor-bind)                |             1 |
+| [eslint-plugin-no-unsanitized](https://github.com/mozilla/eslint-plugin-no-unsanitized)                             |             2 |
+| [eslint-plugin-no-use-extend-native](https://github.com/dustinspecker/eslint-plugin-no-use-extend-native)           |             1 |
+| [eslint-plugin-ext](https://github.com/jiangfengming/eslint-plugin-ext)                                             |             1 |
+| [eslint-plugin-no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                           |             1 |
+| [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)                                           |             1 |
+| [eslint-plugin-json](https://github.com/azeemba/eslint-plugin-json)¹                                                |             1 |
+| [eslint-plugin-yml](https://github.com/ota-meshi/eslint-plugin-yml)¹                                                |             1 |
+| [eslint-plugin-toml](https://github.com/ota-meshi/eslint-plugin-toml)¹                                              |             1 |
+| **Total:**                                                                                                          |       **679** |
 
 ¹ json/yml/toml plugins actually include several rules, but I consider each
 plugin as a single "no-invalid" rule.
@@ -256,13 +256,13 @@ Config for TypeScript.
 
 Config for Node.js.
 
-| Plugin                                                                                              | Enabled rules |
-| --------------------------------------------------------------------------------------------------- | ------------: |
-| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules) |            53 |
-| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                              |            34 |
-| [eslint-plugin-node-security](https://github.com/ofri-peretz/eslint)                                |            13 |
-| [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                 |             1 |
-| **Total:**                                                                                          |       **101** |
+| Plugin                                                                                                              | Enabled rules |
+| ------------------------------------------------------------------------------------------------------------------- | ------------: |
+| [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/tree/master/packages/jsts/src/rules)                 |            53 |
+| [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)                                              |            34 |
+| [eslint-plugin-node-security](https://github.com/ofri-peretz/eslint/tree/main/packages/eslint-plugin-node-security) |            20 |
+| [eslint-plugin-sdl](https://github.com/microsoft/eslint-plugin-sdl)                                                 |             1 |
+| **Total:**                                                                                                          |       **108** |
 
 ### `hardcore/react`
 
