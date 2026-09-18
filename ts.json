@@ -98,6 +98,20 @@
           { "requireDefaultForNonUnion": true }
         ],
 
+        "@typescript-eslint/no-unnecessary-condition": [
+          "error",
+          { "checkTypePredicates": true }
+        ],
+
+        "@typescript-eslint/only-throw-error": [
+          "error",
+          {
+            "allowRethrowing": false,
+            "allowThrowingAny": false,
+            "allowThrowingUnknown": false
+          }
+        ],
+
         "prefer-destructuring": "off",
         "@typescript-eslint/prefer-destructuring": [
           "error",
