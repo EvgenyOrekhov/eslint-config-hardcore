@@ -1,22 +1,27 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "parser": "@typescript-eslint/parser",
 
   "plugins": [
     "@typescript-eslint",
     "sort-class-members",
     "decorator-position",
-    "@shopify"
+    "@shopify",
+    "etc",
+    "typescript-compat"
   ],
 
   "rules": {
     "require-await": "off",
     "@typescript-eslint/require-await": "error",
-
-    "no-return-await": "off",
     "@typescript-eslint/return-await": ["error", "always"],
 
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": "error",
+
+    "prefer-promise-reject-errors": "off",
+    "@typescript-eslint/prefer-promise-reject-errors": "error",
 
     "no-void": ["error", { "allowAsStatement": true }],
     "@typescript-eslint/no-floating-promises": "error",
@@ -50,8 +55,12 @@
     "@typescript-eslint/restrict-template-expressions": [
       "error",
       {
+        "allowAny": true,
         "allowNumber": true,
-        "allowAny": true
+
+        "allowBoolean": false,
+        "allowNullish": false,
+        "allowRegExp": false
       }
     ],
 
@@ -62,7 +71,7 @@
         "format": ["strictCamelCase"]
       },
       {
-        "selector": "function",
+        "selector": ["function", "import"],
         "format": ["strictCamelCase", "StrictPascalCase"]
       },
       {
@@ -70,15 +79,25 @@
         "format": ["StrictPascalCase"]
       },
       {
+        "selector": ["variable", "parameter", "accessor"],
+        "types": ["boolean"],
+        "format": ["PascalCase"],
+        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+      },
+      {
         "selector": ["objectLiteralProperty"],
         "format": null,
         "modifiers": ["requiresQuotes"]
       },
       {
-        "selector": ["variable", "parameter", "property", "accessor"],
+        "selector": ["property"],
         "types": ["boolean"],
         "format": ["PascalCase"],
-        "prefix": ["is", "has", "are", "can", "should", "did", "will"]
+        "prefix": ["is", "has", "are", "can", "should", "did", "will"],
+        "filter": {
+          "regex": "^(allowfullscreen|allowFullScreen|async|autofocus|autoFocus|autoplay|autoPlay|checked|defaultChecked|contenteditable|contentEditable|controls|default|defer|disabled|draggable|formnovalidate|formNoValidate|hidden|inert|ismap|itemscope|itemScope|loop|multiple|muted|nomodule|noModule|novalidate|noValidate|open|playsinline|playsInline|readonly|readOnly|required|reversed|selected|spellcheck|spellCheck)$",
+          "match": false
+        }
       }
     ],
 
@@ -89,31 +108,41 @@
           "static-arrow-function-properties": [
             {
               "static": true,
-              "propertyType": "ArrowFunctionExpression"
+              "propertyType": "ArrowFunctionExpression",
+              "sort": "alphabetical"
             }
           ],
           "static-async-methods": [
             {
               "static": true,
               "type": "method",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ],
-          "static-accessor-pairs": [{ "static": true, "accessorPair": true }],
-          "static-getters": [{ "static": true, "kind": "get" }],
-          "static-setters": [{ "static": true, "kind": "set" }],
+          "static-accessor-pairs": [
+            { "static": true, "accessorPair": true, "sort": "alphabetical" }
+          ],
+          "static-getters": [
+            { "static": true, "kind": "get", "sort": "alphabetical" }
+          ],
+          "static-setters": [
+            { "static": true, "kind": "set", "sort": "alphabetical" }
+          ],
           "static-conventional-private-properties": [
             {
               "static": true,
               "type": "property",
-              "name": "/_.+/"
+              "name": "/_.+/",
+              "sort": "alphabetical"
             }
           ],
           "static-conventional-private-methods": [
             {
               "static": true,
               "type": "method",
-              "name": "/_.+/"
+              "name": "/_.+/",
+              "sort": "alphabetical"
             }
           ],
           "static-async-conventional-private-methods": [
@@ -121,14 +150,16 @@
               "static": true,
               "type": "method",
               "name": "/_.+/",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ],
           "async-conventional-private-methods": [
             {
               "type": "method",
               "name": "/_.+/",
-              "async": true
+              "async": true,
+              "sort": "alphabetical"
             }
           ]
         },
@@ -162,51 +193,29 @@
     "decorator-position/decorator-position": "error",
 
     "@shopify/prefer-class-properties": "error",
-    "@shopify/no-fully-static-classes": "error"
-  },
+    "@shopify/no-fully-static-classes": "error",
 
-  "overrides": [
-    {
-      "files": ["*.vue"],
+    "etc/no-assign-mutated-array": "error",
+    "etc/no-commented-out-code": "error",
+    "etc/no-internal": "error",
 
-      "rules": {
-        "@typescript-eslint/naming-convention": [
-          "error",
-          {
-            "selector": "default",
-            "format": ["strictCamelCase"]
-          },
-          {
-            "selector": "function",
-            "format": ["strictCamelCase", "StrictPascalCase"]
-          },
-          {
-            "selector": ["typeLike", "enumMember"],
-            "format": ["StrictPascalCase"]
-          },
-          {
-            "selector": ["variable", "parameter", "accessor"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"]
-          },
-          {
-            "selector": ["objectLiteralProperty"],
-            "format": null,
-            "modifiers": ["requiresQuotes"]
-          },
-          {
-            "selector": ["property"],
-            "types": ["boolean"],
-            "format": ["PascalCase"],
-            "prefix": ["is", "has", "are", "can", "should", "did", "will"],
-            "filter": {
-              "regex": "^required$",
-              "match": false
-            }
-          }
-        ]
-      }
-    }
-  ]
+    "import/no-deprecated": "off",
+    "etc/no-deprecated": "error",
+
+    "typescript-compat/compat": "error",
+
+    "sonarjs/argument-type": "off",
+    "sonarjs/no-associative-arrays": "off",
+    "sonarjs/operation-returning-nan": "off",
+    "sonarjs/values-not-convertible-to-numbers": "off",
+    "sonarjs/class-prototype": "off",
+    "sonarjs/no-for-in-iterable": "off",
+    "sonarjs/non-number-in-arithmetic-expression": "off",
+    "sonarjs/null-dereference": "off",
+    "sonarjs/in-operator-type-error": "off",
+    "sonarjs/no-incorrect-string-concat": "off",
+    "sonarjs/no-misleading-array-reverse": "off",
+
+    "react/sort-comp": "off"
+  }
 }

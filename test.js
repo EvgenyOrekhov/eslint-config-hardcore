@@ -17,6 +17,7 @@ require("./node.json");
 require("./ts-for-js.json");
 require("./ts.json");
 require("./react.json");
+require("./react-performance.json");
 require("./vue.json");
 require("./react-testing-library.json");
 require("./jest.json");

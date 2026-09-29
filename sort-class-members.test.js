@@ -1,5 +1,5 @@
 /* eslint-disable
-  fp/no-class,
+  functional/no-classes,
   no-empty-function,
   no-useless-constructor,
   @typescript-eslint/naming-convention,

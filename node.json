@@ -1,14 +1,15 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "extends": ["plugin:n/recommended"],
 
-  "plugins": ["@microsoft/sdl"],
+  "plugins": ["@microsoft/sdl", "sonarjs", "node-security"],
 
   "parserOptions": { "ecmaVersion": "latest" },
 
   "rules": {
     "n/no-callback-literal": "error",
     "n/exports-style": "error",
-    "n/file-extension-in-import": "error",
     "n/prefer-global/buffer": "error",
     "n/prefer-global/console": "error",
     "n/prefer-global/process": "error",
@@ -27,7 +28,83 @@
     "n/no-process-env": "error",
     "n/no-sync": "error",
 
-    "@microsoft/sdl/no-unsafe-alloc": "error"
+    "sonarjs/certificate-transparency": "error",
+    "sonarjs/confidential-information-logging": "error",
+    "sonarjs/content-security-policy": "error",
+    "sonarjs/cookie-no-httponly": "error",
+    "sonarjs/cors": "error",
+    "sonarjs/csrf": "error",
+    "sonarjs/encryption-secure-mode": "error",
+    "sonarjs/file-permissions": "error",
+    "sonarjs/file-uploads": "error",
+    "sonarjs/frame-ancestors": "error",
+    "sonarjs/hashing": "error",
+    "sonarjs/hidden-files": "error",
+    "sonarjs/insecure-cookie": "error",
+    "sonarjs/insecure-jwt-token": "error",
+    "sonarjs/no-ip-forward": "error",
+    "sonarjs/no-mime-sniff": "error",
+    "sonarjs/no-mixed-content": "error",
+    "sonarjs/no-os-command-from-path": "error",
+    "sonarjs/no-referrer-policy": "error",
+    "sonarjs/no-unsafe-unzip": "error",
+    "sonarjs/no-weak-cipher": "error",
+    "sonarjs/no-weak-keys": "error",
+    "sonarjs/os-command": "error",
+    "sonarjs/process-argv": "error",
+    "sonarjs/production-debug": "error",
+    "sonarjs/publicly-writable-directories": "error",
+    "sonarjs/session-regeneration": "error",
+    "sonarjs/sql-queries": "error",
+    "sonarjs/strict-transport-security": "error",
+    "sonarjs/unverified-certificate": "error",
+    "sonarjs/unverified-hostname": "error",
+    "sonarjs/weak-ssl": "error",
+    "sonarjs/x-powered-by": "error",
+    "sonarjs/xml-parser-xxe": "error",
+
+    "sonarjs/aws-apigateway-public-api": "error",
+    "sonarjs/aws-ec2-rds-dms-public": "error",
+    "sonarjs/aws-ec2-unencrypted-ebs-volume": "error",
+    "sonarjs/aws-efs-unencrypted": "error",
+    "sonarjs/aws-iam-all-privileges": "error",
+    "sonarjs/aws-iam-all-resources-accessible": "error",
+    "sonarjs/aws-iam-privilege-escalation": "error",
+    "sonarjs/aws-iam-public-access": "error",
+    "sonarjs/aws-opensearchservice-domain": "error",
+    "sonarjs/aws-rds-unencrypted-databases": "error",
+    "sonarjs/aws-restricted-ip-admin-access": "error",
+    "sonarjs/aws-s3-bucket-granted-access": "error",
+    "sonarjs/aws-s3-bucket-insecure-http": "error",
+    "sonarjs/aws-s3-bucket-public-access": "error",
+    "sonarjs/aws-s3-bucket-server-encryption": "error",
+    "sonarjs/aws-s3-bucket-versioning": "error",
+    "sonarjs/aws-sagemaker-unencrypted-notebook": "error",
+    "sonarjs/aws-sns-unencrypted-topics": "error",
+    "sonarjs/aws-sqs-unencrypted-queue": "error",
+
+    "@microsoft/sdl/no-unsafe-alloc": "error",
+
+    "node-security/no-cryptojs": "error",
+    "node-security/no-cryptojs-weak-random": "error",
+    "node-security/no-deprecated-cipher-method": "error",
+    "node-security/no-dynamic-algorithm-selection": "error",
+    "node-security/no-dynamic-command-string": "error",
+    "node-security/no-ecb-mode": "error",
+    "node-security/no-env-injection": "error",
+    "node-security/no-insecure-http-parser": "error",
+    "node-security/no-insecure-key-derivation": "error",
+    "node-security/no-insecure-rsa-padding": "error",
+    "node-security/no-self-signed-certs": "error",
+    "node-security/no-shell-injection": "error",
+    "node-security/no-static-iv": "error",
+    "node-security/no-toctou-vulnerability": "error",
+    "node-security/no-unbounded-decompression": "error",
+    "node-security/no-unsafe-buffer-alloc": "error",
+    "node-security/no-weak-cipher-algorithm": "error",
+    "node-security/no-weak-hash-algorithm": "error",
+    "node-security/require-aead-tag-verification": "error",
+    "node-security/require-stream-error-handler": "error"
   },
 
   "overrides": [
@@ -35,13 +112,6 @@
       "files": ["*.cjs", ".*.cjs", "*.mjs", ".*.mjs"],
 
       "parserOptions": { "ecmaVersion": "latest" }
-    },
-    {
-      "files": ["*.ts", "*.cts", "*.mts", ".*.ts", ".*.cts", ".*.mts"],
-
-      "rules": {
-        "n/file-extension-in-import": ["error", "never"]
-      }
     }
   ]
 }

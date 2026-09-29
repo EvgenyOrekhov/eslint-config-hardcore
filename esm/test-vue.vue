@@ -8,7 +8,7 @@ function log() {
 </script>
 
 <template>
-  <button type="button" class="greeting" @click="log">{{ msg }}</button>
+  <button class="greeting" type="button" @click="log">{{ msg }}</button>
 </template>
 
 <style scoped>

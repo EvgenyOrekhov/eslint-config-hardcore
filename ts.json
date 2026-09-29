@@ -1,11 +1,22 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "rules": {
     "import/no-unused-modules": "off"
   },
 
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx", "*.vue"],
+      "files": [
+        "*.ts",
+        ".*.ts",
+        "*.tsx",
+        "*.mts",
+        ".*.mts",
+        "*.cts",
+        ".*.cts",
+        "*.vue"
+      ],
 
       "extends": [
         "plugin:import/typescript",
@@ -18,7 +29,8 @@
         "import",
         "eslint-plugin-no-explicit-type-exports",
         "etc",
-        "total-functions"
+        "total-functions",
+        "sonarjs"
       ],
 
       "rules": {
@@ -66,19 +78,9 @@
           { "ignoreTypeReferences": false }
         ],
 
-        "@typescript-eslint/restrict-plus-operands": [
-          "error",
-          { "checkCompoundAssignments": true }
-        ],
-
         "@typescript-eslint/no-meaningless-void-operator": [
           "error",
           { "checkNever": true }
-        ],
-
-        "@typescript-eslint/no-throw-literal": [
-          "error",
-          { "allowThrowingAny": false, "allowThrowingUnknown": false }
         ],
 
         "@typescript-eslint/consistent-indexed-object-style": [
@@ -91,37 +93,24 @@
           { "assertionStyle": "never" }
         ],
 
-        "@typescript-eslint/prefer-nullish-coalescing": [
+        "@typescript-eslint/switch-exhaustiveness-check": [
           "error",
-          { "ignoreTernaryTests": false }
+          { "requireDefaultForNonUnion": true }
         ],
 
-        "quotes": "off",
-        "@typescript-eslint/quotes": [
+        "prefer-destructuring": "off",
+        "@typescript-eslint/prefer-destructuring": [
           "error",
-          "double",
-          { "avoidEscape": true, "allowTemplateLiterals": false }
-        ],
-
-        "lines-around-comment": "off",
-        "@typescript-eslint/lines-around-comment": [
-          "error",
+          { "array": true, "object": true },
           {
-            "beforeBlockComment": true,
-            "beforeLineComment": true,
-            "allowBlockStart": true,
-            "allowObjectStart": true,
-            "allowArrayStart": true,
-            "allowClassStart": true,
-
-            "allowInterfaceStart": true,
-            "allowTypeStart": true
+            "enforceForRenamedProperties": true,
+            "enforceForDeclarationWithTypeAnnotation": true
           }
         ],
 
         "@shopify/typescript/prefer-singular-enums": "error",
 
-        "import/extensions": ["error", "never"],
+        "import/extensions": ["error", "never", { "checkTypeImports": true }],
         "import/no-unused-modules": [
           "error",
           { "missingExports": false, "unusedExports": true }
@@ -130,13 +119,10 @@
 
         "no-explicit-type-exports/no-explicit-type-exports": "error",
 
-        "etc/no-assign-mutated-array": "error",
-        "etc/no-commented-out-code": "error",
         "etc/no-const-enum": "error",
-        "etc/no-deprecated": "error",
+
         "etc/no-enum": "error",
         "etc/no-implicit-any-catch": "error",
-        "etc/no-internal": "error",
         "etc/no-misused-generics": "error",
         "etc/no-t": "error",
 
@@ -144,7 +130,6 @@
 
         "total-functions/no-unsafe-readonly-mutable-assignment": "error",
         "total-functions/require-strict-mode": "error",
-        "total-functions/no-unsafe-enum-assignment": "error",
         "total-functions/no-partial-url-constructor": "error",
         "total-functions/no-partial-division": "error",
         "total-functions/no-partial-string-normalize": "error",
@@ -152,12 +137,17 @@
         "total-functions/no-partial-array-reduce": "error",
         "total-functions/no-nested-fp-ts-effects": "error",
 
+        "sonarjs/public-static-readonly": "error",
+
         "@typescript-eslint/member-ordering": "off",
-        "@typescript-eslint/no-type-alias": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-restricted-imports": "off",
-        "@typescript-eslint/no-unused-vars": "off"
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/adjacent-overload-signatures": "off",
+        "@typescript-eslint/class-methods-use-this": "off",
+        "@typescript-eslint/no-array-delete": "off",
+        "@typescript-eslint/prefer-find": "off"
       },
 
       "settings": {
@@ -184,6 +174,46 @@
             ".d.ts"
           ]
         }
+      }
+    },
+
+    {
+      "files": ["*.cts", ".*.cts"],
+
+      "parserOptions": {
+        "sourceType": "script"
+      },
+
+      "env": {
+        "commonjs": true
+      },
+
+      "rules": {
+        "import/order": [
+          "error",
+          {
+            "named": true,
+            "groups": [
+              "builtin",
+              "external",
+              "internal",
+              "unknown",
+              "parent",
+              "sibling",
+              "index"
+            ],
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "orderImportKind": "asc",
+              "caseInsensitive": true
+            }
+          }
+        ],
+
+        "unicorn/prefer-module": "off",
+        "import/no-commonjs": "off",
+        "import/unambiguous": "off"
       }
     },
 

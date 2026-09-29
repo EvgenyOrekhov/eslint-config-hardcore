@@ -1,18 +1,26 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
   "extends": [
     "plugin:import/react",
     "plugin:react/all",
-    "plugin:react-hooks/recommended",
-    "plugin:react-perf/all",
+    "plugin:react-hooks/recommended-latest",
     "plugin:styled-components-a11y/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hook-form/recommended",
     "plugin:react-form-fields/recommended",
     "plugin:ssr-friendly/recommended",
+    "plugin:react-prefer-function-component/recommended",
     "./prettier.json"
   ],
 
-  "plugins": ["import", "@shopify", "storybook", "validate-jsx-nesting"],
+  "plugins": [
+    "import",
+    "@shopify",
+    "storybook",
+    "validate-jsx-nesting",
+    "sonarjs"
+  ],
 
   "env": {
     "browser": true
@@ -40,7 +48,6 @@
       { "checkContextTypes": true, "checkChildContextTypes": true }
     ],
     "react/no-unsafe": ["error", { "checkAliases": true }],
-    "react/sort-prop-types": ["error", { "sortShapeProp": true }],
     "react/boolean-prop-naming": [
       "error",
       {
@@ -66,14 +73,37 @@
       { "destructureInSignature": "always" }
     ],
     "react/jsx-no-leaked-render": ["error", { "validStrategies": ["coerce"] }],
+    "react/display-name": ["error", { "checkContextObjects": true }],
+    "react/no-unknown-property": ["error", { "requireDataLowercase": true }],
+    "react/jsx-no-script-url": ["error", { "includeFromSettings": true }],
+    "react/no-danger": ["error", { "customComponentNames": ["*"] }],
 
     "react-hooks/exhaustive-deps": "error",
+    "react-hooks/unsupported-syntax": "error",
+    "react-hooks/incompatible-library": "error",
 
     "jsx-a11y/lang": "error",
     "jsx-a11y/prefer-tag-over-role": "error",
     "jsx-a11y/no-aria-hidden-on-focusable": "error",
 
-    "jsx-a11y/alt-text": ["error", { "img": ["Image"] }],
+    "jsx-a11y/alt-text": ["error", { "img": ["Image", "Img"] }],
+    "jsx-a11y/mouse-events-have-key-events": [
+      "error",
+      {
+        "hoverInHandlers": [
+          "onMouseOver",
+          "onMouseEnter",
+          "onPointerOver",
+          "onPointerEnter"
+        ],
+        "hoverOutHandlers": [
+          "onMouseOut",
+          "onMouseLeave",
+          "onPointerOut",
+          "onPointerLeave"
+        ]
+      }
+    ],
 
     "@shopify/jsx-prefer-fragment-wrappers": "error",
     "@shopify/react-hooks-strict-return": "error",
@@ -84,8 +114,20 @@
 
     "validate-jsx-nesting/no-invalid-jsx-nesting": "error",
 
+    "sonarjs/no-hook-setter-in-body": "error",
+    "sonarjs/no-useless-react-setstate": "error",
+
     "react/jsx-no-literals": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-sort-props": "off",
+    "react/sort-prop-types": "off",
+    "react/sort-default-props": "off",
+    "react/checked-requires-onchange-or-readonly": "off",
+
+    "react/require-optimization": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "react/no-object-type-as-default-prop": "off"
   },
 
   "overrides": [
@@ -112,7 +154,8 @@
         "storybook/prefer-pascal-case": "error",
         "storybook/story-exports": "error",
         "storybook/use-storybook-expect": "error",
-        "storybook/use-storybook-testing-library": "error"
+        "storybook/use-storybook-testing-library": "error",
+        "storybook/meta-satisfies-type": "error"
       }
     },
     {
@@ -120,32 +163,19 @@
       "rules": {
         "storybook/no-uninstalled-addons": "error"
       }
-    },
-
-    {
-      "files": [
-        "**/test/**",
-        "**/tests/**",
-        "**/spec/**",
-        "**/__tests__/**",
-        "*.test.*",
-        "*.spec.*",
-        "*.e2e.*",
-        "*.e2e-spec.*"
-      ],
-
-      "rules": {
-        "react-perf/jsx-no-new-object-as-prop": "off",
-        "react-perf/jsx-no-new-array-as-prop": "off",
-        "react-perf/jsx-no-new-function-as-prop": "off",
-        "react-perf/jsx-no-jsx-as-prop": "off"
-      }
     }
   ],
 
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "jsx-a11y": {
+      "polymorphicPropName": "as",
+      "components": {
+        "Image": "img",
+        "Img": "img"
+      }
     }
   }
 }

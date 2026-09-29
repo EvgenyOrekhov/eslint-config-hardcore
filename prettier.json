@@ -1,12 +1,16 @@
 {
-  "extends": ["plugin:prettier/recommended"],
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+
+  "extends": ["prettier"],
+
+  "plugins": ["@stylistic"],
 
   "rules": {
     "arrow-body-style": "error",
-    "no-tabs": "error",
     "curly": "error",
 
-    "max-len": [
+    "@stylistic/no-tabs": "error",
+    "@stylistic/max-len": [
       "error",
       {
         "code": 120,
@@ -17,12 +21,12 @@
         "ignoreRegExpLiterals": true
       }
     ],
-    "quotes": [
+    "@stylistic/quotes": [
       "error",
       "double",
       { "avoidEscape": true, "allowTemplateLiterals": false }
     ],
-    "lines-around-comment": [
+    "@stylistic/lines-around-comment": [
       "error",
       {
         "beforeBlockComment": true,
@@ -31,15 +35,13 @@
         "allowObjectStart": true,
         "allowArrayStart": true,
         "allowClassStart": true,
-        "afterHashbangComment": true
+        "afterHashbangComment": true,
+
+        "allowEnumStart": true,
+        "allowInterfaceStart": true,
+        "allowModuleStart": true,
+        "allowTypeStart": true
       }
     ]
-  },
-
-  "overrides": [
-    {
-      "files": ["*.htm", "*.html"],
-      "rules": { "prettier/prettier": ["error", { "parser": "html" }] }
-    }
-  ]
+  }
 }

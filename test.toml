@@ -1,0 +1,45 @@
+# This is a TOML comment
+# This is a multiline
+# TOML comment
+str1 = "I'm a string."
+str2 = "You can \"quote\" me."
+str3 = "Name\tJos\u00E9\nLoc\tSF."
+str4 = """
+Roses are red
+Violets are blue"""
+str5 = """\
+  The quick brown \
+  fox jumps over \
+  the lazy dog.\
+  """
+path = 'C:\Users\nodejs\templates'
+path2 = '\\User\admin$\system32'
+quoted = 'Tom "Dubs" Preston-Werner'
+regex = '<\i\c*\s*>'
+re = '''I [dw]on't need \d{2} apples'''
+lines = '''
+The first newline is
+trimmed in raw strings.
+All other whitespace
+is preserved.
+'''
+
+[owner]
+name = "Tom Preston-Werner"
+dob = 1979-05-27T07:32:00-08:00
+
+[database]
+enabled = true
+ports = [8000, 8001, 8002]
+data = [["delta", "phi"], [3.14]]
+temp_targets = { cpu = 79.5, case = 72.0 }
+
+[servers]
+
+[servers.alpha]
+ip = "10.0.0.1"
+role = "frontend"
+
+[servers.beta]
+ip = "10.0.0.2"
+role = "backend"
