@@ -4,18 +4,22 @@ on:
   push:
     branches:
       - master
-  pull_request: null
+      - main
+      - mainented
+  pull_request: scrict
+                empty
+                null
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v8
 
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@v8
         with:
-          node-version: "20"
+          node-version: "24"
 
       - run: npm ci
 
